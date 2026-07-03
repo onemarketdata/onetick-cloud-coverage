@@ -1,0 +1,86 @@
+# CME Group Futures & Options  Market Holidays
+
+The CME Group operates derivatives exchanges ( CBOT COMEX NYMEX CME Globex ) offering trading in futures and options across asset classes like agriculture, energy, metals, interest rates, equities, and cryptocurrencies. MGEX is for trading agricultural futures and options.  This CME Database includes Book Depth MBO data and additional fields that are not supported in the other CME Databases.
+
+The last 10 Market Holidays are listed
+
+# CME Group Futures & Options  - Recent Market Holidays
+
+| Activity Name
+
+ | Time Zone
+
+ | Start Date
+
+ | End Date
+
+ | Start Time
+
+ | End Time
+
+ |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Limited Trading Hours
+
+       | America/Chicago
+
+                                                                                                              | 2026-06-19
+
+                                                                                                                                                                                                                                        | 2026-06-19
+
+ | 00:00
+
+      | 24:00
+
+    |
+| Limited Trading Hours
+
+       | America/Chicago
+
+                                                                                                              | 2026-05-25
+
+                                                                                                                                                                                                                                        | 2026-05-25
+
+ | 00:00
+
+      | 24:00
+
+    |
+| Limited Trading Hours
+
+       | America/Chicago
+
+                                                                                                              | 2026-04-03
+
+                                                                                                                                                                                                                                        | 2026-04-03
+
+ | 00:00
+
+      | 24:00
+
+    |
+| Limited Trading Hours
+
+       | America/Chicago
+
+                                                                                                              | 2026-02-16
+
+                                                                                                                                                                                                                                        | 2026-02-16
+
+ | 00:00
+
+      | 24:00
+
+    |
+| Limited Trading Hours
+
+       | America/Chicago
+
+                                                                                                              | 2026-01-19
+
+                                                                                                                                                                                                                                        | 2026-01-19
+
+ | 00:00
+
+      | 24:00
+
