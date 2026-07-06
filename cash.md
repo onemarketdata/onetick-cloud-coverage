@@ -14,6 +14,9 @@ It covers:
 * `ALPHA_X` - TSX Alpha-X / Alpha DRK
 
 
+* `AMEX` - NYSE American Equities
+
+
 * `AQSE` - Aquis Stock Exchange
 
 
@@ -23,7 +26,10 @@ It covers:
 * `AQUIS_EU` - Aquis Europe
 
 
-* `ARCA_IMB` - ARCA Imbalance Data
+* `ARCA_IMB` - ARCA Auction Imbalance Data
+
+
+* `ARCA` - NYSE Arca Equities
 
 
 * `ASX` - Australian Stock Exchange
@@ -54,6 +60,12 @@ It covers:
 
 
 * `BXE` - Cboe BXE (BATS Europe)
+
+
+* `BYX` - Cboe BYX
+
+
+* `BZX` - Cboe BZX Equities
 
 
 * `CBOE_APA` - Cboe Europe Trade Reporting
@@ -96,6 +108,12 @@ It covers:
 
 
 * `DXE` - Cboe DXE
+
+
+* `EDGA` - Cboe EDGA
+
+
+* `EDGX` - Cboe EDGX
 
 
 * `EGYPT` - Egyptian Exchange
@@ -170,10 +188,19 @@ It covers:
 * `NAGOYA` - Nagoya Stock Exchange
 
 
+* `NASDAQ` - The Nasdaq
+
+
 * `NASDAQ_DUBAI` - Nasdaq Dubai
 
 
-* `NASDAQ_IMB` - Nasdaq Imbalance Data
+* `NASDAQ_IMB` - Nasdaq Auction Imbalance Data
+
+
+* `NASDAQ_PSX` - Nasdaq PSX
+
+
+* `NASDAQ_TEXAS` - Nasdaq Texas
 
 
 * `NEO` - Cboe Canada (formerly Neo Exchange)
@@ -188,7 +215,13 @@ It covers:
 * `NSE_IX` - NSE International Exchange
 
 
-* `NYSE_IMB` - NYSE Imbalance Data
+* `NYSE` - New York Stock Exchange NYSE
+
+
+* `NYSE_IMB` - NYSE Auction Imbalance Data
+
+
+* `NYSE_TEXAS` - NYSE Texas
 
 
 * `NZX` - New Zealand Exchange (NZX)
@@ -218,7 +251,7 @@ It covers:
 * `SANTIAGO` - Santiago Stock Exchange
 
 
-* `SAUDI` - Saudi Stock Exchange (Tadawul)
+* `SAUDI` - Saudi Stock Exchange
 
 
 * `SBI_JAPANNEXT` - Japannext J-Market

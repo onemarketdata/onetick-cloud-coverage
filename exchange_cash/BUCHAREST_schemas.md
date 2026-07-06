@@ -1,0 +1,762 @@
+# Bucharest Stock Exchange Schemas
+
+The Bucharest Stock Exchange is the stock exchange of Romania located in Bucharest
+
+## BUCHAREST
+
+Database includes the following tick types:
+
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+
+* IDX - Index values
+
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+
+
+* MKT - Market phase / instrument status information
+
+
+* QTE - Best bid / offer quotes
+
+
+* QTE_AUCT - BBO quotes for trading in a special auction book (e.g. for public offerings held outside the main orderbook)
+
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+* TRD - Trades
+
+### BUCHAREST - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+### BUCHAREST - DAY Table Schema
+
+| Field
+
+ | Data Type
+
+ | Description
+
+ |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| CLOSE
+
+                       | double
+
+                                                                                                              | Closing price
+
+                                                                                                                                                                                                                                     |
+| HIGH
+
+                        | double
+
+                                                                                                              | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval
+
+                                                                                                                       |
+| LOW
+
+                         | double
+
+                                                                                                              | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval
+
+                                                                                                                        |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| OPEN
+
+                        | double
+
+                                                                                                              | Open price for the current trading day
+
+                                                                                                                                                                                                            |
+| VOLUME
+
+                      | long
+
+                                                                                                                | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval
+
+                                                                                                                 |
+### BUCHAREST - IDX
+
+Index values
+
+### BUCHAREST - IDX Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| PRICE
+
+                       | double
+
+                                                                                                              | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
+
+                                         |
+### BUCHAREST - IND
+
+Indicative pricing, e.g. indicative auction prices and imbalance
+
+### BUCHAREST - IND Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AUCTION_TYPE
+
+                | string[1]
+
+                                                                                                           | Type of auction from which an indicative auction price / auction imbalance originates.
+
+                                                                                                                                                            |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| PRICE
+
+                       | double
+
+                                                                                                              | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
+
+                                         |
+| SIZE
+
+                        | long
+
+                                                                                                                | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross
+
+                                                  |
+### BUCHAREST - MKT
+
+Market phase / instrument status information
+
+### BUCHAREST - MKT Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| MKT_PHASE
+
+                   | string[8]
+
+                                                                                                           | Indicates the instrument’s current market phase, as specified by the trading venue
+
+                                                                                                                                                                |
+| OMD_STATUS
+
+                  | string[1]
+
+                                                                                                           | Indicates an instrument’s current trading status. Values are normalized across all DBs.
+
+                                                                                                                                                           |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+### BUCHAREST - QTE
+
+Best bid / offer quotes
+
+### BUCHAREST - QTE Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ASK_PRICE
+
+                   | double
+
+                                                                                                              | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)
+
+                                                                                                                  |
+| ASK_SIZE
+
+                    | long
+
+                                                                                                                | Best ask size
+
+                                                                                                                                                                                                                                     |
+| BID_PRICE
+
+                   | double
+
+                                                                                                              | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)
+
+                                                                                                                  |
+| BID_SIZE
+
+                    | long
+
+                                                                                                                | Best bid size
+
+                                                                                                                                                                                                                                     |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+### BUCHAREST - QTE_AUCT
+
+BBO quotes for trading in a special auction book (e.g. for public offerings held outside the main orderbook)
+
+### BUCHAREST - QTE_AUCT Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ASK_PRICE
+
+                   | double
+
+                                                                                                              | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)
+
+                                                                                                                  |
+| ASK_SIZE
+
+                    | long
+
+                                                                                                                | Best ask size
+
+                                                                                                                                                                                                                                     |
+| BID_PRICE
+
+                   | double
+
+                                                                                                              | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)
+
+                                                                                                                  |
+| BID_SIZE
+
+                    | long
+
+                                                                                                                | Best bid size
+
+                                                                                                                                                                                                                                     |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+### BUCHAREST - STAT
+
+Static data, e.g. ISIN, description, security type
+
+### BUCHAREST - STAT Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CURRENCY
+
+                    | string[3]
+
+                                                                                                           | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).
+
+                                                                                                                                   |
+| EXCH_SYMBOL
+
+                 | string[32]
+
+                                                                                                          | Ticker symbol specified by the exchange
+
+                                                                                                                                                                                                           |
+| ISIN
+
+                        | string[12]
+
+                                                                                                          | ISIN code
+
+                                                                                                                                                                                                                                         |
+| ISSUER_NAME
+
+                 | string[80]
+
+                                                                                                          | Name of the security’s issuer
+
+                                                                                                                                                                                                                     |
+| LOT_SIZE
+
+                    | double
+
+                                                                                                              | All standard order sizes must be an integer multiple of the Lot Size
+
+                                                                                                                                                                              |
+| MIC
+
+                         | string[4]
+
+                                                                                                           | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded
+
+                                                                                                                                                  |
+| MKT_SEGMENT
+
+                 | string[16]
+
+                                                                                                          | Market segment on which the instrument is traded
+
+                                                                                                                                                                                                  |
+| NAME
+
+                        | string[160]
+
+                                                                                                         | Description of the instrument
+
+                                                                                                                                                                                                                     |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| OPERATING_MIC
+
+               | string[4]
+
+                                                                                                           | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded
+
+                                                                                                                                |
+| SEC_TYPE
+
+                    | string[40]
+
+                                                                                                          | Security type, e.g. Equity, ETF, Future
+
+                                                                                                                                                                                                           |
+### BUCHAREST - TRD
+
+Trades
+
+### BUCHAREST - TRD Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AGGRESSOR_SIDE
+
+              | string[1]
+
+                                                                                                           | Indicates whether a trade resulted from an incoming buy or sell order.
+
+                                                                                                                                                                            |
+| DELETED_TIME
+
+                | msectime
+
+                                                                                                            | Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
+
+                                                                                                                                                  |
+| EXCH_TIME
+
+                   | nsectime
+
+                                                                                                            | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+
+                                                                                                                                 |
+| MMT_ALGO_IND
+
+                | string[1]
+
+                                                                                                           | Identifies whether a trade involved an algorithmic order.
+
+                                                                                                                                                                                         |
+| MMT_BENCHMARK_IND
+
+           | string[1]
+
+                                                                                                           | Identifies whether a trade was priced according to a defined benchmark (e.g. VWAP) or reference price (e.g. midpoint of the primary market BBO), or whether it was part of a trade in multiple instruments (contingent trade or portfolio trade).
+
+ |
+| MMT_CROSS_IND
+
+               | string[1]
+
+                                                                                                           | Identifies agency cross trades, where a broker crossed two client orders outside the order book.
+
+                                                                                                                                                  |
+| MMT_DEFERRAL_TYPE
+
+           | string[1]
+
+                                                                                                           | Type of publication deferral or subsequent enrichment applied to a trade report.
+
+                                                                                                                                                                  |
+| MMT_DIVIDEND_IND
+
+            | string[1]
+
+                                                                                                           | Identifies whether a trade includes special dividend arrangements, e.g. a trade sold cum-dividend during an ex-dividend period.
+
+                                                                                                                   |
+| MMT_DUP_IND
+
+                 | string[1]
+
+                                                                                                           | Identifies trades reported to more than one Approved Publication Arrangement.
+
+                                                                                                                                                                     |
+| MMT_MKT_MECH
+
+                | string[1]
+
+                                                                                                           | Market mechanism through which a trade was executed.
+
+                                                                                                                                                                                              |
+| MMT_MOD_IND
+
+                 | string[1]
+
+                                                                                                           | Identifies trade cancellations, or amendments of a previous trade.
+
+                                                                                                                                                                                |
+| MMT_NEGOTIATED_IND
+
+          | string[1]
+
+                                                                                                           | Indicates privately negotiated trades, or Systematic Internaliser trades exempt from pre-trade transparency.
+
+                                                                                                                                      |
+| MMT_OFF_BOOK_AUTO_IND
+
+       | string[1]
+
+                                                                                                           | Identifies whether an off-book trade report was executed via a manual or automated process.
+
+                                                                                                                                                       |
+| MMT_PRICE_FORMING_IND
+
+       | string[1]
+
+                                                                                                           | Identifies whether a trade is price-forming, or contributes to the price discovery process.
+
+                                                                                                                                                       |
+| MMT_PUB_MODE
+
+                | string[1]
+
+                                                                                                           | Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
+
+                                                                                                                                                   |
+| MMT_TRANS_CAT
+
+               | string[1]
+
+                                                                                                           | Identifies various special categories of trade.
+
+                                                                                                                                                                                                   |
+| MMT_TRD_MODE
+
+                | string[1]
+
+                                                                                                           | Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+
+                                                                                                               |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| PRICE
+
+                       | double
+
+                                                                                                              | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
+
+                                         |
+| SIZE
+
+                        | long
+
+                                                                                                                | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross
+
+                                                  |
+| TICK_STATUS
+
+                 | int
+
+                                                                                                                 | Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
+
+                                                                                                                                                      |
+| TRADE_CURRENCY
+
+              | string[3]
+
+                                                                                                           | Currency in which a trade was executed.
+
+                                                                                                                                                                                                           |
+| TRADE_ID
+
+                    | string[24]
+
+                                                                                                          | Trade identifier, generally the ID assigned by the matching engine
+
+                                                                                                                                                                                |
+| TRADE_TYPE
+
+                  | string[8]
+
+                                                                                                           | Type of trade
+
+                                                                                                                                                                                                                                     |
+| TRADE_VENUE
+
+                 | string[4]
+
+                                                                                                           | Identifies the venue where a trade was executed.   Typically a MIC, with the special values XOFF for off-exchange and SINT for Systematic Internaliser trades.
+
+                                                                                    |
+## BUCHAREST_DAILY
+
+Database includes the following tick types:
+
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+### BUCHAREST_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+### BUCHAREST_DAILY - DAY Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CLOSE
+
+                       | double
+
+                                                                                                              | Closing price
+
+                                                                                                                                                                                                                                     |
+| HIGH
+
+                        | double
+
+                                                                                                              | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval
+
+                                                                                                                       |
+| LOW
+
+                         | double
+
+                                                                                                              | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval
+
+                                                                                                                        |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| OPEN
+
+                        | double
+
+                                                                                                              | Open price for the current trading day
+
+                                                                                                                                                                                                            |
+| VOLUME
+
+                      | long
+
+                                                                                                                | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval
+
+                                                                                                                 |
+### BUCHAREST_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+### BUCHAREST_DAILY - STAT Table Schema
+
+| Field
+
+                       | Data Type
+
+                                                                                                           | Description
+
+                                                                                                                                                                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CURRENCY
+
+                    | string[3]
+
+                                                                                                           | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).
+
+                                                                                                                                   |
+| EXCH_SYMBOL
+
+                 | string[32]
+
+                                                                                                          | Ticker symbol specified by the exchange
+
+                                                                                                                                                                                                           |
+| ISIN
+
+                        | string[12]
+
+                                                                                                          | ISIN code
+
+                                                                                                                                                                                                                                         |
+| ISSUER_NAME
+
+                 | string[80]
+
+                                                                                                          | Name of the security’s issuer
+
+                                                                                                                                                                                                                     |
+| LOT_SIZE
+
+                    | double
+
+                                                                                                              | All standard order sizes must be an integer multiple of the Lot Size
+
+                                                                                                                                                                              |
+| MIC
+
+                         | string[4]
+
+                                                                                                           | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded
+
+                                                                                                                                                  |
+| MKT_SEGMENT
+
+                 | string[16]
+
+                                                                                                          | Market segment on which the instrument is traded
+
+                                                                                                                                                                                                  |
+| NAME
+
+                        | string[160]
+
+                                                                                                         | Description of the instrument
+
+                                                                                                                                                                                                                     |
+| OMDSEQ
+
+                      | uint
+
+                                                                                                                | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+
+            |
+| OPERATING_MIC
+
+               | string[4]
+
+                                                                                                           | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded
+
+                                                                                                                                |
+| SEC_TYPE
+
+                    | string[40]
+
+                                                                                                          | Security type, e.g. Equity, ETF, Future
+
