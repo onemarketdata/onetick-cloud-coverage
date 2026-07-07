@@ -202,3 +202,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | LOW          | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval        |
 | OPEN         | double      | Open price for the current trading day                                                                                            |
 | OPEN_INT     | double      | Open interest for futures / options                                                                                               |
+| SETTLE_PRICE | double      | Settlement price                                                                                                                  |
+| VOLUME       | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval |
+
+### TDI_FUT_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### TDI_FUT_DAILY - STAT Table Schema
+
+| Field           | Data Type   | Description                                                                                                                                                                                                                                |
+|-----------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CONTRACT_SIZE   | double      | Indicates a derivative’s underlying quantity                                                                                                                                                                                               |
+| CURRENCY        | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                            |
+| EXCH_SYMBOL     | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                    |
+| EXPIRATION_DATE | string[8]   | Date when a derivative expires (YYYYMMDD)                                                                                                                                                                                                  |
+| NAME            | string[200] | Description of the instrument                                                                                                                                                                                                              |
+| PRODUCT_CODE    | string[10]  | Root code of a futures / options product, as specified by the exchange (e.g. CL for Crude Oil futures on NYMEX).   For inter-product spreads, PRODUCT_CODE will include both products, e.g. AB-CD for a spread between products AB and CD. |
+| TDI_MULTIPLIER  | string[64]  | Multiplier                                                                                                                                                                                                                                 |
+| TICK_SIZE       | string[50]  | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                                 |
+| TICK_SIZE_TYPE  | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                       |
+| TICK_VALUE      | double      | Tick value, i.e. the profit / loss per contract resulting from a price movement equal to TICK_SIZE.                                                                                                                                        |

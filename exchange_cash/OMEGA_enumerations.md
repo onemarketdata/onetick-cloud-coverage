@@ -90,3 +90,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Regular trading           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+| D                | Derivative-related cross  |
+| H                | Hidden order execution    |
+| I                | Internal cross            |
+| M                | Intentional cross         |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

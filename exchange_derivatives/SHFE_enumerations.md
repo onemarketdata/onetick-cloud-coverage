@@ -1,0 +1,21 @@
+# Shanghai Futures Exchange Enumerations
+
+The Shanghai Futures Exchange is one of China’s four futures exchanges, trading futures contracts across asset classes like metals, energy, chemicals and more.
+
+The following fields have Enumerations:
+
+* CALL_PUT_IND - “C” - Call option, “P” - Put option
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+
+#### CALL_PUT_IND - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| C                | Call option               |
+| P                | Put option                |
+

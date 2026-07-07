@@ -74,3 +74,24 @@ The following fields have Enumerations:
 |------------------|-----------------------------|
 | A                | Accepting order for queuing |
 | H                | Halted                      |
+| Q                | Quote only                  |
+| S                | Closed                      |
+| T                | Trading                     |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+
+#### ORDER_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| L                | Limit order               |
+| R                | Retail Priority order     |
+

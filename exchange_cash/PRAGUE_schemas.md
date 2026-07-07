@@ -360,3 +360,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
 | VOLUME_RFQ             | long        | Volume traded through an RFQ / RFC (Request for Quote / Request for Cross) process                                                                                                                                                     |
 | VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### PRAGUE_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### PRAGUE_DAILY - STAT Table Schema
+
+| Field         | Data Type   | Description                                                                                                                                                                                                                            |
+|---------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CFI_CODE      | string[6]   | Classification of Financial Instruments code (ISO 10962), indicating the type of security                                                                                                                                              |
+| CURRENCY      | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL   | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| ISIN          | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| LOT_SIZE      | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| MIC           | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| MKT_SEGMENT   | string[8]   | Market segment on which the instrument is traded                                                                                                                                                                                       |
+| NAME          | string[100] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ        | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| SEC_TYPE      | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| TRADING_CODE  | string[20]  | ID used to identify the instrument in the trading system                                                                                                                                                                               |

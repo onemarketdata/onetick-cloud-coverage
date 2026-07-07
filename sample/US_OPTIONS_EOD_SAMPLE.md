@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### US_OPTIONS_EOD_SAMPLE -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Option          |          33318 | 100.0%       |
+| Total           |          33318 | 100%         |
+
+
+Consists of 1 Databases
+
+* `US_OPTIONS_EOD_SAMPLE`  - Tick Data
+
+
+
+
+## US_OPTIONS_EOD_SAMPLE
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

@@ -16,3 +16,24 @@ The following fields have Enumerations:
 |                1 | Off-book                  |
 
 #### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| A                | Auction                   |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description           |
+|------------------|-----------------------------------|
+|                0 | Regular trade                     |
+|               20 | Auction trade                     |
+|                3 | J-Net trade                       |
+|               36 | Tailor-Made Combination leg trade |
+|               43 | Trade from implied order          |
+|                5 | J-Net cross trade                 |
+|                7 | Standard Combination leg trade    |
+

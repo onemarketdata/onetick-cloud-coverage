@@ -75,3 +75,24 @@ The following fields have Enumerations:
 
 #### REPORTING_PARTY_TYPE - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| D                | Broker/dealer             |
+| T                | ATS                       |
+
+#### CONTRA_PARTY_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description    |
+|------------------|----------------------------|
+| A                | Non-FINRA member affiliate |
+| C                | Customer                   |
+| D                | Broker/dealer              |
+| T                | ATS                        |
+
+#### ATS_INDICATOR - Enumeration
+
+| Enumeration ID   | Enumeration Description                                            |
+|------------------|--------------------------------------------------------------------|
+| Y                | An ATS was involved in either executing or reporting the trade     |
+| ‘””’             | An ATS was not involved in either executing or reporting the trade |
+

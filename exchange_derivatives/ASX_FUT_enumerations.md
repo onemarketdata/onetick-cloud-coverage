@@ -16,3 +16,24 @@ The following fields have Enumerations:
 |                1 | Off-book                  |
 
 #### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                           |
+|------------------|---------------------------------------------------|
+|                0 | Regular trade                                     |
+|                1 | Auction trade [prior to 20170319: Sweeping trade] |
+|                2 | Levelling trade [until 20170320]                  |
+|                3 | Spread to underlying trade                        |
+|                4 | Spread to spread trade                            |
+|                5 | Inter-product spread trade                        |
+|                6 | Strip to strip trade                              |
+|                7 | Strip to outright trade                           |
+

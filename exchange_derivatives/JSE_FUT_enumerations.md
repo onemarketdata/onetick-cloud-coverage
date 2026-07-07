@@ -41,3 +41,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description                                                                     |
 |------------------|---------------------------------------------------------------------------------------------|
 | 0                | Standard trade                                                                              |
+| 1                | Auction trade                                                                               |
+| 4001             | Negotiated trade                                                                            |
+| 4010             | Exchange for Physical                                                                       |
+| 4011             | Exchange for Risk                                                                           |
+| 4012             | Professional Client                                                                         |
+| 4013             | Delta trade                                                                                 |
+| 4014             | Late trade                                                                                  |
+| 4015             | Roll trade                                                                                  |
+| 4016             | Option strategy trade                                                                       |
+| 4017             | Net-off                                                                                     |
+| 4018             | Non-standard strategy trade                                                                 |
+| 4019             | CFD trade report                                                                            |
+| 4020             | Strategy trade                                                                              |
+| 4022             | Trade Bust                                                                                  |
+| 4023             | Price Adjust                                                                                |
+| 4024             | Reported trade                                                                              |
+| 99               | Auction trade                                                                               |
+| FXA              | FX Auction trade                                                                            |
+| HO               | Standard trade against hidden order                                                         |
+| LEG              | Strategy leg trade [Trade reported on each outright leg when two spread orders are matched] |
+

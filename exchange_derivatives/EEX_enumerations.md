@@ -60,3 +60,24 @@ The following fields have Enumerations:
 | K                | Closing auction                |
 | O                | Opening auction                |
 | U                | Unscheduled auction            |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                     |
+|------------------|---------------------------------------------|
+|                0 | Regular trade                               |
+|                1 | Auction trade                               |
+|             1004 | Trade At Market (TAM) block trade           |
+|             1006 | EnLight trade                               |
+|             1007 | QTPIP block trade                           |
+|             1104 | Cross Auction trade                         |
+|             1108 | Liquidity Improvement (Eurex Improve) trade |
+|               14 | Index futures EFP                           |
+|               15 | Block trade                                 |
+|               16 | Financial EFP                               |
+|                2 | Basis trade                                 |
+|               22 | Volatility trade                            |
+|               23 | Exchange for Swap                           |
+|               24 | Strategy leg trade                          |
+|                5 | Exchange for Physical                       |
+

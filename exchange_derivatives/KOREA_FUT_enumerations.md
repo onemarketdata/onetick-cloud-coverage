@@ -16,3 +16,24 @@ The following fields have Enumerations:
 |                1 | Off-book                  |
 
 #### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|               10 | Opening auction           |
+|               11 | Delayed opening           |
+|               20 | Auction                   |
+|               30 | Closing auction           |
+|               40 | Continuous trading        |
+|               46 | Negotiated trade          |
+|               50 | Volatility auction        |
+|               51 | Delayed re-opening        |
+

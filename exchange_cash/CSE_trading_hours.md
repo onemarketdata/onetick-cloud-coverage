@@ -1,0 +1,14 @@
+# Canadian Securities Exchange Trading Hours
+
+The Canadian Securities Exchange (CSE) is an alternative equities exchange in Canada, providing a listing venue and trading services for emerging companies and investment products.
+
+Trading Hours are divided into multiple sessions
+
+#### Canadian Securities Exchange - Trading Hours
+
+| Session Name   | Time Zone       | Start Time   | End Time   |
+|----------------|-----------------|--------------|------------|
+| PRE_MARKET     | America/Toronto | 07:00        | 09:30      |
+| MARKET         | America/Toronto | 09:30        | 16:00      |
+| POST_MARKET    | America/Toronto | 16:00        | 17:00      |
+

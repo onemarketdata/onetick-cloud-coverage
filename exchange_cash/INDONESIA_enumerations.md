@@ -18,3 +18,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description           |
+|------------------|-----------------------------------|
+| ‘””’             | Regular trade                     |
+| 0                | Regular trade                     |
+| 0-TN             | Regular trade (Cash market)       |
+| 1                | Unintentional cross               |
+| 1-TN             | Unintentional cross (Cash market) |
+| 2                | Auction trade                     |
+| NG               | Negotiated trade                  |
+| TN               | Cash trade                        |
+

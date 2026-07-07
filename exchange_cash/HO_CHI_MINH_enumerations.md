@@ -57,3 +57,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Regular trading           |
+| C                | Closing auction           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                |
+|------------------|----------------------------------------|
+|                0 | Regular trade                          |
+|               10 | Negotiated trade (odd lot, post-close) |
+|               11 | Negotiated trade (repo)                |
+|               17 | Off-hours trade [until 20250429]       |
+|                2 | Negotiated trade                       |
+|                3 | Odd lot trade                          |
+|                4 | Buy-in                                 |
+|                5 | Sell-out                               |
+|                7 | Negotiated trade (pre-open)            |
+|                8 | Negotiated trade (post-close)          |
+|                9 | Negotiated trade (odd lot)             |
+

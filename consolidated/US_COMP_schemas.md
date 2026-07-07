@@ -569,3 +569,24 @@ Daily Trade Metrics by Venue related to the NBBO
 | TRADE_VALUE_AT_MID          | double      | Main Session Traded Value for Trades at the NBBO Mid                                                                              |
 | TRADE_VALUE_AT_NBBO         | double      | Main Session Traded Value for Trades at the NBBO                                                                                  |
 | TRADE_VALUE_BLOCK           | double      | Block Traded Value where block is a trade with value > $200,000 or volume > 10,000                                                |
+| TRADE_VALUE_CLOSING_AUCTION | double      | Trade Value for Closing Auction Trades                                                                                            |
+| TRADE_VALUE_INSIDE_NBBO     | double      | Main Session Traded Value for Trades inside the NBBO, excluding Mid                                                               |
+| TRADE_VALUE_MAIN_SESSION    | double      | Main Session Trade Value                                                                                                          |
+| TRADE_VALUE_ODD_LOT         | double      | Traded Value for Odd Lot Trades                                                                                                   |
+| TRADE_VALUE_OPENING_AUCTION | double      | Trade Value for Opening Auction Trades                                                                                            |
+| TRADE_VALUE_OUTSIDE_NBBO    | double      | Main Session Traded Value for Trades outside the NBBO                                                                             |
+| TRADE_VALUE_POST_MARKET     | double      | Trade Value of the Post-Market Trading Session                                                                                    |
+| TRADE_VALUE_PRE_MARKET      | double      | Trade Value of the Pre-Market Trading Session                                                                                     |
+| TRADE_VALUE_ROUND_LOT       | double      | Traded Value for Round Lot Trades                                                                                                 |
+| VOLUME                      | double      | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval |
+| VOLUME_AT_MID               | double      | Main Session Volume for Trades at the NBBO Mid                                                                                    |
+| VOLUME_AT_NBBO              | double      | Main Session Volume for Trades at the NBBO                                                                                        |
+| VOLUME_CLOSING_AUCTION      | double      | Volume of the Closing Auction                                                                                                     |
+| VOLUME_INSIDE_NBBO          | double      | Main Session Volume for Trades inside the NBBO, excluding Mid                                                                     |
+| VOLUME_MAIN_SESSION         | double      | Volume of the Main Trading Session                                                                                                |
+| VOLUME_ODD_LOT              | double      | Volume of the Odd Lot Trades                                                                                                      |
+| VOLUME_OPENING_AUCTION      | double      | Volume of the Opening Auction                                                                                                     |
+| VOLUME_OUTSIDE_NBBO         | double      | Main Session Volume for Trades outside the NBBO                                                                                   |
+| VOLUME_POST_MARKET          | double      | Volume of the Post-Market Trading Session                                                                                         |
+| VOLUME_PRE_MARKET           | double      | Volume of the Pre-Market Trading Session                                                                                          |
+| VOLUME_ROUND_LOT            | double      | Volume of Round Lot Trades                                                                                                        |

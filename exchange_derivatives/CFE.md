@@ -68,3 +68,24 @@ Database includes the following tick types:
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+
+
+## CFE_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## CFE_LATEST
+
+Database includes the following tick types:
+
+* TRD - Trades
+* QTE - Best bid / offer quotes
+
+

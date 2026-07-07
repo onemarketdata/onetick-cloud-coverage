@@ -1,0 +1,15 @@
+# Madrid Stock Exchange (SIBE) Trading Hours
+
+The Madrid Stock Exchange is one of four regional stock exchanges in Spain that make up the overall Spanish stock market.
+
+Trading Hours are divided into multiple sessions
+
+#### Madrid Stock Exchange (SIBE) - Trading Hours
+
+| Session Name   | Time Zone     | Start Time   | End Time   |
+|----------------|---------------|--------------|------------|
+| PRE_MARKET     | Europe/Madrid | 07:00        | 09:00      |
+| X_MARKET_MTF   | Europe/Madrid | 08:00        | 16:30      |
+| MARKET         | Europe/Madrid | 09:00        | 17:36      |
+| POST_MARKET    | Europe/Madrid | 17:36        | 18:01      |
+

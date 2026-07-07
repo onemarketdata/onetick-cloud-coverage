@@ -127,3 +127,24 @@ The following fields have Enumerations:
 
 | Enumeration ID   | Enumeration Description                |
 |------------------|----------------------------------------|
+| 0                | Regular trade                          |
+| 11               | Basis cross                            |
+| 12               | Contingent cross                       |
+| 14               | VWAP cross                             |
+| 15               | Regular cross                          |
+| 16               | Bypass cross [until 20250228]          |
+| 18               | Derivative cross                       |
+| 5                | Internal cross                         |
+| 20               | NAV cross                              |
+| H                | Regular Trade against hidden liquidity |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+| F                | Fill                      |
+| P                | Partial fill              |
+

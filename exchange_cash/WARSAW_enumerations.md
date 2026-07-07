@@ -239,3 +239,24 @@ The following fields have Enumerations:
 
 #### TRADE_TYPE - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| 0                | Regular trade             |
+| 1                | Cross trade               |
+| 4                | Valuation trade           |
+| 5                | Internalised trade        |
+| 6                | Internalised cross trade  |
+| I                | Public offering           |
+| O                | Block trade               |
+| R                | Reported trade            |
+| S                | Buy-in / sell-out         |
+| T                | Tender offer              |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

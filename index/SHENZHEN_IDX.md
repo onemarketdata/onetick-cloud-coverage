@@ -35,3 +35,24 @@ Consists of 2 Databases
 * `SHENZHEN_IDX`  - Tick Data
 * `SHENZHEN_IDX_DAILY`  - End of Day Metrics
 
+
+
+
+## SHENZHEN_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+
+
+
+
+
+## SHENZHEN_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+

@@ -38,3 +38,24 @@ Consists of 2 Databases
 
 
 
+
+## MILAN_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## MILAN_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

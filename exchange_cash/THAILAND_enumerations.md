@@ -72,3 +72,24 @@ The following fields have Enumerations:
 | TRANSITION2_E     | End of afternoon session                                    |
 | TRANSITION3_E     | End of night session                                        |
 
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| A                | Auction                   |
+| C                | Closing auction           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description       |
+|------------------|-------------------------------|
+|                0 | Regular trade                 |
+|                1 | Trade report                  |
+|                2 | Auction trade                 |
+|                4 | Odd lot trade [from 20200113] |
+|                5 | Trade report [until 20200110] |
+

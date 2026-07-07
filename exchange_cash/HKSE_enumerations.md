@@ -48,3 +48,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| A                | Auction                   |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                |
+|------------------|----------------------------------------|
+|                0 | Automatch                              |
+|              104 | Overseas trade                         |
+|               15 | Non-direct off-exchange trade          |
+|               20 | Late trade (previous day off-exchange) |
+|               25 | Auction trade                          |
+|               30 | Direct off-exchange trade              |
+|               31 | Automatch internalised trade           |
+|                4 | Odd lot                                |
+

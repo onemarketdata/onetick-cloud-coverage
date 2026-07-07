@@ -57,3 +57,24 @@ Database includes the following tick types:
 
 
 
+
+## PSE_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## PSE_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+

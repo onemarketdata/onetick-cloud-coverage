@@ -31,3 +31,24 @@ Includes the following coverage:
 | Future          |             56 | 24.03%       |
 | Total           |            233 | 100%         |
 
+
+Consists of 1 Databases
+
+* ```
+  `BITFINEX`_
+  ```
+
+    - Tick Data
+
+
+
+
+## BITFINEX
+
+Database includes the following tick types:
+
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

@@ -1,0 +1,12 @@
+# Nasdaq Auction Imbalance Data Trading Hours
+
+Opening and Closing Auction Imbalance data for the Nasdaq Exchange
+
+Trading Hours are divided into multiple sessions
+
+#### Nasdaq Auction Imbalance Data - Trading Hours
+
+| Session Name   | Time Zone        | Start Time   | End Time   |
+|----------------|------------------|--------------|------------|
+| MARKET         | America/New_York | 09:25        | 16:00      |
+

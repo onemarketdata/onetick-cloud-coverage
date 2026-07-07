@@ -37,3 +37,24 @@ The following fields have Enumerations:
 | MQ               | Member query              |
 | OM               | Order matching            |
 | PCS              | Post-close session        |
+| PO               | Pre-open                  |
+| SOD              | Start of day              |
+| SUSP             | Suspended                 |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                                                       |
+|------------------|-----------------------------------------------------------------------------------------------|
+| ‘””’             | Regular trade                                                                                 |
+| BLK              | Block trade                                                                                   |
+| BT               | Bunched trade [Aggregated trade where the individual executions are not sent by the exchange] |
+

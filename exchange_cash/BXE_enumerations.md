@@ -214,3 +214,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Auction                                 |
+| C                | Closing Auction                         |
+| I                | Intraday Auction                        |
+| O                | Opening Auction                         |
+| T                | Trading at last price                   |
+| U                | Unscheduled Auction                     |
+| c                | Post-close auction                      |
+| p                | Auction initiated by market participant |
+| -                | Regular trading                         |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                        |
+|------------------|------------------------------------------------|
+|                0 | Standard trade (non-displayed order execution) |
+|                1 | Standard trade (lit order execution)           |
+|                2 | Dark book trade                                |
+|                3 | Off-book trade                                 |
+

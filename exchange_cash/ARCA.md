@@ -42,3 +42,24 @@ Includes the following coverage:
 | Warrant            |            442 | 3.4%         |
 | Total              |          12989 | 100%         |
 
+
+Consists of 1 Databases
+
+* `ARCA`  - Tick Data
+
+
+
+
+## ARCA
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

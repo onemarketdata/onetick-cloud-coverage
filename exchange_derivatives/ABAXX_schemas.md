@@ -82,3 +82,24 @@ Static data, e.g. ISIN, description, security type
 | PRODUCT_CODE        | string[12]  | Root code of a futures / options product, as specified by the exchange (e.g. CL for Crude Oil futures on NYMEX).   For inter-product spreads, PRODUCT_CODE will include both products, e.g. AB-CD for a spread between products AB and CD. |
 | SEC_TYPE            | string[20]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                    |
 | SETTLEMENT_TYPE     | string[1]   | Settlement method for a derivatives contract (C - Cash, P - Physical, E - Either cash or physical)                                                                                                                                         |
+| STRATEGY_LEGS       | string[200] | Comma-separated list of symbols for the legs of a futures / options spread                                                                                                                                                                 |
+| STRATEGY_LEG_COUNT  | int         | Number of legs in a strategy (spread)                                                                                                                                                                                                      |
+| TICK_SIZE           | double      | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                                 |
+| TRADING_CODE        | string[20]  | ID used to identify the instrument in the trading system                                                                                                                                                                                   |
+| UNDERLYING_SEC_TYPE | string[20]  | Underlying asset class                                                                                                                                                                                                                     |
+
+### ABAXX - TRD
+
+Trades
+
+#### ABAXX - TRD Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AGGRESSOR_SIDE | string[1]   | Indicates whether a trade resulted from an incoming buy or sell order.                                                                                                                                                                 |
+| BOOK_TYPE      | string[1]   | Type of order book or trading mechanism through which a trade was executed.                                                                                                                                                            |
+| EXCH_TIME      | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| PRICE          | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                              |
+| SIZE           | int         | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross                                       |
+| TRADE_TYPE     | string[4]   | Type of trade                                                                                                                                                                                                                          |

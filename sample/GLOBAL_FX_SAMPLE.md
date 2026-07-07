@@ -54,3 +54,24 @@ Database includes the following tick types:
 
 
 
+
+
+## GLOBAL_FX_SAMPLE_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* QTE_1M - 1-minute quote bars
+
+
+
+
+
+## GLOBAL_FX_SAMPLE_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

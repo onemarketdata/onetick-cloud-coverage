@@ -38,3 +38,24 @@ Includes the following coverage:
 | Right              |            112 | 0.86%        |
 | Structured Product |            158 | 1.22%        |
 | Unit               |            298 | 2.3%         |
+| Unknown            |             12 | 0.09%        |
+| Warrant            |            440 | 3.39%        |
+| Total              |          12969 | 100%         |
+
+
+Consists of 1 Databases
+
+* `US_SHORT_INT`  - Tick Data
+
+
+
+
+## US_SHORT_INT
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* SHORT_INT - Short Interest Statistics every 2 weeks
+* TRD - Trades
+
+

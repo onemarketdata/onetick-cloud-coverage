@@ -10,3 +10,24 @@ The following fields have Enumerations:
 
 #### BOOK_TYPE - Enumeration
 
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Lit order book            |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Normal trade              |
+|                1 | Small trade               |
+

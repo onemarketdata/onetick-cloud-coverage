@@ -27,3 +27,24 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
+| FX Spot         |           1251 | 81.08%       |
+| Future          |            292 | 18.92%       |
+| Total           |           1543 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OKX`  - Tick Data
+
+
+
+
+## OKX
+
+Database includes the following tick types:
+
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

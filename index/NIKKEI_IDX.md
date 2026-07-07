@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### NIKKEI_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            110 | 100.0%       |
+| Total           |            110 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NIKKEI_IDX`  - Tick Data
+
+
+
+
+## NIKKEI_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

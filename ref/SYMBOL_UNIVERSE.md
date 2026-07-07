@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### SYMBOL_UNIVERSE -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `SYMBOL_UNIVERSE`  - Reference
+
+
+
+
+## SYMBOL_UNIVERSE
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+

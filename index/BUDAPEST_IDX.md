@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### BUDAPEST_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |              7 | 100.0%       |
+| Total           |              7 | 100%         |
+
+
+Consists of 1 Databases
+
+* `BUDAPEST_IDX`  - Tick Data
+
+
+
+
+## BUDAPEST_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

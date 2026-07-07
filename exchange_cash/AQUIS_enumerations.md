@@ -190,3 +190,24 @@ The following fields have Enumerations:
 |                2 | Hidden order execution           |
 |                3 | Market at Close trade            |
 |                4 | Large in Scale (LIS) Cross trade |
+|                5 | Benchmark Cross trade            |
+|                6 | Auction on Demand trade          |
+
+#### TRADING_STATUS - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                1 | Active                    |
+|                2 | Halted                    |
+|                3 | Suspended                 |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial Fill              |
+

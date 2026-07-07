@@ -314,3 +314,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
 | VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
 | VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_ODD_LOT         | long        | Volume of the Odd Lot Trades                                                                                                                                                                                                           |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### CA_COMP_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### CA_COMP_DAILY - STAT Table Schema
+
+| Field       | Data Type   | Description                                                                                                                                                                                                                            |
+|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY    | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| ISIN        | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| LOT_SIZE    | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| NAME        | string[100] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| PRIMARY_MIC | string[4]   | MIC of the instrument’s primary listing market, or the reference market for instruments traded on an MTF                                                                                                                               |
+| SEC_TYPE    | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |

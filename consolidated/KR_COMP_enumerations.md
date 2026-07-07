@@ -87,3 +87,24 @@ The following fields have Enumerations:
 |               17 | Buy-in trade                                          |
 |               18 | Auction trade (volatility auction)                    |
 |               19 | Auction trade (extended volatility auction)           |
+|                2 | Pre-opening trade (at previous close)                 |
+|               20 | Auction trade (off-hours volatility auction)          |
+|               21 | Auction trade (extended off-hours volatility auction) |
+|                3 | After-hours block trade                               |
+|               32 | Block trade                                           |
+|               33 | Block trade (pre-market)                              |
+|               34 | Block trade (post-market)                             |
+|                4 | After-hours trade at closing price                    |
+|                5 | Pre-opening block trade                               |
+|                6 | After-hours K-Blox block trade                        |
+|                7 | After-hours basket trade                              |
+|                8 | Single price auction trade                            |
+|                9 | Pre-opening K-Blox block trade                        |
+
+#### TRADE_VENUE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| XKOS             | Kosdaq                    |
+| XKRX             | Korea Exchange            |
+

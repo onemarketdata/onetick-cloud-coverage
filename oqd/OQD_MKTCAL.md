@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### OQD_MKTCAL -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_MKTCAL`  - Reference
+
+
+
+
+## OQD_MKTCAL
+
+Database includes the following tick types:
+
+* MKTCAL - Market Calendar
+
+

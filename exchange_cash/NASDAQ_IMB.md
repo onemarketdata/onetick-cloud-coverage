@@ -24,3 +24,24 @@ Details are provided below
 Includes the following coverage:
 
 #### NASDAQ_IMB -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            414 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NASDAQ_IMB`  - Tick Data
+
+
+
+
+## NASDAQ_IMB
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+
+

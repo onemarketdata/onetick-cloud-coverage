@@ -44,3 +44,24 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | @                | Standard settlement       |
 | C                | Cash                      |
+| N                | Next day                  |
+| R                | Seller                    |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description     |
+|------------------|-----------------------------|
+| ‘””’             | Regular trade               |
+| I                | Odd lot trade               |
+| P                | Prior reference price trade |
+| W                | Average price trade         |
+
+#### TRADING_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| H                | Halted                    |
+| Q                | Quoting resumed           |
+| T                | Trading resumed           |
+| X                | Quoting + trading resumed |
+

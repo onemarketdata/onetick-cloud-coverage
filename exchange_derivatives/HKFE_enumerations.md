@@ -51,3 +51,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                              |
+|------------------|------------------------------------------------------|
+|                0 | Regular trade (strategy)                             |
+|                1 | Regular trade                                        |
+|              100 | TMC leg trade [until 20150213]                       |
+|                2 | Aggregated auction trade [until 20150213]            |
+|               24 | Reported trade (cross)                               |
+|                3 | Auction trade                                        |
+|               30 | Tailor-Made Combination (TMC) trade [until 20150213] |
+|                4 | Reported trade                                       |
+|               40 | Combo vs. outright trade [until 20150213]            |
+|               90 | Standard combo leg trade [until 20150213]            |
+

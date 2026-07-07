@@ -277,3 +277,24 @@ The following fields have Enumerations:
 |              300 | Auction on Demand trade                        |
 |              301 | Trade at closing price                         |
 |               32 | Off-book trade [until 20100205]                |
+|               52 | Exercise Related trade [until 20231231]        |
+|               64 | Off-book trade with standard settlement        |
+|               65 | Routed trade                                   |
+|               69 | Exchange Granted trade                         |
+|               75 | Contingent trade                               |
+|               76 | Beneficial ownership transfer [until 20231231] |
+|               80 | Portfolio trade                                |
+|               82 | Off-book trade with non-standard settlement    |
+|               84 | Pre-opening trade                              |
+|               86 | VWAP trade                                     |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

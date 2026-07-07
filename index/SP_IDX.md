@@ -39,3 +39,24 @@ Consists of 2 Databases
 
 
 
+## SP_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## SP_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

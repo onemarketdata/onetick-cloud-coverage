@@ -52,3 +52,24 @@ Database includes the following tick types:
 
 
 
+
+## MALAYSIA_FUT_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## MALAYSIA_FUT_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+

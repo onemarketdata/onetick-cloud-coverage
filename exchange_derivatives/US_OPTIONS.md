@@ -27,3 +27,24 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
+| Option          |        1961014 | 100.0%       |
+| Total           |        1961014 | 100%         |
+
+
+Consists of 1 Databases
+
+* `US_OPTIONS`  - Tick Data
+
+
+
+
+## US_OPTIONS
+
+Database includes the following tick types:
+
+* NBBO - National Best Bid / Offer quotes
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

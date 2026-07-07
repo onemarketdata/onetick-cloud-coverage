@@ -62,3 +62,24 @@ The following fields have Enumerations:
 | XNSE             | National Stock Exchange of India |
 
 #### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | As for underlying venues  |
+
+#### TRADE_VENUE - Enumeration
+
+| Enumeration ID   | Enumeration Description          |
+|------------------|----------------------------------|
+| XBOM             | Bombay Stock Exchange            |
+| XNSE             | National Stock Exchange of India |
+

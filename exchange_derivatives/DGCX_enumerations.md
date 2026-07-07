@@ -15,3 +15,24 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 |                0 | Lit order book            |
 |                1 | Off-book                  |
+
+#### CALL_PUT_IND - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| C                | Call option               |
+| P                | Put option                |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                2 | Trade report              |
+|                6 | Regular trade             |
+

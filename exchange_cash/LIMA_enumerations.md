@@ -14,3 +14,24 @@ The following fields have Enumerations:
 | -                | Regular trading               |
 | A                | Auction                       |
 | C                | Closing auction               |
+| I                | Intraday auction              |
+| O                | Opening auction               |
+| P                | IPO / Public offering auction |
+| T                | Trading at closing price      |
+| U                | Unscheduled auction           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                        |
+|------------------|------------------------------------------------|
+| 0                | Significant trade                              |
+| 1                | Insignificant trade                            |
+| 2                | Auction trade (significant)                    |
+| 3                | Auction trade (insignificant)                  |
+| 4                | Trade on hidden order quantity (significant)   |
+| 5                | Trade on hidden order quantity (insignificant) |
+| AU               | Special auction trade                          |
+| BK               | Block trade                                    |
+| ES               | Early settlement trade                         |
+| RP               | Repo trade                                     |
+

@@ -27,3 +27,24 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
+| ETF             |           4452 | 59.01%       |
+| Index           |           3087 | 40.91%       |
+| Unknown         |              6 | 0.08%        |
+| Total           |           7545 | 100%         |
+
+
+Consists of 1 Databases
+
+* `ICE_IDX`  - Tick Data
+
+
+
+
+## ICE_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

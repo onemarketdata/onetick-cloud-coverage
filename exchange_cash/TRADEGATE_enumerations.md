@@ -169,3 +169,24 @@ The following fields have Enumerations:
 | -                | Regular trading           |
 
 #### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description        |
+|------------------|--------------------------------|
+| ‘””’             | No condition                   |
+| 100              | Opening auction                |
+| 101              | Intraday auction               |
+| 102              | Volatility auction             |
+| 103              | Closing auction                |
+| 104              | Cross auction                  |
+| 107              | IPO auction                    |
+| 108              | Liquidity improvement cross    |
+| 109              | Special auction                |
+| 2                | Opening                        |
+| 3                | Regular trading                |
+| 5                | Fixing                         |
+| 9                | Closing                        |
+| C                | Trading at close               |
+| F                | Off-book                       |
+| M                | Price from subscription period |
+| X                | Regular trade                  |
+

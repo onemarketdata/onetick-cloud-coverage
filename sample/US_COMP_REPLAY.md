@@ -30,3 +30,24 @@ Includes the following coverage:
 | Total           |            502 | 100%         |
 
 
+Consists of 1 Databases
+
+* `US_COMP_REPLAY`  - Tick Data
+
+
+
+
+## US_COMP_REPLAY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* NBBO - National Best Bid / Offer quotes
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

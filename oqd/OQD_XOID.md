@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### OQD_XOID -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_XOID`  - Reference
+
+
+
+
+## OQD_XOID
+
+Database includes the following tick types:
+
+* XREF - Symbology Mapping
+
+

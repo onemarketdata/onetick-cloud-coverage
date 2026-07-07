@@ -406,3 +406,24 @@ The following fields have Enumerations:
 | NT               | Negotiated trade [until 20201127]                                 |
 | O                | Ordinary trade [until 20201127]                                   |
 | OE               | Exchange granted trade [until 20201127]                           |
+| OH               | Other [until 20201127]                                            |
+| OK               | Ordinary trade with delayed publication [until 20201127]          |
+| OL               | Odd lot [until 20201127]                                          |
+| ON               | Non-standard settlement [until 20201127]                          |
+| OT               | OTC trade [until 20201127]                                        |
+| OU               | Outside hours [until 20201127]                                    |
+| RE               | Repo [until 20201127]                                             |
+| SI               | Systematic Internaliser trade [until 20201127]                    |
+| SK               | SI with delayed publication [until 20201127]                      |
+| TK               | OTC trade with delayed publication [until 20201127]               |
+| UT               | Uncrossing trade [until 20121109]                                 |
+| VW               | VWAP trade [until 20201127]                                       |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

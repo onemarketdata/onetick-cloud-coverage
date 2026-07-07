@@ -261,3 +261,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | HIGH    | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
 | LOW     | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
 | OMDSEQ  | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN    | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| VOLUME  | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+
+### ABU_DHABI_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### ABU_DHABI_DAILY - STAT Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY       | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL    | string[32]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| ISIN           | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| LOT_SIZE       | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| NAME           | string[120] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SEC_TYPE       | string[20]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| SEDOL          | string[7]   | SEDOL code                                                                                                                                                                                                                             |
+| TICK_SIZE      | string[100] | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |

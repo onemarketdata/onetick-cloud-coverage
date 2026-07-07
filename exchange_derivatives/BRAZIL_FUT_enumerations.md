@@ -32,3 +32,24 @@ The following fields have Enumerations:
 | A                | Auction                   |
 | C                | Closing auction           |
 | I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description    |
+|------------------|----------------------------|
+| Ext              | Extended hours T+0 trading |
+| T+0              | Regular hours (T+0)        |
+| T+1              | After-hours T+1 trading    |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                                       |
+|------------------|---------------------------------------------------------------|
+|                0 | Regular trade                                                 |
+|                1 | Cross trade                                                   |
+|               24 | After-hours trade                                             |
+|               25 | Retail Liquidity trade                                        |
+|               26 | Out of sequence trade [e.g. reinsertion of a cancelled trade] |
+

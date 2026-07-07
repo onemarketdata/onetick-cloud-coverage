@@ -59,3 +59,24 @@ The following fields have Enumerations:
 
 |   Enumeration ID | Enumeration Description                   |
 |------------------|-------------------------------------------|
+|                0 | Algo order                                |
+|                1 | Non-algo order                            |
+|                2 | Algo order through Smart Order Router     |
+|                3 | Non-algo order through Smart Order Router |
+
+#### SELL_ORDER_CAPACITY - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                1 | Custodial Participant     |
+|                2 | Principal                 |
+|                3 | Agency                    |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+

@@ -1,0 +1,17 @@
+# CME Globex Futures Market Holidays
+
+CME Globex is the electronic trading platform of the CME Group, offering trading in futures and options across asset classes.
+
+The last 10 Market Holidays are listed
+
+#### CME Globex Futures - Recent Market Holidays
+
+| Activity Name         | Time Zone       | Start Date   | End Date   | Start Time   | End Time   |
+|-----------------------|-----------------|--------------|------------|--------------|------------|
+| Limited Trading Hours | America/Chicago | 2026-07-03   | 2026-07-03 | 00:00        | 24:00      |
+| Limited Trading Hours | America/Chicago | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
+| Limited Trading Hours | America/Chicago | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
+| Full Holiday          | America/Chicago | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
+| Full Holiday          | America/Chicago | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
+| Limited Trading Hours | America/Chicago | 2025-12-24   | 2025-12-24 | 00:00        | 24:00      |
+

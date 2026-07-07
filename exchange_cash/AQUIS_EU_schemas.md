@@ -379,3 +379,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
 | VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
 | VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VOLUME_RFQ             | long        | Volume traded through an RFQ / RFC (Request for Quote / Request for Cross) process                                                                                                                                                     |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### AQUIS_EU_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### AQUIS_EU_DAILY - STAT Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY       | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| ISIN           | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| MIC            | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC  | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| PRIMARY_MIC    | string[4]   | MIC of the instrument’s primary listing market, or the reference market for instruments traded on an MTF                                                                                                                               |
+| TICK_SIZE      | string[200] | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |
+| TRADING_CODE   | string[20]  | ID used to identify the instrument in the trading system                                                                                                                                                                               |

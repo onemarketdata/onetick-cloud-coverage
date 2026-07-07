@@ -74,3 +74,24 @@ The following fields have Enumerations:
 
 #### MKT_PHASE - Enumeration
 
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|              200 | Suspended                 |
+|              302 | Accepting orders          |
+|              304 | Open                      |
+|              305 | Non-cancel period         |
+|              306 | Cloed                     |
+
+#### EVENT_CODE - Enumeration
+
+|   Enumeration ID | Enumeration Description                                   |
+|------------------|-----------------------------------------------------------|
+|              100 | Circuit breaker cooling-off period                        |
+|              101 | Price limits expanded after circuit breaker               |
+|              400 | Dynamic price banding suspended                           |
+|              401 | Dynamic price banding resumed                             |
+|              402 | Dynamic price banding range adjusted                      |
+|              403 | Dynamic price banding suspension preliminary notification |
+|              404 | Dynamic price banding resumption preliminary notification |
+|              405 | Dynamic price banding adjustment preliminary notification |
+

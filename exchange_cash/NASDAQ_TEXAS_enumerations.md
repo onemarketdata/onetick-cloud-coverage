@@ -148,3 +148,24 @@ The following fields have Enumerations:
 | G                | Deficient + bankrupt                   |
 | H                | Deficient + delinquent                 |
 | J                | Delinquent + bankrupt                  |
+| K                | Deficient + delinquent + bankrupt      |
+| N                | Normal                                 |
+| Q                | Bankrupt                               |
+| S                | Suspended                              |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+
+#### ORDER_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| L                | Limit order               |
+

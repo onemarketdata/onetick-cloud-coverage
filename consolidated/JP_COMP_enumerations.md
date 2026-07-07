@@ -65,3 +65,24 @@ The following fields have Enumerations:
 #### TRADE_SESSION - Enumeration
 
 | Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| Afternoon        | Afternoon session         |
+| Day              | Day session               |
+| Morning          | Morning session           |
+| Night            | Night session             |
+| Off-Market       | Off-exchange trading      |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | As for underlying venues  |
+
+#### TRADE_VENUE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| CHIJ             | CBOE Japan                |
+| SBIJ             | JapanNext                 |
+| XTKS             | Tokyo Stock Exchange      |
+

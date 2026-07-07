@@ -31,3 +31,24 @@ The following fields have Enumerations:
 | 86               | Volatility halt           |
 | SUSP             | Suspended                 |
 
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| ‘””’             | Regular trade                 |
+| 0                | Regular trade                 |
+| 1                | After-hours fixed price trade |
+| 102              | Negotiated trade              |
+| 103              | Click trade                   |
+| 104              | Inquiry trade                 |
+| 105              | Bidding trade                 |
+

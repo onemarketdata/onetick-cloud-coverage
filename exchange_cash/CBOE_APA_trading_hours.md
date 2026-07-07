@@ -1,0 +1,14 @@
+# Cboe Europe Trade Reporting Trading Hours
+
+Cboe Europe Trade Reporting allows firms to report off-order book trades in European equities to comply with MiFID II trade reporting obligations.
+
+Trading Hours are divided into multiple sessions
+
+#### Cboe Europe Trade Reporting - Trading Hours
+
+| Session Name   | Time Zone     | Start Time   | End Time   |
+|----------------|---------------|--------------|------------|
+| PRE_MARKET     | Europe/London | 07:50        | 08:00      |
+| MARKET         | Europe/London | 08:00        | 16:36      |
+| POST_MARKET    | Europe/London | 16:36        | 18:00      |
+

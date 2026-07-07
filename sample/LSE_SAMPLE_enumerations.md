@@ -295,3 +295,24 @@ The following fields have Enumerations:
 | I                | Intraday Auction                        |
 | O                | Opening Auction                         |
 | T                | Trading at last price                   |
+| U                | Unscheduled Auction                     |
+| p                | Auction initiated by market participant |
+| -                | Regular trading                         |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                |
+|------------------|----------------------------------------|
+| AT               | Automatic trade                        |
+| OB               | Off-book trade / external trade report |
+| RFQ              | RFQ trade                              |
+| UT               | Uncrossing trade                       |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### ISTANBUL_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            616 | 100.0%       |
+| Total           |            616 | 100%         |
+
+
+Consists of 1 Databases
+
+* `ISTANBUL_IDX`  - Tick Data
+
+
+
+
+## ISTANBUL_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

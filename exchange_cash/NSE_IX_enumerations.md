@@ -93,3 +93,24 @@ The following fields have Enumerations:
 
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+
+#### ORDER_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| L                | Limit order               |
+| M                | Market order              |
+
+#### ORDER_CAPACITY - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                1 | Custodial Participant     |
+|                2 | Principal                 |
+|                3 | Agency                    |
+

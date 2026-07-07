@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### NORDIC_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |             11 | 100.0%       |
+| Total           |             11 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NORDIC_IDX`  - Tick Data
+
+
+
+
+## NORDIC_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

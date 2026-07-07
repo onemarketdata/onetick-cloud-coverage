@@ -41,3 +41,24 @@ Database Loading Statistics by Table / Tick Type
 | OPTIONS               | string[4]    | If the Database includes Options [ Y / N ]                                                                                                                                                                                             |
 | REF_DATA_DB           | string[100]  | Reference Database associated with a Database.  Used to provide symbology mapping, corporate action adjustment factors, mkt holidays and trading hours                                                                                 |
 | SPREADS               | string[4]    | If the Database includes Future Spread Contracts [ Y / N ]                                                                                                                                                                             |
+| SYMBOLOGY             | string[15]   | Symbology assigned to the Database                                                                                                                                                                                                     |
+| SYMBOL_COUNT          | long         | Count of Symbols loaded into the Database Table for the specified day.                                                                                                                                                                 |
+| TICK_TYPE             | string[25]   | Database Table                                                                                                                                                                                                                         |
+| TIMEZONE              | string[25]   | Time Zone for the Database                                                                                                                                                                                                             |
+
+### DB_INFO - PROC_EVENTS
+
+Database Daily Loading Events including Start and Completion Time
+
+#### DB_INFO - PROC_EVENTS Table Schema
+
+| Field            | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DATA_DATE        | string[8]   | Trading Day loaded, which may not correspond to a UTC Day.                                                                                                                                                                             |
+| DB_DESCRIPTION   | string[250] | Database Description                                                                                                                                                                                                                   |
+| DB_NAME          | string[100] | Database Name                                                                                                                                                                                                                          |
+| EVENT_NAME       | string[50]  | Event Name                                                                                                                                                                                                                             |
+| EVENT_TIME       | msectime    | Timestamp for Event                                                                                                                                                                                                                    |
+| OMDSEQ           | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SOURCE_FILE_NAME | string[50]  | Category of Daily Database Loading                                                                                                                                                                                                     |
+| TIMEZONE         | string[25]  | Time Zone for the Database                                                                                                                                                                                                             |

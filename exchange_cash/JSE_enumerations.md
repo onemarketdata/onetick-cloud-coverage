@@ -87,3 +87,24 @@ The following fields have Enumerations:
 #### TRADE_TYPE - Enumeration
 
 | Enumeration ID   | Enumeration Description                   |
+|------------------|-------------------------------------------|
+| A                | Auction trade (volatility auction)        |
+| AT               | Automated trade                           |
+| BK               | Book build trade                          |
+| BT               | Block trade                               |
+| C                | Auction trade (closing auction)           |
+| CF               | Corporate finance trade                   |
+| E                | Auction trade (re-opening auction)        |
+| HO               | Automated trade against hidden order      |
+| K                | Auction trade (intraday auction)          |
+| L                | Auction trade (futures close out auction) |
+| LC               | Off-book post contra trade                |
+| LT               | Late trade                                |
+| O                | Auction trade (opening auction)           |
+| OP               | Off order book principal trade            |
+| PC               | On-book post contra trade                 |
+| PF               | Portfolio trade                           |
+| UT               | Uncrossing trade [until 20210531]         |
+| VT               | EOD volume auction                        |
+| XT               | Cross trade                               |
+

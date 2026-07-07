@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### OQD_FUT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_FUT`  - End of Day Metrics
+
+
+
+
+## OQD_FUT
+
+Database includes the following tick types:
+
+* DFUT - Daily Futures Prices
+
+

@@ -31,3 +31,24 @@ Includes the following coverage:
 | Equity          |             17 | 53.13%       |
 | Preferred Stock |             10 | 31.25%       |
 | Total           |             32 | 100%         |
+
+
+Consists of 1 Databases
+
+* `BRAZIL_OTC`  - Tick Data
+
+
+
+
+## BRAZIL_OTC
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+* TRD_ODD_LOT - Trades from the odd lot book
+
+

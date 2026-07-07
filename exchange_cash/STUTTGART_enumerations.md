@@ -182,3 +182,24 @@ The following fields have Enumerations:
 | BB               | Paid, unexecuted sell orders                                            |
 | BF               | Ask, Bundesbank fixing                                                  |
 | BG               | Paid, unexecuted buy orders                                             |
+| BP               | Ask, primary market price                                               |
+| BZ               | Paid, all orders executed                                               |
+| BZF              | Paid, Bundesbank fixing                                                 |
+| BZP              | Paid, primary market transaction                                        |
+| C                | Cross trade                                                             |
+| EB               | Partially paid, only a small portion of sell orders were executed       |
+| EG               | Partially paid, only a small portion of buy orders were executed        |
+| F                | Bundesbank fixing                                                       |
+| G                | Bid                                                                     |
+| GF               | Bid, Bundesbank fixing                                                  |
+| GP               | Bid, primary market price                                               |
+| OTC              | OTC trade                                                               |
+| RB               | Partial execution on buy side                                           |
+| RB\*             | Partial execution on buy side, orders allocated based on time of entry  |
+| RG               | Partial execution on sell side                                          |
+| RG\*             | Partial execution on sell side, orders allocated based on time of entry |
+|                  | Small amounts could not be traded                                       |
+| \_BT             | Estimated price, excess orders on ask side                              |
+| \_GT             | Estimated price, excess orders on bid side                              |
+| \_T              | Estimated price                                                         |
+

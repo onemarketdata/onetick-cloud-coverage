@@ -26,3 +26,24 @@ The following fields have Enumerations:
 #### TRADE_PERIOD - Enumeration
 
 | Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| A                | Auction                   |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                           |
+|------------------|---------------------------------------------------|
+| 0                | Automatch trade                                   |
+| 1                | Trade between combination orders [until 20230505] |
+| 2                | Negotiated trade [until 20230505]                 |
+| 4                | Automatch trade [until 20230505]                  |
+| 7                | Auction trade [until 20230505]                    |
+| AUCT             | Auction trade                                     |
+| COMB             | Combo to combo trade                              |
+| EFP              | Exchange for Physical                             |
+| TR               | Trade report                                      |
+

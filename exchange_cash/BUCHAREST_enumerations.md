@@ -143,3 +143,24 @@ The following fields have Enumerations:
 | K                | Closing auction                           |
 | O                | Opening auction                           |
 | U                | Unscheduled auction                       |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                                                             |
+|------------------|-------------------------------------------------------------------------------------|
+|               01 | On-book - Buy-side aggressor                                                        |
+|               02 | On-book - Sell-side aggressor                                                       |
+|               03 | On-book - Routed trade                                                              |
+|               04 | On-book - Auction trade                                                             |
+|               05 | On-book - Cross trade                                                               |
+|               11 | Off-book - Buy-side aggressor                                                       |
+|               12 | Off-book - Sell-side aggressor                                                      |
+|               13 | Off-book - Routed trade                                                             |
+|               14 | Off-book- Auction trade                                                             |
+|               15 | Off-book - Cross trade                                                              |
+|               21 | Special auction (public offering / tender offer / redemption) - Buy-side aggressor  |
+|               22 | Special auction (public offering / tender offer / redemption) - Sell-side aggressor |
+|               23 | Special auction (public offering / tender offer / redemption) - Routed trade        |
+|               24 | Special auction (public offering / tender offer / redemption) - Auction trade       |
+|               25 | Special auction (public offering / tender offer / redemption) - Cross trade         |
+

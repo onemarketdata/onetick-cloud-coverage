@@ -29,3 +29,24 @@ Includes the following coverage:
 |-----------------|----------------|--------------|
 | Future          |            186 | 37.13%       |
 | Futures Spread  |            315 | 62.87%       |
+| Total           |            501 | 100%         |
+
+
+Consists of 1 Databases
+
+* `ABAXX`  - Tick Data
+
+
+
+
+## ABAXX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

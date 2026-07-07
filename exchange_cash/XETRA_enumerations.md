@@ -291,3 +291,24 @@ The following fields have Enumerations:
 | p                | Auction initiated by market participant          |
 | u                | Unscheduled auction (extended hours)             |
 | -                | Regular trading                                  |
+| ‘””’             | Not applicable                                   |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                   |
+|------------------|-----------------------------------------------------------|
+| -                | Regular trade                                             |
+| 0                | Opening auction trade                                     |
+| 1                | Intraday auction trade                                    |
+| 2                | Volatility auction trade                                  |
+| 3                | Closing auction trade                                     |
+| 5                | IPO auction trade                                         |
+| e                | Retail trade                                              |
+| m                | Midpoint trade                                            |
+| I                | EnLight trade                                             |
+| OTC              | OTC trade [until 20170630]                                |
+| P                | Xetra Midpoint trade [until 20170630]                     |
+| S                | Xetra Best trade [until 20201120]                         |
+| VAL              | Price without turnover (valuation price) [until 20170630] |
+| X                | Regular trade [until 20170630]                            |
+

@@ -54,3 +54,24 @@ The following fields have Enumerations:
 | U                | Unscheduled auction       |
 
 #### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| 0                | Regular trade             |
+| 12               | Delta trade               |
+| 13               | Committed block           |
+| 14               | Late trade                |
+| 16               | Strategy leg trade        |
+| 2                | Block trade               |
+| 22               | Exchange for Risk         |
+| 24               | Committed trade           |
+| 25               | Basis on Close            |
+| 26               | Price/volume adjustment   |
+| 4                | Cross trade               |
+| 5                | Exchange for Physical     |
+| 56               | Trade correction          |
+| 9                | Implied trade             |
+| A                | As-of trade               |
+| C                | Contingent trade          |
+| F                | Riskless basis cross      |
+

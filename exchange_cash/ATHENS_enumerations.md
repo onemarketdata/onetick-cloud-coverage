@@ -213,3 +213,24 @@ The following fields have Enumerations:
 | A                | Auction                   |
 | C                | Closing Auction           |
 | I                | Intraday Auction          |
+| O                | Opening Auction           |
+| T                | Trading at last price     |
+| U                | Unscheduled Auction       |
+| -                | Regular trading           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+| B                | Off-book trade            |
+| O                | OTC trade                 |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

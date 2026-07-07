@@ -93,3 +93,24 @@ The following fields have Enumerations:
 | -                | Regular trading           |
 | I                | Intraday auction          |
 
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+| D                | Derivative-related cross  |
+| H                | Hidden order execution    |
+| I                | Internal cross            |
+| M                | Intentional cross         |
+| m                | Midpoint trade            |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

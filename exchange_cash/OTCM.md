@@ -37,3 +37,24 @@ Consists of 2 Databases
 * `OTCM_BARS`  - 1 Minute Bars
 
 
+
+
+## OTCM
+
+Database includes the following tick types:
+
+* BBO - Combined best bid / offer quotes calculated across multiple sources
+* OTCM_INSIDE_QTE - OTCM Inside Quote
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## OTCM_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+
+

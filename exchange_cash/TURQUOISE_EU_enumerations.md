@@ -150,3 +150,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description                          |
+|------------------|--------------------------------------------------|
+| A                | Other auction [e.g. after-hours odd lot auction] |
+| C                | Closing auction                                  |
+| I                | Intraday auction                                 |
+| O                | Opening auction                                  |
+| T                | Trading at closing price                         |
+| U                | Unscheduled auction                              |
+| p                | Auction initiated by market participant          |
+| -                | Regular trading                                  |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                         |
+|------------------|-------------------------------------------------|
+|               14 | Regular trade                                   |
+|              150 | Dark Midpoint trade (Turquoise Dark Continuous) |
+|              152 | Dark Midpoint trade (Turquoise Dark Uncross)    |
+|               16 | Periodic auction trade                          |
+|               24 | Trade at Last                                   |
+

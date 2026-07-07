@@ -26,3 +26,24 @@ Includes the following coverage:
 #### SWISS_IDX -  Coverage
 
 | Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |           1999 | 100.0%       |
+| Total           |           1999 | 100%         |
+
+
+Consists of 1 Databases
+
+* `SWISS_IDX`  - Tick Data
+
+
+
+
+## SWISS_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+
+

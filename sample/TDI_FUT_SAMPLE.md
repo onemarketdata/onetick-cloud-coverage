@@ -49,3 +49,24 @@ Database includes the following tick types:
 * TRD - Trades
 
 
+
+
+
+## TDI_FUT_SAMPLE_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1M - 1-minute trade bars
+
+
+
+
+
+## TDI_FUT_SAMPLE_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+

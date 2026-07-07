@@ -30,3 +30,24 @@ The following fields have Enumerations:
 | 0                | Regular trade                             |
 | 112              | Portfolio trade (delayed)                 |
 | 116              | Large principal trade (delayed)           |
+| 66               | Block trade                               |
+| 67               | Broker preferenced trade                  |
+| 69               | Out of hours trade                        |
+| 70               | ETF unit creation / redemption            |
+| 76               | Permitted trade during post-trading       |
+| 77               | Permitted trade during pre-trading        |
+| 80               | Portfolio trade                           |
+| 83               | Trade with price improvement              |
+| 84               | Large principal trade                     |
+| B                | BIDS Block trade                          |
+| C                | Regular trade against hidden limit order  |
+| F                | Far point trade                           |
+| FB               | Far point trade with broker preferencing  |
+| I                | BIDS Price Improved trade                 |
+| M                | MOC trade                                 |
+| MB               | MOC trade with broker preferencing        |
+| N                | Near point trade                          |
+| NB               | Near point trade with broker preferencing |
+| P                | Midpoint trade                            |
+| PB               | Midpoint trade with broker preferencing   |
+

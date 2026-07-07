@@ -26,3 +26,24 @@ Includes the following coverage:
 #### COINBASE_US -  Coverage
 
 | Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| FX Spot         |            515 | 100.0%       |
+| Total           |            515 | 100%         |
+
+
+Consists of 1 Databases
+
+* `COINBASE_US`  - Tick Data
+
+
+
+
+## COINBASE_US
+
+Database includes the following tick types:
+
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

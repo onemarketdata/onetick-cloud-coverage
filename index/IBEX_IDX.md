@@ -27,3 +27,24 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
+| Index           |            121 | 100.0%       |
+| Total           |            121 | 100%         |
+
+
+Consists of 1 Databases
+
+* `IBEX_IDX`  - Tick Data
+
+
+
+
+## IBEX_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+
+

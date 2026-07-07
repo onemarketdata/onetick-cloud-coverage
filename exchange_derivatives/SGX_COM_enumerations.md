@@ -38,3 +38,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Regular trading           |
+| A                | Auction                   |
+| C                | Closing auction           |
+| O                | Opening auction           |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description          |
+|------------------|----------------------------------|
+| T                | T session (current business day) |
+| T+1              | T+1 session (next business day)  |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description               |
+|------------------|---------------------------------------|
+|                0 | Regular trade                         |
+|                1 | Combo to combo trade [until 20200424] |
+|                2 | Combo to Leg trade [until 20200424]   |
+|                3 | Spread trade                          |
+|                4 | Off-book trade                        |
+

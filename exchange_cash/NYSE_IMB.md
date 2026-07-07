@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### NYSE_IMB -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |          12987 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NYSE_IMB`  - Tick Data
+
+
+
+
+## NYSE_IMB
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* SECURITY_STATUS_MESSAGE - Security Status Message
+* SYMBOL_INDEX_MAPPING - Symbol Index Mapping
+
+

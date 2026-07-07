@@ -83,3 +83,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description           |
 |------------------|-----------------------------------|
 | -                | Regular trading                   |
+| A                | Auction                           |
+| C                | Closing auction                   |
+| I                | Intraday auction                  |
+| O                | Opening auction                   |
+| P                | Public offering / buyback auction |
+| T                | Trading at closing price          |
+| U                | Unscheduled auction               |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                    |
+|------------------|--------------------------------------------|
+| ‘””’             | Regular trade                              |
+| BBO10            | Trade report at best bid/offer +/-10 ticks |
+| LTP              | Trade report at last trade price           |
+| LTP10            | Trade report at last trade price +/-10%    |
+| LTP3             | Trade report at last trade price +/-3%     |
+| LTP6             | Trade report at last trade price +/-6%     |
+| WT               | Wholesale trade report                     |
+| WTN              | Wholesale trade not settled by Takasbank   |
+

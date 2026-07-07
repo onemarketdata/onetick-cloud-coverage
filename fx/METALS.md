@@ -36,3 +36,24 @@ Consists of 2 Databases
 * `METALS_DAILY`  - End of Day Metrics
 
 
+
+
+## METALS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* INTRADAY - Intraday Bid / Offer Quotes
+* QTE - Best bid / offer quotes
+
+
+
+
+
+## METALS_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+

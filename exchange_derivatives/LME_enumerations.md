@@ -47,3 +47,24 @@ The following fields have Enumerations:
 | 14               | Average or Amalgamated trade (Client, non-Select) [until 20250321]   |
 | 15               | Client cross vs cleared Give-up [until 20250321]                     |
 | 16               | Client cross vs late cleared Give-up [until 20250321]                |
+| 2                | Electronic trade                                                     |
+| 21               | Electronic trade (Exchange) [until 20250321]                         |
+| 22               | Electronic trade (Client) [until 20250321]                           |
+| 31               | Inter-office trade                                                   |
+| 41               | 1st Ring matched trade                                               |
+| 42               | 2nd Ring matched trade                                               |
+| 43               | 3rd Ring matched trade                                               |
+| 44               | 4th Ring matched trade                                               |
+| 45               | Basis 1st Morning Ring                                               |
+| 46               | Basis 2nd Morning Ring                                               |
+| 47               | Basis 1st Afternoon Ring                                             |
+| 48               | Basis 2nd Afternoon Ring                                             |
+| 51               | 1st Kerb matched trade                                               |
+| 52               | 2nd Kerb matched trade                                               |
+| 53               | Basis Morning Kerb                                                   |
+| 54               | Basis Afternoon Kerb                                                 |
+| 6                | Implied trade                                                        |
+| 61               | Exceptional Use trade (Exchange) [until 20250321]                    |
+| 62               | Exceptional Use trade (Client) [until 20250321]                      |
+| TC               | Trade at Close                                                       |
+

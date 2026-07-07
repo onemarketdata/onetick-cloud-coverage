@@ -32,3 +32,24 @@ The following fields have Enumerations:
 | A                | Other auction                                 |
 | C                | Closing auction                               |
 | I                | Intraday auction                              |
+| L                | Outside hours (Late session) [until 20210615] |
+| O                | Opening auction                               |
+| U                | Unscheduled auction                           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                                                               |
+|------------------|-------------------------------------------------------------------------------------------------------|
+| ‘””’             | Regular trade                                                                                         |
+| 1                | Opening [until 20210615]                                                                              |
+| 10               | Local intermarket trade (order submitted to another exchange and executed on BCS) [until 20210615]    |
+| 11               | External intermarket trade (order submitted to BCS and executed on another exchange) [until 20210615] |
+| 2                | Continuous [until 20210615]                                                                           |
+| 3                | Volatility auction [until 20210615]                                                                   |
+| 4                | Closing [until 20210615]                                                                              |
+| 5                | After hours [until 20210615]                                                                          |
+| 6                | Open outcry auction [until 20210615]                                                                  |
+| 7                | Electronic auction [until 20210615]                                                                   |
+| 8                | Floor trade [until 20210615]                                                                          |
+| 9                | Serialized auction [until 20210615]                                                                   |
+

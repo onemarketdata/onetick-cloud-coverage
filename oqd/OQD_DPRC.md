@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### OQD_DPRC -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_DPRC`  - End of Day Metrics
+
+
+
+
+## OQD_DPRC
+
+Database includes the following tick types:
+
+* DPRC - Daily Prices
+
+

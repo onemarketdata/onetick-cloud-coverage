@@ -88,3 +88,24 @@ The following fields have Enumerations:
 #### TRADE_TYPE - Enumeration
 
 | Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| ‘””’             | Regular trade                 |
+| 7                | NAV cross                     |
+| C                | Contingent cross              |
+| G                | VWAP cross                    |
+| I                | Derivative-related cross      |
+| J                | Regular (intentional) cross   |
+| O                | Basis cross                   |
+| S                | Special Trading Session cross |
+| X                | Internal cross                |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

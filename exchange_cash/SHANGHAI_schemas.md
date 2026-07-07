@@ -349,3 +349,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | VOLUME_POST_MARKET     | long        | Volume of the Post-Market Trading Session                                                                                                                                                                                              |
 | VOLUME_PRE_MARKET      | long        | Volume of the Pre-Market Trading Session                                                                                                                                                                                               |
 | VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### SHANGHAI_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### SHANGHAI_DAILY - STAT Table Schema
+
+| Field              | Data Type   | Description                                                                                                                                                                                                                            |
+|--------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY           | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL        | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| ISIN               | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| LOT_SIZE           | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| MIC                | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| NAME               | string[120] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ             | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC      | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| SEC_TYPE           | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| TICK_SIZE          | string[60]  | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE     | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |
+| TRADABLE_ON_MARGIN | string[1]   | Indicates whether the instrument can be traded on margin (Y - Yes, N - No)                                                                                                                                                             |

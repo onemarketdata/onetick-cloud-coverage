@@ -155,3 +155,24 @@ The following fields have Enumerations:
 | A                | Other auction [e.g. after-hours odd lot auction] |
 | C                | Closing auction                                  |
 | I                | Intraday auction                                 |
+| O                | Opening auction                                  |
+| T                | Trading at closing price                         |
+| U                | Unscheduled auction                              |
+| p                | Auction initiated by market participant          |
+| -                | Regular trading                                  |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                                |
+|------------------|--------------------------------------------------------|
+|                0 | Lit execution [until 20180629]                         |
+|                1 | Dark execution - Integrated book [until 20180629]      |
+|               12 | Periodic auction trade                                 |
+|               13 | Dark Midpoint trade (Turquoise NYLON) [until 20240429] |
+|                2 | Dark execution - Dark Midpoint book [until 20180629]   |
+|               24 | Trade at Last                                          |
+|                3 | Off-exchange trade [until 20180629]                    |
+|                5 | Regular trade                                          |
+|               60 | Dark Midpoint trade (Turquoise Dark Continuous)        |
+|               62 | Dark Midpoint trade (Turquoise Dark Uncross)           |
+

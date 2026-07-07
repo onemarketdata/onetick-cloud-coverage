@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### TOPIX_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |             13 | 100.0%       |
+| Total           |             13 | 100%         |
+
+
+Consists of 1 Databases
+
+* `TOPIX_IDX`  - Tick Data
+
+
+
+
+## TOPIX_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

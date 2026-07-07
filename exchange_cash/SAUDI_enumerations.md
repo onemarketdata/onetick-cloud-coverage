@@ -19,3 +19,24 @@ The following fields have Enumerations:
 
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                |
+|------------------|----------------------------------------|
+|               10 | Negotiated cross trade                 |
+|               15 | Automatch trade [until 20150910]       |
+|               19 | Small automatch trade [until 20150910] |
+|               26 | Put-through trade [until 20150910]     |
+|                3 | Automatch trade                        |
+|                4 | Small automatch trade                  |
+|                5 | Put-through trade                      |
+|                6 | Put-through cross trade                |
+|                7 | Small put-through trade                |
+|                8 | Small put-through cross trade          |
+|                9 | Negotiated trade                       |
+

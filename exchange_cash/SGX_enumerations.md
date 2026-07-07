@@ -51,3 +51,24 @@ The following fields have Enumerations:
 | SUSP                   | Suspended                                     |
 | TRADE_AT_CLOSE         | Trading at closing price                      |
 
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| I                | Intraday auction          |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description           |
+|------------------|-----------------------------------|
+| 0                | Regular trade                     |
+| 2                | Unintentional cross               |
+| 512              | Regular trade (all or none)       |
+| 514              | Unintentional cross (all or none) |
+| RT               | Reported trade                    |
+

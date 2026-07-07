@@ -64,3 +64,24 @@ Database includes the following tick types:
 
 
 
+
+## EU_COMP_SAMPLE_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## EU_COMP_SAMPLE_DAILY
+
+Database includes the following tick types:
+
+* TRD_1D - Daily trade bars
+
+

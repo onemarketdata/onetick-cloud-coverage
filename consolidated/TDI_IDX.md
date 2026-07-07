@@ -24,3 +24,24 @@ Details are provided below
 Includes the following coverage:
 
 #### TDI_IDX -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |             48 | 100.0%       |
+| Total           |             48 | 100%         |
+
+
+Consists of 1 Databases
+
+* `TDI_IDX`  - Tick Data
+
+
+
+
+## TDI_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+
+

@@ -26,3 +26,24 @@ Includes the following coverage:
 #### PRAGUE_IDX -  Coverage
 
 | Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |              5 | 100.0%       |
+| Total           |              5 | 100%         |
+
+
+Consists of 1 Databases
+
+* `PRAGUE_IDX`  - Tick Data
+
+
+
+
+## PRAGUE_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

@@ -23,3 +23,24 @@ The following fields have Enumerations:
 | C                | Call option               |
 | P                | Put option                |
 
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| A                | Auction                   |
+| O                | Opening auction           |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                          |
+|------------------|--------------------------------------------------|
+|                0 | Regular trade                                    |
+|               12 | Re-opening trade                                 |
+|               14 | Spread trade                                     |
+|               17 | Trade cancellation                               |
+|               22 | Block trade                                      |
+|               23 | Exchange of contract for related position (ECRP) |
+|                4 | Late reported (in correct sequence)              |
+|                5 | Opening trade                                    |
+

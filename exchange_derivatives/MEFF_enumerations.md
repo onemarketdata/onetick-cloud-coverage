@@ -167,3 +167,24 @@ The following fields have Enumerations:
 #### MMT_TRD_MODE - Enumeration
 
 | Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| 1                | Auction                       |
+| 2                | Continuous trading            |
+| 5                | Trade reporting (on-exchange) |
+| I                | Intraday auction              |
+| K                | Closing auction               |
+| O                | Opening auction               |
+| U                | Unscheduled auction           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                      |
+|------------------|----------------------------------------------|
+| 0                | Regular trade                                |
+| 1                | Cross trade (outside hours) [until 20221117] |
+| 2                | Cross trade                                  |
+| 3                | Delta trade                                  |
+| 4                | Spread trade [until 20241231]                |
+| 5                | Strategy leg trade                           |
+| RFQ              | RFQ trade                                    |
+

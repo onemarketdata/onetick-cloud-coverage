@@ -244,3 +244,24 @@ Database includes the following tick types:
 
 ### TOKYO_DAILY - STAT
 
+Static data, e.g. ISIN, description, security type
+
+#### TOKYO_DAILY - STAT Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BBG_TICKER     | string[30]  | Bloomberg ticker symbol                                                                                                                                                                                                                |
+| CURRENCY       | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL    | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| FIGI           | string[12]  | Financial Instrument Global Identifier, identifying an individual instrument traded on a specific venue                                                                                                                                |
+| ISIN           | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| LOT_SIZE       | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| MIC            | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| NAME           | string[120] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC  | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| RTS_SYMBOL     | string[32]  | Ticker symbol used by ICE Data Services                                                                                                                                                                                                |
+| SEC_TYPE       | string[25]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| SEDOL          | string[7]   | SEDOL code                                                                                                                                                                                                                             |
+| TICK_SIZE      | string[150] | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |

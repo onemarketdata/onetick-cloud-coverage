@@ -44,3 +44,24 @@ Includes the following coverage:
 | Total              |          12971 | 100%         |
 
 
+Consists of 1 Databases
+
+* `NASDAQ`  - Tick Data
+
+
+
+
+## NASDAQ
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* MM_STATUS - Information on the market makers registered in each security
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* QTE - Best bid / offer quotes
+* TRD - Trades
+
+

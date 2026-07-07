@@ -127,3 +127,24 @@ The following fields have Enumerations:
 | 1343             | Block trade - Exchange Granted                   |
 | 1344             | Block trade - Off-hours                          |
 | 154              | OTC trade                                        |
+| 155              | Systematic Internaliser (SI) trade               |
+| 18               | Basis trade at close                             |
+| 19               | Cross trade                                      |
+| 2                | Exchange for Physical                            |
+| 326              | OTC trade with non-standard settlement           |
+| 339              | SI trade with non-standard settlement            |
+| 46               | Off-book trade - Cash related [until 20250926]   |
+| 52               | Off-book trade - Exchange Granted                |
+| 761              | Block trade with deferred publication            |
+| 88               | Auction trade                                    |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

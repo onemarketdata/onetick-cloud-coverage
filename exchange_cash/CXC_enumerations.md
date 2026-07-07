@@ -88,3 +88,24 @@ The following fields have Enumerations:
 
 | Enumeration ID   | Enumeration Description                    |
 |------------------|--------------------------------------------|
+| ‘””’             | Regular trade                              |
+| B                | Basis cross                                |
+| C                | Contingent cross                           |
+| D                | Derivative-related cross                   |
+| H                | Hidden order execution                     |
+| I                | Internal cross                             |
+| N                | NAV cross                                  |
+| L                | M-ELO (Midpoint Extended Life Order) trade |
+| V                | VWAP cross                                 |
+| X                | Intentional cross                          |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

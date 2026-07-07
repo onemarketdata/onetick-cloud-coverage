@@ -1,0 +1,12 @@
+# Cboe CXE (Chi-X Europe) Trading Hours
+
+Cboe CXE, formerly Chi-X Europe, is a pan-European equities exchange and multilateral trading facility operated by Cboe Global Markets.
+
+Trading Hours are divided into multiple sessions
+
+#### Cboe CXE (Chi-X Europe) - Trading Hours
+
+| Session Name   | Time Zone     | Start Time   | End Time   |
+|----------------|---------------|--------------|------------|
+| MARKET         | Europe/London | 08:00        | 16:30      |
+

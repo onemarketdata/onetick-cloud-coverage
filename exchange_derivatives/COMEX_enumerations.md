@@ -89,3 +89,24 @@ The following fields have Enumerations:
 | A                | Auction                   |
 
 #### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                                                                                      |
+|------------------|------------------------------------------------------------------------------------------------------------------------------|
+| -                | Regular trade                                                                                                                |
+| BLK              | Block trade [Note: price may be null for block trades in spreads - this is because CME does not always publish a price]      |
+| BLKL             | Leg of a strategy block trade                                                                                                |
+| IMP              | Implied trade [Trade where either the buy or the sell side was an implied price]                                             |
+| LEG              | Strategy leg trade [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null] |
+| RFC              | Request for Cross (RFC) trade                                                                                                |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+| R                | Refresh                   |
+

@@ -21,3 +21,24 @@ Details are provided below
 Includes the following coverage:
 
 #### OQD_SEC -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_SEC`  - Reference
+
+
+
+
+## OQD_SEC
+
+Database includes the following tick types:
+
+* DES - Static data, e.g. ISIN, description, security type
+* SHO - Shares Outstanding
+
+

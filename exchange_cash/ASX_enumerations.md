@@ -82,3 +82,24 @@ The following fields have Enumerations:
 | 0                | Regular trade                                                                                    |
 | 1                | Trade report - Different participants [until 20250630]                                           |
 | 10               | Internal trade + buy-write                                                                       |
+| 11               | Tailor-Made Derivatives / Cash Combo to Combo accidental crossing [until 20250630]               |
+| 12               | Bulletin Board Derivatives / Cash Combo to Combo [until 20250630]                                |
+| 14               | Bulletin Board Derivatives / Cash Combo to Combo accidental crossing [until 20250630]            |
+| 2                | Internal trade                                                                                   |
+| 20               | Volume match book trade, different broker for buy and sell [until 20250630]                      |
+| 21               | Volume match book trade, same broker for buy and sell [until 20250630]                           |
+| 24               | Centre Point Priority Crossing [until 20250630]                                                  |
+| 25               | Centre Point Trade                                                                               |
+| 26               | Centre Point Unintentional Crossing                                                              |
+| 27               | NBBO Cross                                                                                       |
+| 28               | Any Price Block Trade - same participant [until 20250630]                                        |
+| 29               | Any Price Block Trade - different participants [until 20250630]                                  |
+| 3                | Trade report - Single participant [until 20250630]                                               |
+| 30               | Preferenced Any Price Block Crossing - same participant [until 20250630]                         |
+| 4                | Bulletin Board trade [until 20250630]                                                            |
+| 5                | Centre point preference matched trade [until 20250630]                                           |
+| 6                | Bulletin Board Derivatives Only or Cash Only Combo to Combo accidental crossing [until 20250630] |
+| 8                | Buy-write                                                                                        |
+| 9                | Trade report - Buy-write                                                                         |
+| TR               | Trade report                                                                                     |
+

@@ -26,3 +26,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| T                | Trading at closing price  |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                                                     |
+|------------------|-----------------------------------------------------------------------------|
+|                0 | Regular trade                                                               |
+|                1 | Cross trade                                                                 |
+|               13 | Intermediate trade in a series of trades at the same price [until 20150619] |
+|               14 | Final trade in a series of trades at the same price [until 20150619]        |
+|               15 | Regular trade [until 20100827]                                              |
+|               16 | Cross trade [until 20150619]                                                |
+|               17 | Odd lot trade [until 20100827]                                              |
+|                2 | Block trade                                                                 |
+|                3 | Manual trade                                                                |
+

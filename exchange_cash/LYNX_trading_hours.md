@@ -1,0 +1,14 @@
+# Lynx ATS Trading Hours
+
+Lynx is an alternative trading system (ATS) or dark pool operated by Cboe Global Markets in Canada.
+
+Trading Hours are divided into multiple sessions
+
+#### Lynx ATS - Trading Hours
+
+| Session Name   | Time Zone       | Start Time   | End Time   |
+|----------------|-----------------|--------------|------------|
+| PRE_MARKET     | America/Toronto | 07:00        | 09:30      |
+| MARKET         | America/Toronto | 09:30        | 16:00      |
+| POST_MARKET    | America/Toronto | 16:00        | 17:00      |
+

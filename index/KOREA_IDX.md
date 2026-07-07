@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### KOREA_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            131 | 100.0%       |
+| Total           |            131 | 100%         |
+
+
+Consists of 1 Databases
+
+* `KOREA_IDX`  - Tick Data
+
+
+
+
+## KOREA_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

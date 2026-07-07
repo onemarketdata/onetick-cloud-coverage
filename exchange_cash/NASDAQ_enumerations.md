@@ -157,3 +157,24 @@ The following fields have Enumerations:
 | J                | Delinquent + bankrupt                  |
 | K                | Deficient + delinquent + bankrupt      |
 | N                | Normal                                 |
+| Q                | Bankrupt                               |
+| S                | Suspended                              |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                                                                         |
+|------------------|-----------------------------------------------------------------------------------------------------------------|
+| A                | Add                                                                                                             |
+| D                | Delete                                                                                                          |
+| F                | Fill                                                                                                            |
+| M                | Modify                                                                                                          |
+| N                | Fill (non-printable - does not appear in trade tickers as the execution is part of an aggregated auction print) |
+| O                | Partial fill (non-printable)                                                                                    |
+| P                | Partial fill                                                                                                    |
+
+#### ORDER_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| L                | Limit order               |
+

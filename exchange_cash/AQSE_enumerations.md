@@ -150,3 +150,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Not applicable            |
+
+#### MMT_TRD_MODE - Enumeration
+
+|   Enumeration ID | Enumeration Description       |
+|------------------|-------------------------------|
+|                5 | Trade reporting (on-exchange) |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                8 | Trade report              |
+
+#### TRADING_STATUS - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                1 | Active                    |
+|                2 | Halted                    |
+|                3 | Suspended                 |
+

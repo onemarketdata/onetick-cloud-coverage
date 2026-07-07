@@ -51,3 +51,24 @@ The following fields have Enumerations:
 
 #### TRADE_SESSION - Enumeration
 
+|   Enumeration ID | Enumeration Description      |
+|------------------|------------------------------|
+|                0 | Off-market trading (ToSTNet) |
+|                1 | Morning session              |
+|                2 | Afternoon session            |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description                           |
+|------------------|---------------------------------------------------|
+|                0 | Regular trade                                     |
+|               10 | ToSTNeT single-issue transaction                  |
+|               11 | ToSTNeT basket transaction                        |
+|               12 | ToSTNeT previous day closing price transaction    |
+|               13 | ToSTNeT previous day VWAP transaction             |
+|               14 | ToSTNeT morning session closing price transaction |
+|               15 | ToSTNeT morning session VWAP transaction          |
+|               16 | ToSTNeT closing price transaction                 |
+|               17 | ToSTNeT afternoon session VWAP transaction        |
+|               18 | ToSTNeT daily VWAP transaction                    |
+

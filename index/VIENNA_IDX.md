@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### VIENNA_IDX -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            146 | 100.0%       |
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `VIENNA_IDX`  - Tick Data
+
+
+
+
+## VIENNA_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+

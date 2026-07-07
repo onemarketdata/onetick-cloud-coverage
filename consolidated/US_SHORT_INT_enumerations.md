@@ -1,2 +1,23 @@
 # FINRA - US Equities Short Interest / Short Volume Enumerations
 
+FINRA US Equity short interest summary every two weeks, plus trade reports, and daily short volume through Trade Reporting Facilities.  FINRA Daily Short Sale Volume is stored in the DAY table.  This is populated daily.  Monthly Short Sale Volume is stored in the TRD and SHORT_INT tables, and is populated monthly, approximately 8 days after the month is complete.  The TRD table reports data per day, while the SHORT_INT table reports data twice per month.
+
+The following fields have Enumerations:
+
+* SHORT_TYPE - Type of short sale
+
+#### TRF - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| B                | Nasdaq TRF Chicago        |
+| N                | NYSE TRF                  |
+| Q                | Nasdaq TRF Carteret       |
+
+#### SHORT_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| E                | Short exempt              |
+| S                | Short                     |
+

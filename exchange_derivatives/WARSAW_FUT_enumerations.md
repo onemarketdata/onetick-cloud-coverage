@@ -192,3 +192,24 @@ The following fields have Enumerations:
 | M                | Manual halt                         |
 | R                | No liquidity provider quote         |
 | S                | Trade price outside static collars  |
+| W                | Knocked out                         |
+| X                | Underlying halted                   |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| 0                | Regular trade             |
+| 1                | Cross trade               |
+| 5                | Internalised trade        |
+| 6                | Internalised cross trade  |
+| O                | Block trade               |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

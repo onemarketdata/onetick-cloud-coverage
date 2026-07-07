@@ -14,3 +14,24 @@ The following fields have Enumerations:
 |   Enumeration ID | Enumeration Description   |
 |------------------|---------------------------|
 |                0 | Lit order book            |
+
+#### QUOTE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| Day              | Day session               |
+| Night            | Night session             |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| Day              | Day session               |
+| Night            | Night session             |
+

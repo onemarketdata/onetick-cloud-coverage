@@ -43,3 +43,24 @@ The following fields have Enumerations:
 |                3 | Trading                   |
 |                4 | Halt                      |
 |                5 | Operational halt          |
+|                6 | Closed                    |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Auction                   |
+| -                | Regular trading           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description      |
+|------------------|------------------------------|
+| 0                | Regular trade                |
+| A                | Adjusted / late manual trade |
+| C                | Implied trade (strategy)     |
+| L                | Implied trade (outright)     |
+| M                | Strategy leg trade           |
+| O                | Regular trade (outright)     |
+| S                | Regular trade (strategy)     |
+

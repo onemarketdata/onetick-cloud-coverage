@@ -24,3 +24,24 @@ Details are provided below
 Includes the following coverage:
 
 #### US_OPTIONS_EOD -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |        1961014 | 100%         |
+
+
+Consists of 1 Databases
+
+* `US_OPTIONS_EOD`  - End of Day Metrics
+
+
+
+
+## US_OPTIONS_EOD
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

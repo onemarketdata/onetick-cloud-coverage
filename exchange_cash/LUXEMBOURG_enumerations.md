@@ -190,3 +190,24 @@ The following fields have Enumerations:
 | 12               | Knock-out by the exchange                        |
 | 13               | Knock-out by the issuer                          |
 | 15               | Action by Market Operations                      |
+| 20               | New listing                                      |
+| 21               | Status change in the underlying security         |
+| 22               | Trade price outside the Liquidity Provider quote |
+| 23               | Technical halt                                   |
+| 4                | Collars breached                                 |
+| 7                | Automatic re-opening                             |
+| 8                | No liquidity provider quote                      |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Unspecified               |
+| 1                | Standard trade            |
+| 24               | Trade cancellation        |
+| 25               | Off-market trade          |
+| 27               | VWAP trade                |
+| 32               | OTC trade                 |
+| 33               | Dark trade                |
+| 5                | Guaranteed Cross          |
+

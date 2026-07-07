@@ -161,3 +161,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | TRADE_COUNT | long        | Number of trades on the current trading day                                                                                                                                                                                            |
 | TURNOVER    | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
 | VOLUME      | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VWAP        | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### BLUE_OCEAN_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### BLUE_OCEAN_DAILY - STAT Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY       | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL    | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| LOT_SIZE       | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| MIC            | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| NAME           | string[200] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC  | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| SEC_TYPE       | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| TICK_SIZE      | string[80]  | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |
+| TRADING_CODE   | string[20]  | ID used to identify the instrument in the trading system                                                                                                                                                                               |

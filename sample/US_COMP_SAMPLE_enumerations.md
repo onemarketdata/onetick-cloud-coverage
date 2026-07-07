@@ -404,3 +404,24 @@ The following fields have Enumerations:
 | 3                | Resume                               |
 | 4                | No open / no resume [until 20200710] |
 | H                | Trading halt                         |
+| P                | Volatility (LULD) trading pause      |
+| Q                | Quotation resumption                 |
+| T                | Trading resumption                   |
+| Z                | Normal                               |
+
+#### TTE - Enumeration
+
+|   Enumeration ID | Enumeration Description    |
+|------------------|----------------------------|
+|                0 | No Trade-Through Exemption |
+|                1 | Trade-Through Exempt       |
+
+#### TRF - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| B                | Nasdaq TRF Chicago        |
+| N                | NYSE TRF                  |
+| Q                | Nasdaq TRF Carteret (UTP) |
+| T                | Nasdaq TRF Carteret (CTA) |
+

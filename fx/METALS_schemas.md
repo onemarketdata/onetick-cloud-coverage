@@ -55,3 +55,24 @@ Best bid / offer quotes
 | OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 
+
+## METALS_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+
+
+### METALS_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### METALS_DAILY - DAY Table Schema
+
+| Field       | Data Type   | Description                                                                                                                                                                                                                            |
+|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ASK_CLOSE   | double      | Closing ask price                                                                                                                                                                                                                      |
+| BID_CLOSE   | double      | Closing bid price                                                                                                                                                                                                                      |
+| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| UPDATE_TYPE | string[20]  | Type of update                                                                                                                                                                                                                         |

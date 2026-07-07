@@ -82,3 +82,24 @@ The following fields have Enumerations:
 | K                | Closing auction               |
 | O                | Opening auction               |
 | U                | Unscheduled auction           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| 0                | Regular trade                           |
+| 1                | Implied trade [until 20240322]          |
+| 3                | Late trade [until 20240322]             |
+| 4                | Strategy leg trade                      |
+| 5                | Exchange Granted trade [until 20240322] |
+| 6                | Block trade [until 20240322]            |
+| 7                | Committed block trade [until 20240322]  |
+| 8                | Committed trade [until 20240322]        |
+| 9                | Cross trade [until 20240322]            |
+| AA               | Against actual                          |
+| DN               | Delta Neutral trade                     |
+| EFS              | Exchange for Swap                       |
+| GC               | Guaranteed cross                        |
+| LIS              | Large in Scale (LIS) trade              |
+| LISP             | Large in Scale Package Trade            |
+

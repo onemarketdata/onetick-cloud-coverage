@@ -54,3 +54,24 @@ The following fields have Enumerations:
 
 |   Enumeration ID | Enumeration Description                      |
 |------------------|----------------------------------------------|
+|               10 | Guaranteed Cross                             |
+|               11 | Against Actual                               |
+|               12 | Asset Allocation                             |
+|               14 | Exchange for Swap                            |
+|               29 | Strategy leg trade                           |
+|               30 | LIS leg trade                                |
+|               31 | Basis leg trade                              |
+|               33 | Guaranteed Cross leg trade                   |
+|               34 | Against Actual leg trade                     |
+|               35 | Asset Allocation leg trade                   |
+|               37 | EFS leg trade                                |
+|               38 | EFP leg trade                                |
+|               39 | AtomX trade                                  |
+|               43 | Request for Cross (RFC) trade                |
+|               44 | RFC leg trade                                |
+|               49 | Delta Neutral trade - underlying futures leg |
+|                6 | Standard trade                               |
+|                7 | Large in Scale (LIS) trade                   |
+|                8 | Basis trade                                  |
+|                9 | Large in Scale Package Trade                 |
+

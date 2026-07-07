@@ -31,3 +31,24 @@ Includes the following coverage:
 | Future          |            413 | 24.27%       |
 | Total           |           1702 | 100%         |
 
+
+Consists of 1 Databases
+
+* ```
+  `BINANCE`_
+  ```
+
+    - Tick Data
+
+
+
+
+## BINANCE
+
+Database includes the following tick types:
+
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

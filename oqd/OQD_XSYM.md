@@ -20,3 +20,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### OQD_XSYM -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_XSYM`  - Reference
+
+
+
+
+## OQD_XSYM
+
+Database includes the following tick types:
+
+* XREF - Symbology Mapping
+
+

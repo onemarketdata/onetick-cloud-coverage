@@ -190,3 +190,24 @@ The following fields have Enumerations:
 | ‘””’             | Regular trade                                                                                                                     |
 | AUC              | Auction trade                                                                                                                     |
 | BAS              | Basis trade                                                                                                                       |
+| BLK              | Block trade                                                                                                                       |
+| BLKL             | Block leg trade                                                                                                                   |
+| BTAM             | Block trade at market                                                                                                             |
+| CAN              | Trade cancellation                                                                                                                |
+| DTAM             | Delta trade at market                                                                                                             |
+| EFP              | Exchange for physical                                                                                                             |
+| EFPF             | Financial EFP                                                                                                                     |
+| EFPI             | Index futures EFP                                                                                                                 |
+| EFS              | Exchange for swap                                                                                                                 |
+| ENL              | EnLight trade                                                                                                                     |
+| ENLL             | EnLight leg trade                                                                                                                 |
+| IMP              | Implied trade                                                                                                                     |
+| LEG              | Strategy leg trade                                                                                                                |
+| LIC              | Liquidity improvement cross [Eurex Improve / CLIP trade]                                                                          |
+| ND               | Non-disclosed trade                                                                                                               |
+| OOS              | Out of sequence [Trade entered manually by Market Supervision]                                                                    |
+| PCMP             | Portfolio compression trade [until 20230728]                                                                                      |
+| QTP              | QTPIP block trade [Qualified 3rd Party Information Provider]                                                                      |
+| VOLA             | Volatility trade                                                                                                                  |
+| XAUC             | Cross auction trade [trade in an outright instrument executed via implied markets as part of the uncrossing process for a spread] |
+

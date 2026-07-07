@@ -370,3 +370,24 @@ The following fields have Enumerations:
 | 27               | VWAP trade                                                |
 | 28               | Euronext Fund Service trade                               |
 | 29               | Secondary listing place trade                             |
+| 33               | Dark trade                                                |
+| 39               | Guaranteed Cross (negotiated trade in liquid security)    |
+| 4                | Large in Scale (LiS) package trade                        |
+| 40               | Guaranteed Cross (negotiated trade in illiquid security)  |
+| 41               | Large in Scale trade                                      |
+| 46               | Non-standard settlement                                   |
+| 47               | Repo                                                      |
+| 48               | Exchange Granted trade                                    |
+| 49               | Other                                                     |
+| 5                | Guaranteed Cross                                          |
+| 50               | Odd lot trade                                             |
+| VAL              | Valuation trade [until 20180625]                          |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| M                | Modify                    |
+

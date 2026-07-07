@@ -220,3 +220,24 @@ The following fields have Enumerations:
 | U                | Unscheduled auction                       |
 
 #### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Auction                                 |
+| C                | Closing Auction                         |
+| I                | Intraday Auction                        |
+| O                | Opening Auction                         |
+| T                | Trading at last price                   |
+| U                | Unscheduled Auction                     |
+| e                | Extended Hours                          |
+| p                | Auction initiated by market participant |
+| -                | Regular trading                         |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                                           |
+|------------------|-----------------------------------------------------------------------------------|
+| MTF              | MTF trade                                                                         |
+| OB               | Off-book trade                                                                    |
+| TCV              | Trade executed on ESMA non-recognised Third Country venue and published in the EU |
+

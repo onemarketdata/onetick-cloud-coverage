@@ -74,3 +74,24 @@ Database includes the following tick types:
 
 
 
+
+
+## COMEX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## COMEX_LATEST
+
+Database includes the following tick types:
+
+* TRD - Trades
+* QTE - Best bid / offer quotes
+
+

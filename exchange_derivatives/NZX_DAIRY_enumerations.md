@@ -63,3 +63,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description          |
 |------------------|----------------------------------|
 | T                | T session (current business day) |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description           |
+|------------------|-----------------------------------|
+|                0 | Closed                            |
+|                1 | Order cancellation                |
+|                2 | Halt                              |
+|                3 | No cancellation                   |
+|                4 | Open                              |
+|                5 | Open (Mass Quote enabled)         |
+|                6 | Pre-open                          |
+|                7 | Break                             |
+|                8 | Break                             |
+|                9 | Transition (Change clearing date) |
+|               12 | Surveillance intervention         |
+|               13 | Series generation                 |
+|               14 | Day order expiry                  |
+|               15 | Close signal                      |
+|               78 | Start of day                      |
+

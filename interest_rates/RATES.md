@@ -25,3 +25,24 @@ Includes the following coverage:
 
 #### RATES -  Coverage
 
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| RATE            |             36 | 100.0%       |
+| Total           |             36 | 100%         |
+
+
+Consists of 1 Databases
+
+* `RATES`  - Tick Data
+
+
+
+
+## RATES
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

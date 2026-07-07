@@ -1,0 +1,13 @@
+# Egyptian Exchange Trading Hours
+
+The Egyptian Exchange facilitates trading in equities, bonds, securitized mortgage and asset-backed securities of Egyptian companies.
+
+Trading Hours are divided into multiple sessions
+
+#### Egyptian Exchange - Trading Hours
+
+| Session Name   | Time Zone    | Start Time   | End Time   |
+|----------------|--------------|--------------|------------|
+| PRE_MARKET     | Africa/Cairo | 09:30        | 10:00      |
+| MARKET         | Africa/Cairo | 10:00        | 13:30      |
+

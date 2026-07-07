@@ -1,0 +1,19 @@
+# COMEX Futures Market Holidays
+
+COMEX is a division of the CME Group, offering trading in metal futures and options.
+
+The last 10 Market Holidays are listed
+
+#### COMEX Futures - Recent Market Holidays
+
+| Activity Name         | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
+|-----------------------|------------------|--------------|------------|--------------|------------|
+| Limited Trading Hours | America/New_York | 2026-07-03   | 2026-07-03 | 00:00        | 24:00      |
+| Limited Trading Hours | America/New_York | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
+| Limited Trading Hours | America/New_York | 2026-05-25   | 2026-05-25 | 13:30        | 14:30      |
+| Full Holiday          | America/New_York | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
+| Limited Trading Hours | America/New_York | 2026-02-16   | 2026-02-16 | 13:30        | 14:30      |
+| Limited Trading Hours | America/New_York | 2026-01-19   | 2026-01-19 | 13:30        | 14:30      |
+| Full Holiday          | America/New_York | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
+| Full Holiday          | America/New_York | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
+

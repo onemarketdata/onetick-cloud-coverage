@@ -1,0 +1,14 @@
+# Hong Kong Stock Exchange Trading Hours
+
+The Hong Kong Stock Exchange (HKEX) offers trading in equities, bonds, ETFs, and derivatives issued by Hong Kong and international companies.
+
+Trading Hours are divided into multiple sessions
+
+#### Hong Kong Stock Exchange - Trading Hours
+
+| Session Name   | Time Zone      | Start Time   | End Time   |
+|----------------|----------------|--------------|------------|
+| PRE_MARKET     | Asia/Hong_Kong | 09:00        | 09:30      |
+| MARKET         | Asia/Hong_Kong | 09:30        | 16:11      |
+| X_LUNCH_BREAK  | Asia/Hong_Kong | 12:00        | 13:00      |
+

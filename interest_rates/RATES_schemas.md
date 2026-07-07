@@ -16,3 +16,24 @@ Database includes the following tick types:
 
 ### RATES - DAY
 
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### RATES - DAY Table Schema
+
+| Field   | Data Type   | Description                                                                                                                                                                                                                            |
+|---------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE   | double      | Closing price                                                                                                                                                                                                                          |
+| OMDSEQ  | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+
+### RATES - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### RATES - STAT Table Schema
+
+| Field    | Data Type   | Description                                                                                                                                                                                                                            |
+|----------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| NAME     | string[64]  | Description of the instrument                                                                                                                                                                                                          |
+| OID      | string[14]  | OneMarketData ID                                                                                                                                                                                                                       |
+| OMDSEQ   | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SEC_TYPE | string[30]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |

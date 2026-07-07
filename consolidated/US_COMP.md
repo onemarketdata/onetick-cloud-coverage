@@ -96,3 +96,24 @@ Database includes the following tick types:
 
 
 
+
+
+## US_COMP_LATEST
+
+Database includes the following tick types:
+
+* TRD - Trades
+* QTE - Best bid / offer quotes
+
+
+
+
+
+## US_COMP_MKT_SHARE
+
+Database includes the following tick types:
+
+* QTE_NBBO_DAY - Daily Quote Metrics by Venue related to the NBBO
+* TRD_NBBO_DAY - Daily Trade Metrics by Venue related to the NBBO
+
+

@@ -183,3 +183,24 @@ The following fields have Enumerations:
 | A                | Auction                   |
 | C                | Closing Auction           |
 | I                | Intraday Auction          |
+| O                | Opening Auction           |
+| T                | Trading at last price     |
+| U                | Unscheduled Auction       |
+| -                | Regular trading           |
+| ‘””’             | Not applicable            |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                  |
+|------------------|------------------------------------------|
+| a                | Continuous trading                       |
+| b                | Opening auction                          |
+| c                | Intraday auction                         |
+| d                | Closing auction                          |
+| f                | Volatility auction                       |
+| g                | Trade at close                           |
+| h                | Price without turnover [valuation trade] |
+| t                | Block trade                              |
+| v                | Continuous auction                       |
+| w                | Reference price                          |
+

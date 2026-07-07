@@ -260,3 +260,24 @@ The following fields have Enumerations:
 | 1025             | Special trade (VWAP)                                 |
 | 1026             | Forced buying                                        |
 | 1027             | Forced selling                                       |
+| 1028             | NAV special trade T+1                                |
+| 1029             | NAV special trade T+2                                |
+| 1030             | NAV special trade T+3                                |
+| 1031             | Transaction without CCP                              |
+| 1032             | Application without CCP                              |
+| 1033             | Investment fund T+1                                  |
+| 1034             | Investment fund T+2                                  |
+| 1035             | Investment fund T+3                                  |
+| 1036             | VWAP trade                                           |
+| 34               | Block trade                                          |
+| D                | Trade cancellation [until 20161230]                  |
+| I                | Regular trade [until 20161230]                       |
+| T1               | Trade from continuous trading                        |
+| T2               | Opening auction trade                                |
+| T3               | Closing auction trade                                |
+| T4               | Volatility auction trade                             |
+| T5               | Trade from manual auction                            |
+| T6               | Trade from extended opening auction                  |
+| T7               | Trade from extended closing auction                  |
+| T8               | Trade from closing price trading                     |
+

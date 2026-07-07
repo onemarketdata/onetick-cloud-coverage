@@ -30,3 +30,24 @@ Includes the following coverage:
 | Future          |             75 | 1.97%        |
 | Futures Spread  |            407 | 10.69%       |
 | Option          |           3327 | 87.35%       |
+| Total           |           3809 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NZX_DAIRY`  - Tick Data
+
+
+
+
+## NZX_DAIRY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

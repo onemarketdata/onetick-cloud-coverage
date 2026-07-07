@@ -69,3 +69,24 @@ The following fields have Enumerations:
 | C                | Closing auction           |
 | I                | Intraday auction          |
 | O                | Opening auction           |
+| T                | Trading at closing price  |
+| U                | Unscheduled auction       |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description          |
+|------------------|----------------------------------|
+| BLK              | Block trade                      |
+| C                | Intentional cross                |
+| E                | Exceptional Cross (at VWAP/TWAP) |
+| I                | IPO cross                        |
+| R                | Regular trade                    |
+| U                | Unintentional cross              |
+
+#### TRADING_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Active                    |
+| V                | Suspended                 |
+

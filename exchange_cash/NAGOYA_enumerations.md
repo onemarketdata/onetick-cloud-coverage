@@ -41,3 +41,24 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_SESSION - Enumeration
+
+|   Enumeration ID | Enumeration Description      |
+|------------------|------------------------------|
+|                0 | Off-market trading (ToSTNet) |
+|                1 | Morning session              |
+|                2 | Afternoon session            |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Regular trade             |
+

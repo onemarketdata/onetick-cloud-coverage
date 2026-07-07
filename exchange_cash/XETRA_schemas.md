@@ -426,3 +426,24 @@ Trades
 | LATENCY_LOAD       | long        | Latency in milliseconds for the time duration between data collection and in-memory database load                                                                                                         |
 | LATENCY_COLLECTION | long        | Latency in milliseconds for the time duration between exchange publishing and data collection                                                                                                             |
 | VOLUME             | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                         |
+| HIGH               | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                               |
+| LOW                | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                |
+| TRD_DATE           | string[64]  | Date for Latest Trade.                                                                                                                                                                                    |
+| SYMBOL             | string[64]  | Exchange Symbol                                                                                                                                                                                           |
+| TICK_TIME          | nsectime    | Timestamp for latest Trade or Quote                                                                                                                                                                       |
+
+### XETRA_LATEST - QTE
+
+Best bid / offer quotes
+
+#### XETRA_LATEST - QTE Table Schema
+
+| Field          | Data Type   | Description                                                                                                                      |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------|
+| BID_PRICE      | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders) |
+| BID_SIZE       | long        | Best bid size                                                                                                                    |
+| ASK_PRICE      | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders) |
+| ASK_SIZE       | long        | Best ask size                                                                                                                    |
+| QUOTE_CURRENCY | string[3]   | Currency in which a quote price is expressed.                                                                                    |
+| SYMBOL         | string[64]  | Exchange Symbol                                                                                                                  |
+| TICK_TIME      | nsectime    | Timestamp for latest Trade or Quote                                                                                              |

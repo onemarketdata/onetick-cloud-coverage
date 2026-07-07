@@ -11,3 +11,24 @@ The following fields have Enumerations:
 #### IS_OPEN - Enumeration
 
 |   Enumeration ID | Enumeration Description              |
+|------------------|--------------------------------------|
+|                0 | Closed quote (market maker inactive) |
+|                1 | Open quote                           |
+
+#### IS_UNSOLICITED - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Standard quote            |
+|                1 | Unsolicited quote         |
+
+#### UPDATE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                1 | Quote deletion            |
+|                2 | Quote update              |
+|                3 | New quote                 |
+|                4 | Start of day quote        |
+|                5 | Open/Close quote          |
+

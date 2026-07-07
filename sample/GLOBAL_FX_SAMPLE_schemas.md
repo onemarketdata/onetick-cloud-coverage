@@ -170,3 +170,24 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 
 #### GLOBAL_FX_SAMPLE_DAILY - DAY Table Schema
 
+| Field       | Data Type   | Description                                                                                                                                                                                                                            |
+|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ASK_CLOSE   | double      | Closing ask price                                                                                                                                                                                                                      |
+| BID_CLOSE   | double      | Closing bid price                                                                                                                                                                                                                      |
+| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| UPDATE_TYPE | string[20]  | Type of update                                                                                                                                                                                                                         |
+
+### GLOBAL_FX_SAMPLE_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### GLOBAL_FX_SAMPLE_DAILY - STAT Table Schema
+
+| Field               | Data Type   | Description                                                                                                                                                                                                                            |
+|---------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FORWARD_POINT_VALUE | double      | (For FX forwards) Indicates the value of 1 forward point - e.g. if set to 0.0001, a forward price of 1 represents a premium of 0.0001 relative to the spot rate                                                                        |
+| NAME                | string[150] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ              | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| PROVIDER_SYMBOL     | string[32]  | Symbol used by the data source, where the data source is a third party other than the exchange                                                                                                                                         |
+| QUOTATION_UNIT      | double      | Number of units of the instrument to which the price refers; or for FX, the number of units of the base currency                                                                                                                       |
+| SEC_TYPE            | string[20]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |

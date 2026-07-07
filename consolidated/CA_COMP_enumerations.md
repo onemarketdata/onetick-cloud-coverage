@@ -287,3 +287,24 @@ The following fields have Enumerations:
 |------------------|----------------------------------------------------------------------------|-----------------------------------------|
 |                  | ‘Values are exchange-specific - e.g. if the CLOUD_DB field is set to “TSX” | refer to the TRADE_TYPE values for TSX’ |
 
+#### TRADE_VENUE - Enumeration
+
+| Enumeration ID   | Enumeration Description             |
+|------------------|-------------------------------------|
+| CHIC             | Chi-X Canada                        |
+| CSE2             | Canadian Securities Exchange        |
+| LICA             | Liquidnet Canada                    |
+| LYNX             | Lynx                                |
+| MATN             | CBOE Canada - MatchNow              |
+| NEOD             | CBOE Canada - Neo Dark              |
+| NEOE             | CBOE Canada - Neo  L                |
+| NEON             | CBOE Canada - Neo  LN               |
+| OMGA             | Omega                               |
+| PURE             | Canadian Securities Exchange - Pure |
+| XATS             | Alpha Exchange                      |
+| XATX             | Alpha-X                             |
+| XCX2             | CX2                                 |
+| XCXD             | Nasdaq CXD                          |
+| XICX             | Instinet Canada Cross               |
+| XTSE             | Toronto Stock Exchange              |
+

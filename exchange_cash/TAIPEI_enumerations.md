@@ -46,3 +46,24 @@ The following fields have Enumerations:
 |               12 | Opening auction call with delayed uncrossing              |
 |                2 | Start of day                                              |
 |                8 | Auction call                                              |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description                          |
+|------------------|--------------------------------------------------|
+| -                | Regular trading                                  |
+| A                | Other auction [e.g. after-hours odd lot auction] |
+| C                | Closing auction                                  |
+| I                | Intraday auction                                 |
+| O                | Opening auction                                  |
+| T                | Trading at closing price                         |
+| U                | Unscheduled auction                              |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+| F                | Fixed price auction trade |
+| O                | Odd lot trade             |
+

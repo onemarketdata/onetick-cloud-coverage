@@ -1,0 +1,15 @@
+# Nikkei Indices Trading Hours
+
+Nikkei Indices are a series of stock market indices for the Tokyo Stock Exchange, including the Nikkei 225, which tracks the top 225 blue-chip companies in Japan.
+
+Trading Hours are divided into multiple sessions
+
+#### Nikkei Indices - Trading Hours
+
+| Session Name   | Time Zone   | Start Time   | End Time   |
+|----------------|-------------|--------------|------------|
+| PRE_MARKET     | Asia/Tokyo  | 08:00        | 09:00      |
+| MARKET         | Asia/Tokyo  | 09:00        | 15:31      |
+| X_LUNCH_BREAK  | Asia/Tokyo  | 11:30        | 12:30      |
+| POST_MARKET    | Asia/Tokyo  | 15:32        | 18:00      |
+

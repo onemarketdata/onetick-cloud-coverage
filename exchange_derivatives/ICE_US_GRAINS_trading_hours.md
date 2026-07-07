@@ -1,0 +1,12 @@
+# ICE US Canadian Grains Trading Hours
+
+The Intercontinental Exchange (ICE) US Grains exchange is a futures contract market that offers trading and risk management solutions for globally traded soft commodities
+
+Trading Hours are divided into multiple sessions
+
+#### ICE US Canadian Grains - Trading Hours
+
+| Session Name   | Time Zone       | Start Time   | End Time   |
+|----------------|-----------------|--------------|------------|
+| MARKET         | America/Toronto | 20:00        | 14:20      |
+

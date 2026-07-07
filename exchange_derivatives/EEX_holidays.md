@@ -1,0 +1,21 @@
+# European Energy Exchange (EEX) Market Holidays
+
+The European Energy Exchange is a leading energy exchange offering trading in power, natural gas, environmental products and more.
+
+The last 10 Market Holidays are listed
+
+#### European Energy Exchange (EEX) - Recent Market Holidays
+
+| Activity Name   | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
+|-----------------|-------------|--------------|------------|--------------|------------|
+| Full Holiday    | CET         | 2026-12-25   | 2026-12-25 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2025-05-01   | 2025-05-01 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2025-04-21   | 2025-04-21 | 00:00        | 24:00      |
+| Full Holiday    | CET         | 2025-04-18   | 2025-04-18 | 00:00        | 24:00      |
+

@@ -35,3 +35,24 @@ The following fields have Enumerations:
 
 #### MKT_PHASE - Enumeration
 
+| Enumeration ID   | Enumeration Description                                                                                         |
+|------------------|-----------------------------------------------------------------------------------------------------------------|
+| ADJUST           | Adjust (orders cannot be entered, existing orders can be cancelled or modified to a worse price / smaller size) |
+| ENDOFDAY         | End of day                                                                                                      |
+| ENQUIRY          | Enquiry (no orderbook access or trade reporting)                                                                |
+| H                | Halted                                                                                                          |
+| HALT             | Halted                                                                                                          |
+| PRECLOSE         | Closing auction                                                                                                 |
+| PREOPEN          | Opening auction                                                                                                 |
+| S                | Suspended                                                                                                       |
+| TRADING          | Continuous trading                                                                                              |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| U                | Unscheduled auction       |
+

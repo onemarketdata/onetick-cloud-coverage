@@ -213,3 +213,24 @@ The following fields have Enumerations:
 | ‘””’             | Standard CLOB trade                                        |
 | A                | Auction trade                                              |
 | b                | Apex Liquidity Provision order trade (buy side aggressor)  |
+| B                | VBBO trade (buy side aggressor)                            |
+| C                | Closing cross trade                                        |
+| D                | Trade report subject to conditions other than market price |
+| L                | Late trade report                                          |
+| N                | Off-book, on-exchange trade                                |
+| O                | Opening cross trade                                        |
+| P                | Trade report from previous day                             |
+| s                | Apex Liquidity Provision order trade (sell side aggressor) |
+| S                | VBBO trade (sell side aggressor)                           |
+| U                | Uncrossing trade                                           |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+

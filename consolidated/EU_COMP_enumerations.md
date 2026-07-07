@@ -253,3 +253,24 @@ The following fields have Enumerations:
 |------------------|-----------------------------------------|
 | A                | Auction                                 |
 | C                | Closing Auction                         |
+| E                | Extended hours (early session)          |
+| I                | Intraday Auction                        |
+| L                | Extended hours (late session)           |
+| O                | Opening Auction                         |
+| P                | Public offering / buyback auction       |
+| T                | Trading at last price                   |
+| U                | Unscheduled Auction                     |
+| c                | Post-close auction                      |
+| e                | Extended hours                          |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
+| -                | Regular trading                         |
+| ‘””’             | Not applicable                          |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | As for underlying venues  |
+

@@ -60,3 +60,24 @@ The following fields have Enumerations:
 | ADJ              | Adjusted trade                                           |
 | BAS              | Basis trade                                              |
 | BLK              | Block trade                                              |
+| BLKC             | Block crack leg trade (System priced)                    |
+| BLKL             | Block leg trade (System priced)                          |
+| BLKS             | Block composite strategy leg trade (System priced)       |
+| BLT              | Bilateral block trade                                    |
+| COMP             | Composite strategy leg trade (System priced)             |
+| CRK              | Crack leg trade (System priced)                          |
+| EFM              | Exchange of Futures for Related Market (EFM)             |
+| EFP              | Exchange for Physical (EFP)                              |
+| EFPC             | EFP/EFS Contra Trade [until July 2015]                   |
+| EFS              | Exchange for Swap (EFS)                                  |
+| EFSP             | EFS/EFP trade                                            |
+| EOO              | Exchange of Options for Options (EOO)                    |
+| GCR              | Guaranteed Cross                                         |
+| IMO              | Implied spread trade at market open                      |
+| IMP              | Implied trade (Standard trade against implied liquidity) |
+| IPL              | Implied trade outside Interval Price Limits              |
+| LEG              | Strategy leg trade (System priced)                       |
+| RFC              | Request for Cross (RFC) trade                            |
+| RFCL             | RFC Cross leg trade                                      |
+| TAM              | Trade at Market                                          |
+

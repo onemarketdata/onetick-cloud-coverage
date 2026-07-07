@@ -23,3 +23,24 @@ Details are provided below
 
 Includes the following coverage:
 
+#### ARCA_IMB -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |           3355 | 100%         |
+
+
+Consists of 1 Databases
+
+* `ARCA_IMB`  - Tick Data
+
+
+
+
+## ARCA_IMB
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+
+

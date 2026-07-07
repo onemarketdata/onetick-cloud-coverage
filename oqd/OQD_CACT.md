@@ -21,3 +21,24 @@ Details are provided below
 Includes the following coverage:
 
 #### OQD_CACT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* `OQD_CACT`  - Reference
+
+
+
+
+## OQD_CACT
+
+Database includes the following tick types:
+
+* CACS - Corporate Actions for Security
+* CACT - Corporate Actions for All Securities
+
+

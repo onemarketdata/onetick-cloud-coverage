@@ -32,3 +32,24 @@ The following fields have Enumerations:
 | A                | Auction                   |
 | C                | Closing auction           |
 | O                | Opening auction           |
+| U                | Unscheduled auction       |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| Day              | Day session               |
+| Night            | Night session             |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description         |
+|------------------|---------------------------------|
+|                0 | Regular trade                   |
+|                2 | Internal trade [until 20160916] |
+|               20 | Auction trade                   |
+|                3 | J-Net trade                     |
+|               43 | Trade from implied order        |
+|                5 | J-Net cross trade               |
+|                7 | Standard Combination leg trade  |
+

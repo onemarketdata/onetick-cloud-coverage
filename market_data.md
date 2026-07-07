@@ -378,3 +378,24 @@ LIMIT 10
 
 ## Futures Continuous Contracts
 
+Trades for futures contract can be retrieved like any other instrument.
+
+```
+SELECT * FROM TDI_FUT_SAMPLE.TRD
+WHERE SYMBOL_NAME='ESZ24'
+and TIMESTAMP >= '2024-01-03 00:00:00 UTC'
+and TIMESTAMP < '2024-01-04 00:00:00 UTC'
+LIMIT 10
+```
+
+Continuous Contracts can be retrieved by changing the `SYMBOL_NAME` to the Continuous Contract.  This is specified as `[Product]_r_tdi`.
+Additionally the `SYMBOL_DATE` must also be specified in the `WHERE` clause.
+
+```
+SELECT * FROM TDI_FUT_SAMPLE.TRD
+WHERE SYMBOL_NAME='ES_r_tdi'                --
+and TIMESTAMP >= '2024-01-03 00:00:00 UTC'
+and TIMESTAMP < '2024-01-04 00:00:00 UTC'
+and symbol_date = 20240103
+LIMIT 1000
+```

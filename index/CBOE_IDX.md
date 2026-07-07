@@ -26,3 +26,24 @@ Includes the following coverage:
 #### CBOE_IDX -  Coverage
 
 | Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            320 | 100.0%       |
+| Total           |            320 | 100%         |
+
+
+Consists of 1 Databases
+
+* `CBOE_IDX`  - Tick Data
+
+
+
+
+## CBOE_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+
+

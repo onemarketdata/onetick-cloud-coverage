@@ -42,3 +42,24 @@ Consists of 2 Databases
 
 Database includes the following tick types:
 
+* IDX - Index values
+* PRL_ACTIVE - Shows all orders entered into the book, including aggressive orders that are matched immediately
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* PRL_INACTIVE - Shows dormant / inactive orders (e.g. unelected stop orders) that are parked outside the main order book
+* QTE - Best bid / offer quotes
+* TRD - Trades
+
+
+
+
+
+## NSE_CASH_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+

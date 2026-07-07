@@ -46,3 +46,24 @@ Consists of 2 Databases
 Database includes the following tick types:
 
 * IDX - Index values
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* QTE_BUY_IN - BBO quotes for trading on the Buy-in market (e.g. SGX, Kuwait)
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## KUWAIT_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+

@@ -87,3 +87,24 @@ It covers:
 * `QATAR` - Qatar Stock Exchange
 * `SANTIAGO` - Santiago Stock Exchange
 * `SAUDI` - Saudi Stock Exchange
+* `SBI_JAPANNEXT` - Japannext J-Market
+* `SGX` - Singapore Exchange (SGX)
+* `SHANGHAI` - Shanghai Stock Exchange - Equities
+* `SHENZHEN` - Shenzhen Stock Exchange
+* `STUTTGART` - Stuttgart Stock Exchange
+* `SWISS` - SIX Swiss Exchange
+* `TAIPEI` - Taipei Exchange
+* `TEL_AVIV` - Tel Aviv Stock Exchange
+* `THAILAND` - Stock Exchange of Thailand
+* `TOKYO` - Tokyo Stock Exchange (+ Fukuoka / Sapporo)
+* `TRACE` - FINRA TRACE - Corporates, Agencies, MBS, ABS, CMO
+* `TRADEGATE` - Tradegate Exchange
+* `TSX` - Toronto Stock Exchange
+* `TSXV` - TSX Venture Exchange
+* `TURQUOISE` - Turquoise UK
+* `TURQUOISE_EU` - Turquoise Europe
+* `TWSE` - Taiwan Stock Exchange
+* `US_OTC` - US OTC Equities (Trades only)
+* `VIENNA` - Vienna Stock Exchange
+* `WARSAW` - Warsaw Stock Exchange
+* `XETRA` - Xetra Exchange

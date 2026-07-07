@@ -42,3 +42,24 @@ Includes the following coverage:
 | Unknown            |             34 | 0.26%        |
 | Warrant            |            440 | 3.39%        |
 | Total              |          12970 | 100%         |
+
+
+Consists of 1 Databases
+
+* `NASDAQ_PSX`  - Tick Data
+
+
+
+
+## NASDAQ_PSX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* MM_STATUS - Information on the market makers registered in each security
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* QTE - Best bid / offer quotes
+* TRD - Trades
+
+

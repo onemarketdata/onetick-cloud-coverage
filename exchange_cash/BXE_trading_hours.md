@@ -1,0 +1,14 @@
+# Cboe BXE (BATS Europe) Trading Hours
+
+Cboe BXE, formerly BATS Europe, is a pan-European MTF offering trading in equities, ETFs, and other securities across multiple European markets.
+
+Trading Hours are divided into multiple sessions
+
+#### Cboe BXE (BATS Europe) - Trading Hours
+
+| Session Name   | Time Zone     | Start Time   | End Time   |
+|----------------|---------------|--------------|------------|
+| PRE_MARKET     | Europe/London | 07:50        | 08:00      |
+| MARKET         | Europe/London | 08:00        | 16:36      |
+| POST_MARKET    | Europe/London | 16:36        | 18:00      |
+

@@ -1,0 +1,13 @@
+# Mexico Consolidated Equities Trading Hours
+
+Consolidated data from all Mexicon equities exchanges.
+
+Trading Hours are divided into multiple sessions
+
+#### Mexico Consolidated Equities - Trading Hours
+
+| Session Name   | Time Zone           | Start Time   | End Time   |
+|----------------|---------------------|--------------|------------|
+| PRE_MARKET     | America/Mexico_City | 08:00        | 08:30      |
+| MARKET         | America/Mexico_City | 08:30        | 15:01      |
+

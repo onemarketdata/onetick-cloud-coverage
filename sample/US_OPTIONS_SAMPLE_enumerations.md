@@ -135,3 +135,24 @@ The following fields have Enumerations:
 | MLET             | Multi-leg electronic trade                                                               |
 | MLFT             | Multi-leg floor trade                                                                    |
 | OPEN             | Opening trade reported out of sequence                                                   |
+| OPNL             | Opening trade reported late but in sequence                                              |
+| OSEQ             | Out of sequence                                                                          |
+| REOP             | Re-opening trade                                                                         |
+| SLAI             | Single leg auction ISO                                                                   |
+| SLAN             | Single leg auction non-ISO                                                               |
+| SLCI             | Single leg cross ISO                                                                     |
+| SLCN             | Single leg cross non-ISO                                                                 |
+| SLFT             | Single leg floor trade                                                                   |
+| SPIM             | Stopped trade that did not trade through another eligible market at the time of the stop |
+| SPRD             | Spread trade                                                                             |
+| STDL             | Straddle                                                                                 |
+| STPD             | Stopped trade reported following a non-stopped trade at the same price                   |
+| TASL             | Auction trade - multi-leg with underlying stock against single leg                       |
+| TESL             | Multi-leg with underlying stock against single leg                                       |
+| TFSL             | Floor trade - multi-leg with underlying stock against single leg                         |
+| TLAT             | Auction trade - multi-leg with underlying stock                                          |
+| TLCT             | Cross trade - multi-leg with underlying stock                                            |
+| TLET             | Multi-leg with underlying stock                                                          |
+| TLFT             | Floor trade - multi-leg with underlying stock                                            |
+| XMPT             | Trade-through exempt                                                                     |
+

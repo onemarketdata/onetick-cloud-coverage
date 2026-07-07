@@ -1,0 +1,14 @@
+# National Stock Exchange of India - Derivatives Trading Hours
+
+National Stock Exchange of India Limited (NSE) is one of the leading stock exchanges in India, based in Mumbai. It is the world’s largest derivatives exchange by number of contracts traded
+
+Trading Hours are divided into multiple sessions
+
+#### National Stock Exchange of India - Derivatives - Trading Hours
+
+| Session Name   | Time Zone     | Start Time   | End Time   |
+|----------------|---------------|--------------|------------|
+| PRE_MARKET     | Asia/Calcutta | 09:00        | 09:15      |
+| MARKET         | Asia/Calcutta | 09:15        | 15:33      |
+| POST_MARKET    | Asia/Calcutta | 15:40        | 16:00      |
+

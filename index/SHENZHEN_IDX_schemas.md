@@ -42,3 +42,24 @@ Index values
 
 
 
+## SHENZHEN_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+
+
+### SHENZHEN_IDX_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### SHENZHEN_IDX_DAILY - DAY Table Schema
+
+| Field   | Data Type   | Description                                                                                                                                                                                                                            |
+|---------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE   | double      | Closing price                                                                                                                                                                                                                          |
+| HIGH    | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW     | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OMDSEQ  | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN    | double      | Open price for the current trading day                                                                                                                                                                                                 |

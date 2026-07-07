@@ -39,3 +39,24 @@ The following fields have Enumerations:
 | 9                | Circuit breaker + close                                       |
 | ADD              | Pre-listing                                                   |
 | CCALL            | Closing auction                                               |
+| CLOSE            | Closed                                                        |
+| ENDTR            | End of trading day                                            |
+| OCALL            | Opening auction                                               |
+| START            | Resume                                                        |
+| SUSP             | Suspended                                                     |
+| TRADE            | Continuous trading                                            |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| -                | Regular trading           |
+| C                | Closing auction           |
+| O                | Opening auction           |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+

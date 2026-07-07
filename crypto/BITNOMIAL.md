@@ -31,3 +31,24 @@ Includes the following coverage:
 | Total           |             17 | 100%         |
 
 
+Consists of 1 Databases
+
+* ```
+  `BITNOMIAL`_
+  ```
+
+    - Tick Data
+
+
+
+
+## BITNOMIAL
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+

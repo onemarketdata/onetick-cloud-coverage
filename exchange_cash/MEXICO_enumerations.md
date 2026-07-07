@@ -48,3 +48,24 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description           |
 |------------------|-----------------------------------|
 | -                | Regular trading                   |
+| A                | Other auction (e.g. VWAP auction) |
+| C                | Closing auction                   |
+| O                | Opening auction                   |
+| T                | Trading at closing price          |
+| U                | Unscheduled auction               |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description              |
+|------------------|--------------------------------------|
+|               16 | Market on Close trade                |
+|               26 | Midpoint trade                       |
+|               30 | Regular trade                        |
+|               31 | Daily VWAP trade                     |
+|               44 | Exception trade (VWAP)               |
+|               46 | Exception trade (TWAP)               |
+|               47 | Block trade                          |
+|               54 | Market on Close trade (INAV)         |
+|                6 | Crossing trade (Unintentional cross) |
+|                8 | Closing price trade                  |
+

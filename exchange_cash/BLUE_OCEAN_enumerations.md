@@ -65,3 +65,24 @@ The following fields have Enumerations:
 
 #### SHORT_SALE_RESTRICTION - Enumeration
 
+|   Enumeration ID | Enumeration Description             |
+|------------------|-------------------------------------|
+|                0 | No short sellling restriction       |
+|                1 | Short selling restriction in effect |
+
+#### UPDATE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Add                       |
+| D                | Delete                    |
+| F                | Fill                      |
+| M                | Modify                    |
+| P                | Partial fill              |
+
+#### ORDER_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| L                | limit order               |
+
