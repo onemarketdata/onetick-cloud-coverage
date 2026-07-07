@@ -1,0 +1,64 @@
+TICK_TYPE_NAME	string[128] TICK_TYPE_DESCRIPTION
+BBO	Combined best bid / offer quotes calculated across multiple sources
+CACT	Corporate Actions for All Securities
+CACS	Corporate Actions for Security
+COMPLETENESS	Database Loading Statistics by Table / Tick Type
+DAY	Daily price and statistical data, e.g. closing price, settlement price, open interest
+DPRC	Daily Prices
+EVENT	Events such as Earnings, and Company Conference Calls
+FIXING	Fixing prices
+IDX	Index values
+INAV	Indicative Net Asset Value (iNAV) for ETFs
+IND	Indicative pricing, e.g. indicative auction prices and imbalance
+IND_ODD_LOT	Indicative auction prices from the Odd Lot book, for exchanges that have a separate order book for odd lots
+INTRADAY	Intraday Bid / Offer Quotes
+LAT_1M	1-minute Latency bars for real time delivered data
+LULD	Limit Up / Limit Down price levels
+MKT	Market phase / instrument status information
+MM_STATUS	Information on the market makers registered in each security
+NAV	Net Asset Value for investment funds
+NBBO	National Best Bid / Offer quotes
+PRL	Market depth data, aggregated by price point (MBP)
+PRL_ACTIVE	Shows all orders entered into the book, including aggressive orders that are matched immediately
+PRL_BOB	(Euronext cash markets only) Market depth for Euronext's Best of Book retail execution service
+PRL_CASH	Orderbook data for Cash (T+0) trading (e.g. Indonesia)
+PRL_FULL	Full orderbook data, showing updates to each individual order (MBO)
+PRL_INACTIVE	Shows dormant / inactive orders (e.g. unelected stop orders) that are parked outside the main order book
+PRL_NEG	Indicative quotes from the Negotiated Trading quote book
+PRL_NEO_L	(Cboe Canada only) Full orderbook data for the Neo-L book
+PRL_NEO_N	(Cboe Canada only) Aggregated market depth for the Neo-N book
+PRL_ODD_LOT	Odd lot orderbook data, for exchanges that have a separate book for odd lots
+PRL_SI	Systematic Internaliser quotes
+PROC_EVENTS	Database Daily Loading Events including Start and Completion Time
+QTE	Best bid / offer quotes
+QTE_1M	1-minute quote bars
+QTE_AUCT	BBO quotes for trading in a special auction book (e.g. for public offerings held outside the main orderbook)
+QTE_BUY_IN	BBO quotes for trading on the Buy-in market (e.g. SGX, Kuwait)
+QTE_CASH	BBO quotes for Cash (T+0) trading (e.g. Indonesia)
+QTE_ODD_LOT	BBO quotes from the Odd Lot book, for exchanges that have a separate order book for odd lots
+QTE_NBBO_DAY	Daily Quote Metrics by Venue related to the NBBO
+REF_PRICE	Benchmark / reference prices
+RFC	Data related to a Request for Cross
+RFQ	Data related to a Request for Quote
+STAT	Static data, e.g. ISIN, description, security type
+SEC_GROUP	 Group Reference
+TRD	Trades
+TRD_1D	Daily trade bars
+TRD_1M	1-minute trade bars
+TRD_ODD_LOT	Trades from the odd lot book
+TRD_NBBO_DAY	Daily Trade Metrics by Venue related to the NBBO
+VWAP_1H	1-hour VWAP bars
+SYMBOL_INDEX_MAPPING	Symbol Index Mapping
+SECURITY_STATUS_MESSAGE	Security Status Message
+OTCM_INSIDE_QTE	OTCM Inside Quote
+FX_RATE	Forex Rate
+CONSTITUENTS	Constituents
+PCF	Portfolio Composition File Content
+PCF_LONG	Portfolio Composition File Detail
+CASH	Cash Position
+DES	Static data, e.g. ISIN, description, security type
+DFUT	Daily Futures Prices
+MKTCAL	Market Calendar
+SHO	Shares Outstanding
+SHORT_INT	Short Interest Statistics every 2 weeks
+XREF	Symbology Mapping
