@@ -1,0 +1,33 @@
+# Shenzhen Stock Exchange Enumerations
+
+The Shenzhen Stock Exchange is one of the two stock exchanges operating independently in mainland China.
+
+The following fields have Enumerations:
+
+* BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* TRADE_PERIOD - Market period during which a trade was executed.
+* TRADE_TYPE - Type of trade
+
+#### BOOK_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Lit order book            |
+|                1 | Off-book                  |
+
+#### MKT_PHASE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| 65               | After-hours trading       |
+| 66               | Break                     |
+| 67               | Closing auction           |
+| 69               | Closed                    |
+| 72               | Temporary suspension      |
+| 79               | Opening auction           |
+| 83               | Start of day              |
+| 84               | Continuous trading        |
+| 86               | Volatility halt           |
+| SUSP             | Suspended                 |
+

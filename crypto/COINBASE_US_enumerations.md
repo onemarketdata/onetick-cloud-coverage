@@ -1,0 +1,1 @@
+# Coinbase - US Exchange Enumerations

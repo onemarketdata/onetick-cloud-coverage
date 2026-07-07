@@ -1,0 +1,37 @@
+# New Zealand Exchange (NZX) Enumerations
+
+The NZX is New Zealand’s main securities exchange trading equities, bonds and other products.
+
+The following fields have Enumerations:
+
+* TRADE_TYPE - Type of trade
+* BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* TRADE_PERIOD - Market period during which a trade was executed.
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| ‘””’             | Regular trade             |
+| BT               | Block trade               |
+| IN               | International trade       |
+| LA               | Late trade                |
+| LT               | Late reported             |
+| MP               | Midpoint trade            |
+| OL               | Odd lot                   |
+| PF               | Portfolio crossing        |
+| PT               | Put through               |
+| SP               | Off market                |
+| WA               | VWAP trade                |
+
+#### BOOK_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Lit order book            |
+|                1 | Off-book                  |
+|                2 | Dark book                 |
+
+#### MKT_PHASE - Enumeration
+

@@ -1,0 +1,65 @@
+# SGX-NZX Dairy Derivatives Enumerations
+
+SGX-NZX’s Dairy Derivatives Market provides the dairy industry with a forward view of dairy prices and a cash settled instrument for managing price risk simply and efficiently.
+
+The following fields have Enumerations:
+
+* AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* CALL_PUT_IND - “C” - Call option, “P” - Put option
+* TRADE_TYPE - Type of trade
+* TRADE_PERIOD - Market period during which a trade was executed.
+* BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* TRADE_SESSION - Trading session from which a trade originates, e.g. “Day”, “Night”
+* QUOTE_SESSION - Trading session from which the quote originates, e.g. “Day”, “Night”
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+
+#### AGGRESSOR_SIDE - Enumeration
+
+| Enumeration ID   | Enumeration Description                                          |
+|------------------|------------------------------------------------------------------|
+| ‘””’             | Undefined (e.g. auction trades, implied trades, off-book trades) |
+| B                | Buy                                                              |
+| S                | Sell                                                             |
+
+#### CALL_PUT_IND - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| C                | Call option               |
+| P                | Put option                |
+
+#### TRADE_TYPE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                0 | Regular trade             |
+|                2 | Combo to outright trade   |
+|                3 | Combo to combo trade      |
+
+#### TRADE_PERIOD - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| A                | Auction                   |
+| C                | Closing auction           |
+| O                | Opening auction           |
+| -                | Regular trading           |
+
+#### BOOK_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| 0                | Lit order book            |
+| S                | Strategy leg              |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description          |
+|------------------|----------------------------------|
+| T                | T session (current business day) |
+
+#### QUOTE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description          |
+|------------------|----------------------------------|
+| T                | T session (current business day) |

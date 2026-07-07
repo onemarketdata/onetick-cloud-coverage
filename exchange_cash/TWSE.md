@@ -1,0 +1,70 @@
+# Taiwan Stock Exchange
+
+The Taiwan Stock Exchange is the main stock exchange in Taiwan where public Taiwanese companies are listed.
+
+* Country: Taiwan [TW]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Taipei
+* Start Date: 20140901
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: Yes
+
+
+
+Details are provided below
+
+* `Table Schemas for TWSE`
+* `Field Enumerations for TWSE`
+* `Trading Hours for TWSE`
+* `Recent Holidays for TWSE`
+
+
+
+Includes the following coverage:
+
+#### TWSE -  Coverage
+
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| Depository Receipt |              6 | 0.02%        |
+| ETF                |            224 | 0.72%        |
+| ETN                |             16 | 0.05%        |
+| Equity             |           1093 | 3.53%        |
+| Government Bond    |            146 | 0.47%        |
+| Preferred Stock    |             28 | 0.09%        |
+| REIT               |              6 | 0.02%        |
+| Structured Product |          29405 | 95.09%       |
+| Total              |          30924 | 100%         |
+
+
+Consists of 3 Databases
+
+* `TWSE`  - Tick Data
+* `TWSE_BARS`  - 1 Minute Bars
+* `TWSE_DAILY`  - End of Day Metrics
+
+
+
+
+## TWSE
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* PRL - Market depth data, aggregated by price point (MBP)
+* PRL_ODD_LOT - Odd lot orderbook data, for exchanges that have a separate book for odd lots
+* QTE - Best bid / offer quotes
+* QTE_ODD_LOT - BBO quotes from the Odd Lot book, for exchanges that have a separate order book for odd lots
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TWSE_BARS
+

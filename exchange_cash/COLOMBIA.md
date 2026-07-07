@@ -1,0 +1,50 @@
+# Colombia Stock Exchange
+
+The Colombia Stock Exchange (BVC) offers trading in equities, bonds, derivatives, and other financial instruments issued by Colombian companies.
+
+* Country: Columbia [CO]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Kolkata
+* Start Date: 20160627
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* `Table Schemas for COLOMBIA`
+* `Field Enumerations for COLOMBIA`
+* `Trading Hours for COLOMBIA`
+* `Recent Holidays for COLOMBIA`
+
+
+
+Includes the following coverage:
+
+#### COLOMBIA -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |            411 | 63.43%       |
+| ETF             |             71 | 10.96%       |
+| Equity          |            141 | 21.76%       |
+| Index           |              9 | 1.39%        |
+| Unknown         |             16 | 2.47%        |
+| Total           |            648 | 100%         |
+
+
+Consists of 2 Databases
+
+* `COLOMBIA`  - Tick Data
+* `COLOMBIA_BARS`  - 1 Minute Bars
+
+
+
+
+## COLOMBIA
+
+Database includes the following tick types:
+
+* IDX - Index values
