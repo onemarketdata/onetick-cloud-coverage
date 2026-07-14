@@ -27,7 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |          12959 | 100%         |
+| Bond            |             19 | 2.98%        |
+| Corporate Bond  |            313 | 49.06%       |
+| Equity          |            303 | 47.49%       |
+| Mutual Fund     |              1 | 0.16%        |
+| Unknown         |              2 | 0.31%        |
+| Total           |            638 | 100%         |
 
 
 Consists of 2 Databases

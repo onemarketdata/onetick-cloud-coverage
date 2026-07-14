@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| CFD             |            222 | 2.21%        |
-| Future          |           7019 | 69.97%       |
-| Futures Spread  |           2790 | 27.81%       |
-| Total           |          10031 | 100%         |
+| CFD             |            222 | 2.33%        |
+| Future          |           6636 | 69.6%        |
+| Futures Spread  |           2677 | 28.08%       |
+| Total           |           9535 | 100%         |
 
 
 Consists of 3 Databases

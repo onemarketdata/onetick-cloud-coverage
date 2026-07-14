@@ -29,11 +29,11 @@ Includes the following coverage:
 |-----------------|----------------|--------------|
 | Bond            |              8 | 0.14%        |
 | ETF             |             14 | 0.25%        |
-| Equity          |           3893 | 69.96%       |
-| Fund            |            383 | 6.88%        |
+| Equity          |           3899 | 69.79%       |
+| Fund            |            383 | 6.86%        |
 | REIT            |             35 | 0.63%        |
-| Warrant         |           1232 | 22.14%       |
-| Total           |           5565 | 100%         |
+| Warrant         |           1248 | 22.34%       |
+| Total           |           5587 | 100%         |
 
 
 Consists of 2 Databases

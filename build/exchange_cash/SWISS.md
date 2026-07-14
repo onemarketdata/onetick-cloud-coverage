@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |           2982 | 41.36%       |
+| Bond            |           2990 | 41.4%        |
 | ETC             |              1 | 0.01%        |
-| ETF             |           2256 | 31.29%       |
-| Equity          |           1969 | 27.31%       |
+| ETF             |           2261 | 31.31%       |
+| Equity          |           1969 | 27.26%       |
 | Right           |              1 | 0.01%        |
-| Total           |           7209 | 100%         |
+| Total           |           7222 | 100%         |
 
 
 Consists of 4 Databases
@@ -91,7 +91,8 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* TRD - Trades
-* QTE - Best bid / offer quotes
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_QTE - Latest Quotes for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 

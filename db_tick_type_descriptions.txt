@@ -18,6 +18,7 @@ MKT	Market phase / instrument status information
 MM_STATUS	Information on the market makers registered in each security
 NAV	Net Asset Value for investment funds
 NBBO	National Best Bid / Offer quotes
+NBBO_COMP	Best National Best Bid / Offer quotes from Even and Odd Lots
 PRL	Market depth data, aggregated by price point (MBP)
 PRL_ACTIVE	Shows all orders entered into the book, including aggressive orders that are matched immediately
 PRL_BOB	(Euronext cash markets only) Market depth for Euronext's Best of Book retail execution service
@@ -31,6 +32,7 @@ PRL_ODD_LOT	Odd lot orderbook data, for exchanges that have a separate book for 
 PRL_SI	Systematic Internaliser quotes
 PROC_EVENTS	Database Daily Loading Events including Start and Completion Time
 QTE	Best bid / offer quotes
+QTE_COMP	Best Bid & Offer Quotes from Even and Odd Lots
 QTE_1M	1-minute quote bars
 QTE_AUCT	BBO quotes for trading in a special auction book (e.g. for public offerings held outside the main orderbook)
 QTE_BUY_IN	BBO quotes for trading on the Buy-in market (e.g. SGX, Kuwait)
@@ -42,6 +44,10 @@ RFC	Data related to a Request for Cross
 RFQ	Data related to a Request for Quote
 STAT	Static data, e.g. ISIN, description, security type
 SEC_GROUP	 Group Reference
+SNAP	Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+SNAP_NBBO	Latest NBBO for all Instruments in the venue
+SNAP_QTE	Latest Quotes for all Instruments in the venue
+SNAP_TRD	Latest Trade Prices for all Traded Instruments in the venue
 TRD	Trades
 TRD_1D	Daily trade bars
 TRD_1M	1-minute trade bars

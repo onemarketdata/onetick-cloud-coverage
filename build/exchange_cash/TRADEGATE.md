@@ -27,14 +27,13 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |           7049 | 35.38%       |
+| Bond            |           7066 | 35.41%       |
 | ETC             |            184 | 0.92%        |
-| ETF             |           2765 | 13.88%       |
-| ETN             |            204 | 1.02%        |
-| Equity          |           6548 | 32.87%       |
-| Fund            |           3171 | 15.92%       |
-| Right           |              1 | 0.01%        |
-| Total           |          19922 | 100%         |
+| ETF             |           2782 | 13.94%       |
+| ETN             |            205 | 1.03%        |
+| Equity          |           6547 | 32.81%       |
+| Fund            |           3168 | 15.88%       |
+| Total           |          19952 | 100%         |
 
 
 Consists of 3 Databases

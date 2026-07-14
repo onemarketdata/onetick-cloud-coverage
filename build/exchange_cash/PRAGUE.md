@@ -27,14 +27,14 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |            131 | 53.47%       |
+| Bond               |            132 | 53.66%       |
 | Convertible Bond   |              1 | 0.41%        |
 | ETF                |              1 | 0.41%        |
-| Equity             |             63 | 25.71%       |
-| Investment Fund    |             38 | 15.51%       |
+| Equity             |             63 | 25.61%       |
+| Investment Fund    |             38 | 15.45%       |
 | Preferred Stock    |              1 | 0.41%        |
-| Structured Product |             10 | 4.08%        |
-| Total              |            245 | 100%         |
+| Structured Product |             10 | 4.07%        |
+| Total              |            246 | 100%         |
 
 
 Consists of 3 Databases

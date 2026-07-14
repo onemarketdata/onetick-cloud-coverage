@@ -27,14 +27,13 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |            244 | 27.92%       |
-| ETF                |              9 | 1.03%        |
-| Equity             |            348 | 39.82%       |
-| Index              |             12 | 1.37%        |
-| Investment Fund    |              3 | 0.34%        |
-| Structured Product |            257 | 29.41%       |
-| Test               |              1 | 0.11%        |
-| Total              |            874 | 100%         |
+| Bond               |            234 | 27.18%       |
+| ETF                |              9 | 1.05%        |
+| Equity             |            348 | 40.42%       |
+| Index              |             12 | 1.39%        |
+| Investment Fund    |              3 | 0.35%        |
+| Structured Product |            255 | 29.62%       |
+| Total              |            861 | 100%         |
 
 
 Consists of 2 Databases

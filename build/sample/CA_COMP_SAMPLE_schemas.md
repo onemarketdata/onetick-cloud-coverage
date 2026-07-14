@@ -9,12 +9,40 @@ A subset of symbols from all Canadian venues, between January 2,2024 and March 3
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * NBBO - National Best Bid / Offer quotes
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
 
+
+### CA_COMP_SAMPLE - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### CA_COMP_SAMPLE - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_ODD_LOT         | long        | Volume of the Odd Lot Trades                                                                                                                                                                                                           |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
 
 ### CA_COMP_SAMPLE - NBBO
 
@@ -47,8 +75,8 @@ Best bid / offer quotes
 | BID_SIZE    | long        | Best bid size                                                                                                                                                                                                                          |
 | CLOUD_DB    | string[16]  | In composite DBs: Identifies the source database for each tick.  In bars DBs: Identifies the database containing the tick data used to calculate the bars.                                                                             |
 | EXCH_TIME   | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
-| OMD_STATUS  | string[1]   | Indicates an instrument’s current trading status. Values are normalized across all DBs.                                                                                                                                                |
 | OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OMD_STATUS  | string[1]   | Indicates an instrument’s current trading status. Values are normalized across all DBs.                                                                                                                                                |
 | QUOTE_VENUE | string[4]   | Venue (MIC) from which a quote originates                                                                                                                                                                                              |
 
 ### CA_COMP_SAMPLE - STAT
@@ -98,12 +126,40 @@ Trades
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+### CA_COMP_SAMPLE_BARS - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### CA_COMP_SAMPLE_BARS - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_ODD_LOT         | long        | Volume of the Odd Lot Trades                                                                                                                                                                                                           |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
 
 ### CA_COMP_SAMPLE_BARS - QTE_1M
 
@@ -225,9 +281,37 @@ Daily trade bars
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+### CA_COMP_SAMPLE_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### CA_COMP_SAMPLE_DAILY - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_ODD_LOT         | long        | Volume of the Odd Lot Trades                                                                                                                                                                                                           |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
 
 ### CA_COMP_SAMPLE_DAILY - STAT
 

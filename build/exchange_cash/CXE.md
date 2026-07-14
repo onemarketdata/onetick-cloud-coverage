@@ -28,13 +28,13 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Depository Receipt |             36 | 0.38%        |
-| ETC                |            489 | 5.21%        |
-| ETF                |           5366 | 57.12%       |
-| ETN                |            176 | 1.87%        |
-| Equity             |           3300 | 35.13%       |
+| ETC                |            489 | 5.19%        |
+| ETF                |           5370 | 57.01%       |
+| ETN                |            199 | 2.11%        |
+| Equity             |           3299 | 35.02%       |
 | Test               |             26 | 0.28%        |
 | Unknown            |              1 | 0.01%        |
-| Total              |           9394 | 100%         |
+| Total              |           9420 | 100%         |
 
 
 Consists of 3 Databases

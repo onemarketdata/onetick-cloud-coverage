@@ -9,4 +9,6 @@ It covers:
 * `BITNOMIAL` - Bitnomial
 * `COINBASE_INTL` - Coinbase - International Exchange
 * `COINBASE_US` - Coinbase - US Exchange
+* `DERIBIT` - Deribit
+* `HYPERLIQUID` - Hyperliquid
 * `OKX` - OKX (formerly OKEx)

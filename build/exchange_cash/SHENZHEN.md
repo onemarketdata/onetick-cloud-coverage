@@ -27,17 +27,17 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |           1583 | 6.78%        |
+| Bond             |           1594 | 6.82%        |
 | Convertible Bond |            165 | 0.71%        |
-| Corporate Bond   |           3122 | 13.38%       |
-| ETF              |            688 | 2.95%        |
-| Equity           |           2933 | 12.57%       |
-| Government Bond  |          14444 | 61.9%        |
+| Corporate Bond   |           3134 | 13.4%        |
+| ETF              |            694 | 2.97%        |
+| Equity           |           2933 | 12.54%       |
+| Government Bond  |          14461 | 61.85%       |
 | Mutual Fund      |            346 | 1.48%        |
 | Preferred Stock  |              2 | 0.01%        |
 | REIT             |             27 | 0.12%        |
-| Unknown          |             23 | 0.1%         |
-| Total            |          23333 | 100%         |
+| Unknown          |             25 | 0.11%        |
+| Total            |          23381 | 100%         |
 
 
 Consists of 3 Databases

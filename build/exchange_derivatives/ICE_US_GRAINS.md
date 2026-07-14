@@ -7,7 +7,7 @@ The Intercontinental Exchange (ICE) US Grains exchange is a futures contract mar
 * Time Zone: America/New_York
 * Start Date: 20190513
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: Yes
 
 
@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |             15 | 0.92%        |
-| Futures Spread  |             69 | 4.25%        |
-| Option          |           1500 | 92.36%       |
-| Option Spread   |             40 | 2.46%        |
-| Total           |           1624 | 100%         |
+| Future          |             15 | 0.9%         |
+| Futures Spread  |             69 | 4.15%        |
+| Option          |           1528 | 91.88%       |
+| Option Spread   |             51 | 3.07%        |
+| Total           |           1663 | 100%         |
 
 
 Consists of 2 Databases

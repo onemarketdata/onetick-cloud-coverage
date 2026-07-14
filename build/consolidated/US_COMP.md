@@ -25,22 +25,9 @@ Includes the following coverage:
 
 #### US_COMP -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| ADR                |            404 | 3.11%        |
-| Corporate Bond     |             57 | 0.44%        |
-| ETF                |           5338 | 41.1%        |
-| ETN                |             51 | 0.39%        |
-| ETV                |             87 | 0.67%        |
-| Equity             |           5251 | 40.43%       |
-| Fund               |            339 | 2.61%        |
-| Preferred Stock    |            438 | 3.37%        |
-| Right              |            113 | 0.87%        |
-| Structured Product |            158 | 1.22%        |
-| Unit               |            299 | 2.3%         |
-| Unknown            |             12 | 0.09%        |
-| Warrant            |            442 | 3.4%         |
-| Total              |          12989 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |           2758 | 100%         |
 
 
 Consists of 5 Databases
@@ -63,7 +50,9 @@ Database includes the following tick types:
 * LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * NBBO - National Best Bid / Offer quotes
+* NBBO_COMP - Best National Best Bid / Offer quotes from Even and Odd Lots
 * QTE - Best bid / offer quotes
+* QTE_COMP - Best Bid & Offer Quotes from Even and Odd Lots
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
@@ -102,8 +91,9 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* TRD - Trades
-* QTE - Best bid / offer quotes
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_NBBO - Latest NBBO for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 
 

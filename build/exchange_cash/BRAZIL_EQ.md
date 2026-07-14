@@ -28,19 +28,19 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Corporate Bond     |             25 | 0.02%        |
-| Depository Receipt |           1133 | 0.71%        |
-| ETF                |            213 | 0.13%        |
-| Equity             |           5333 | 3.36%        |
-| Forward            |            679 | 0.43%        |
-| Index              |            119 | 0.07%        |
-| Option             |         150949 | 95.01%       |
-| Preferred Stock    |            245 | 0.15%        |
-| Right              |              9 | 0.01%        |
+| Depository Receipt |           1134 | 0.73%        |
+| ETF                |            214 | 0.14%        |
+| Equity             |           4212 | 2.73%        |
+| Forward            |            677 | 0.44%        |
+| Index              |            119 | 0.08%        |
+| Option             |         147497 | 95.6%        |
+| Preferred Stock    |            239 | 0.15%        |
+| Right              |              7 | 0.0%         |
 | Test               |             62 | 0.04%        |
 | Unit               |             41 | 0.03%        |
-| Unknown            |             16 | 0.01%        |
+| Unknown            |             10 | 0.01%        |
 | Warrant            |             56 | 0.04%        |
-| Total              |         158880 | 100%         |
+| Total              |         154293 | 100%         |
 
 
 Consists of 2 Databases

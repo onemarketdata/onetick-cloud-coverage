@@ -9,10 +9,60 @@ This is a consolidated feed providing trade data and quote across European equit
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* NBBO - National Best Bid / Offer quotes
 * QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
 
+
+### EU_COMP_SAMPLE - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### EU_COMP_SAMPLE - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| CURRENCY               | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VOLUME_RFQ             | long        | Volume traded through an RFQ / RFC (Request for Quote / Request for Cross) process                                                                                                                                                     |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### EU_COMP_SAMPLE - NBBO
+
+National Best Bid / Offer quotes
+
+#### EU_COMP_SAMPLE - NBBO Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ASK_EXCHANGE   | string[4]   | Exchange that set the best ask                                                                                                                                                                                                         |
+| ASK_PRICE      | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)                                                                                                       |
+| ASK_SIZE       | long        | Best ask size                                                                                                                                                                                                                          |
+| ASK_SIZE_TOTAL | long        | Total size at the (national) best ask price across all participant markets                                                                                                                                                             |
+| BID_EXCHANGE   | string[4]   | Exchange that set the best bid                                                                                                                                                                                                         |
+| BID_PRICE      | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)                                                                                                       |
+| BID_SIZE       | long        | Best bid size                                                                                                                                                                                                                          |
+| BID_SIZE_TOTAL | long        | Total size at the (national) best bid price across all participant markets                                                                                                                                                             |
+| CURRENCY       | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### EU_COMP_SAMPLE - QTE
 
@@ -31,9 +81,22 @@ Best bid / offer quotes
 | DB_SYMBOL   | string[24]  | Identifies the symbol used in the source database.                                                                                                                                                                                     |
 | EXCH_TIME   | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
 | ISIN        | string[16]  | ISIN code                                                                                                                                                                                                                              |
-| OMD_STATUS  | string[1]   | Indicates an instrument’s current trading status. Values are normalized across all DBs.                                                                                                                                                |
 | OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OMD_STATUS  | string[1]   | Indicates an instrument’s current trading status. Values are normalized across all DBs.                                                                                                                                                |
 | QUOTE_VENUE | string[4]   | Venue (MIC) from which a quote originates                                                                                                                                                                                              |
+
+### EU_COMP_SAMPLE - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### EU_COMP_SAMPLE - STAT Table Schema
+
+| Field    | Data Type   | Description                                                                                                                                                                                                                            |
+|----------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ISIN     | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| NAME     | string[160] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ   | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SEC_TYPE | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
 
 ### EU_COMP_SAMPLE - TRD
 
@@ -43,6 +106,8 @@ Trades
 
 | Field                 | Data Type   | Description                                                                                                                                                                                                                                       |
 |-----------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AGGRESSOR_SIDE        | string[1]   | Indicates whether a trade resulted from an incoming buy or sell order.                                                                                                                                                                            |
+| BOOK_TYPE             | string[1]   | Type of order book or trading mechanism through which a trade was executed.                                                                                                                                                                       |
 | CLOUD_DB              | string[32]  | In composite DBs: Identifies the source database for each tick.  In bars DBs: Identifies the database containing the tick data used to calculate the bars.                                                                                        |
 | CURRENCY              | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                                   |
 | DB_SYMBOL             | string[64]  | Identifies the symbol used in the source database.                                                                                                                                                                                                |
@@ -63,6 +128,7 @@ Trades
 | PRICE                 | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                                         |
 | PUB_VENUE             | string[4]   | Venue (MIC) used to publish an off-exchange trade                                                                                                                                                                                                 |
 | SIZE                  | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross                                                  |
+| TRADE_PERIOD          | string[1]   | Market period during which a trade was executed.                                                                                                                                                                                                  |
 | TRADE_TYPE            | string[6]   | Type of trade                                                                                                                                                                                                                                     |
 | TRADE_VENUE           | string[4]   | Identifies the venue where a trade was executed.   Typically a MIC, with the special values XOFF for off-exchange and SINT for Systematic Internaliser trades.                                                                                    |
 
@@ -72,12 +138,41 @@ Trades
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+### EU_COMP_SAMPLE_BARS - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### EU_COMP_SAMPLE_BARS - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| CURRENCY               | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VOLUME_RFQ             | long        | Volume traded through an RFQ / RFC (Request for Quote / Request for Cross) process                                                                                                                                                     |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
 
 ### EU_COMP_SAMPLE_BARS - QTE_1M
 
@@ -130,6 +225,7 @@ Daily trade bars
 
 | Field            | Data Type   | Description                                                                                                                                                                                                                            |
 |------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BUY_VOLUME       | long        | Traded volume originating from incoming buy orders.  Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.                   |
 | CLOUD_DB         | string[32]  | In composite DBs: Identifies the source database for each tick.  In bars DBs: Identifies the database containing the tick data used to calculate the bars.                                                                             |
 | FIRST            | double      | Price of the first eligible trade in the current bar interval                                                                                                                                                                          |
 | FIRST_SIZE       | long        | Size of the first eligible trade in the current bar interval                                                                                                                                                                           |
@@ -144,6 +240,7 @@ Daily trade bars
 | LOW_SIZE         | long        | Size of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                     |
 | LOW_TIME         | nsectime    | Timestamp of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                |
 | OMDSEQ           | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SELL_VOLUME      | long        | Traded volume originating from incoming sell orders. Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.                   |
 | TRADE_CURRENCY   | string[3]   | Currency in which a trade was executed.                                                                                                                                                                                                |
 | TRADE_TICK_COUNT | long        | Number of eligible trades in the current bar interval                                                                                                                                                                                  |
 | TWAP             | double      | TIme-weighted average price                                                                                                                                                                                                            |
@@ -158,6 +255,7 @@ Daily trade bars
 
 | Field            | Data Type   | Description                                                                                                                                                                                                                            |
 |------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BUY_VOLUME       | long        | Traded volume originating from incoming buy orders.  Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.                   |
 | CLOUD_DB         | string[32]  | In composite DBs: Identifies the source database for each tick.  In bars DBs: Identifies the database containing the tick data used to calculate the bars.                                                                             |
 | FIRST            | double      | Price of the first eligible trade in the current bar interval                                                                                                                                                                          |
 | FIRST_SIZE       | long        | Size of the first eligible trade in the current bar interval                                                                                                                                                                           |
@@ -172,6 +270,7 @@ Daily trade bars
 | LOW_SIZE         | long        | Size of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                     |
 | LOW_TIME         | nsectime    | Timestamp of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                |
 | OMDSEQ           | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SELL_VOLUME      | long        | Traded volume originating from incoming sell orders. Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.                   |
 | TRADE_CURRENCY   | string[3]   | Currency in which a trade was executed.                                                                                                                                                                                                |
 | TRADE_TICK_COUNT | long        | Number of eligible trades in the current bar interval                                                                                                                                                                                  |
 | TWAP             | double      | TIme-weighted average price                                                                                                                                                                                                            |
@@ -199,34 +298,48 @@ Daily trade bars
 
 Database includes the following tick types:
 
-* TRD_1D - Daily trade bars
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 
 
-### EU_COMP_SAMPLE_DAILY - TRD_1D
+### EU_COMP_SAMPLE_DAILY - DAY
 
-Daily trade bars
+Daily price and statistical data, e.g. closing price, settlement price, open interest
 
-#### EU_COMP_SAMPLE_DAILY - TRD_1D Table Schema
+#### EU_COMP_SAMPLE_DAILY - DAY Table Schema
 
-| Field            | Data Type   | Description                                                                                                                                                                                                                            |
-|------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CLOUD_DB         | string[32]  | In composite DBs: Identifies the source database for each tick.  In bars DBs: Identifies the database containing the tick data used to calculate the bars.                                                                             |
-| FIRST            | double      | Price of the first eligible trade in the current bar interval                                                                                                                                                                          |
-| FIRST_SIZE       | long        | Size of the first eligible trade in the current bar interval                                                                                                                                                                           |
-| FIRST_TIME       | nsectime    | Timestamp of the first eligible trade in the current bar interval                                                                                                                                                                      |
-| HIGH             | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
-| HIGH_SIZE        | long        | Size of the highest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                    |
-| HIGH_TIME        | nsectime    | Timestamp of the highest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                               |
-| LAST             | double      | Price of the last eligible trade in the current bar interval                                                                                                                                                                           |
-| LAST_SIZE        | long        | Size of the last eligible trade in the current bar interval                                                                                                                                                                            |
-| LAST_TIME        | nsectime    | Timestamp of the last eligible trade in the current bar interval                                                                                                                                                                       |
-| LOW              | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
-| LOW_SIZE         | long        | Size of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                     |
-| LOW_TIME         | nsectime    | Timestamp of the lowest-priced eligible trade in the current bar interval.  If there are multiple eligible trades at that price, the first one is used.                                                                                |
-| OMDSEQ           | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
-| TRADE_CURRENCY   | string[3]   | Currency in which a trade was executed.                                                                                                                                                                                                |
-| TRADE_TICK_COUNT | long        | Number of eligible trades in the current bar interval                                                                                                                                                                                  |
-| TWAP             | double      | TIme-weighted average price                                                                                                                                                                                                            |
-| VOLUME           | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
-| VWAP             | double      | Volume-weighted average price                                                                                                                                                                                                          |
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| CURRENCY               | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OFF_BOOK_VOLUME        | long        | Total volume traded off-book                                                                                                                                                                                                           |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TURNOVER               | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| VENUE_ID               | string[4]   | Venue to which the tick relates. Typically a MIC.                                                                                                                                                                                      |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VOLUME_RFQ             | long        | Volume traded through an RFQ / RFC (Request for Quote / Request for Cross) process                                                                                                                                                     |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### EU_COMP_SAMPLE_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### EU_COMP_SAMPLE_DAILY - STAT Table Schema
+
+| Field    | Data Type   | Description                                                                                                                                                                                                                            |
+|----------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ISIN     | string[12]  | ISIN code                                                                                                                                                                                                                              |
+| NAME     | string[160] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ   | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| SEC_TYPE | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |

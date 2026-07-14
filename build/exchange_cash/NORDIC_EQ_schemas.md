@@ -433,47 +433,72 @@ Static data, e.g. ISIN, description, security type
 
 Database includes the following tick types:
 
-* TRD - Trades
-* QTE - Best bid / offer quotes
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_QTE - Latest Quotes for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 
 
-### NORDIC_EQ_LATEST - TRD
+### NORDIC_EQ_LATEST - SNAP
 
-Trades
+Latest Trade & Quote / NBBO Prices for all Instruments in the venue
 
-#### NORDIC_EQ_LATEST - TRD Table Schema
+#### NORDIC_EQ_LATEST - SNAP Table Schema
 
 | Field              | Data Type   | Description                                                                                                                                                                                               |
 |--------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EXCH_TIME          | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                         |
-| PRICE              | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross |
-| SIZE               | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross          |
-| TRADE_CURRENCY     | string[3]   | Currency in which a trade was executed.                                                                                                                                                                   |
-| OPEN               | double      | Open price for the current trading day                                                                                                                                                                    |
+| ASK_PRICE          | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)                                                                          |
+| BID_PRICE          | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)                                                                          |
 | CLOSE              | double      | Closing price                                                                                                                                                                                             |
 | CLOSE_DATE         | string[10]  | Date for Closing Price                                                                                                                                                                                    |
-| LATENCY_LOAD       | long        | Latency in milliseconds for the time duration between data collection and in-memory database load                                                                                                         |
-| LATENCY_COLLECTION | long        | Latency in milliseconds for the time duration between exchange publishing and data collection                                                                                                             |
-| VOLUME             | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                         |
 | HIGH               | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                               |
+| LAST_QUOTE_TIME    | nsectime    | Last Quote Time                                                                                                                                                                                           |
+| LAST_TRADE_TIME    | nsectime    | Last Trade Time                                                                                                                                                                                           |
+| LATENCY_COLLECTION | long        | Latency in milliseconds for the time duration between exchange publishing and data collection                                                                                                             |
+| LATENCY_LOAD       | long        | Latency in milliseconds for the time duration between data collection and in-memory database load                                                                                                         |
 | LOW                | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                |
-| TRD_DATE           | string[64]  | Date for Latest Trade.                                                                                                                                                                                    |
+| OPEN               | double      | Open price for the current trading day                                                                                                                                                                    |
+| PRICE              | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross |
+| SIZE               | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross          |
 | SYMBOL             | string[64]  | Exchange Symbol                                                                                                                                                                                           |
-| TICK_TIME          | nsectime    | Timestamp for latest Trade or Quote                                                                                                                                                                       |
+| TRADE_CURRENCY     | string[3]   | Currency in which a trade was executed.                                                                                                                                                                   |
+| VOLUME             | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                         |
 
-### NORDIC_EQ_LATEST - QTE
+### NORDIC_EQ_LATEST - SNAP_QTE
 
-Best bid / offer quotes
+Latest Quotes for all Instruments in the venue
 
-#### NORDIC_EQ_LATEST - QTE Table Schema
+#### NORDIC_EQ_LATEST - SNAP_QTE Table Schema
 
 | Field          | Data Type   | Description                                                                                                                      |
 |----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------|
-| BID_PRICE      | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders) |
-| BID_SIZE       | long        | Best bid size                                                                                                                    |
 | ASK_PRICE      | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders) |
 | ASK_SIZE       | long        | Best ask size                                                                                                                    |
+| BID_PRICE      | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders) |
+| BID_SIZE       | long        | Best bid size                                                                                                                    |
 | QUOTE_CURRENCY | string[3]   | Currency in which a quote price is expressed.                                                                                    |
 | SYMBOL         | string[64]  | Exchange Symbol                                                                                                                  |
-| TICK_TIME      | nsectime    | Timestamp for latest Trade or Quote                                                                                              |
+| TICK_TIME      | nsectime    | Timestamp for latest Trade / Quote or NBBO Update                                                                                |
+
+### NORDIC_EQ_LATEST - SNAP_TRD
+
+Latest Trade Prices for all Traded Instruments in the venue
+
+#### NORDIC_EQ_LATEST - SNAP_TRD Table Schema
+
+| Field              | Data Type   | Description                                                                                                                                                                                               |
+|--------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE              | double      | Closing price                                                                                                                                                                                             |
+| CLOSE_DATE         | string[10]  | Date for Closing Price                                                                                                                                                                                    |
+| EXCH_TIME          | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                         |
+| HIGH               | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                               |
+| LATENCY_COLLECTION | long        | Latency in milliseconds for the time duration between exchange publishing and data collection                                                                                                             |
+| LATENCY_LOAD       | long        | Latency in milliseconds for the time duration between data collection and in-memory database load                                                                                                         |
+| LOW                | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                |
+| OPEN               | double      | Open price for the current trading day                                                                                                                                                                    |
+| PRICE              | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross |
+| SIZE               | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross          |
+| SYMBOL             | string[64]  | Exchange Symbol                                                                                                                                                                                           |
+| TICK_TIME          | nsectime    | Timestamp for latest Trade / Quote or NBBO Update                                                                                                                                                         |
+| TRADE_CURRENCY     | string[3]   | Currency in which a trade was executed.                                                                                                                                                                   |
+| VOLUME             | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                         |

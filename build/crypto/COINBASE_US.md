@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |            515 | 100.0%       |
-| Total           |            515 | 100%         |
+| FX Spot         |            519 | 100.0%       |
+| Total           |            519 | 100%         |
 
 
 Consists of 1 Databases

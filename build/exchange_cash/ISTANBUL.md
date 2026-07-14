@@ -28,13 +28,13 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | ETC                |              2 | 0.02%        |
-| ETF                |             60 | 0.52%        |
-| Equity             |           1239 | 10.73%       |
-| Investment Fund    |             40 | 0.35%        |
-| REIT               |             16 | 0.14%        |
+| ETF                |             60 | 0.5%         |
+| Equity             |           1244 | 10.44%       |
+| Investment Fund    |             40 | 0.34%        |
+| REIT               |             16 | 0.13%        |
 | Right              |              1 | 0.01%        |
-| Structured Product |          10186 | 88.24%       |
-| Total              |          11544 | 100%         |
+| Structured Product |          10550 | 88.56%       |
+| Total              |          11913 | 100%         |
 
 
 Consists of 3 Databases

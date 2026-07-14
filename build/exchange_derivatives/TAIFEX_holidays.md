@@ -13,9 +13,9 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Taipei | 2026-10-09   | 2026-10-09 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-09-28   | 2026-09-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-09-25   | 2026-09-25 | 00:00        | 24:00      |
+| Full Holiday    | Asia/Taipei | 2026-07-10   | 2026-07-10 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Taipei | 2026-02-27   | 2026-02-27 | 00:00        | 24:00      |
 

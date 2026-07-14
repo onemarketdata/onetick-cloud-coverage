@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |          48196 | 84.71%       |
-| Convertible Bond   |            290 | 0.51%        |
+| Bond               |          48504 | 84.99%       |
+| Convertible Bond   |            291 | 0.51%        |
 | Depository Receipt |             24 | 0.04%        |
 | ETF                |            384 | 0.67%        |
-| Equity             |           1046 | 1.84%        |
-| Investment Fund    |              6 | 0.01%        |
+| Equity             |           1049 | 1.84%        |
+| Investment Fund    |              9 | 0.02%        |
 | Municipal Bond     |             43 | 0.08%        |
-| Preferred Stock    |             15 | 0.03%        |
-| Structured Product |           6893 | 12.11%       |
-| Total              |          56897 | 100%         |
+| Preferred Stock    |             14 | 0.02%        |
+| Structured Product |           6750 | 11.83%       |
+| Total              |          57068 | 100%         |
 
 
 Consists of 4 Databases
@@ -95,7 +95,8 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* TRD - Trades
-* QTE - Best bid / offer quotes
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_QTE - Latest Quotes for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 

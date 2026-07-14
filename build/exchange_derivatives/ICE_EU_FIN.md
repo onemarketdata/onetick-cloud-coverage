@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |           7616 | 3.35%        |
-| Futures Spread  |           1875 | 0.82%        |
-| Option          |         215900 | 94.96%       |
-| Option Spread   |           1958 | 0.86%        |
-| Total           |         227349 | 100%         |
+| Future          |           7618 | 3.32%        |
+| Futures Spread  |           1886 | 0.82%        |
+| Option          |         217666 | 94.95%       |
+| Option Spread   |           2074 | 0.9%         |
+| Total           |         229244 | 100%         |
 
 
 Consists of 4 Databases
@@ -92,7 +92,8 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* TRD - Trades
-* QTE - Best bid / offer quotes
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_QTE - Latest Quotes for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 

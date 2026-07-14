@@ -27,13 +27,13 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |            329 | 79.47%       |
-| ETF             |              2 | 0.48%        |
-| Equity          |              4 | 0.97%        |
-| Fund            |              2 | 0.48%        |
-| Future          |             76 | 18.36%       |
-| Unknown         |              1 | 0.24%        |
-| Total           |            414 | 100%         |
+| Bond            |            329 | 76.33%       |
+| ETF             |              3 | 0.7%         |
+| Equity          |              4 | 0.93%        |
+| Fund            |              2 | 0.46%        |
+| Future          |             92 | 21.35%       |
+| Unknown         |              1 | 0.23%        |
+| Total           |            431 | 100%         |
 
 
 Consists of 3 Databases

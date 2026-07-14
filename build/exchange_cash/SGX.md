@@ -27,17 +27,17 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |           8985 | 87.62%       |
+| Bond               |           8997 | 87.78%       |
 | Depository Receipt |             36 | 0.35%        |
 | ETF                |             95 | 0.93%        |
 | Equity             |            565 | 5.51%        |
 | Investment Fund    |              3 | 0.03%        |
 | Preferred Stock    |              2 | 0.02%        |
 | REIT               |             25 | 0.24%        |
-| Right              |              6 | 0.06%        |
-| Structured Product |            518 | 5.05%        |
+| Right              |              4 | 0.04%        |
+| Structured Product |            502 | 4.9%         |
 | Unit Trust         |             20 | 0.2%         |
-| Total              |          10255 | 100%         |
+| Total              |          10249 | 100%         |
 
 
 Consists of 3 Databases
