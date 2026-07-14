@@ -158,3 +158,71 @@ Trades
 | TRADE_PERIOD      | string[1]   | Market period during which a trade was executed.                                                                                                                                                                                       |
 | TRADE_TYPE        | string[1]   | Type of trade                                                                                                                                                                                                                          |
 | TRADE_TYPE_EXT    | string[4]   | Extended trade type code                                                                                                                                                                                                               |
+
+
+
+## NASDAQ_TEXAS_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+### NASDAQ_TEXAS_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### NASDAQ_TEXAS_DAILY - DAY Table Schema
+
+| Field                  | Data Type   | Description                                                                                                                                                                                                                            |
+|------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CLOSE                  | double      | Closing price                                                                                                                                                                                                                          |
+| HIGH                   | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW                    | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| OMDSEQ                 | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPEN                   | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| PRICE_CLOSING_AUCTION  | double      | Price of the Closing Auction                                                                                                                                                                                                           |
+| PRICE_OPENING_AUCTION  | double      | Price of the Opening Auction                                                                                                                                                                                                           |
+| TRADE_COUNT            | long        | Number of trades on the current trading day                                                                                                                                                                                            |
+| TRADE_VALUE            | double      | Total monetary value traded on the current trading day                                                                                                                                                                                 |
+| UPDATE_TYPE            | string[16]  | Type of update                                                                                                                                                                                                                         |
+| VOLUME                 | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| VOLUME_AUCTION         | long        | Volume traded during auctions. Includes all auction types.                                                                                                                                                                             |
+| VOLUME_CLOSING_AUCTION | long        | Volume of the Closing Auction                                                                                                                                                                                                          |
+| VOLUME_CONTINUOUS      | long        | Volume traded in the main orderbook during continuous trading                                                                                                                                                                          |
+| VOLUME_DARK            | long        | Volume traded in a dark orderbook                                                                                                                                                                                                      |
+| VOLUME_HIDDEN          | long        | Volume traded against hidden orders in a lit orderbook                                                                                                                                                                                 |
+| VOLUME_LIT             | long        | Volume traded in a lit orderbook                                                                                                                                                                                                       |
+| VOLUME_MAIN_SESSION    | long        | Volume of the Main Trading Session                                                                                                                                                                                                     |
+| VOLUME_ODD_LOT         | long        | Volume of the Odd Lot Trades                                                                                                                                                                                                           |
+| VOLUME_OPENING_AUCTION | long        | Volume of the Opening Auction                                                                                                                                                                                                          |
+| VOLUME_POST_MARKET     | long        | Volume of the Post-Market Trading Session                                                                                                                                                                                              |
+| VOLUME_PRE_MARKET      | long        | Volume of the Pre-Market Trading Session                                                                                                                                                                                               |
+| VOLUME_ROUND_LOT       | long        | Volume of Round Lot Trades                                                                                                                                                                                                             |
+| VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
+
+### NASDAQ_TEXAS_DAILY - STAT
+
+Static data, e.g. ISIN, description, security type
+
+#### NASDAQ_TEXAS_DAILY - STAT Table Schema
+
+| Field                 | Data Type   | Description                                                                                                                                                                                                                            |
+|-----------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CURRENCY              | string[3]   | Currency in which the instrument’s price is expressed (or nominal currency for bonds traded as a % of nominal).                                                                                                                        |
+| EXCH_SYMBOL           | string[20]  | Ticker symbol specified by the exchange                                                                                                                                                                                                |
+| FINANCIAL_STATUS      | string[1]   | Indicates the regulatory status of a security or its issuer                                                                                                                                                                            |
+| IPO_FLAG              | string[1]   | Indicates whether the instrument is an IPO (Y - Yes, N - No,  - Unspecified)                                                                                                                                                           |
+| LOT_SIZE              | double      | All standard order sizes must be an integer multiple of the Lot Size                                                                                                                                                                   |
+| MIC                   | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                       |
+| NAME                  | string[200] | Description of the instrument                                                                                                                                                                                                          |
+| OMDSEQ                | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| OPERATING_MIC         | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                     |
+| PRIMARY_MIC           | string[4]   | MIC of the instrument’s primary listing market, or the reference market for instruments traded on an MTF                                                                                                                               |
+| REG_SHO_THRESHOLD_SEC | string[1]   | Indicates whether a security is included in the Threshold List of securities with large, persistent unsettled short positions                                                                                                          |
+| SEC_TYPE              | string[40]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| TICK_SIZE             | string[80]  | Tick size / minimum price increment. All order prices must be a multiple of the tick size.                                                                                                                                             |
+| TICK_SIZE_TYPE        | string[8]   | Indicates the type of tick size carried by TICK_SIZE. Values are Static or Variable.                                                                                                                                                   |
+| TRADING_CODE          | string[20]  | ID used to identify the instrument in the trading system                                                                                                                                                                               |

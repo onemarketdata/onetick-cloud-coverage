@@ -44,9 +44,10 @@ Includes the following coverage:
 | Total              |          13015 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * `NASDAQ_PSX`  - Tick Data
+* `NASDAQ_PSX_DAILY`  - End of Day Metrics
 
 
 
@@ -61,5 +62,16 @@ Database includes the following tick types:
 * PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
 * QTE - Best bid / offer quotes
 * TRD - Trades
+
+
+
+
+
+## NASDAQ_PSX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

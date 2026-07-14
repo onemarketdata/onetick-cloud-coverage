@@ -8,6 +8,7 @@ ALPHA	ALPHA_DAILY	End of Day Metrics
 ALPHA_X	ALPHA_X	Tick Data
 ALPHA_X	ALPHA_X_DAILY	End of Day Metrics
 AMEX	AMEX	Tick Data
+AMEX	AMEX_DAILY	End of Day Metrics
 AQSE	AQSE	Tick Data
 AQSE	AQSE_BARS	1 Minute Bars
 AQSE	AQSE_DAILY	End of Day Metrics
@@ -18,6 +19,7 @@ AQUIS_EU	AQUIS_EU	Tick Data
 AQUIS_EU	AQUIS_EU_BARS	1 Minute Bars
 AQUIS_EU	AQUIS_EU_DAILY	End of Day Metrics
 ARCA	ARCA	Tick Data
+ARCA	ARCA_DAILY	End of Day Metrics
 ARCA_IMB	ARCA_IMB	Tick Data
 ASX	ASX	Tick Data
 ASX	ASX_BARS	1 Minute Bars
@@ -61,7 +63,9 @@ BXE	BXE_BARS	1 Minute Bars
 BXE	BXE_DAILY	End of Day Metrics
 BYBIT	BYBIT	Tick Data
 BYX	BYX	Tick Data
+BYX	BYX_DAILY	End of Day Metrics
 BZX	BZX	Tick Data
+BZX	BZX_DAILY	End of Day Metrics
 CA_COMP	CA_COMP	Tick Data
 CA_COMP	CA_COMP_BARS	1 Minute Bars
 CA_COMP	CA_COMP_DAILY	End of Day Metrics
@@ -136,7 +140,9 @@ DXE	DXE	Tick Data
 DXE	DXE_BARS	1 Minute Bars
 DXE	DXE_DAILY	End of Day Metrics
 EDGA	EDGA	Tick Data
+EDGA	EDGA_DAILY	End of Day Metrics
 EDGX	EDGX	Tick Data
+EDGX	EDGX_DAILY	End of Day Metrics
 EEX	EEX	Tick Data
 EEX	EEX_BARS	1 Minute Bars
 EEX	EEX_DAILY	End of Day Metrics
@@ -321,12 +327,15 @@ MX_COMP	MX_COMP_DAILY	End of Day Metrics
 NAGOYA	NAGOYA	Tick Data
 NAGOYA	NAGOYA_BARS	1 Minute Bars
 NASDAQ	NASDAQ	Tick Data
+NASDAQ	NASDAQ_DAILY	End of Day Metrics
 NASDAQ_DUBAI	NASDAQ_DUBAI	Tick Data
 NASDAQ_DUBAI	NASDAQ_DUBAI_BARS	1 Minute Bars
 NASDAQ_DUBAI	NASDAQ_DUBAI_DAILY	End of Day Metrics
 NASDAQ_IMB	NASDAQ_IMB	Tick Data
 NASDAQ_PSX	NASDAQ_PSX	Tick Data
+NASDAQ_PSX	NASDAQ_PSX_DAILY	End of Day Metrics
 NASDAQ_TEXAS	NASDAQ_TEXAS	Tick Data
+NASDAQ_TEXAS	NASDAQ_TEXAS_DAILY	End of Day Metrics
 NEO	NEO	Tick Data
 NEO	NEO_DAILY	End of Day Metrics
 NIKKEI_IDX	NIKKEI_IDX	Tick Data
@@ -351,6 +360,7 @@ NYMEX	NYMEX_BARS	1 Minute Bars
 NYMEX	NYMEX_DAILY	End of Day Metrics
 NYMEX	NYMEX_LATEST	Real Time Latest Values
 NYSE	NYSE	Tick Data
+NYSE	NYSE_DAILY	End of Day Metrics
 NYSE_IMB	NYSE_IMB	Tick Data
 NYSE_TEXAS	NYSE_TEXAS	Tick Data
 NZX	NZX	Tick Data

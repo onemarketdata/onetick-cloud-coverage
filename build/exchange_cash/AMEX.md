@@ -43,9 +43,10 @@ Includes the following coverage:
 | Total              |          13030 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * `AMEX`  - Tick Data
+* `AMEX_DAILY`  - End of Day Metrics
 
 
 
@@ -61,5 +62,16 @@ Database includes the following tick types:
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## AMEX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 
