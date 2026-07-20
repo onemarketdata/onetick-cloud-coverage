@@ -363,6 +363,7 @@ NYSE	NYSE	Tick Data
 NYSE	NYSE_DAILY	End of Day Metrics
 NYSE_IMB	NYSE_IMB	Tick Data
 NYSE_TEXAS	NYSE_TEXAS	Tick Data
+NYSE_TEXAS	NYSE_TEXAS_DAILY	End of Day Metrics
 NZX	NZX	Tick Data
 NZX	NZX_BARS	1 Minute Bars
 NZX	NZX_DAILY	End of Day Metrics
