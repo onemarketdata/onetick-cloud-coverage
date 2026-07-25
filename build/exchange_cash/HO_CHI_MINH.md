@@ -7,7 +7,7 @@ The Ho Chi Minh Stock Exchange (HOSE) is Vietnam’s largest stock exchange, loc
 * Time Zone: Asia/Singapore
 * Start Date: 20110829
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |             20 | 1.95%        |
-| Equity          |            408 | 39.69%       |
-| Index           |              1 | 0.1%         |
-| Mutual Fund     |              4 | 0.39%        |
-| Warrant         |            595 | 57.88%       |
-| Total           |           1028 | 100%         |
+| ETF             |             20 | 1.87%        |
+| Equity          |            410 | 38.43%       |
+| Index           |              1 | 0.09%        |
+| Mutual Fund     |              4 | 0.37%        |
+| Warrant         |            632 | 59.23%       |
+| Total           |           1067 | 100%         |
 
 
 Consists of 2 Databases

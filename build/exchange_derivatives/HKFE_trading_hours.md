@@ -9,5 +9,5 @@ Trading Hours are divided into multiple sessions
 | Session Name   | Time Zone      | Start Time   | End Time   |
 |----------------|----------------|--------------|------------|
 | DAY            | Asia/Hong_Kong | 08:30        | 18:30      |
-| NIGHT1         | Asia/Hong_Kong | 19:15        | 03:00      |
+| NIGHT1         | Asia/Hong_Kong | 17:00        | 03:00      |
 

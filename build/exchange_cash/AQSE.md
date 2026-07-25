@@ -7,7 +7,7 @@ Aquis Exchange PLC is a creator and facilitator of next-generation financial mar
 * Time Zone: Europe/London
 * Start Date: 20201123
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: Yes
 
 

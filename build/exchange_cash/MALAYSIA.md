@@ -7,7 +7,7 @@ Bursa Malaysia offers trading in equities, bonds, ETFs, and other securities iss
 * Time Zone: Asia/Kuala_Lumpur
 * Start Date: 20081110
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -28,14 +28,14 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Bond            |              1 | 0.03%        |
-| ETF             |             14 | 0.37%        |
-| Equity          |           1107 | 29.22%       |
+| ETF             |             14 | 0.36%        |
+| Equity          |           1109 | 28.56%       |
 | Fixed Income    |              8 | 0.21%        |
-| Preferred Stock |             20 | 0.53%        |
+| Preferred Stock |             20 | 0.52%        |
 | REIT            |              1 | 0.03%        |
-| Unknown         |             43 | 1.14%        |
-| Warrant         |           2594 | 68.48%       |
-| Total           |           3788 | 100%         |
+| Unknown         |             44 | 1.13%        |
+| Warrant         |           2686 | 69.17%       |
+| Total           |           3883 | 100%         |
 
 
 Consists of 2 Databases

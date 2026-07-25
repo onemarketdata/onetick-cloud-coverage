@@ -7,7 +7,7 @@ IFAD broadens regional trading opportunities with micro Index futures on the MSC
 * Time Zone: Asia/Dubai
 * Start Date: 20250820
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -33,9 +33,10 @@ Includes the following coverage:
 | Total           |            293 | 100%         |
 
 
-Consists of 2 Databases
+Consists of 3 Databases
 
 * `ICE_ABU_DHABI`  - Tick Data
+* `ICE_ABU_DHABI_BARS`  - 1 Minute Bars
 * `ICE_ABU_DHABI_DAILY`  - End of Day Metrics
 
 
@@ -52,6 +53,21 @@ Database includes the following tick types:
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## ICE_ABU_DHABI_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
 
 
 

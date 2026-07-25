@@ -27,16 +27,20 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |            519 | 100%         |
+| FX Spot         |             19 | 0.47%        |
+| Future          |             66 | 1.62%        |
+| Option          |           4000 | 97.92%       |
+| Total           |           4085 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * ```
   `DERIBIT`_
   ```
 
     - Tick Data
+* `DERIBIT_DAILY`  - End of Day Metrics
 
 
 
@@ -49,5 +53,16 @@ Database includes the following tick types:
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## DERIBIT_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Equity          |            300 | 100.0%       |
-| Total           |            300 | 100%         |
+| Equity          |            298 | 100.0%       |
+| Total           |            298 | 100%         |
 
 
 Consists of 4 Databases

@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            177 | 36.72%       |
-| Futures Spread  |            305 | 63.28%       |
-| Total           |            482 | 100%         |
+| Future          |            172 | 36.13%       |
+| Futures Spread  |            304 | 63.87%       |
+| Total           |            476 | 100%         |
 
 
 Consists of 1 Databases

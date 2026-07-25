@@ -7,7 +7,7 @@ The Lima Stock Exchange is the official stock exchange of Peru where securities 
 * Time Zone: America/Sao_Paulo
 * Start Date: 20160627
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |            932 | 42.1%        |
-| ETF             |            331 | 14.95%       |
-| Equity          |            830 | 37.49%       |
-| Index           |              3 | 0.14%        |
-| Unknown         |            118 | 5.33%        |
-| Total           |           2214 | 100%         |
+| Bond            |            936 | 41.82%       |
+| ETF             |            339 | 15.15%       |
+| Equity          |            840 | 37.53%       |
+| Index           |              3 | 0.13%        |
+| Unknown         |            120 | 5.36%        |
+| Total           |           2238 | 100%         |
 
 
 Consists of 2 Databases

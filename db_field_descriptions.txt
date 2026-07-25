@@ -11,7 +11,7 @@ ADJ_FRONT_MONTH	CONT	Price adjustment used for building continuous futures contr
 ADJ_HIGHEST_OI	CONT	Price adjustment used for building continuous futures contracts, rolling based on highest open interest. Value = <last settlement price of new front month> - <last settlement price of previous front month>
 ADJ_HIGHEST_VOLUME	CONT	Price adjustment used for building continuous futures contracts, rolling based on highest total volume.  Value = <last settlement price of new front month> - <last settlement price of previous front month>
 ADT	STAT	Average Daily Turnover, as defined by MiFID
-AGGRESSOR_SIDE	TRD	Indicates whether a trade resulted from an incoming buy or sell order.
+AGGRESSOR_SIDE	TRD, TRD_TCA	Indicates whether a trade resulted from an incoming buy or sell order.
 ALGO_TYPE	PRL_FULL	Type of algorithm / routing properties associated with an order
 ASK_CLOSE	DAY	Closing ask price
 ASK_COND	QTE, QTE_ODD_LOT	Quote condition applicable to the best ask
@@ -21,7 +21,7 @@ ASK_LIMIT_IND	QTE	Indicates whether the best ask is at the upper / lower trading
 ASK_MKT_ORDER_SIZE	QTE	Total volume of market orders on the ask side
 ASK_NUM_ORDERS	QTE	Number of orders at the best ask price
 ASK_ORDER_CNT	QTE	Number of orders at the best ask price [same as ASK_NUM_ORDERS]
-ASK_PRICE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP, SNAP_NBBO, SNAP_QTE	Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)
+ASK_PRICE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP, SNAP_NBBO, SNAP_QTE, TRD_TCA	Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)
 ASK_PRICE_AT_HIGH_BID	QTE_1M	Ask price of the quote that set HIGH_BID.  If there are multiple bid quotes at HIGH_BID, the first one is used.
 ASK_SIZE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP_NBBO, SNAP_QTE	Best ask size
 ASK_SIZE_AON	QTE	Volume of AON (All Or None) orders included in the best ask size
@@ -71,7 +71,7 @@ BID_MKT_ORDER_SIZE	QTE	Total volume of market orders on the bid side
 BID_NUM_ORDERS	QTE	Number of orders at the best bid price
 BID_OAS	QTE	Option-adjusted bid spread - i.e. the yield spread over the benchmark curve such that the total present value of the security's cash flows matches the bid price, taking into account any embedded options
 BID_ORDER_CNT	QTE	Number of orders at the best bid price [same as BID_NUM_ORDERS]
-BID_PRICE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP, SNAP_NBBO, SNAP_QTE	Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)
+BID_PRICE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP, SNAP_NBBO, SNAP_QTE, TRD_TCA	Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)
 BID_PRICE_AT_LOW_ASK	QTE_1M	Bid price of the quote that set LOW_ASK. If there are multiple ask quotes at LOW_ASK, the first one is used.
 BID_SIZE	QTE, QTE_ODD_LOT, NBBO, QTE_COMP, NBBO_COMP, SNAP_NBBO, SNAP_QTE	Best bid size
 BID_SIZE_AON	QTE	Volume of AON (All Or None) orders included in the best bid size
@@ -87,7 +87,7 @@ BLOCK_VOLUME	DAY, TRD_NBBO_DAY	Total volume of block trades executed on the curr
 BLOOMBERG_TICKER	STAT	Bloomberg ticker symbol
 BOND_OPTIONALITY	STAT	Free text field defining properties of a bond with an embedded option, e.g. "Callable"
 BOND_TYPE	STAT	Type of bond, e.g. "Ordinary", "Index-linked", "Convertible"
-BOOK_TYPE	TRD	Type of order book or trading mechanism through which a trade was executed.
+BOOK_TYPE	TRD, TRD_TCA	Type of order book or trading mechanism through which a trade was executed.
 BROKER_ID	PRL_FULL	Identifies the market participant that entered an order / quote
 BUYER	TRD	ID of the market participant on the buy side of a trade
 BUYER_TYPE	TRD	Type of market participant on the buy side of a trade
@@ -112,7 +112,7 @@ CLOUD_DB	TRD_1M, QTE_1M, QTE_ODD_LOT, TRD_1D, VWAP_1H, QTE, TRD, NBBO, STAT	In c
 COMBO_TRADE_ID	TRD	Links leg trades in outright instruments with the spread trade that generated them
 COMMENT	COMPLETENESS	Commentary
 COMPOSITE_FIGI	STAT	Country-composite FIGI, identifying a security across all venues in a particular country
-COND	TRD, QTE, IDX, PRL, IND	Condition code
+COND	TRD, QTE, IDX, PRL, IND, TRD_TCA	Condition code
 COND2	IND	Second condition code
 COND3	IND	Third condition code
 CONSOLIDATED_TAPE	STAT	Consolidated Tape on which a US security is published (A/B/C).
@@ -125,7 +125,7 @@ CONTRIBUTOR_ID	QTE, IDX	Identifies the party that provided a contributed rate (e
 CONVERSION_PRICE	STAT	Conversion price of a convertible security
 CONVEXITY	QTE	Rate of change of a fixed income security's duration with respect to interest rates
 CONV_RATIO	STAT	Conversion ratio of convertible security
-CORR	TRD	Type of trade correction / cancellation
+CORR	TRD, TRD_TCA	Type of trade correction / cancellation
 COUNTRY_LIST	STAT	Country in which the instrument is listed
 COUNTRY_REG	STAT	Country in which the security's ownership register is maintained
 COUPON_DATE	STAT	Date of the next coupon payment, or the previous payment if the final payment has already happened (YYYYMMDD)
@@ -144,7 +144,7 @@ DAY_COUNT_CONVENTION	STAT	Day count method used for calculating accrued interest
 DB_SYMBOL	QTE, TRD	Identifies the symbol used in the source database.
 DB_DESCRIPTION	COMPLETENESS, PROC_EVENTS	Database Description
 DB_NAME	STAT, COMPLETENESS, PROC_EVENTS	Database Name
-DELETED_TIME	TRD, QTE, PRL, PRL_FULL, CACT, CACS, CASH, CONSTITUENTS, DAY, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, RKEY	Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
+DELETED_TIME	TRD, QTE, PRL, PRL_FULL, CACT, CACS, CASH, CONSTITUENTS, DAY, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, RKEY, TRD_TCA	Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
 DELAY_MINS	STAT	Number of minutes by which data is delayed
 DELISTING_DATE	STAT	Date when the security was delisted, or is due to be delisted (YYYYMMDD)
 DELIVERY_END_DATE	STAT	Date when a derivative's delivery period ends (YYYYMMDD)
@@ -164,7 +164,7 @@ EVENT_CONDITION	EVENT	Event Condition
 EVENT_NAME	PROC_EVENTS	Event Name
 EVENT_TIME	PROC_EVENTS	Timestamp for Event
 EVENT_TYPE	EVENT	Type of Event. EARNING_DATE or COMPANY_CONFERENCE_CALL
-EXCHANGE	TRD, QTE, QTE_COMP, MKT, IND, DAY, TRD_NBBO_DAY, QTE_NBBO_DAY	Exchange from which the update originates
+EXCHANGE	TRD, QTE, QTE_COMP, MKT, IND, DAY, TRD_NBBO_DAY, QTE_NBBO_DAY, TRD_TCA	Exchange from which the update originates
 EXCH_CODE	STAT	Free text field identifying the exchange on which an instrument is traded
 EXCH_MKT_SIZE	STAT	Exchange Market Size / Normal Market Size - defines the minimum size for which market makers must provide firm quote prices
 EXCH_PRICE_MULTIPLIER	STAT	Multiplier used to convert from the exchange's internal price value used in the matching engine to the monetary price seen in market data
@@ -172,7 +172,7 @@ EXCH_STRIKE_MULTIPLIER	STAT	Multiplier used to convert from the exchange's inter
 EXCH_SEC_TYPE	STAT	Instrument type as specified by the exchange
 EXCH_STRATEGY_TYPE	STAT	Type of strategy / spread, as specified by the exchange
 EXCH_SYMBOL	STAT	Ticker symbol specified by the exchange
-EXCH_TIME	TRD, IND, QTE, QTE_COMP, QTE_ODD_LOT, MKT, PRL, PRL_FULL, IDX, LULD, SNAP_TRD, SNAP 	Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+EXCH_TIME	TRD, IND, QTE, QTE_COMP, QTE_ODD_LOT, MKT, PRL, PRL_FULL, IDX, LULD, SNAP_TRD, SNAP, TRD_TCA 	Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
 EX_COUPON_DATE	STAT	Date when the security starts trading ex-coupon (YYYYMMDD)
 EXECUTED_ORDER_ID	TRD	ID of the resting (passive) order that was executed
 EXECUTED_ORDER_PART_ID	TRD	Participant who entered the resting (passive) order that was executed
@@ -209,7 +209,7 @@ FIRST_TRADING_DATE	STAT	First date on which the instrument can be traded (YYYYMM
 FLOOR_SESSION	MKT	Free text field indicating the current floor trading session
 FORWARD_POINT_VALUE	STAT	(For FX forwards) Indicates the value of 1 forward point - e.g. if set to 0.0001, a forward price of 1 represents a premium of 0.0001 relative to the spot rate
 FRACTIONAL_PRICE_FORMAT	STAT	Indicates the denominator of the fractional portion of the price, for instruments whose price is conventionally displayed in fractional format. If the display price has a fraction and a subfraction, both are provided, separated by "-". 
-FRACTIONAL_SIZE	TRD	Trade size, as a floating-point number
+FRACTIONAL_SIZE	TRD, TRD_TCA	Trade size, as a floating-point number
 FUND_DIST	STAT	Fund distribution type ("Acc" - Accumulation fund, "Inc" - Income fund)
 FUTURES	COMPLETENESS	If the Database includes Futures [ Y / N ]
 GAMMA	DAY	Option gamma, i.e. the rate of change of an option's delta relative to the underlying asset price
@@ -311,7 +311,28 @@ MIC	STAT, CONSTITUENTS, PCF, PCF_LONG	Market Identifier Code (MIC, ISO 10383) id
 MIC_LIST	STAT	List of MICs (4 bytes each, no separator) for the markets where the instrument is listed
 MID_LAST	QTE_1M	Midpoint of the last best bid/ask in the current bar interval. [Note: One-sided or empty quotes are excluded from the calculation]
 MID_MEDIAN	QTE_1M	Median of the midpoint of the best bid/ask quotes over the current bar interval. [Note: One-sided or empty quotes are excluded from the calculation]
-MID_PRICE	QTE	Midpoint of the best bid/ask; set to null (NaN) if the book is crossed
+MID_PRICE	QTE, TRD_TCA	Midpoint of the best bid/ask; set to null (NaN) if the book is crossed
+MID_PRICE_B10	TRD_TCA	Mid Price back 10ms before the Trade Execution
+MID_PRICE_B100	TRD_TCA	Mid Price back 100ms before the Trade Execution
+MID_PRICE_B1000	TRD_TCA	Mid Price back 1s before the Trade Execution
+MID_PRICE_B10000	TRD_TCA	Mid Price back 10s before the Trade Execution
+MID_PRICE_B30000	TRD_TCA	Mid Price back 30s before the Trade Execution
+MID_PRICE_B60000	TRD_TCA	Mid Price back 60s before the Trade Execution
+MID_PRICE_F10	TRD_TCA	Mid Price forward 10ms after the Trade Execution
+MID_PRICE_F100	TRD_TCA	Mid Price forward 100ms after the Trade Execution
+MID_PRICE_F1000	TRD_TCA	Mid Price forward 1s after the Trade Execution
+MID_PRICE_F10000	TRD_TCA	Mid Price forward 10s after the Trade Execution
+MID_PRICE_F120000	TRD_TCA	Mid Price forward 2mins after the Trade Execution
+MID_PRICE_F180000	TRD_TCA	Mid Price forward 3mins after the Trade Execution
+MID_PRICE_F2000	TRD_TCA	Mid Price forward 2s after the Trade Execution
+MID_PRICE_F30000	TRD_TCA	Mid Price forward 30s after the Trade Execution
+MID_PRICE_F300000	TRD_TCA	Mid Price forward 5mins after the Trade Execution
+MID_PRICE_F500	TRD_TCA	Mid Price forward 500ms after the Trade Execution
+MID_PRICE_F5000	TRD_TCA	Mid Price forward 5s after the Trade Execution
+MID_PRICE_F60000	TRD_TCA	Mid Price forward 1min after the Trade Execution
+MID_PRICE_F600000	TRD_TCA	Mid Price forward 10mins after the Trade Execution
+MID_PRICE_F90000	TRD_TCA	Mid Price forward 90s after the Trade Execution
+MID_PRICE_F900000	TRD_TCA	Mid Price forward 15mins after the Trade Execution
 MID_TWAP	QTE_1M	Time-weighted average of the midpoint of the best bid/ask over the current bar interval.  [Note: One-sided or empty quotes are excluded from the calculation]
 MID_YIELD	QTE	Yield corresponding to the midpoint of the bid/ask spread
 MID_YIELD_SPREAD	QTE	Difference between the mid yield and the security's benchmark yield
@@ -382,7 +403,7 @@ OLD_PRICE	PRL_FULL	Previous price of an order
 OLD_PRICE_LEVEL	PRL_FULL	Price level of the order before the orderbook update was applied. e.g. if set to 3, this indicates that the order was at the third best price point before the orderbook update. Always set to 0 for new orders.
 OLD_SIZE	PRL_FULL	Previous size of an order
 OMD_COND	TRD	Free text field containing any annotations inserted by OneMarketData  ***Deprecated, will be removed in future***
-OMDSEQ	TRD, QTE, QTE_COMP, QTE_ODD_LOT, NBBO, NBBO_COMP, PRL, PRL_FULL, IND, MKT, LAT_1M, TRD_1M, TRD_1D, QTE_1M, DAY, STAT, SHORT_INT, LULD, VWAP_1H, FIXING, RFQ, IDX, CACT, CACS, CASH, CONSTITUENTS, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, EVENT	Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+OMDSEQ	TRD, TRD_TCA, QTE, QTE_COMP, QTE_ODD_LOT, NBBO, NBBO_COMP, PRL, PRL_FULL, IND, MKT, LAT_1M, TRD_1M, TRD_1D, QTE_1M, DAY, STAT, SHORT_INT, LULD, VWAP_1H, FIXING, RFQ, IDX, CACT, CACS, CASH, CONSTITUENTS, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, EVENT	Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
 OMD_STATUS	QTE, MKT	Indicates an instrument's current trading status. Values are normalized across all DBs.
 ON_BOOK_VOLUME	DAY	Total volume traded through the orderbook
 OPEN	DAY,DFUT, DPRC, SNAP_TRD, SNAP	Open price for the current trading day
@@ -406,13 +427,13 @@ ORIGINAL_SYMBOL	STAT	Some exchanges handle certain types of corporate actions (e
 PART_ID	QTE, PRL_FULL, RFC, MM_STATUS	Identifies the market participant that entered an order / quote
 PART_STATUS	MM_STATUS	Status of the market participant identified by PART_ID.
 PART_TYPE	MM_STATUS	Indicates the type of market participant identified by PART_ID
-PARTICIPANT_TIME	TRD, IND, MKT, QTE	Event timestamp (e.g. trade execution time), as provided by one of the participant exchanges in a consolidated feed
+PARTICIPANT_TIME	TRD, TRD_TCA, IND, MKT, QTE	Event timestamp (e.g. trade execution time), as provided by one of the participant exchanges in a consolidated feed
 POINT_VALUE	STAT	Profit / loss per contract resulting from a 1 point price movement (e.g. if the price moves from 123.00 to 124.00).  Note that if an instrument trades in minor currency units such as USX (US cents), the point value will also be expressed in those units.
 POOL_FACTOR	STAT, TRD	Ratio of the original principal remaining in an asset-backed security.  A null value in trade data indicates that the trade was executed with the security's latest published pool factor.
 PREV_COUPON_DATE	STAT	Date of the previous coupon payment (YYYYMMDD)
 PREV_SHORT_INT	SHORT_INT	Previous short interest
 PREV_SYMBOL	STAT	Previous ticker symbol, in the event of a symbol change
-PRICE	TRD, IDX, IND, PRL, PRL_FULL, FIXING, RFC, SNAP_TRD, SNAP	TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
+PRICE	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, SNAP_TRD, SNAP	TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
 PRICE_COND	TRD	Identifies trade prices that are special / unconfirmed / potentially suspect / notable for other reasons
 PRICE_CLOSING_AUCTION	DAY	Price of the Closing Auction
 PRICE_OPENING_AUCTION	DAY	Price of the Opening Auction
@@ -471,7 +492,7 @@ SELLER_TYPE	TRD	Type of market participant on the sell side of a trade
 SELL_ORDER_CAPACITY	TRD	Indicates whether the seller was acting in a Principal / Agency / Custodial capacity
 SELL_ORDER_ID	TRD	ID of the sell order involved in a trade
 SELL_VOLUME	TRD_1M, DAY	Traded volume originating from incoming sell orders. Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.
-SEQ_NUM	TRD, IND, LULD, MKT, QTE_COMP	Sequence number of the update, as specified by the exchange (for single exchange feeds) or the aggregator (e.g. CTA/UTP) for consolidated feeds
+SEQ_NUM	TRD, TRD_TCA, IND, LULD, MKT, QTE_COMP	Sequence number of the update, as specified by the exchange (for single exchange feeds) or the aggregator (e.g. CTA/UTP) for consolidated feeds
 SERIES	STAT	Series number of a futures / options product, indicating the number of times the product has been modified due to corporate actions
 SESSION	MKT, DAY, PRL, IND	Trading session to which the update relates, e.g. "Day", "Night", "T", "T+1"
 SETTLE_DATE	DAY, SNAP_TRD, SNAP	Trading date to which the settlement price relates (YYYYMMDD)
@@ -497,12 +518,12 @@ SHORT_TYPE	TRD	Type of short sale
 SHORT_VOLUME	DAY	Total short selling volume on the current trading day
 SIP_MSG_ID	QTE	Identifies messages generated by the SIP ("" - Originates from an exchange, "E" - UTP, "S" - Consolidated Tape System)
 SIP_SYMBOL	STAT	Ticker symbol used by the US Securities Information Processor (CTA / UTP)
-SIZE	TRD, IND, PRL, PRL_FULL, RFQ, RFC, SNAP_TRD, SNAP	TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross
+SIZE	TRD, TRD_TCA, IND, PRL, PRL_FULL, RFQ, RFC, SNAP_TRD, SNAP	TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross
 SIZE_AHEAD	PRL_FULL	Total order volume ahead of the order in the order queue, after the order update is applied. Always 0 for order deletions.
 SIZE_TYPE	TRD	Indicates any special conditions applicable to the SIZE field
 SKIP_FLAG	TRD	Indicates whether the trade should be excluded from price statistics. "X" - Excluded, "" - Not excluded
 SMS	VBBO	Standard Market Size used to calculate the volume-weighted spread (VW_BID_SMS, VW_ASK_SMS)
-SOURCE	TRD, QTE, QTE_COMP	Source from which an update originates
+SOURCE	TRD, TRD_TCA, QTE, QTE_COMP	Source from which an update originates
 SOURCE_FILE_NAME	PROC_EVENTS	Category of Daily Database Loading
 SPECIAL_TERMS	TRD	Indicates any non-standard settlement / execution terms associated with a trade
 SPREAD_LAST	QTE_1M	Last value of (best ask price - best bid price) over the current bar interval.  [Note: May be zero or negative if the book was locked/crossed. One-sided or empty quotes are excluded from the calculation]
@@ -518,7 +539,7 @@ STAT_INCLUSION_FLAG	TRD	"Y" - Trade counts towards price stats, "N" - Trade shou
 STATIC_PRICE_BAND	STAT, LULD	Maximum price movement over the whole trading session
 STOP_LOSS_FLAG	PRL_FULL	"Y" - Stop order, "N" - Not a stop order
 STOP_PRICE	PRL_FULL	Stop price; price limit at which a dormant stop order is activated and injected into the active order book
-STOP_STOCK	TRD	"Y" - Stopped stock trade, "N" - Not a stopped stock trade, "" - Not applicable
+STOP_STOCK	TRD, TRD_TCA	"Y" - Stopped stock trade, "N" - Not a stopped stock trade, "" - Not applicable
 STRATEGY_HEDGE	STAT	Describes the hedge portion of a strategy where an option (or option spread) is hedged against the underlying asset
 STRATEGY_LEG_COUNT	STAT	Number of legs in a strategy (spread)
 STRATEGY_LEG1	STAT	First leg of a futures / options spread
@@ -540,11 +561,11 @@ SYMBOL	SNAP, SNAP_TRD, SNAP_QTE, SNAP_NBBO	Symbol associated with the latest tra
 SYMBOL_COUNT	COMPLETENESS	Count of Symbols loaded into the Database Table for the specified day.
 TEST_SYMBOL	STAT	"Y" - Test symbol, "N" - Not a test symbol
 THETA	DAY	Option theta, i.e. the rate of time decay in the value of an option or its premium
-TICKER	TRD, QTE, DES, CONSTITUENTS, PCF, PCF_LONG	Ticker symbol, as specified by the data source
+TICKER	TRD, TRD_TCA, QTE, DES, CONSTITUENTS, PCF, PCF_LONG	Ticker symbol, as specified by the data source
 TICK_PILOT_IND	STAT	Specifies any tick size pilot initiatives in which the instrument is participating
 TICK_SIZE	STAT	Tick size / minimum price increment. All order prices must be a multiple of the tick size.
 TICK_SIZE_TYPE	STAT	Indicates the type of tick size carried by TICK_SIZE. Values are "Static" or "Variable".
-TICK_STATUS	TRD, QTE, PRL, PRL_FULL, CACT, CACS, CASH, CONSTITUENTS, DAY, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG	Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
+TICK_STATUS	TRD, TRD_TCA, QTE, PRL, PRL_FULL, CACT, CACS, CASH, CONSTITUENTS, DAY, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG	Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).
 TICK_TIME	SNAP_TRD, SNAP_QTE, SNAP_NBBO	Timestamp for latest Trade / Quote or NBBO Update
 TICK_TYPE	COMPLETENESS	Database Table
 TICK_VALUE	STAT	Tick value, i.e. the profit / loss per contract resulting from a price movement equal to TICK_SIZE. 
@@ -571,15 +592,15 @@ TRADE_COUNT_POST_MARKET	TRD_NBBO_DAY	Trade Count of the Post-Market Trading Sess
 TRADE_COUNT_BLOCK	TRD_NBBO_DAY	Block Count where block is a trade with value > $200,000 or volume > 10,000
 TRADE_CURRENCY	TRD, TRD_1M, TRD_1D, SNAP, SNAP_TRD	Currency in which a trade was executed.
 TRADE_FLAG	TRD	Additional flags describing the properties of a trade
-TRADE_ID	TRD, PRL_FULL	Trade identifier, generally the ID assigned by the matching engine
+TRADE_ID	TRD, TRD_TCA, PRL_FULL	Trade identifier, generally the ID assigned by the matching engine
 TRADE_MODE	TRD	Trading method used to execute the trade [Madrid Equities only]
 TRADE_ORIGIN	TRD	Market phase from which the trade originated [Madrid Equities only]
-TRADE_PERIOD	TRD	Market period during which a trade was executed.
+TRADE_PERIOD	TRD, TRD_TCA	Market period during which a trade was executed.
 TRADE_REPORT_TYPE	TRD	Additional detail on the source of an off-book (reported) trade
 TRADE_SESSION	TRD	Trading session from which a trade originates, e.g. "Day", "Night"
 TRADE_SETTLEMENT_DATE	STAT, TRD, QTE	Date when a trade in the security is due to be settled (YYYYMMDD)
 TRADE_TICK_COUNT	TRD_1M, TRD_1D	Number of eligible trades in the current bar interval
-TRADE_TYPE	TRD	Type of trade
+TRADE_TYPE	TRD, TRD_TCA	Type of trade
 TRADE_TYPE_EXT	TRD	Extended trade type code
 TRADE_VALUE	DAY, TRD_NBBO_DAY	Total monetary value traded on the current trading day
 TRADE_VALUE_MAIN_SESSION	TRD_NBBO_DAY	Main Session Trade Value
@@ -604,9 +625,9 @@ TRADING_GROUP	STAT	Trading group to which the instrument belongs. Instruments in
 TRADING_STATUS	MKT	Indicates whether the instrument is subject to a halt or suspension
 TRADING_TYPE	STAT	Free text field describing the instrument's market model, e.g. "Continuous trading with auctions", "Auction only"
 TRD_DATE	TRD	Date for Latest Trade.
-TRF	TRD, DAY	Trade Reporting Facility used to report a trade (for trades reported to FINRA)
-TRF_TIME	TRD	Time at which a trade was processed by the Trade Reporting Facility (for trades reported to FINRA)
-TTE	TRD	Indicates whether a trade is exempt from the Trade Through Rule (1 - Trade Through Exempt, 0 - No Trade Through Exemption)
+TRF	TRD, TRD_TCA, DAY	Trade Reporting Facility used to report a trade (for trades reported to FINRA)
+TRF_TIME	TRD, TRD_TCA	Time at which a trade was processed by the Trade Reporting Facility (for trades reported to FINRA)
+TTE	TRD, TRD_TCA	Indicates whether a trade is exempt from the Trade Through Rule (1 - Trade Through Exempt, 0 - No Trade Through Exemption)
 TURNOVER	DAY	Total monetary value traded on the current trading day
 TWAP	TRD_1M, TRD_1D, VWAP_1H	TIme-weighted average price
 UNCOLLARED_AUCTION_BOOK_PRICE	IND	Theoretical auction price based only on orders in the auction book and ignoring any limits on price movement

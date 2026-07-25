@@ -7,7 +7,7 @@ The Tel Aviv Stock Exchange is Israel’s only stock exchange. It trades shares,
 * Time Zone: Asia/Tel_Aviv
 * Start Date: 20150726
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,22 +27,22 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |            129 | 1.13%        |
-| Commercial Paper |             30 | 0.26%        |
+| Bond             |            130 | 1.13%        |
+| Commercial Paper |             31 | 0.27%        |
 | Commodity        |              1 | 0.01%        |
-| Convertible Bond |             36 | 0.32%        |
-| Corporate Bond   |            846 | 7.43%        |
-| ETF              |            504 | 4.42%        |
-| Equity           |            560 | 4.92%        |
+| Convertible Bond |             33 | 0.29%        |
+| Corporate Bond   |            836 | 7.29%        |
+| ETF              |            504 | 4.4%         |
+| Equity           |            563 | 4.91%        |
 | FX               |             14 | 0.12%        |
-| Future           |             12 | 0.11%        |
+| Future           |             12 | 0.1%         |
 | Government Bond  |             35 | 0.31%        |
-| Index            |            127 | 1.12%        |
-| Option           |           9000 | 79.02%       |
+| Index            |            127 | 1.11%        |
+| Option           |           9074 | 79.17%       |
 | Treasury Bill    |             13 | 0.11%        |
-| Unknown          |              5 | 0.04%        |
-| Warrant          |             78 | 0.68%        |
-| Total            |          11390 | 100%         |
+| Unknown          |              3 | 0.03%        |
+| Warrant          |             85 | 0.74%        |
+| Total            |          11461 | 100%         |
 
 
 Consists of 3 Databases

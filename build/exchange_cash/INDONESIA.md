@@ -27,12 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |             46 | 2.76%        |
-| Equity          |            964 | 57.79%       |
-| Index           |             45 | 2.7%         |
-| Unknown         |              1 | 0.06%        |
-| Warrant         |            612 | 36.69%       |
-| Total           |           1668 | 100%         |
+| ETF             |             46 | 2.77%        |
+| Equity          |            965 | 58.2%        |
+| Index           |             45 | 2.71%        |
+| Warrant         |            602 | 36.31%       |
+| Total           |           1658 | 100%         |
 
 
 Consists of 3 Databases

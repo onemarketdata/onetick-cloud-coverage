@@ -7,7 +7,7 @@ Boursa Kuwait is the official stock exchange of Kuwait where Kuwaiti companiesâ€
 * Time Zone: Asia/Dubai
 * Start Date: 20201101
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 

@@ -7,7 +7,7 @@ The Egyptian Exchange facilitates trading in equities, bonds, securitized mortga
 * Time Zone: Africa/Cairo
 * Start Date: 20160627
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,12 +27,7 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |             19 | 2.98%        |
-| Corporate Bond  |            313 | 49.06%       |
-| Equity          |            303 | 47.49%       |
-| Mutual Fund     |              1 | 0.16%        |
-| Unknown         |              2 | 0.31%        |
-| Total           |            638 | 100%         |
+| Total           |          13055 | 100%         |
 
 
 Consists of 2 Databases

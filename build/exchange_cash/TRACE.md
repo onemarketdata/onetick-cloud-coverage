@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Agency Bond        |            952 | 3.73%        |
-| Corporate Bond     |          19108 | 74.95%       |
-| Structured Product |           5433 | 21.31%       |
-| Total              |          25493 | 100%         |
+| Agency Bond        |           1017 | 4.0%         |
+| Corporate Bond     |          18900 | 74.32%       |
+| Structured Product |           5512 | 21.68%       |
+| Total              |          25429 | 100%         |
 
 
 Consists of 1 Databases

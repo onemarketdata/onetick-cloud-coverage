@@ -9,6 +9,6 @@ Trading Hours are divided into multiple sessions
 | Session Name   | Time Zone     | Start Time   | End Time   |
 |----------------|---------------|--------------|------------|
 | PRE_MARKET     | Asia/Calcutta | 09:00        | 09:15      |
-| MARKET         | Asia/Calcutta | 09:15        | 15:30      |
-| POST_MARKET    | Asia/Calcutta | 15:30        | 16:01      |
+| MARKET         | Asia/Calcutta | 09:15        | 15:40      |
+| POST_MARKET    | Asia/Calcutta | 15:40        | 16:01      |
 

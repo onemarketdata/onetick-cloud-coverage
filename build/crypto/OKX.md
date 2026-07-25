@@ -27,14 +27,15 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |           1217 | 77.03%       |
-| Future          |            363 | 22.97%       |
-| Total           |           1580 | 100%         |
+| FX Spot         |           1204 | 76.49%       |
+| Future          |            370 | 23.51%       |
+| Total           |           1574 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * `OKX`  - Tick Data
+* `OKX_DAILY`  - End of Day Metrics
 
 
 
@@ -43,8 +44,20 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## OKX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

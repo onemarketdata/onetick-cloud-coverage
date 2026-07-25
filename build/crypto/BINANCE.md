@@ -27,18 +27,19 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |           1318 | 74.38%       |
-| Future          |            454 | 25.62%       |
-| Total           |           1772 | 100%         |
+| FX Spot         |           1313 | 73.85%       |
+| Future          |            465 | 26.15%       |
+| Total           |           1778 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * ```
   `BINANCE`_
   ```
 
     - Tick Data
+* `BINANCE_DAILY`  - End of Day Metrics
 
 
 
@@ -47,8 +48,20 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## BINANCE_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

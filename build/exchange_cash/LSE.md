@@ -27,19 +27,19 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |           2778 | 5.16%        |
-| Convertible Bond   |             48 | 0.09%        |
-| Corporate Bond     |          38092 | 70.74%       |
+| Bond               |           2825 | 5.18%        |
+| Convertible Bond   |             49 | 0.09%        |
+| Corporate Bond     |          38768 | 71.03%       |
 | Depository Receipt |            136 | 0.25%        |
-| ETC                |            319 | 0.59%        |
-| ETF                |           3890 | 7.22%        |
-| ETN                |            863 | 1.6%         |
-| Equity             |           4699 | 8.73%        |
-| Government Bond    |           1002 | 1.86%        |
-| Structured Product |           1813 | 3.37%        |
-| Test               |             68 | 0.13%        |
-| Warrant            |            140 | 0.26%        |
-| Total              |          53848 | 100%         |
+| ETC                |            317 | 0.58%        |
+| ETF                |           3899 | 7.14%        |
+| ETN                |            863 | 1.58%        |
+| Equity             |           4688 | 8.59%        |
+| Government Bond    |           1003 | 1.84%        |
+| Structured Product |           1824 | 3.34%        |
+| Test               |             68 | 0.12%        |
+| Warrant            |            139 | 0.25%        |
+| Total              |          54579 | 100%         |
 
 
 Consists of 4 Databases

@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Index           |           1086 | 100.0%       |
-| Total           |           1086 | 100%         |
+| Index           |           1092 | 100.0%       |
+| Total           |           1092 | 100%         |
 
 
 Consists of 2 Databases

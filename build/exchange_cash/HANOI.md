@@ -7,7 +7,7 @@ The Hanoi Stock Exchange (HNX) is Vietnam’s second securities trading center a
 * Time Zone: Asia/Singapore
 * Start Date: 20110829
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 

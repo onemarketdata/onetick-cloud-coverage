@@ -7,7 +7,7 @@ The Dubai Gold & Commodities Exchange (DGCX) offers trading in gold, silver, cur
 * Time Zone: Asia/Dubai
 * Start Date: 20190701
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            339 | 43.02%       |
-| Futures Spread  |            203 | 25.76%       |
-| Option          |            246 | 31.22%       |
-| Total           |            788 | 100%         |
+| Future          |            296 | 41.57%       |
+| Futures Spread  |            170 | 23.88%       |
+| Option          |            246 | 34.55%       |
+| Total           |            712 | 100%         |
 
 
 Consists of 2 Databases

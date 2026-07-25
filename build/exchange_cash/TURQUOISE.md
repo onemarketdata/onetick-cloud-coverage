@@ -7,7 +7,7 @@ Turquoise is a European multilateral trading facility (MTF) owned by the London 
 * Time Zone: Europe/London
 * Start Date: 20101004
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |            926 | 22.45%       |
-| Equity          |           3192 | 77.38%       |
-| Unknown         |              7 | 0.17%        |
-| Total           |           4125 | 100%         |
+| ETF             |            926 | 22.49%       |
+| Equity          |           3188 | 77.42%       |
+| Unknown         |              4 | 0.1%         |
+| Total           |           4118 | 100%         |
 
 
 Consists of 3 Databases

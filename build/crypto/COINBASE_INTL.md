@@ -27,14 +27,15 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |             14 | 8.92%        |
-| Future          |            143 | 91.08%       |
-| Total           |            157 | 100%         |
+| FX Spot         |             13 | 8.39%        |
+| Future          |            142 | 91.61%       |
+| Total           |            155 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * `COINBASE_INTL`  - Tick Data
+* `COINBASE_INTL_DAILY`  - End of Day Metrics
 
 
 
@@ -43,8 +44,20 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## COINBASE_INTL_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

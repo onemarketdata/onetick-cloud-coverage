@@ -7,7 +7,7 @@ The Dubai Financial Market (DFM) offers trading in equities, bonds, ETFs, and de
 * Time Zone: Asia/Dubai
 * Start Date: 20151123
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |              2 | 2.35%        |
-| Equity          |             67 | 78.82%       |
-| Fund            |              2 | 2.35%        |
-| Index           |             13 | 15.29%       |
-| Mutual Fund     |              1 | 1.18%        |
-| Total           |             85 | 100%         |
+| ETF             |              2 | 2.38%        |
+| Equity          |             66 | 78.57%       |
+| Fund            |              2 | 2.38%        |
+| Index           |             13 | 15.48%       |
+| Mutual Fund     |              1 | 1.19%        |
+| Total           |             84 | 100%         |
 
 
 Consists of 2 Databases

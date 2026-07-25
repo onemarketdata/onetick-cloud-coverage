@@ -25,9 +25,22 @@ Includes the following coverage:
 
 #### NYSE_TEXAS -  Coverage
 
-| Security Type   |   # of Symbols | % of Total   |
-|-----------------|----------------|--------------|
-| Total           |          13032 | 100%         |
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| ADR                |            402 | 3.07%        |
+| Corporate Bond     |             57 | 0.44%        |
+| ETF                |           5426 | 41.47%       |
+| ETN                |             51 | 0.39%        |
+| ETV                |             88 | 0.67%        |
+| Equity             |           5215 | 39.86%       |
+| Fund               |            338 | 2.58%        |
+| Preferred Stock    |            438 | 3.35%        |
+| Right              |            113 | 0.86%        |
+| Structured Product |            158 | 1.21%        |
+| Test               |             52 | 0.4%         |
+| Unit               |            305 | 2.33%        |
+| Warrant            |            441 | 3.37%        |
+| Total              |          13084 | 100%         |
 
 
 Consists of 2 Databases

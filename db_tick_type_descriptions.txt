@@ -53,6 +53,7 @@ TRD_1D	Daily trade bars
 TRD_1M	1-minute trade bars
 TRD_ODD_LOT	Trades from the odd lot book
 TRD_NBBO_DAY	Daily Trade Metrics by Venue related to the NBBO
+TRD_TCA	Trades enriched with pravailing quotes / nbbo and offsets
 VWAP_1H	1-hour VWAP bars
 SYMBOL_INDEX_MAPPING	Symbol Index Mapping
 SECURITY_STATUS_MESSAGE	Security Status Message

@@ -7,7 +7,7 @@ NSE IX offers Indian single stock and index derivatives, currency derivatives, c
 * Time Zone: Asia/Kolkata
 * Start Date: 20250828
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: Yes
 
 

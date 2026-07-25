@@ -27,16 +27,17 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |             15 | 0.9%         |
-| Futures Spread  |             69 | 4.15%        |
-| Option          |           1528 | 91.88%       |
-| Option Spread   |             51 | 3.07%        |
-| Total           |           1663 | 100%         |
+| Future          |             15 | 0.78%        |
+| Futures Spread  |             69 | 3.61%        |
+| Option          |           1712 | 89.49%       |
+| Option Spread   |            117 | 6.12%        |
+| Total           |           1913 | 100%         |
 
 
-Consists of 2 Databases
+Consists of 3 Databases
 
 * `ICE_US_GRAINS`  - Tick Data
+* `ICE_US_GRAINS_BARS`  - 1 Minute Bars
 * `ICE_US_GRAINS_DAILY`  - End of Day Metrics
 
 
@@ -54,6 +55,21 @@ Database includes the following tick types:
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## ICE_US_GRAINS_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
 
 
 

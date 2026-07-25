@@ -7,7 +7,7 @@ The Nagoya Stock Exchange (NSE) offers trading in equities, bonds, and other sec
 * Time Zone: Asia/Tokyo
 * Start Date: 20091109
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 

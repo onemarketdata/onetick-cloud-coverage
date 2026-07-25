@@ -7,7 +7,7 @@ The Frankfurt Stock Exchange (FWB) offers trading across equities, bonds, funds,
 * Time Zone: Europe/Berlin
 * Start Date: 20181203
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,14 +27,13 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |          35914 | 63.97%       |
+| Bond            |          35829 | 63.89%       |
 | ETC             |            200 | 0.36%        |
-| ETF             |           2875 | 5.12%        |
-| ETN             |            358 | 0.64%        |
-| Equity          |          14505 | 25.84%       |
-| Fund            |           2287 | 4.07%        |
-| Right           |              3 | 0.01%        |
-| Total           |          56142 | 100%         |
+| ETF             |           2895 | 5.16%        |
+| ETN             |            362 | 0.65%        |
+| Equity          |          14518 | 25.89%       |
+| Fund            |           2279 | 4.06%        |
+| Total           |          56083 | 100%         |
 
 
 Consists of 3 Databases

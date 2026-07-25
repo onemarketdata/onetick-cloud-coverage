@@ -7,7 +7,7 @@ Cboe DXE is Cboe’s institutional equities trading book, providing trading acro
 * Time Zone: Europe/Amsterdam
 * Start Date: 20191001
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETC             |            213 | 3.7%         |
-| ETF             |           3076 | 53.44%       |
-| ETN             |             83 | 1.44%        |
-| Equity          |           2358 | 40.97%       |
+| ETC             |            215 | 3.73%        |
+| ETF             |           3087 | 53.53%       |
+| ETN             |             85 | 1.47%        |
+| Equity          |           2354 | 40.82%       |
 | Test            |             26 | 0.45%        |
-| Total           |           5756 | 100%         |
+| Total           |           5767 | 100%         |
 
 
 Consists of 3 Databases

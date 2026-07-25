@@ -27,18 +27,19 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |            147 | 72.06%       |
-| Future          |             57 | 27.94%       |
-| Total           |            204 | 100%         |
+| FX Spot         |            149 | 71.98%       |
+| Future          |             58 | 28.02%       |
+| Total           |            207 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * ```
   `BITFINEX`_
   ```
 
     - Tick Data
+* `BITFINEX_DAILY`  - End of Day Metrics
 
 
 
@@ -47,8 +48,20 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## BITFINEX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

@@ -28,14 +28,14 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Depository Receipt |              1 | 0.09%        |
-| Equity             |            882 | 80.11%       |
-| Index              |             64 | 5.81%        |
+| Equity             |            884 | 77.61%       |
+| Index              |             64 | 5.62%        |
 | Mutual Fund        |              1 | 0.09%        |
-| Preferred Stock    |            110 | 9.99%        |
-| Right              |              3 | 0.27%        |
-| Unknown            |             37 | 3.36%        |
-| Warrant            |              3 | 0.27%        |
-| Total              |           1101 | 100%         |
+| Preferred Stock    |            110 | 9.66%        |
+| Right              |             19 | 1.67%        |
+| Unknown            |             57 | 5.0%         |
+| Warrant            |              3 | 0.26%        |
+| Total              |           1139 | 100%         |
 
 
 Consists of 2 Databases

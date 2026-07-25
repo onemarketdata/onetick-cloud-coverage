@@ -25,18 +25,32 @@ Includes the following coverage:
 
 #### US_COMP -  Coverage
 
-| Security Type   |   # of Symbols | % of Total   |
-|-----------------|----------------|--------------|
-| Total           |           2758 | 100%         |
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| ADR                |            402 | 3.07%        |
+| Corporate Bond     |             57 | 0.44%        |
+| ETF                |           5434 | 41.53%       |
+| ETN                |             51 | 0.39%        |
+| ETV                |             88 | 0.67%        |
+| Equity             |           5248 | 40.1%        |
+| Fund               |            338 | 2.58%        |
+| Preferred Stock    |            439 | 3.35%        |
+| Right              |            113 | 0.86%        |
+| Structured Product |            158 | 1.21%        |
+| Unit               |            305 | 2.33%        |
+| Unknown            |             12 | 0.09%        |
+| Warrant            |            441 | 3.37%        |
+| Total              |          13086 | 100%         |
 
 
-Consists of 5 Databases
+Consists of 6 Databases
 
 * `US_COMP`  - Tick Data
 * `US_COMP_BARS`  - 1 Minute Bars
 * `US_COMP_DAILY`  - End of Day Metrics
 * `US_COMP_LATEST`  - Real Time Latest Values
 * `US_COMP_MKT_SHARE`  - Market Share End of Day Metrics
+* `US_COMP_TCA`  - Enriched Trades for TCA
 
 
 
@@ -105,5 +119,15 @@ Database includes the following tick types:
 
 * QTE_NBBO_DAY - Daily Quote Metrics by Venue related to the NBBO
 * TRD_NBBO_DAY - Daily Trade Metrics by Venue related to the NBBO
+
+
+
+
+
+## US_COMP_TCA
+
+Database includes the following tick types:
+
+* TRD_TCA - Trades enriched with pravailing quotes / nbbo and offsets
 
 

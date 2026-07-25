@@ -2469,6 +2469,9 @@ DALIAN	CALL_PUT_IND	P	Put option
 DALIAN	TRADE_PERIOD	-	Regular trading
 DALIAN	TRADE_PERIOD	A	Auction
 DALIAN	TRADE_TYPE	""	Regular trade
+DERIBIT	AGGRESSOR_SIDE	B	Buy
+DERIBIT	AGGRESSOR_SIDE	S	Sell
+DERIBIT	TRADE_VENUE	DERIBIT	DERIBIT
 DB_IDX	COND	""	No condition
 DB_IDX	COND	A	Official (all constituents open)
 DB_IDX	COND	I	Indicative (outside trading hours, or too few constituents open for normal index calculation)
@@ -2902,7 +2905,6 @@ EDGX	UPDATE_TYPE	M	Modify
 EDGX	UPDATE_TYPE	P	Partial fill
 EDGX	ORDER_TYPE	L	Limit order
 EDGX	ORDER_TYPE	R	Retail Priority order
-
 EEX	CALL_PUT_IND	C	Call option
 EEX	CALL_PUT_IND	P	Put option
 EEX	MMT_MKT_MECH	1	Central Limit Order Book
@@ -3975,6 +3977,9 @@ HO_CHI_MINH	TRADE_TYPE	5	Sell-out
 HO_CHI_MINH	TRADE_TYPE	7	Negotiated trade (pre-open)
 HO_CHI_MINH	TRADE_TYPE	8	Negotiated trade (post-close)
 HO_CHI_MINH	TRADE_TYPE	9	Negotiated trade (odd lot)
+HYPERLIQUID	AGGRESSOR_SIDE	B	Buy
+HYPERLIQUID	AGGRESSOR_SIDE	S	Sell
+HYPERLIQUID	TRADE_VENUE	HYPERLIQUID	HYPERLIQUID
 ICE_ABU_DHABI	CALL_PUT_IND	C	Call option
 ICE_ABU_DHABI	CALL_PUT_IND	P	Put option
 ICE_ENDEX	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, implied trades, off-book trades)

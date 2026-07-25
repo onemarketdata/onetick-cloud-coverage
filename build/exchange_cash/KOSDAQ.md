@@ -7,7 +7,7 @@ The Kosdaq market is the Korean stock market for small and medium companies, ope
 * Time Zone: Asia/Seoul
 * Start Date: 20080506
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 
@@ -28,13 +28,13 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Depository Receipt |              8 | 0.4%         |
-| Equity             |           1814 | 91.39%       |
+| Equity             |           1811 | 91.14%       |
 | Index              |             33 | 1.66%        |
 | Preferred Stock    |              3 | 0.15%        |
-| Right              |             23 | 1.16%        |
-| Unknown            |            102 | 5.14%        |
-| Warrant            |              2 | 0.1%         |
-| Total              |           1985 | 100%         |
+| Right              |             12 | 0.6%         |
+| Unknown            |            119 | 5.99%        |
+| Warrant            |              1 | 0.05%        |
+| Total              |           1987 | 100%         |
 
 
 Consists of 2 Databases

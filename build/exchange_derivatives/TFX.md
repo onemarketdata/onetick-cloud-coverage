@@ -7,7 +7,7 @@ The Tokyo Financial Exchange offers futures contracts on short-term yen interest
 * Time Zone: Asia/Tokyo
 * Start Date: 20190809
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: No
 
 

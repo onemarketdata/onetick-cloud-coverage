@@ -4,4 +4,11 @@ The AMEX (American Stock Exchange) is a prominent US stock and options exchange 
 
 Trading Hours are divided into multiple sessions
 
+#### NYSE American Equities - Trading Hours
+
+| Session Name   | Time Zone        | Start Time   | End Time   |
+|----------------|------------------|--------------|------------|
+| PRE_MARKET     | America/New_York | 04:00        | 09:30      |
+| MARKET         | America/New_York | 09:30        | 16:00      |
+| POST_MARKET    | America/New_York | 16:00        | 20:00      |
 

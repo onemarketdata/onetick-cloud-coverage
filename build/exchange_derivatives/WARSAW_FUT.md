@@ -7,7 +7,7 @@ Warsaw Stock Exchange operates a financial instruments exchange. The Exchange tr
 * Time Zone: Europe/Berlin
 * Start Date: 20221121
 * Real Time Available: No
-* Bars Available: No
+* Bars Available: Yes
 * Book Depth Available: Yes
 
 
@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            172 | 38.91%       |
-| Option          |            270 | 61.09%       |
-| Total           |            442 | 100%         |
+| Future          |            172 | 37.39%       |
+| Option          |            288 | 62.61%       |
+| Total           |            460 | 100%         |
 
 
 Consists of 2 Databases
