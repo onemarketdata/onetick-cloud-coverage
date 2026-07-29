@@ -2,7 +2,7 @@
 
 This is a consolidated feed providing trade data and best bid/offer across European equity markets, giving a unified view of the European equity landscape.
 
-* Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
+* Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CZ DE DK ES FI FR GB GR HU IE IS IT LU NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Europe/Paris
 * Start Date: 20150101

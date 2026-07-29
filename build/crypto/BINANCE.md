@@ -8,7 +8,7 @@ Binance Holdings Ltd., branded Binance, is the largest cryptocurrency exchange i
 * Start Date: 20240701
 * Real Time Available: No
 * Bars Available: No
-* Book Depth Available: No
+* Book Depth Available: Yes
 
 
 
@@ -49,6 +49,7 @@ Consists of 2 Databases
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* PRL - Market depth data, aggregated by price point (MBP)
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades

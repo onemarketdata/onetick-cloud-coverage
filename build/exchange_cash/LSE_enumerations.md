@@ -296,6 +296,7 @@ The following fields have Enumerations:
 | O                | Opening Auction                         |
 | T                | Trading at last price                   |
 | U                | Unscheduled Auction                     |
+| c                | Post-close auction                      |
 | p                | Auction initiated by market participant |
 | -                | Regular trading                         |
 
@@ -304,6 +305,7 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description                |
 |------------------|----------------------------------------|
 | AT               | Automatic trade                        |
+| AVD              | Auction Volume Discovery trade         |
 | OB               | Off-book trade / external trade report |
 | RFQ              | RFQ trade                              |
 | UT               | Uncrossing trade                       |

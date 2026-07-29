@@ -8,7 +8,7 @@ Coinbase International Exchange is a platform launched in May 2023 for non-US in
 * Start Date: 20240901
 * Real Time Available: No
 * Bars Available: No
-* Book Depth Available: No
+* Book Depth Available: Yes
 
 
 
@@ -45,6 +45,7 @@ Consists of 2 Databases
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* PRL - Market depth data, aggregated by price point (MBP)
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
