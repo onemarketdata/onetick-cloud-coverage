@@ -69,3 +69,10 @@ Database includes the following tick types:
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+## Table Of Contents
+
+* [Bursa Malaysia - Equities Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MALAYSIA_schemas.html.md)
+* [Bursa Malaysia - Equities Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MALAYSIA_enumerations.html.md)
+* [Bursa Malaysia - Equities Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MALAYSIA_trading_hours.html.md)
+* [Bursa Malaysia - Equities Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MALAYSIA_holidays.html.md)

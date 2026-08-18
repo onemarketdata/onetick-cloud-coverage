@@ -95,3 +95,10 @@ Database includes the following tick types:
 * SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 
+
+## Table Of Contents
+
+* [SIX Swiss Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_schemas.html.md)
+* [SIX Swiss Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_enumerations.html.md)
+* [SIX Swiss Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_trading_hours.html.md)
+* [SIX Swiss Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_holidays.html.md)

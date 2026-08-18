@@ -90,3 +90,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [Taipei Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_schemas.html.md)
+* [Taipei Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_enumerations.html.md)
+* [Taipei Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_trading_hours.html.md)
+* [Taipei Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_holidays.html.md)

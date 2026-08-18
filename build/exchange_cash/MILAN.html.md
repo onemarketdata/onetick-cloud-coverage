@@ -97,3 +97,10 @@ Database includes the following tick types:
 * SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 
+
+## Table Of Contents
+
+* [Euronext Milan (Borsa Italiana) - Equities Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MILAN_schemas.html.md)
+* [Euronext Milan (Borsa Italiana) - Equities Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MILAN_enumerations.html.md)
+* [Euronext Milan (Borsa Italiana) - Equities Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MILAN_trading_hours.html.md)
+* [Euronext Milan (Borsa Italiana) - Equities Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/MILAN_holidays.html.md)

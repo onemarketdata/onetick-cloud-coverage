@@ -60,3 +60,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Deutsche Boerse / STOXX Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/DB_IDX_schemas.html.md)
+* [Deutsche Boerse / STOXX Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/DB_IDX_enumerations.html.md)
+* [Deutsche Boerse / STOXX Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/DB_IDX_trading_hours.html.md)
+* [Deutsche Boerse / STOXX Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/DB_IDX_holidays.html.md)

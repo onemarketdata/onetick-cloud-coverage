@@ -41,3 +41,7 @@ Database includes the following tick types:
 * DFUT - Daily Futures Prices
 
 
+
+## Table Of Contents
+
+* [Daily Price History for Global Futures Schemas](https://cloudcoverage.docs.sol.onetick.com/oqd/OQD_FUT_schemas.html.md)

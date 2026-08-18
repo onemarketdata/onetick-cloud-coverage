@@ -41,3 +41,7 @@ Database includes the following tick types:
 * DPRC - Daily Prices
 
 
+
+## Table Of Contents
+
+* [Daily Price History for Global Equities Schemas](https://cloudcoverage.docs.sol.onetick.com/oqd/OQD_DPRC_schemas.html.md)

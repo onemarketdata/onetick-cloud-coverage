@@ -80,3 +80,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [Borsa Italiana Derivatives (IDEM) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/IDEM_schemas.html.md)
+* [Borsa Italiana Derivatives (IDEM) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/IDEM_enumerations.html.md)
+* [Borsa Italiana Derivatives (IDEM) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/IDEM_trading_hours.html.md)
+* [Borsa Italiana Derivatives (IDEM) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/IDEM_holidays.html.md)

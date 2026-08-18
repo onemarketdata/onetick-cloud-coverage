@@ -86,3 +86,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Budapest Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BUDAPEST_schemas.html.md)
+* [Budapest Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BUDAPEST_enumerations.html.md)
+* [Budapest Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BUDAPEST_trading_hours.html.md)
+* [Budapest Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BUDAPEST_holidays.html.md)

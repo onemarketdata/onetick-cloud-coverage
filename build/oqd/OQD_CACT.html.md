@@ -42,3 +42,7 @@ Database includes the following tick types:
 * CACT - Corporate Actions for All Securities
 
 
+
+## Table Of Contents
+
+* [Global Corporate Actions History Schemas](https://cloudcoverage.docs.sol.onetick.com/oqd/OQD_CACT_schemas.html.md)

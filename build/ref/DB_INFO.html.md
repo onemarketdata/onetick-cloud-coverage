@@ -42,3 +42,7 @@ Database includes the following tick types:
 * PROC_EVENTS - Database Daily Loading Events including Start and Completion Time
 
 
+
+## Table Of Contents
+
+* [Database Daily Archive Loading Statistics Schemas](https://cloudcoverage.docs.sol.onetick.com/ref/DB_INFO_schemas.html.md)

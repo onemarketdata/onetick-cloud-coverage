@@ -93,3 +93,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [Tel Aviv Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_schemas.html.md)
+* [Tel Aviv Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_enumerations.html.md)
+* [Tel Aviv Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_trading_hours.html.md)
+* [Tel Aviv Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_holidays.html.md)

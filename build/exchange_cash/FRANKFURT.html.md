@@ -82,3 +82,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Frankfurt Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_schemas.html.md)
+* [Frankfurt Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_enumerations.html.md)
+* [Frankfurt Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_trading_hours.html.md)
+* [Frankfurt Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_holidays.html.md)

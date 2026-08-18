@@ -73,3 +73,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Bursa Malaysia - Derivatives Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MALAYSIA_FUT_schemas.html.md)
+* [Bursa Malaysia - Derivatives Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MALAYSIA_FUT_enumerations.html.md)
+* [Bursa Malaysia - Derivatives Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MALAYSIA_FUT_trading_hours.html.md)
+* [Bursa Malaysia - Derivatives Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MALAYSIA_FUT_holidays.html.md)

@@ -57,3 +57,8 @@ Database includes the following tick types:
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 
 
+
+## Table Of Contents
+
+* [Precious Metals Schemas](https://cloudcoverage.docs.sol.onetick.com/fx/METALS_schemas.html.md)
+* [Precious Metals Enumerations](https://cloudcoverage.docs.sol.onetick.com/fx/METALS_enumerations.html.md)

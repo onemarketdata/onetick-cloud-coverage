@@ -68,3 +68,10 @@ Database includes the following tick types:
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+## Table Of Contents
+
+* [Lima Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LIMA_schemas.html.md)
+* [Lima Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LIMA_enumerations.html.md)
+* [Lima Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LIMA_trading_hours.html.md)
+* [Lima Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LIMA_holidays.html.md)

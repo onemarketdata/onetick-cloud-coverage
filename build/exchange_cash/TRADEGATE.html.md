@@ -82,3 +82,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Tradegate Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_schemas.html.md)
+* [Tradegate Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_enumerations.html.md)
+* [Tradegate Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_trading_hours.html.md)
+* [Tradegate Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_holidays.html.md)

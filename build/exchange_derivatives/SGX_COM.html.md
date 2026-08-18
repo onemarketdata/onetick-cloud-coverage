@@ -77,3 +77,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Singapore Exchange - Commodity Derivatives Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SGX_COM_schemas.html.md)
+* [Singapore Exchange - Commodity Derivatives Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SGX_COM_enumerations.html.md)
+* [Singapore Exchange - Commodity Derivatives Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SGX_COM_trading_hours.html.md)
+* [Singapore Exchange - Commodity Derivatives Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SGX_COM_holidays.html.md)

@@ -96,3 +96,10 @@ Database includes the following tick types:
 * SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
 
 
+
+## Table Of Contents
+
+* [Xetra Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/XETRA_schemas.html.md)
+* [Xetra Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/XETRA_enumerations.html.md)
+* [Xetra Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/XETRA_trading_hours.html.md)
+* [Xetra Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/XETRA_holidays.html.md)

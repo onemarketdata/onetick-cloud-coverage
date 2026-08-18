@@ -65,3 +65,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Taiwan Futures Exchange (TAIFEX) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/TAIFEX_schemas.html.md)
+* [Taiwan Futures Exchange (TAIFEX) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/TAIFEX_enumerations.html.md)
+* [Taiwan Futures Exchange (TAIFEX) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/TAIFEX_trading_hours.html.md)
+* [Taiwan Futures Exchange (TAIFEX) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/TAIFEX_holidays.html.md)

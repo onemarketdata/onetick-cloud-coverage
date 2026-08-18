@@ -66,3 +66,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [BIVA (Bolsa Institucional de Valores) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_schemas.html.md)
+* [BIVA (Bolsa Institucional de Valores) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_enumerations.html.md)
+* [BIVA (Bolsa Institucional de Valores) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_trading_hours.html.md)
+* [BIVA (Bolsa Institucional de Valores) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_holidays.html.md)

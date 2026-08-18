@@ -90,3 +90,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [Singapore Exchange (SGX) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SGX_schemas.html.md)
+* [Singapore Exchange (SGX) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SGX_enumerations.html.md)
+* [Singapore Exchange (SGX) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SGX_trading_hours.html.md)
+* [Singapore Exchange (SGX) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SGX_holidays.html.md)

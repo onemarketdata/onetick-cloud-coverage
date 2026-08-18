@@ -84,3 +84,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/DE_REGIONAL_schemas.html.md)
+* [German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/DE_REGIONAL_enumerations.html.md)
+* [German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/DE_REGIONAL_trading_hours.html.md)
+* [German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/DE_REGIONAL_holidays.html.md)

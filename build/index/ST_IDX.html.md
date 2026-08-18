@@ -46,3 +46,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Straits Times Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/ST_IDX_schemas.html.md)
+* [Straits Times Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/ST_IDX_enumerations.html.md)
+* [Straits Times Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/ST_IDX_trading_hours.html.md)
+* [Straits Times Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/ST_IDX_holidays.html.md)

@@ -66,3 +66,8 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Hyperliquid Schemas](https://cloudcoverage.docs.sol.onetick.com/crypto/HYPERLIQUID_schemas.html.md)
+* [Hyperliquid Enumerations](https://cloudcoverage.docs.sol.onetick.com/crypto/HYPERLIQUID_enumerations.html.md)

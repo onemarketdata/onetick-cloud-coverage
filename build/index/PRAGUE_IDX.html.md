@@ -47,3 +47,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Prague Stock Exchange - Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_schemas.html.md)
+* [Prague Stock Exchange - Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_enumerations.html.md)
+* [Prague Stock Exchange - Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_trading_hours.html.md)
+* [Prague Stock Exchange - Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_holidays.html.md)

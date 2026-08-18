@@ -59,3 +59,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Borsa Italiana Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/MILAN_IDX_schemas.html.md)
+* [Borsa Italiana Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/MILAN_IDX_enumerations.html.md)
+* [Borsa Italiana Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/MILAN_IDX_trading_hours.html.md)
+* [Borsa Italiana Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/MILAN_IDX_holidays.html.md)

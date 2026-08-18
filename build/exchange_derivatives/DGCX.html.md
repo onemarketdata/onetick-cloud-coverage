@@ -63,3 +63,10 @@ Database includes the following tick types:
 * VWAP_1H - 1-hour VWAP bars
 
 
+
+## Table Of Contents
+
+* [Dubai Gold & Commodities Exchange (DGCX) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/DGCX_schemas.html.md)
+* [Dubai Gold & Commodities Exchange (DGCX) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/DGCX_enumerations.html.md)
+* [Dubai Gold & Commodities Exchange (DGCX) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/DGCX_trading_hours.html.md)
+* [Dubai Gold & Commodities Exchange (DGCX) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/DGCX_holidays.html.md)

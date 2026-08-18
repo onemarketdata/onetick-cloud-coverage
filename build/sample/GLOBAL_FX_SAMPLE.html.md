@@ -75,3 +75,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Global FX (Spots, Forwards, NDFs) Sample Schemas](https://cloudcoverage.docs.sol.onetick.com/sample/GLOBAL_FX_SAMPLE_schemas.html.md)
+* [Global FX (Spots, Forwards, NDFs) Sample Enumerations](https://cloudcoverage.docs.sol.onetick.com/sample/GLOBAL_FX_SAMPLE_enumerations.html.md)
+* [Global FX (Spots, Forwards, NDFs) Sample Trading Hours](https://cloudcoverage.docs.sol.onetick.com/sample/GLOBAL_FX_SAMPLE_trading_hours.html.md)
+* [Global FX (Spots, Forwards, NDFs) Sample Market Holidays](https://cloudcoverage.docs.sol.onetick.com/sample/GLOBAL_FX_SAMPLE_holidays.html.md)

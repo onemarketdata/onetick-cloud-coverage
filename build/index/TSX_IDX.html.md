@@ -47,3 +47,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Toronto Stock Exchange - Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/TSX_IDX_schemas.html.md)
+* [Toronto Stock Exchange - Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/TSX_IDX_enumerations.html.md)
+* [Toronto Stock Exchange - Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/TSX_IDX_trading_hours.html.md)
+* [Toronto Stock Exchange - Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/TSX_IDX_holidays.html.md)

@@ -41,3 +41,7 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Symbol Universe for all databases Schemas](https://cloudcoverage.docs.sol.onetick.com/ref/SYMBOL_UNIVERSE_schemas.html.md)

@@ -45,3 +45,10 @@ Database includes the following tick types:
 * IDX - Index values
 
 
+
+## Table Of Contents
+
+* [Global Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/consolidated/TDI_IDX_schemas.html.md)
+* [Global Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/consolidated/TDI_IDX_enumerations.html.md)
+* [Global Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/consolidated/TDI_IDX_trading_hours.html.md)
+* [Global Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/consolidated/TDI_IDX_holidays.html.md)

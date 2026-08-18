@@ -84,3 +84,10 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 
 
+
+## Table Of Contents
+
+* [New Zealand Exchange (NZX) Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NZX_schemas.html.md)
+* [New Zealand Exchange (NZX) Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NZX_enumerations.html.md)
+* [New Zealand Exchange (NZX) Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NZX_trading_hours.html.md)
+* [New Zealand Exchange (NZX) Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NZX_holidays.html.md)

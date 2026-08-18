@@ -73,3 +73,10 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Shanghai Futures Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SHFE_schemas.html.md)
+* [Shanghai Futures Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SHFE_enumerations.html.md)
+* [Shanghai Futures Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SHFE_trading_hours.html.md)
+* [Shanghai Futures Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/SHFE_holidays.html.md)

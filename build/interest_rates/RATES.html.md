@@ -46,3 +46,7 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Global Daily Interest Rates Schemas](https://cloudcoverage.docs.sol.onetick.com/interest_rates/RATES_schemas.html.md)

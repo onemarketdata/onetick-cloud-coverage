@@ -66,3 +66,8 @@ Database includes the following tick types:
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+## Table Of Contents
+
+* [Bitfinex Schemas](https://cloudcoverage.docs.sol.onetick.com/crypto/BITFINEX_schemas.html.md)
+* [Bitfinex Enumerations](https://cloudcoverage.docs.sol.onetick.com/crypto/BITFINEX_enumerations.html.md)
