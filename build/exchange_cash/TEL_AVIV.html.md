@@ -1,0 +1,95 @@
+# Tel Aviv Stock Exchange
+
+The Tel Aviv Stock Exchange is Israel’s only stock exchange. It trades shares, corporate bonds, treasury bills, index products and derivatives
+
+* Country: Israel [IL]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Tel_Aviv
+* Start Date: 20150726
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TEL_AVIV](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_schemas.html.md)
+* [Field Enumerations for TEL_AVIV](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_enumerations.html.md)
+* [Trading Hours for TEL_AVIV](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_trading_hours.html.md)
+* [Recent Holidays for TEL_AVIV](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TEL_AVIV_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TEL_AVIV -  Coverage
+
+| Security Type    |   # of Symbols | % of Total   |
+|------------------|----------------|--------------|
+| Bond             |            130 | 1.13%        |
+| Commercial Paper |             31 | 0.27%        |
+| Commodity        |              1 | 0.01%        |
+| Convertible Bond |             33 | 0.29%        |
+| Corporate Bond   |            836 | 7.29%        |
+| ETF              |            504 | 4.4%         |
+| Equity           |            563 | 4.91%        |
+| FX               |             14 | 0.12%        |
+| Future           |             12 | 0.1%         |
+| Government Bond  |             35 | 0.31%        |
+| Index            |            127 | 1.11%        |
+| Option           |           9074 | 79.17%       |
+| Treasury Bill    |             13 | 0.11%        |
+| Unknown          |              3 | 0.03%        |
+| Warrant          |             85 | 0.74%        |
+| Total            |          11461 | 100%         |
+
+
+Consists of 3 Databases
+
+* [TEL_AVIV]()  - Tick Data
+* [TEL_AVIV_BARS]()  - 1 Minute Bars
+* [TEL_AVIV_DAILY]()  - End of Day Metrics
+
+
+
+
+## TEL_AVIV
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TEL_AVIV_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## TEL_AVIV_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD_1D - Daily trade bars
+
+

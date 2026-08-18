@@ -1,0 +1,97 @@
+# SIX Swiss Exchange
+
+The SIX Swiss Exchange is Switzerland’s principal stock exchange located in Zurich.
+
+* Country: Switzerland [CH]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Zurich
+* Start Date: 20120103
+* Real Time Available: Yes
+* Bars Available: Yes
+* Book Depth Available: Yes
+
+
+
+Details are provided below
+
+* [Table Schemas for SWISS](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_schemas.html.md)
+* [Field Enumerations for SWISS](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_enumerations.html.md)
+* [Trading Hours for SWISS](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_trading_hours.html.md)
+* [Recent Holidays for SWISS](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SWISS_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### SWISS -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |           2993 | 41.43%       |
+| ETF             |           2264 | 31.34%       |
+| Equity          |           1966 | 27.21%       |
+| Right           |              1 | 0.01%        |
+| Total           |           7224 | 100%         |
+
+
+Consists of 4 Databases
+
+* [SWISS]()  - Tick Data
+* [SWISS_BARS]()  - 1 Minute Bars
+* [SWISS_DAILY]()  - End of Day Metrics
+* [SWISS_LATEST]()  - Real Time Latest Values
+
+
+
+
+## SWISS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## SWISS_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## SWISS_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## SWISS_LATEST
+
+Database includes the following tick types:
+
+* SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
+* SNAP_QTE - Latest Quotes for all Instruments in the venue
+* SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
+
+

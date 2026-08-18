@@ -1,0 +1,68 @@
+# BIVA (Bolsa Institucional de Valores)
+
+The Institutional Stock Exchange, commonly known as BIVA, is Mexico’s second stock exchange, based in Mexico City. BIVA began operations on 25 July 2018 and trades the same instruments as the other exchange in Mexico, the Bolsa Mexicana de Valores: equities, debts, warrants and some Mexican-specific instruments such as CKDs and FIBRAs.
+
+* Country: Mexico [MX]
+* Mkt Hours: 08:30-15:11
+* Time Zone: America/Mexico_City
+* Start Date: 20240617
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for BIVA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_schemas.html.md)
+* [Field Enumerations for BIVA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_enumerations.html.md)
+* [Trading Hours for BIVA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_trading_hours.html.md)
+* [Recent Holidays for BIVA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/BIVA_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### BIVA -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |              8 | 0.14%        |
+| ETF             |             14 | 0.25%        |
+| Equity          |           3917 | 69.62%       |
+| Fund            |            386 | 6.86%        |
+| REIT            |             35 | 0.62%        |
+| Warrant         |           1266 | 22.5%        |
+| Total           |           5626 | 100%         |
+
+
+Consists of 2 Databases
+
+* [BIVA]()  - Tick Data
+* [BIVA_DAILY]()  - End of Day Metrics
+
+
+
+
+## BIVA
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## BIVA_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+

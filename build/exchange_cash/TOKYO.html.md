@@ -1,0 +1,80 @@
+# Tokyo Stock Exchange (+ Fukuoka / Sapporo)
+
+The Tokyo Stock Exchange (TSE) offers trading in equities, bonds, ETFs, and derivatives. It also includes regional exchanges in Fukuoka and Sapporo.
+
+* Country: Japan [JP]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Tokyo
+* Start Date: 20081001
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TOKYO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TOKYO_schemas.html.md)
+* [Field Enumerations for TOKYO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TOKYO_enumerations.html.md)
+* [Trading Hours for TOKYO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TOKYO_trading_hours.html.md)
+* [Recent Holidays for TOKYO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TOKYO_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TOKYO -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| ETF             |            474 | 10.17%       |
+| Equity          |           4108 | 88.15%       |
+| Preferred Stock |              9 | 0.19%        |
+| REIT            |             64 | 1.37%        |
+| Test            |              5 | 0.11%        |
+| Total           |           4660 | 100%         |
+
+
+Consists of 3 Databases
+
+* [TOKYO]()  - Tick Data
+* [TOKYO_BARS]()  - 1 Minute Bars
+* [TOKYO_DAILY]()  - End of Day Metrics
+
+
+
+
+## TOKYO
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TOKYO_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## TOKYO_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+

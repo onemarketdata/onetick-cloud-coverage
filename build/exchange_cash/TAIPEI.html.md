@@ -1,0 +1,92 @@
+# Taipei Exchange
+
+The Taipei Exchange is a stock exchange in Taiwan that trades Taiwanese equities and bonds.
+
+* Country: Taiwan [TW]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Taipei
+* Start Date: 20160602
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TAIPEI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_schemas.html.md)
+* [Field Enumerations for TAIPEI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_enumerations.html.md)
+* [Trading Hours for TAIPEI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_trading_hours.html.md)
+* [Recent Holidays for TAIPEI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TAIPEI_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TAIPEI -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Corporate Bond  |            391 | 3.5%         |
+| ETF             |            117 | 1.05%        |
+| ETN             |              7 | 0.06%        |
+| Equity          |           1250 | 11.2%        |
+| Index           |            103 | 0.92%        |
+| Investment Fund |              3 | 0.03%        |
+| Preferred Stock |              1 | 0.01%        |
+| Unknown         |             18 | 0.16%        |
+| Warrant         |           9266 | 83.06%       |
+| Total           |          11156 | 100%         |
+
+
+Consists of 3 Databases
+
+* [TAIPEI]()  - Tick Data
+* [TAIPEI_BARS]()  - 1 Minute Bars
+* [TAIPEI_DAILY]()  - End of Day Metrics
+
+
+
+
+## TAIPEI
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* QTE_ODD_LOT - BBO quotes from the Odd Lot book, for exchanges that have a separate order book for odd lots
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TAIPEI_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## TAIPEI_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD_1D - Daily trade bars
+
+
