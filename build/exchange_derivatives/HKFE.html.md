@@ -1,0 +1,73 @@
+# Hong Kong Futures Exchange
+
+The Hong Kong Futures Exchange (HKFE) offers trading in futures and options on equities, indices, interest rates, and commodities.
+
+* Country: Hong Kong SAR China [HK]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Hong_Kong
+* Start Date: 20091110
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for HKFE](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_schemas.html.md)
+* [Field Enumerations for HKFE](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_enumerations.html.md)
+* [Trading Hours for HKFE](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_trading_hours.html.md)
+* [Recent Holidays for HKFE](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### HKFE -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |           1115 | 41.73%       |
+| Futures Spread  |           1557 | 58.27%       |
+| Total           |           2672 | 100%         |
+
+
+Consists of 2 Databases
+
+* [HKFE]()  - Tick Data
+* [HKFE_BARS]()  - 1 Minute Bars
+
+
+
+
+## HKFE
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## HKFE_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+## Table Of Contents
+
+* [Hong Kong Futures Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_schemas.html.md)
+* [Hong Kong Futures Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_enumerations.html.md)
+* [Hong Kong Futures Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_trading_hours.html.md)
+* [Hong Kong Futures Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/HKFE_holidays.html.md)

@@ -1,0 +1,91 @@
+# Frankfurt Stock Exchange
+
+The Frankfurt Stock Exchange (FWB) offers trading across equities, bonds, funds, derivatives and other products.
+
+* Country: Germany [DE]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Berlin
+* Start Date: 20181203
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for FRANKFURT](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_schemas.html.md)
+* [Field Enumerations for FRANKFURT](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_enumerations.html.md)
+* [Trading Hours for FRANKFURT](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_trading_hours.html.md)
+* [Recent Holidays for FRANKFURT](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### FRANKFURT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |          35829 | 63.89%       |
+| ETC             |            200 | 0.36%        |
+| ETF             |           2895 | 5.16%        |
+| ETN             |            362 | 0.65%        |
+| Equity          |          14518 | 25.89%       |
+| Fund            |           2279 | 4.06%        |
+| Total           |          56083 | 100%         |
+
+
+Consists of 3 Databases
+
+* [FRANKFURT]()  - Tick Data
+* [FRANKFURT_BARS]()  - 1 Minute Bars
+* [FRANKFURT_DAILY]()  - End of Day Metrics
+
+
+
+
+## FRANKFURT
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## FRANKFURT_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## FRANKFURT_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Frankfurt Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_schemas.html.md)
+* [Frankfurt Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_enumerations.html.md)
+* [Frankfurt Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_trading_hours.html.md)
+* [Frankfurt Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/FRANKFURT_holidays.html.md)

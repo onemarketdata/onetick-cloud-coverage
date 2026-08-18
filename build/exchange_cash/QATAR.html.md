@@ -1,0 +1,94 @@
+# Qatar Stock Exchange
+
+The Qatar Stock Exchange (QSE) provides a trading platform for Qatari public shareholding companies’ equities, bonds, and other securities.
+
+* Country: Qatar [QA]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Dubai
+* Start Date: 20160627
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for QATAR](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_schemas.html.md)
+* [Field Enumerations for QATAR](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_enumerations.html.md)
+* [Trading Hours for QATAR](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_trading_hours.html.md)
+* [Recent Holidays for QATAR](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### QATAR -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |             38 | 14.29%       |
+| ETF             |              2 | 0.75%        |
+| Equity          |             55 | 20.68%       |
+| Government Bond |             40 | 15.04%       |
+| Index           |             13 | 4.89%        |
+| Right           |              1 | 0.38%        |
+| Treasury Bill   |            116 | 43.61%       |
+| Unknown         |              1 | 0.38%        |
+| Total           |            266 | 100%         |
+
+
+Consists of 3 Databases
+
+* [QATAR]()  - Tick Data
+* [QATAR_BARS]()  - 1 Minute Bars
+* [QATAR_DAILY]()  - End of Day Metrics
+
+
+
+
+## QATAR
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## QATAR_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## QATAR_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Qatar Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_schemas.html.md)
+* [Qatar Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_enumerations.html.md)
+* [Qatar Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_trading_hours.html.md)
+* [Qatar Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/QATAR_holidays.html.md)

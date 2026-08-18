@@ -1,0 +1,86 @@
+# Thailand Futures Exchange
+
+The Thailand Futures Exchange ( TFEX ) offers trading in futures and options on equities, indices, commodities, and interest rates.
+
+* Country: Thailand [TH]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Bangkok
+* Start Date: 20201102
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for THAILAND_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_schemas.html.md)
+* [Field Enumerations for THAILAND_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_enumerations.html.md)
+* [Trading Hours for THAILAND_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_trading_hours.html.md)
+* [Recent Holidays for THAILAND_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### THAILAND_FUT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |            597 | 47.61%       |
+| Futures Spread  |            399 | 31.82%       |
+| Option          |            258 | 20.57%       |
+| Total           |           1254 | 100%         |
+
+
+Consists of 3 Databases
+
+* [THAILAND_FUT]()  - Tick Data
+* [THAILAND_FUT_BARS]()  - 1 Minute Bars
+* [THAILAND_FUT_DAILY]()  - End of Day Metrics
+
+
+
+
+## THAILAND_FUT
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## THAILAND_FUT_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## THAILAND_FUT_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Thailand Futures Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_schemas.html.md)
+* [Thailand Futures Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_enumerations.html.md)
+* [Thailand Futures Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_trading_hours.html.md)
+* [Thailand Futures Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/THAILAND_FUT_holidays.html.md)

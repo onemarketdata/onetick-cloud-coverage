@@ -1,0 +1,91 @@
+# Tradegate Exchange
+
+Tradegate is a German securities trading platform and regulated market operated by the Berlin and Frankfurt stock exchanges.
+
+* Country: Germany [DE]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Berlin
+* Start Date: 20141201
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TRADEGATE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_schemas.html.md)
+* [Field Enumerations for TRADEGATE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_enumerations.html.md)
+* [Trading Hours for TRADEGATE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_trading_hours.html.md)
+* [Recent Holidays for TRADEGATE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TRADEGATE -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |           7071 | 35.36%       |
+| ETC             |            184 | 0.92%        |
+| ETF             |           2800 | 14.0%        |
+| ETN             |            205 | 1.03%        |
+| Equity          |           6568 | 32.84%       |
+| Fund            |           3169 | 15.85%       |
+| Total           |          19997 | 100%         |
+
+
+Consists of 3 Databases
+
+* [TRADEGATE]()  - Tick Data
+* [TRADEGATE_BARS]()  - 1 Minute Bars
+* [TRADEGATE_DAILY]()  - End of Day Metrics
+
+
+
+
+## TRADEGATE
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TRADEGATE_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## TRADEGATE_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Tradegate Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_schemas.html.md)
+* [Tradegate Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_enumerations.html.md)
+* [Tradegate Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_trading_hours.html.md)
+* [Tradegate Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TRADEGATE_holidays.html.md)

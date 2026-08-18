@@ -1,0 +1,87 @@
+# Philippine Stock Exchange
+
+The Philippine Stock Exchange (PSE) offers trading in equities, bonds, ETFs, and other securities issued by Philippine companies.
+
+* Country: Philippines [PH]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Tokyo
+* Start Date: 20091210
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for PSE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_schemas.html.md)
+* [Field Enumerations for PSE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_enumerations.html.md)
+* [Trading Hours for PSE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_trading_hours.html.md)
+* [Recent Holidays for PSE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### PSE -  Coverage
+
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| Depository Receipt |              2 | 0.47%        |
+| ETF                |              1 | 0.23%        |
+| Equity             |            292 | 68.38%       |
+| Preferred Stock    |             92 | 21.55%       |
+| Unknown            |             39 | 9.13%        |
+| Warrant            |              1 | 0.23%        |
+| Total              |            427 | 100%         |
+
+
+Consists of 3 Databases
+
+* [PSE]()  - Tick Data
+* [PSE_BARS]()  - 1 Minute Bars
+* [PSE_DAILY]()  - End of Day Metrics
+
+
+
+
+## PSE
+
+Database includes the following tick types:
+
+* QTE - Best bid / offer quotes
+* QTE_ODD_LOT - BBO quotes from the Odd Lot book, for exchanges that have a separate order book for odd lots
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## PSE_BARS
+
+Database includes the following tick types:
+
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## PSE_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Philippine Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_schemas.html.md)
+* [Philippine Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_enumerations.html.md)
+* [Philippine Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_trading_hours.html.md)
+* [Philippine Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/PSE_holidays.html.md)

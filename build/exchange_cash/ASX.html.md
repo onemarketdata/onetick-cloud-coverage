@@ -1,0 +1,82 @@
+# Australian Stock Exchange
+
+The Australian Stock Exchange (ASX) offers trading in equities, bonds, ETFs, derivatives, and other securities issued by Australian companies.
+
+* Country: Australia [AU]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Australia/Sydney
+* Start Date: 20080506
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for ASX](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_schemas.html.md)
+* [Field Enumerations for ASX](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_enumerations.html.md)
+* [Trading Hours for ASX](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_trading_hours.html.md)
+* [Recent Holidays for ASX](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### ASX -  Coverage
+
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| Bond               |            404 | 7.68%        |
+| Convertible Bond   |             38 | 0.72%        |
+| Depository Receipt |             71 | 1.35%        |
+| ETF                |            363 | 6.9%         |
+| ETP                |             88 | 1.67%        |
+| Equity             |           1786 | 33.95%       |
+| Government Bond    |             87 | 1.65%        |
+| Index              |             45 | 0.86%        |
+| Unknown            |             80 | 1.52%        |
+| Warrant            |           2298 | 43.69%       |
+| Total              |           5260 | 100%         |
+
+
+Consists of 2 Databases
+
+* [ASX]()  - Tick Data
+* [ASX_BARS]()  - 1 Minute Bars
+
+
+
+
+## ASX
+
+Database includes the following tick types:
+
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## ASX_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+## Table Of Contents
+
+* [Australian Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_schemas.html.md)
+* [Australian Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_enumerations.html.md)
+* [Australian Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_trading_hours.html.md)
+* [Australian Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/ASX_holidays.html.md)

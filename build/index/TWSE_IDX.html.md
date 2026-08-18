@@ -1,0 +1,68 @@
+# Taiwan Stock Exchange - Indices
+
+The TWSE operates major Taiwanese equity indices like the TAIEX, Taiwan 50 Index and sector indices.
+
+* Country: Taiwan [TW]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Taipei
+* Start Date: 20170605
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TWSE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_schemas.html.md)
+* [Field Enumerations for TWSE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_enumerations.html.md)
+* [Trading Hours for TWSE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_trading_hours.html.md)
+* [Recent Holidays for TWSE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TWSE_IDX -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            187 | 100.0%       |
+| Total           |            187 | 100%         |
+
+
+Consists of 2 Databases
+
+* [TWSE_IDX]()  - Tick Data
+* [TWSE_IDX_DAILY]()  - End of Day Metrics
+
+
+
+
+## TWSE_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## TWSE_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Taiwan Stock Exchange - Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_schemas.html.md)
+* [Taiwan Stock Exchange - Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_enumerations.html.md)
+* [Taiwan Stock Exchange - Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_trading_hours.html.md)
+* [Taiwan Stock Exchange - Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/TWSE_IDX_holidays.html.md)

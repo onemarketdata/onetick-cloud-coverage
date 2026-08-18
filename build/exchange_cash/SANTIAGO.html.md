@@ -1,0 +1,89 @@
+# Santiago Stock Exchange
+
+The Santiago Stock Exchange (BCS) offers trading in equities, bonds, derivatives, and other financial instruments issued by Chilean companies.
+
+* Country: Chile [CL]
+* Mkt Hours: 08:00-17:00
+* Time Zone: America/Sao_Paulo
+* Start Date: 20081110 - Equities, 20210803 - Indices
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for SANTIAGO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_schemas.html.md)
+* [Field Enumerations for SANTIAGO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_enumerations.html.md)
+* [Trading Hours for SANTIAGO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_trading_hours.html.md)
+* [Recent Holidays for SANTIAGO](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### SANTIAGO -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| ETF             |           1763 | 9.88%        |
+| Equity          |          15029 | 84.24%       |
+| Index           |             30 | 0.17%        |
+| Mutual Fund     |           1002 | 5.62%        |
+| Unknown         |             16 | 0.09%        |
+| Total           |          17840 | 100%         |
+
+
+Consists of 3 Databases
+
+* [SANTIAGO]()  - Tick Data
+* [SANTIAGO_BARS]()  - 1 Minute Bars
+* [SANTIAGO_DAILY]()  - End of Day Metrics
+
+
+
+
+## SANTIAGO
+
+Database includes the following tick types:
+
+* IDX - Index values
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## SANTIAGO_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## SANTIAGO_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Santiago Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_schemas.html.md)
+* [Santiago Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_enumerations.html.md)
+* [Santiago Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_trading_hours.html.md)
+* [Santiago Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SANTIAGO_holidays.html.md)

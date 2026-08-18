@@ -1,0 +1,74 @@
+# Warsaw Stock Exchange - Derivatives
+
+Warsaw Stock Exchange operates a financial instruments exchange. The Exchange trades equities, fixed income, derivatives, listings, bonds, subscription rights.
+
+* Country: Poland [PL]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Berlin
+* Start Date: 20221121
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: Yes
+
+
+
+Details are provided below
+
+* [Table Schemas for WARSAW_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_schemas.html.md)
+* [Field Enumerations for WARSAW_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_enumerations.html.md)
+* [Trading Hours for WARSAW_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_trading_hours.html.md)
+* [Recent Holidays for WARSAW_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### WARSAW_FUT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |            172 | 37.39%       |
+| Option          |            288 | 62.61%       |
+| Total           |            460 | 100%         |
+
+
+Consists of 2 Databases
+
+* [WARSAW_FUT]()  - Tick Data
+* [WARSAW_FUT_DAILY]()  - End of Day Metrics
+
+
+
+
+## WARSAW_FUT
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## WARSAW_FUT_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Warsaw Stock Exchange - Derivatives Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_schemas.html.md)
+* [Warsaw Stock Exchange - Derivatives Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_enumerations.html.md)
+* [Warsaw Stock Exchange - Derivatives Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_trading_hours.html.md)
+* [Warsaw Stock Exchange - Derivatives Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/WARSAW_FUT_holidays.html.md)

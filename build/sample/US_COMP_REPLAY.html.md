@@ -1,0 +1,60 @@
+# US Consolidated Equity Replay for Intraday / CEP
+
+Consolidated data from all US equities exchanges, replayed and available for testing intraday access plus CEP / stream processing
+
+* Country: USA United States [US]
+* Mkt Hours: 09:30-16:00
+* Time Zone: America/New_York
+* Start Date: TODAY
+* Real Time Available: Yes
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for US_COMP_REPLAY](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_schemas.html.md)
+* [Field Enumerations for US_COMP_REPLAY](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_enumerations.html.md)
+* [Trading Hours for US_COMP_REPLAY](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_trading_hours.html.md)
+* [Recent Holidays for US_COMP_REPLAY](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### US_COMP_REPLAY -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |            502 | 100%         |
+
+
+Consists of 1 Databases
+
+* [US_COMP_REPLAY]()  - Tick Data
+
+
+
+
+## US_COMP_REPLAY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* NBBO - National Best Bid / Offer quotes
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+## Table Of Contents
+
+* [US Consolidated Equity Replay for Intraday / CEP Schemas](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_schemas.html.md)
+* [US Consolidated Equity Replay for Intraday / CEP Enumerations](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_enumerations.html.md)
+* [US Consolidated Equity Replay for Intraday / CEP Trading Hours](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_trading_hours.html.md)
+* [US Consolidated Equity Replay for Intraday / CEP Market Holidays](https://cloudcoverage.docs.sol.onetick.com/sample/US_COMP_REPLAY_holidays.html.md)

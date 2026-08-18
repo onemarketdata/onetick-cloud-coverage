@@ -1,0 +1,89 @@
+# Turquoise UK
+
+Turquoise is a European multilateral trading facility (MTF) owned by the London Stock Exchange Group. It offers trading in over 4,300 securities across 19 European markets, including UK, Swiss, European, and US shares, ETFs, and depository receipts.[6][7] Turquoise uses a hybrid model allowing trading both on and off traditional exchanges.
+
+* Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/London
+* Start Date: 20101004
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for TURQUOISE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_schemas.html.md)
+* [Field Enumerations for TURQUOISE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_enumerations.html.md)
+* [Trading Hours for TURQUOISE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_trading_hours.html.md)
+* [Recent Holidays for TURQUOISE](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### TURQUOISE -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| ETF             |            926 | 22.49%       |
+| Equity          |           3188 | 77.42%       |
+| Unknown         |              4 | 0.1%         |
+| Total           |           4118 | 100%         |
+
+
+Consists of 3 Databases
+
+* [TURQUOISE]()  - Tick Data
+* [TURQUOISE_BARS]()  - 1 Minute Bars
+* [TURQUOISE_DAILY]()  - End of Day Metrics
+
+
+
+
+## TURQUOISE
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## TURQUOISE_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## TURQUOISE_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Turquoise UK Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_schemas.html.md)
+* [Turquoise UK Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_enumerations.html.md)
+* [Turquoise UK Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_trading_hours.html.md)
+* [Turquoise UK Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/TURQUOISE_holidays.html.md)

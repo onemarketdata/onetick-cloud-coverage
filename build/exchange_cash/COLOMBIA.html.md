@@ -1,0 +1,78 @@
+# Colombia Stock Exchange
+
+The Colombia Stock Exchange (BVC) offers trading in equities, bonds, derivatives, and other financial instruments issued by Colombian companies.
+
+* Country: Colombia [CO]
+* Mkt Hours: 08:00-17:00
+* Time Zone: America/Bogota
+* Start Date: 20160627
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for COLOMBIA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_schemas.html.md)
+* [Field Enumerations for COLOMBIA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_enumerations.html.md)
+* [Trading Hours for COLOMBIA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_trading_hours.html.md)
+* [Recent Holidays for COLOMBIA](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### COLOMBIA -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |            397 | 63.12%       |
+| ETF             |             71 | 11.29%       |
+| Equity          |            141 | 22.42%       |
+| Index           |              9 | 1.43%        |
+| Unknown         |             11 | 1.75%        |
+| Total           |            629 | 100%         |
+
+
+Consists of 2 Databases
+
+* [COLOMBIA]()  - Tick Data
+* [COLOMBIA_BARS]()  - 1 Minute Bars
+
+
+
+
+## COLOMBIA
+
+Database includes the following tick types:
+
+* IDX - Index values
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## COLOMBIA_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+## Table Of Contents
+
+* [Colombia Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_schemas.html.md)
+* [Colombia Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_enumerations.html.md)
+* [Colombia Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_trading_hours.html.md)
+* [Colombia Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/COLOMBIA_holidays.html.md)

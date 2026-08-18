@@ -1,0 +1,69 @@
+# S&P Indices
+
+S&P Dow Jones Indices is a leading provider of indices like the S&P 500, Dow Jones Industrial Average and more.
+
+* Country: USA United States [US]
+* Mkt Hours: 09:30-16:00
+* Time Zone: America/New_York
+* Start Date: 20200121
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for SP_IDX](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_schemas.html.md)
+* [Field Enumerations for SP_IDX](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_enumerations.html.md)
+* [Trading Hours for SP_IDX](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_trading_hours.html.md)
+* [Recent Holidays for SP_IDX](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### SP_IDX -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |           5621 | 100.0%       |
+| Total           |           5621 | 100%         |
+
+
+Consists of 2 Databases
+
+* [SP_IDX]()  - Tick Data
+* [SP_IDX_DAILY]()  - End of Day Metrics
+
+
+
+
+## SP_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+
+
+## SP_IDX_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [S&P Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_schemas.html.md)
+* [S&P Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_enumerations.html.md)
+* [S&P Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_trading_hours.html.md)
+* [S&P Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/SP_IDX_holidays.html.md)

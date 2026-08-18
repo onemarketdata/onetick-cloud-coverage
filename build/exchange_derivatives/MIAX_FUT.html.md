@@ -1,0 +1,90 @@
+# MIAX Futures Exchange
+
+MIAX Futures provides the Minneapolis Grain Exchange, offering trading in Hard Red Spring Wheat Futures & Options.
+
+* Country: USA United States [US]
+* Mkt Hours: 17:00-14:20
+* Time Zone: America/New_York
+* Start Date: 20250630
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for MIAX_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_schemas.html.md)
+* [Field Enumerations for MIAX_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_enumerations.html.md)
+* [Trading Hours for MIAX_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_trading_hours.html.md)
+* [Recent Holidays for MIAX_FUT](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### MIAX_FUT -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |             15 | 1.51%        |
+| Futures Spread  |             31 | 3.13%        |
+| Option          |            946 | 95.36%       |
+| Total           |            992 | 100%         |
+
+
+Consists of 3 Databases
+
+* [MIAX_FUT]()  - Tick Data
+* [MIAX_FUT_BARS]()  - 1 Minute Bars
+* [MIAX_FUT_DAILY]()  - End of Day Metrics
+
+
+
+
+## MIAX_FUT
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* LULD - Limit Up / Limit Down price levels
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## MIAX_FUT_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## MIAX_FUT_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [MIAX Futures Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_schemas.html.md)
+* [MIAX Futures Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_enumerations.html.md)
+* [MIAX Futures Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_trading_hours.html.md)
+* [MIAX Futures Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/MIAX_FUT_holidays.html.md)

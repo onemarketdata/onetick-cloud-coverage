@@ -1,0 +1,56 @@
+# Prague Stock Exchange - Indices
+
+The Prague Stock Exchange provides indices tracking the performance of Czech equities, including the PX Index.
+
+* Country: Czechia Czech Republic [CZ]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Prque
+* Start Date: 20180226
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for PRAGUE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_schemas.html.md)
+* [Field Enumerations for PRAGUE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_enumerations.html.md)
+* [Trading Hours for PRAGUE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_trading_hours.html.md)
+* [Recent Holidays for PRAGUE_IDX](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### PRAGUE_IDX -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |              5 | 100.0%       |
+| Total           |              5 | 100%         |
+
+
+Consists of 1 Databases
+
+* [PRAGUE_IDX]()  - Tick Data
+
+
+
+
+## PRAGUE_IDX
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Prague Stock Exchange - Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_schemas.html.md)
+* [Prague Stock Exchange - Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_enumerations.html.md)
+* [Prague Stock Exchange - Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_trading_hours.html.md)
+* [Prague Stock Exchange - Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/PRAGUE_IDX_holidays.html.md)

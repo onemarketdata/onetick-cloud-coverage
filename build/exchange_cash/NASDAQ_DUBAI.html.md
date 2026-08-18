@@ -1,0 +1,88 @@
+# Nasdaq Dubai
+
+Nasdaq Dubai offers trading in equities, bonds, derivatives, and Islamic finance products like Sukuk.
+
+* Country: UAE [AE]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Dubai
+* Start Date: 20140629
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for NASDAQ_DUBAI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_schemas.html.md)
+* [Field Enumerations for NASDAQ_DUBAI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_enumerations.html.md)
+* [Trading Hours for NASDAQ_DUBAI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_trading_hours.html.md)
+* [Recent Holidays for NASDAQ_DUBAI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### NASDAQ_DUBAI -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |            328 | 79.23%       |
+| ETF             |              3 | 0.72%        |
+| Equity          |              4 | 0.97%        |
+| Fund            |              2 | 0.48%        |
+| Future          |             76 | 18.36%       |
+| Unknown         |              1 | 0.24%        |
+| Total           |            414 | 100%         |
+
+
+Consists of 3 Databases
+
+* [NASDAQ_DUBAI]()  - Tick Data
+* [NASDAQ_DUBAI_BARS]()  - 1 Minute Bars
+* [NASDAQ_DUBAI_DAILY]()  - End of Day Metrics
+
+
+
+
+## NASDAQ_DUBAI
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## NASDAQ_DUBAI_BARS
+
+Database includes the following tick types:
+
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## NASDAQ_DUBAI_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Nasdaq Dubai Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_schemas.html.md)
+* [Nasdaq Dubai Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_enumerations.html.md)
+* [Nasdaq Dubai Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_trading_hours.html.md)
+* [Nasdaq Dubai Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/NASDAQ_DUBAI_holidays.html.md)

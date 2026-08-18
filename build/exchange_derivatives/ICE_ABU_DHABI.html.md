@@ -1,0 +1,90 @@
+# ICE Abu Dhabi
+
+IFAD broadens regional trading opportunities with micro Index futures on the MSCI GCC, MSCI Qatar, MSCI UAE, and MSCI India indices, providing seamless access to these key markets on a single venue.
+
+* Country: UAE [AE]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Dubai
+* Start Date: 20250820
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for ICE_ABU_DHABI](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_schemas.html.md)
+* [Field Enumerations for ICE_ABU_DHABI](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_enumerations.html.md)
+* [Trading Hours for ICE_ABU_DHABI](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_trading_hours.html.md)
+* [Recent Holidays for ICE_ABU_DHABI](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### ICE_ABU_DHABI -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |             80 | 27.3%        |
+| Futures Spread  |            205 | 69.97%       |
+| Index           |              8 | 2.73%        |
+| Total           |            293 | 100%         |
+
+
+Consists of 3 Databases
+
+* [ICE_ABU_DHABI]()  - Tick Data
+* [ICE_ABU_DHABI_BARS]()  - 1 Minute Bars
+* [ICE_ABU_DHABI_DAILY]()  - End of Day Metrics
+
+
+
+
+## ICE_ABU_DHABI
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IDX - Index values
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## ICE_ABU_DHABI_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## ICE_ABU_DHABI_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [ICE Abu Dhabi Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_schemas.html.md)
+* [ICE Abu Dhabi Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_enumerations.html.md)
+* [ICE Abu Dhabi Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_trading_hours.html.md)
+* [ICE Abu Dhabi Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ICE_ABU_DHABI_holidays.html.md)

@@ -1,0 +1,88 @@
+# Zhengzhou Commodity Exchange
+
+The Zhengzhou Commodity Exchange (ZCE) offers trading in agricultural and industrial commodity futures and options.
+
+* Country: China [CN]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Asia/Hong_Kong
+* Start Date: 20160520
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for ZHENGZHOU](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_schemas.html.md)
+* [Field Enumerations for ZHENGZHOU](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_enumerations.html.md)
+* [Trading Hours for ZHENGZHOU](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_trading_hours.html.md)
+* [Recent Holidays for ZHENGZHOU](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### ZHENGZHOU -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |            240 | 3.63%        |
+| Futures Spread  |           1176 | 17.8%        |
+| Option          |           5192 | 78.57%       |
+| Total           |           6608 | 100%         |
+
+
+Consists of 3 Databases
+
+* [ZHENGZHOU]()  - Tick Data
+* [ZHENGZHOU_BARS]()  - 1 Minute Bars
+* [ZHENGZHOU_DAILY]()  - End of Day Metrics
+
+
+
+
+## ZHENGZHOU
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## ZHENGZHOU_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## ZHENGZHOU_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD_1D - Daily trade bars
+
+
+
+## Table Of Contents
+
+* [Zhengzhou Commodity Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_schemas.html.md)
+* [Zhengzhou Commodity Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_enumerations.html.md)
+* [Zhengzhou Commodity Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_trading_hours.html.md)
+* [Zhengzhou Commodity Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_derivatives/ZHENGZHOU_holidays.html.md)

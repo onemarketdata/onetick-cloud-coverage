@@ -1,0 +1,101 @@
+# Luxembourg Stock Exchange
+
+The Luxembourg Stock Exchange specializes in the listing of international securities like bonds and funds.
+
+* Country: Luxembourg [LU]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Paris
+* Start Date: 20150202
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for LUXEMBOURG](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_schemas.html.md)
+* [Field Enumerations for LUXEMBOURG](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_enumerations.html.md)
+* [Trading Hours for LUXEMBOURG](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_trading_hours.html.md)
+* [Recent Holidays for LUXEMBOURG](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### LUXEMBOURG -  Coverage
+
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| Bond               |          46522 | 83.51%       |
+| Convertible Bond   |             10 | 0.02%        |
+| Corporate Bond     |            181 | 0.32%        |
+| Depository Receipt |             94 | 0.17%        |
+| ETF                |            158 | 0.28%        |
+| Equity             |             30 | 0.05%        |
+| Index              |             34 | 0.06%        |
+| Investment Fund    |           2139 | 3.84%        |
+| Mortgage Bond      |            287 | 0.52%        |
+| Municipal Bond     |            355 | 0.64%        |
+| Preferred Stock    |              4 | 0.01%        |
+| REIT               |              4 | 0.01%        |
+| Structured Product |           5018 | 9.01%        |
+| Warrant            |            869 | 1.56%        |
+| Total              |          55705 | 100%         |
+
+
+Consists of 3 Databases
+
+* [LUXEMBOURG]()  - Tick Data
+* [LUXEMBOURG_BARS]()  - 1 Minute Bars
+* [LUXEMBOURG_DAILY]()  - End of Day Metrics
+
+
+
+
+## LUXEMBOURG
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* REF_PRICE - Benchmark / reference prices
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## LUXEMBOURG_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## LUXEMBOURG_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Luxembourg Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_schemas.html.md)
+* [Luxembourg Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_enumerations.html.md)
+* [Luxembourg Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_trading_hours.html.md)
+* [Luxembourg Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/LUXEMBOURG_holidays.html.md)

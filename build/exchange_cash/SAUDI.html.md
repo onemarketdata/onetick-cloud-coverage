@@ -1,0 +1,90 @@
+# Saudi Stock Exchange
+
+The Saudi Stock Exchange, Tadawul, is the sole entity authorized to act as the securities exchange in Saudi Arabia, offering trading in equities, bonds, ETFs, and derivatives.
+
+* Country: Saudi Arabia [SA]
+* Mkt Hours: 10:00-15:00
+* Time Zone: Asia/Riyadh
+* Start Date: 20140629
+* Real Time Available: No
+* Bars Available: Yes
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for SAUDI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_schemas.html.md)
+* [Field Enumerations for SAUDI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_enumerations.html.md)
+* [Trading Hours for SAUDI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_trading_hours.html.md)
+* [Recent Holidays for SAUDI](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### SAUDI -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |             65 | 13.63%       |
+| ETF             |             13 | 2.73%        |
+| Equity          |            376 | 78.83%       |
+| Mutual Fund     |              3 | 0.63%        |
+| REIT            |             20 | 4.19%        |
+| Total           |            477 | 100%         |
+
+
+Consists of 3 Databases
+
+* [SAUDI]()  - Tick Data
+* [SAUDI_BARS]()  - 1 Minute Bars
+* [SAUDI_DAILY]()  - End of Day Metrics
+
+
+
+
+## SAUDI
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE - Best bid / offer quotes
+* STAT - Static data, e.g. ISIN, description, security type
+* TRD - Trades
+
+
+
+
+
+## SAUDI_BARS
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* MKT - Market phase / instrument status information
+* QTE_1M - 1-minute quote bars
+* TRD_1D - Daily trade bars
+* TRD_1M - 1-minute trade bars
+* VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## SAUDI_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Saudi Stock Exchange Schemas](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_schemas.html.md)
+* [Saudi Stock Exchange Enumerations](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_enumerations.html.md)
+* [Saudi Stock Exchange Trading Hours](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_trading_hours.html.md)
+* [Saudi Stock Exchange Market Holidays](https://cloudcoverage.docs.sol.onetick.com/exchange_cash/SAUDI_holidays.html.md)

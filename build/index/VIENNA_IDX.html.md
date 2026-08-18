@@ -1,0 +1,55 @@
+# Vienna Stock Exchange - Indices
+
+The Vienna Stock Exchange provides indices tracking the performance of Austrian and Central and Eastern European equities, including the ATX and CECE indices.
+
+* Country: Austria [AT]
+* Mkt Hours: 08:00-17:00
+* Time Zone: Europe/Vienna
+* Start Date: 20170201
+* Real Time Available: No
+* Bars Available: No
+* Book Depth Available: No
+
+
+
+Details are provided below
+
+* [Table Schemas for VIENNA_IDX](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_schemas.html.md)
+* [Field Enumerations for VIENNA_IDX](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_enumerations.html.md)
+* [Trading Hours for VIENNA_IDX](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_trading_hours.html.md)
+* [Recent Holidays for VIENNA_IDX](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_holidays.html.md)
+
+
+
+Includes the following coverage:
+
+#### VIENNA_IDX -  Coverage
+
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Index           |            146 | 100.0%       |
+| Total           |            146 | 100%         |
+
+
+Consists of 1 Databases
+
+* [VIENNA_IDX]()  - Tick Data
+
+
+
+
+## VIENNA_IDX
+
+Database includes the following tick types:
+
+* IDX - Index values
+* STAT - Static data, e.g. ISIN, description, security type
+
+
+
+## Table Of Contents
+
+* [Vienna Stock Exchange - Indices Schemas](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_schemas.html.md)
+* [Vienna Stock Exchange - Indices Enumerations](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_enumerations.html.md)
+* [Vienna Stock Exchange - Indices Trading Hours](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_trading_hours.html.md)
+* [Vienna Stock Exchange - Indices Market Holidays](https://cloudcoverage.docs.sol.onetick.com/index/VIENNA_IDX_holidays.html.md)
