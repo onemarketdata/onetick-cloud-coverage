@@ -30,9 +30,9 @@ Includes the following coverage:
 | Depository Receipt |              6 | 0.23%        |
 | ETC                |              2 | 0.08%        |
 | ETF                |             34 | 1.33%        |
-| Equity             |           2512 | 98.09%       |
+| Equity             |           2506 | 98.08%       |
 | REIT               |              7 | 0.27%        |
-| Total              |           2561 | 100%         |
+| Total              |           2555 | 100%         |
 
 
 Consists of 1 Databases

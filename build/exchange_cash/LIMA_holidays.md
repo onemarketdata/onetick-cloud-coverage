@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone    | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|--------------|--------------|------------|--------------|------------|
+| Full Holiday          | America/Lima | 2026-08-06   | 2026-08-06 | 00:00        | 24:00      |
 | Full Holiday          | America/Lima | 2026-07-29   | 2026-07-29 | 00:00        | 24:00      |
 | Full Holiday          | America/Lima | 2026-07-28   | 2026-07-28 | 00:00        | 24:00      |
 | Full Holiday          | America/Lima | 2026-07-23   | 2026-07-23 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | America/Lima | 2026-04-02   | 2026-04-02 | 00:00        | 24:00      |
 | Full Holiday          | America/Lima | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Limited Trading Hours | America/Lima | 2025-12-31   | 2025-12-31 | 09:30        | 12:00      |
-| Full Holiday          | America/Lima | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
 

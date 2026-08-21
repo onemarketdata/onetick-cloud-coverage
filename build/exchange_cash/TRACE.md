@@ -25,12 +25,9 @@ Includes the following coverage:
 
 #### TRACE -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| Agency Bond        |           1017 | 4.0%         |
-| Corporate Bond     |          18900 | 74.32%       |
-| Structured Product |           5512 | 21.68%       |
-| Total              |          25429 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |           4660 | 100%         |
 
 
 Consists of 1 Databases

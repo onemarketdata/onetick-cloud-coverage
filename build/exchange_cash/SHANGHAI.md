@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |          15225 | 58.6%        |
-| Convertible Bond |           1054 | 4.06%        |
-| Corporate Bond   |           1616 | 6.22%        |
-| ETF              |            964 | 3.71%        |
-| Equity           |           2413 | 9.29%        |
-| Government Bond  |           4625 | 17.8%        |
-| REIT             |             59 | 0.23%        |
+| Bond             |          15317 | 58.74%       |
+| Convertible Bond |           1052 | 4.03%        |
+| Corporate Bond   |           1609 | 6.17%        |
+| ETF              |            976 | 3.74%        |
+| Equity           |           2418 | 9.27%        |
+| Government Bond  |           4619 | 17.71%       |
+| REIT             |             61 | 0.23%        |
 | Repo             |              9 | 0.03%        |
-| Unknown          |             15 | 0.06%        |
-| Total            |          25980 | 100%         |
+| Unknown          |             17 | 0.07%        |
+| Total            |          26078 | 100%         |
 
 
 Consists of 3 Databases

@@ -27,20 +27,21 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |          23590 | 3.35%        |
-| Futures Spread  |           5749 | 0.82%        |
-| Option          |         668349 | 94.97%       |
-| Option Spread   |           6029 | 0.86%        |
-| Unknown         |             24 | 0.0%         |
-| Total           |         703741 | 100%         |
+| Future          |          23414 | 3.34%        |
+| Futures Spread  |           5684 | 0.81%        |
+| Option          |         665948 | 94.87%       |
+| Option Spread   |           6851 | 0.98%        |
+| Unknown         |             26 | 0.0%         |
+| Total           |         701923 | 100%         |
 
 
-Consists of 4 Databases
+Consists of 5 Databases
 
 * `EUREX`  - Tick Data
 * `EUREX_BARS`  - 1 Minute Bars
 * `EUREX_DAILY`  - End of Day Metrics
 * `EUREX_LATEST`  - Real Time Latest Values
+* `EUREX_L2`  - Tick Data
 
 
 
@@ -96,5 +97,15 @@ Database includes the following tick types:
 * SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
 * SNAP_QTE - Latest Quotes for all Instruments in the venue
 * SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
+
+
+
+
+
+## EUREX_L2
+
+Database includes the following tick types:
+
+* PRL - Market depth data, aggregated by price point (MBP)
 
 

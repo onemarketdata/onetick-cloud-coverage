@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone    | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|--------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Bangkok | 2026-08-12   | 2026-08-12 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Bangkok | 2026-07-29   | 2026-07-29 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Bangkok | 2026-07-28   | 2026-07-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Bangkok | 2026-06-03   | 2026-06-03 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Bangkok | 2026-04-15   | 2026-04-15 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Bangkok | 2026-04-14   | 2026-04-14 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Bangkok | 2026-04-13   | 2026-04-13 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Bangkok | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
 

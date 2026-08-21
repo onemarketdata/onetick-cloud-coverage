@@ -10,7 +10,6 @@ A subset of symbols from the US SIP for trading between January 2,2024 and March
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * NBBO - National Best Bid / Offer quotes
@@ -46,24 +45,6 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 | VOLUME_PRE_MARKET      | long        | Volume of the Pre-Market Trading Session                                                                                                                                                                                               |
 | VOLUME_ROUND_LOT       | long        | Volume of Round Lot Trades                                                                                                                                                                                                             |
 | VWAP                   | double      | Volume-weighted average price                                                                                                                                                                                                          |
-
-### US_COMP_SAMPLE - IND
-
-Indicative pricing, e.g. indicative auction prices and imbalance
-
-#### US_COMP_SAMPLE - IND Table Schema
-
-| Field              | Data Type   | Description                                                                                                                                                                                                                            |
-|--------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EXCHANGE           | string[1]   | Exchange from which the update originates                                                                                                                                                                                              |
-| IMB_SIDE           | string[1]   | Indicates if one side of the orderbook has excess executable orders during an auction phase.                                                                                                                                           |
-| IMB_VOLUME         | long        | Size of an auction imbalance, i.e. the excess volume of orders on the side indicated by IMB_SIDE                                                                                                                                       |
-| IND_TYPE           | string[1]   | Type of indicative price update                                                                                                                                                                                                        |
-| OMDSEQ             | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
-| OPENING_RANGE_HIGH | double      | Upper end of the expected opening price range                                                                                                                                                                                          |
-| OPENING_RANGE_LOW  | double      | Lower end of the expected opening price range                                                                                                                                                                                          |
-| PARTICIPANT_TIME   | nsectime    | Event timestamp (e.g. trade execution time), as provided by one of the participant exchanges in a consolidated feed                                                                                                                    |
-| SEQ_NUM            | long        | Sequence number of the update, as specified by the exchange (for single exchange feeds) or the aggregator (e.g. CTA/UTP) for consolidated feeds                                                                                        |
 
 ### US_COMP_SAMPLE - LULD
 

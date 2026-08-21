@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |           1157 | 23.88%       |
-| ETN             |            387 | 7.99%        |
-| Warrant         |           3302 | 68.14%       |
-| Total           |           4846 | 100%         |
+| ETF             |           1165 | 24.44%       |
+| ETN             |            375 | 7.87%        |
+| Warrant         |           3227 | 67.69%       |
+| Total           |           4767 | 100%         |
 
 
 Consists of 2 Databases

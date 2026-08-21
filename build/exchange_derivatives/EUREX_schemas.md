@@ -520,3 +520,30 @@ Latest Trade Prices for all Traded Instruments in the venue
 | TICK_TIME          | nsectime    | Timestamp for latest Trade / Quote or NBBO Update                                                                                                                                                         |
 | TRADE_CURRENCY     | string[3]   | Currency in which a trade was executed.                                                                                                                                                                   |
 | VOLUME             | long        | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                         |
+
+
+
+## EUREX_L2
+
+Database includes the following tick types:
+
+* PRL - Market depth data, aggregated by price point (MBP)
+
+
+
+### EUREX_L2 - PRL
+
+Market depth data, aggregated by price point (MBP)
+
+#### EUREX_L2 - PRL Table Schema
+
+| Field         | Data Type   | Description                                                                                                                                                                                                                            |
+|---------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BUY_SELL_FLAG | int         | Orderbook side (0 - Buy, 1 - Sell)                                                                                                                                                                                                     |
+| DELETED_TIME  | nsectime    | Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                       |
+| EXCH_TIME     | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
+| OMDSEQ        | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| PRICE         | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                              |
+| RECORD_TYPE   | string[1]   | Type of depth update.                                                                                                                                                                                                                  |
+| SIZE          | int         | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross                                       |
+| TICK_STATUS   | int         | Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                           |

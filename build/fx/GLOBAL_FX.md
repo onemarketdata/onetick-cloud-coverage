@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Forward      |           4908 | 56.62%       |
+| FX Forward      |           4911 | 56.64%       |
 | FX NDF          |            252 | 2.91%        |
-| FX Spot         |           3508 | 40.47%       |
-| Total           |           8668 | 100%         |
+| FX Spot         |           3508 | 40.46%       |
+| Total           |           8671 | 100%         |
 
 
 Consists of 3 Databases

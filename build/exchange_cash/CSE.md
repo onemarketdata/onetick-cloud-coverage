@@ -27,13 +27,14 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Debenture       |              1 | 0.14%        |
-| ETN             |              1 | 0.14%        |
-| Equity          |            727 | 98.64%       |
+| Debenture       |              1 | 0.13%        |
+| ETF             |              1 | 0.13%        |
+| ETN             |              1 | 0.13%        |
+| Equity          |            737 | 98.53%       |
 | Preferred Stock |              2 | 0.27%        |
-| Unknown         |              1 | 0.14%        |
-| Warrant         |              5 | 0.68%        |
-| Total           |            737 | 100%         |
+| Unknown         |              1 | 0.13%        |
+| Warrant         |              5 | 0.67%        |
+| Total           |            748 | 100%         |
 
 
 Consists of 2 Databases

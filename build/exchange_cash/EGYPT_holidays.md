@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone    | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|--------------|--------------|------------|--------------|------------|
+| Full Holiday    | Africa/Cairo | 2026-08-26   | 2026-08-26 | 00:00        | 24:00      |
 | Full Holiday    | Africa/Cairo | 2026-07-23   | 2026-07-23 | 00:00        | 24:00      |
 | Full Holiday    | Africa/Cairo | 2026-06-30   | 2026-06-30 | 00:00        | 24:00      |
 | Full Holiday    | Africa/Cairo | 2026-06-17   | 2026-06-17 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Africa/Cairo | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | Africa/Cairo | 2026-04-13   | 2026-04-13 | 00:00        | 24:00      |
 | Full Holiday    | Africa/Cairo | 2026-04-12   | 2026-04-12 | 00:00        | 24:00      |
-| Full Holiday    | Africa/Cairo | 2026-03-22   | 2026-03-22 | 00:00        | 24:00      |
 

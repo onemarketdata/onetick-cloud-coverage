@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone      | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|----------------|--------------|------------|--------------|------------|
+| Full Holiday    | America/Bogota | 2026-08-17   | 2026-08-17 | 00:00        | 24:00      |
+| Full Holiday    | America/Bogota | 2026-08-07   | 2026-08-07 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-07-20   | 2026-07-20 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-07-13   | 2026-07-13 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-06-29   | 2026-06-29 | 00:00        | 24:00      |
@@ -16,6 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | America/Bogota | 2026-05-18   | 2026-05-18 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
-| Full Holiday    | America/Bogota | 2026-04-02   | 2026-04-02 | 00:00        | 24:00      |
-| Full Holiday    | America/Bogota | 2026-03-23   | 2026-03-23 | 00:00        | 24:00      |
 

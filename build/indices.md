@@ -15,6 +15,7 @@ It covers:
 * `ISTANBUL_IDX` - Borsa Istanbul - Indices
 * `KOREA_IDX` - Korea Exchange - Indices
 * `MILAN_IDX` - Borsa Italiana Indices
+* `NASDAQ_IDX` - Nasdaq Indices (GIDS)
 * `NIKKEI_IDX` - Nikkei Indices
 * `NORDIC_IDX` - Nasdaq Nordic Indices
 * `NZX_IDX` - NZX Indices

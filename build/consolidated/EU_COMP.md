@@ -27,20 +27,20 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |            107 | 0.36%        |
-| Corporate Bond     |              9 | 0.03%        |
-| Depository Receipt |            187 | 0.63%        |
-| ETC                |            270 | 0.9%         |
-| ETF                |           4510 | 15.09%       |
-| ETN                |            414 | 1.38%        |
-| Equity             |          18405 | 61.56%       |
-| Fund               |           4688 | 15.68%       |
-| Investment Fund    |           1273 | 4.26%        |
-| Preferred Stock    |             16 | 0.05%        |
-| Right              |             15 | 0.05%        |
-| Unknown            |              2 | 0.01%        |
+| Bond               |            124 | 0.41%        |
+| Corporate Bond     |              8 | 0.03%        |
+| Depository Receipt |            175 | 0.58%        |
+| ETC                |            272 | 0.91%        |
+| ETF                |           4543 | 15.17%       |
+| ETN                |            411 | 1.37%        |
+| Equity             |          18424 | 61.54%       |
+| Fund               |           4677 | 15.62%       |
+| Investment Fund    |           1273 | 4.25%        |
+| Preferred Stock    |             17 | 0.06%        |
+| Right              |             14 | 0.05%        |
+| Unknown            |              1 | 0.0%         |
 | Warrant            |              1 | 0.0%         |
-| Total              |          29897 | 100%         |
+| Total              |          29940 | 100%         |
 
 
 Consists of 3 Databases

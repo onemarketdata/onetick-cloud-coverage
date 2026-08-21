@@ -66,15 +66,18 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Regular trading           |
+| C                | Closing auction           |
 | I                | Intraday auction          |
 | O                | Opening auction           |
 | T                | Trading at closing price  |
 
 #### TRADE_TYPE - Enumeration
 
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| ‘””’             | As for underlying venues  |
+| Enumeration ID   | Enumeration Description                                                                       |
+|------------------|-----------------------------------------------------------------------------------------------|
+| ‘””’             | Regular trade                                                                                 |
+| BLK              | Block trade                                                                                   |
+| BT               | Bunched trade [Aggregated trade where the individual executions are not sent by the exchange] |
 
 #### TRADE_VENUE - Enumeration
 

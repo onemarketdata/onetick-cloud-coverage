@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |            473 | 10.39%       |
-| Equity          |           4006 | 88.02%       |
+| ETF             |            478 | 10.51%       |
+| Equity          |           4000 | 87.91%       |
 | Preferred Stock |              9 | 0.2%         |
 | REIT            |             63 | 1.38%        |
-| Total           |           4551 | 100%         |
+| Total           |           4550 | 100%         |
 
 
 Consists of 3 Databases

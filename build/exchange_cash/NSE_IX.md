@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Depository Receipt |             51 | 85.0%        |
-| Future             |              4 | 6.67%        |
-| Futures Spread     |              5 | 8.33%        |
-| Total              |             60 | 100%         |
+| Depository Receipt |             51 | 83.61%       |
+| Future             |              4 | 6.56%        |
+| Futures Spread     |              6 | 9.84%        |
+| Total              |             61 | 100%         |
 
 
 Consists of 3 Databases

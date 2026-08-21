@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|-------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Dubai  | 2026-08-25   | 2026-08-25 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Dubai  | 2026-06-16   | 2026-06-16 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Dubai  | 2026-05-28   | 2026-05-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Dubai  | 2026-05-27   | 2026-05-27 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Dubai  | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Dubai  | 2025-12-03   | 2025-12-03 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Dubai  | 2025-12-02   | 2025-12-02 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Dubai  | 2025-12-01   | 2025-12-01 | 00:00        | 24:00      |
 

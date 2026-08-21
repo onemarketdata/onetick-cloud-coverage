@@ -25,16 +25,16 @@ Includes the following coverage:
 
 #### DE_REGIONAL -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| Bond               |          48068 | 52.93%       |
-| Depository Receipt |              1 | 0.0%         |
-| ETC                |            530 | 0.58%        |
-| ETF                |           7576 | 8.34%        |
-| ETN                |            695 | 0.77%        |
-| Equity             |          22635 | 24.93%       |
-| Fund               |          11304 | 12.45%       |
-| Total              |          90809 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Bond            |          48110 | 52.71%       |
+| ETC             |            531 | 0.58%        |
+| ETF             |           7594 | 8.32%        |
+| ETN             |            702 | 0.77%        |
+| Equity          |          22998 | 25.2%        |
+| Fund            |          11341 | 12.42%       |
+| Right           |              1 | 0.0%         |
+| Total           |          91277 | 100%         |
 
 
 Consists of 3 Databases

@@ -172,7 +172,7 @@ EXCH_STRIKE_MULTIPLIER	STAT	Multiplier used to convert from the exchange's inter
 EXCH_SEC_TYPE	STAT	Instrument type as specified by the exchange
 EXCH_STRATEGY_TYPE	STAT	Type of strategy / spread, as specified by the exchange
 EXCH_SYMBOL	STAT	Ticker symbol specified by the exchange
-EXCH_TIME	TRD, IND, QTE, QTE_COMP, QTE_ODD_LOT, MKT, PRL, PRL_FULL, IDX, LULD, SNAP_TRD, SNAP, TRD_TCA 	Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
+EXCH_TIME	TRD, IND, QTE, QTE_COMP, QTE_ODD_LOT, MKT, PRL, PRL_FULL, IDX, LULD, SNAP_TRD, SNAP, TRD_TCA, NAV, INAV 	Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
 EX_COUPON_DATE	STAT	Date when the security starts trading ex-coupon (YYYYMMDD)
 EXECUTED_ORDER_ID	TRD	ID of the resting (passive) order that was executed
 EXECUTED_ORDER_PART_ID	TRD	Participant who entered the resting (passive) order that was executed
@@ -372,7 +372,7 @@ MMT_TRANS_CAT	TRD	Identifies various special categories of trade.
 MMT_TRD_MODE	TRD	Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
 MODIFIED_DURATION	QTE	Modified duration, i.e. the rate of change of the security's price with respect to interest rates
 NAME	STAT, DES, CONSTITUENTS, PCF, PCF_LONG	Description of the instrument
-NAV	STAT, DAY	Net Asset Value
+NAV	STAT, DAY, NAV	Net Asset Value
 NBBO_DURATION	QTE_NBBO_DAY	Main Session Duration in seconds that a valid NBBO is present
 NBBO_IND	QTE	Indicates whether the quote affects the NBBO
 NBBO_LULD_IND	QTE	Indicates whether the NBBO crosses the upper / lower LULD price bands
@@ -403,7 +403,7 @@ OLD_PRICE	PRL_FULL	Previous price of an order
 OLD_PRICE_LEVEL	PRL_FULL	Price level of the order before the orderbook update was applied. e.g. if set to 3, this indicates that the order was at the third best price point before the orderbook update. Always set to 0 for new orders.
 OLD_SIZE	PRL_FULL	Previous size of an order
 OMD_COND	TRD	Free text field containing any annotations inserted by OneMarketData  ***Deprecated, will be removed in future***
-OMDSEQ	TRD, TRD_TCA, QTE, QTE_COMP, QTE_ODD_LOT, NBBO, NBBO_COMP, PRL, PRL_FULL, IND, MKT, LAT_1M, TRD_1M, TRD_1D, QTE_1M, DAY, STAT, SHORT_INT, LULD, VWAP_1H, FIXING, RFQ, IDX, CACT, CACS, CASH, CONSTITUENTS, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, EVENT	Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
+OMDSEQ	TRD, TRD_TCA, QTE, QTE_COMP, QTE_ODD_LOT, NBBO, NBBO_COMP, PRL, PRL_FULL, IND, MKT, LAT_1M, TRD_1M, TRD_1D, QTE_1M, DAY, STAT, SHORT_INT, LULD, VWAP_1H, FIXING, RFQ, IDX, CACT, CACS, CASH, CONSTITUENTS, DES, SHO, DFUT, DPRC, FX_RATE, MKTCAL, PCF, PCF_LONG, EVENT, NAV, INAV	Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first.
 OMD_STATUS	QTE, MKT	Indicates an instrument's current trading status. Values are normalized across all DBs.
 ON_BOOK_VOLUME	DAY	Total volume traded through the orderbook
 OPEN	DAY,DFUT, DPRC, SNAP_TRD, SNAP	Open price for the current trading day
@@ -433,7 +433,7 @@ POOL_FACTOR	STAT, TRD	Ratio of the original principal remaining in an asset-back
 PREV_COUPON_DATE	STAT	Date of the previous coupon payment (YYYYMMDD)
 PREV_SHORT_INT	SHORT_INT	Previous short interest
 PREV_SYMBOL	STAT	Previous ticker symbol, in the event of a symbol change
-PRICE	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, SNAP_TRD, SNAP	TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
+PRICE	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, SNAP_TRD, SNAP, NAV, INAV	TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross
 PRICE_COND	TRD	Identifies trade prices that are special / unconfirmed / potentially suspect / notable for other reasons
 PRICE_CLOSING_AUCTION	DAY	Price of the Closing Auction
 PRICE_OPENING_AUCTION	DAY	Price of the Opening Auction

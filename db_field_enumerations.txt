@@ -823,7 +823,12 @@ BSE	CALL_PUT_IND	C	Call option
 BSE	CALL_PUT_IND	P	Put option
 BSE	MKT_PHASE	""	No market phase
 BSE	MKT_PHASE	A	Periodic call auction
+BSE	MKT_PHASE	CAF	Closing auction freeze
+BSE	MKT_PHASE	CAM	Closing auction end of matching
+BSE	MKT_PHASE	CAO	Closing auction start of order entry
 BSE	MKT_PHASE	CS	Closing session
+BSE	MKT_PHASE	CTE	End of continuous trading
+BSE	MKT_PHASE	EMO	Closing auction end of market order entry
 BSE	MKT_PHASE	CTN	Continuous trading
 BSE	MKT_PHASE	EOD	End of day session
 BSE	MKT_PHASE	MQ	Member query
@@ -833,6 +838,7 @@ BSE	MKT_PHASE	PO	Pre-open
 BSE	MKT_PHASE	SOD	Start of day
 BSE	MKT_PHASE	SUSP	Suspended
 BSE	TRADE_PERIOD	-	Regular trading
+BSE	TRADE_PERIOD	C	Closing auction
 BSE	TRADE_PERIOD	I	Intraday auction
 BSE	TRADE_PERIOD	O	Opening auction
 BSE	TRADE_PERIOD	T	Trading at closing price
@@ -4350,10 +4356,13 @@ IN_COMP	OMD_STATUS	t	Trading at last price
 IN_COMP	QUOTE_VENUE	XBOM	Bombay Stock Exchange
 IN_COMP	QUOTE_VENUE	XNSE	National Stock Exchange of India
 IN_COMP	TRADE_PERIOD	-	Regular trading
+IN_COMP	TRADE_PERIOD	C	Closing auction
 IN_COMP	TRADE_PERIOD	I	Intraday auction
 IN_COMP	TRADE_PERIOD	O	Opening auction
 IN_COMP	TRADE_PERIOD	T	Trading at closing price
-IN_COMP	TRADE_TYPE	""	As for underlying venues
+IN_COMP	TRADE_TYPE	""	Regular trade
+IN_COMP	TRADE_TYPE	BLK	Block trade
+IN_COMP	TRADE_TYPE	BT	Bunched trade [Aggregated trade where the individual executions are not sent by the exchange]
 IN_COMP	TRADE_VENUE	XBOM	Bombay Stock Exchange
 IN_COMP	TRADE_VENUE	XNSE	National Stock Exchange of India
 INDONESIA	BOOK_TYPE	0	Lit order book
@@ -6667,6 +6676,7 @@ NSE_CASH	ALGO_TYPE	0	Algo order
 NSE_CASH	ALGO_TYPE	1	Non-algo order
 NSE_CASH	ALGO_TYPE	2	Algo order through Smart Order Router
 NSE_CASH	ALGO_TYPE	3	Non-algo order through Smart Order Router
+NSE_CASH	BOOK_TYPE	0	Lit order book
 NSE_CASH	BUY_ALGO_TYPE	0	Algo order
 NSE_CASH	BUY_ALGO_TYPE	1	Non-algo order
 NSE_CASH	BUY_ALGO_TYPE	2	Algo order through Smart Order Router
@@ -6685,8 +6695,10 @@ NSE_CASH	SELL_ORDER_CAPACITY	1	Custodial Participant
 NSE_CASH	SELL_ORDER_CAPACITY	2	Principal
 NSE_CASH	SELL_ORDER_CAPACITY	3	Agency
 NSE_CASH	TRADE_PERIOD	-	Regular trading
+NSE_CASH	TRADE_PERIOD	C	Closing auction
 NSE_CASH	TRADE_PERIOD	O	Opening auction
 NSE_CASH	TRADE_PERIOD	T	Trading at closing price
+NSE_CASH	TRADE_TYPE	""	Regular trade
 NSE_FUT	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, leg trades)
 NSE_FUT	AGGRESSOR_SIDE	B	Buy
 NSE_FUT	AGGRESSOR_SIDE	S	Sell

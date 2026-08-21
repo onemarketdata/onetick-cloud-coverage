@@ -27,14 +27,14 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Depository Receipt |              8 | 0.4%         |
-| Equity             |           1811 | 91.14%       |
+| Depository Receipt |              9 | 0.45%        |
+| Equity             |           1810 | 90.95%       |
 | Index              |             33 | 1.66%        |
 | Preferred Stock    |              3 | 0.15%        |
-| Right              |             12 | 0.6%         |
-| Unknown            |            119 | 5.99%        |
+| Right              |             10 | 0.5%         |
+| Unknown            |            124 | 6.23%        |
 | Warrant            |              1 | 0.05%        |
-| Total              |           1987 | 100%         |
+| Total              |           1990 | 100%         |
 
 
 Consists of 2 Databases

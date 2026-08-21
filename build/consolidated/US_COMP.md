@@ -27,20 +27,20 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| ADR                |            402 | 3.07%        |
-| Corporate Bond     |             57 | 0.44%        |
-| ETF                |           5434 | 41.53%       |
-| ETN                |             51 | 0.39%        |
-| ETV                |             88 | 0.67%        |
-| Equity             |           5248 | 40.1%        |
-| Fund               |            338 | 2.58%        |
-| Preferred Stock    |            439 | 3.35%        |
-| Right              |            113 | 0.86%        |
-| Structured Product |            158 | 1.21%        |
-| Unit               |            305 | 2.33%        |
+| ADR                |            401 | 3.04%        |
+| Corporate Bond     |             56 | 0.42%        |
+| ETF                |           5523 | 41.84%       |
+| ETN                |             44 | 0.33%        |
+| ETV                |             89 | 0.67%        |
+| Equity             |           5267 | 39.9%        |
+| Fund               |            337 | 2.55%        |
+| Preferred Stock    |            439 | 3.33%        |
+| Right              |            121 | 0.92%        |
+| Structured Product |            159 | 1.2%         |
+| Unit               |            312 | 2.36%        |
 | Unknown            |             12 | 0.09%        |
-| Warrant            |            441 | 3.37%        |
-| Total              |          13086 | 100%         |
+| Warrant            |            441 | 3.34%        |
+| Total              |          13201 | 100%         |
 
 
 Consists of 6 Databases
@@ -60,7 +60,6 @@ Consists of 6 Databases
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * NBBO - National Best Bid / Offer quotes

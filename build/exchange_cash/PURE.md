@@ -29,14 +29,14 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | Debenture          |             64 | 1.21%        |
 | Depositary Receipt |            205 | 3.88%        |
-| ETF                |           2057 | 38.94%       |
-| Equity             |           2582 | 48.87%       |
-| Preferred Stock    |            288 | 5.45%        |
-| Right              |              4 | 0.08%        |
+| ETF                |           2072 | 39.17%       |
+| Equity             |           2576 | 48.7%        |
+| Preferred Stock    |            287 | 5.43%        |
+| Right              |              6 | 0.11%        |
 | Test               |             11 | 0.21%        |
 | Unknown            |              2 | 0.04%        |
-| Warrant            |             70 | 1.33%        |
-| Total              |           5283 | 100%         |
+| Warrant            |             67 | 1.27%        |
+| Total              |           5290 | 100%         |
 
 
 Consists of 2 Databases

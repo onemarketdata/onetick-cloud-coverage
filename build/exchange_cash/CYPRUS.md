@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |             21 | 17.65%       |
-| Convertible Bond |              1 | 0.84%        |
-| Equity           |             97 | 81.51%       |
-| Total            |            119 | 100%         |
+| Bond             |             20 | 17.39%       |
+| Convertible Bond |              1 | 0.87%        |
+| Equity           |             94 | 81.74%       |
+| Total            |            115 | 100%         |
 
 
 Consists of 2 Databases

@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name     | Time Zone           | Start Date   | End Date   | Start Time   | End Time   |
 |-------------------|---------------------|--------------|------------|--------------|------------|
+| Full Holiday      | Africa/Johannesburg | 2026-08-10   | 2026-08-10 | 00:00        | 24:00      |
 | Full Holiday      | Africa/Johannesburg | 2026-06-16   | 2026-06-16 | 00:00        | 24:00      |
 | Full Holiday      | Africa/Johannesburg | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday      | Africa/Johannesburg | 2026-04-27   | 2026-04-27 | 00:00        | 24:00      |
@@ -16,5 +17,4 @@ The last 10 Market Holidays are listed
 | Full Holiday      | Africa/Johannesburg | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Non Trading Hours | Africa/Johannesburg | 2025-12-31   | 2025-12-31 | 11:50        | 13:00      |
 | Full Holiday      | Africa/Johannesburg | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
-| Full Holiday      | Africa/Johannesburg | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
 

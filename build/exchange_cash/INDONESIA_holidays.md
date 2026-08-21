@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone    | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|--------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Jakarta | 2026-08-25   | 2026-08-25 | 00:00        | 24:00      |
+| Full Holiday    | Asia/Jakarta | 2026-08-17   | 2026-08-17 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Jakarta | 2026-06-16   | 2026-06-16 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Jakarta | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Jakarta | 2026-05-28   | 2026-05-28 | 00:00        | 24:00      |
@@ -16,6 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Jakarta | 2026-05-14   | 2026-05-14 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Jakarta | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Jakarta | 2026-03-24   | 2026-03-24 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Jakarta | 2026-03-23   | 2026-03-23 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Jakarta | 2026-03-20   | 2026-03-20 | 00:00        | 24:00      |
 

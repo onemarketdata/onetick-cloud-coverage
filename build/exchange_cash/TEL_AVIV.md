@@ -27,22 +27,22 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |            130 | 1.13%        |
+| Bond             |            131 | 1.15%        |
 | Commercial Paper |             31 | 0.27%        |
 | Commodity        |              1 | 0.01%        |
 | Convertible Bond |             33 | 0.29%        |
-| Corporate Bond   |            836 | 7.29%        |
-| ETF              |            504 | 4.4%         |
-| Equity           |            563 | 4.91%        |
+| Corporate Bond   |            836 | 7.33%        |
+| ETF              |            507 | 4.45%        |
+| Equity           |            562 | 4.93%        |
 | FX               |             14 | 0.12%        |
-| Future           |             12 | 0.1%         |
-| Government Bond  |             35 | 0.31%        |
+| Future           |             12 | 0.11%        |
+| Government Bond  |             34 | 0.3%         |
 | Index            |            127 | 1.11%        |
-| Option           |           9074 | 79.17%       |
+| Option           |           9010 | 79.05%       |
 | Treasury Bill    |             13 | 0.11%        |
-| Unknown          |              3 | 0.03%        |
-| Warrant          |             85 | 0.74%        |
-| Total            |          11461 | 100%         |
+| Unknown          |              4 | 0.04%        |
+| Warrant          |             83 | 0.73%        |
+| Total            |          11398 | 100%         |
 
 
 Consists of 3 Databases

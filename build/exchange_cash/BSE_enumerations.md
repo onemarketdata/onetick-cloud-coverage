@@ -27,25 +27,31 @@ The following fields have Enumerations:
 
 #### MKT_PHASE - Enumeration
 
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| ‘””’             | No market phase           |
-| A                | Periodic call auction     |
-| CS               | Closing session           |
-| CTN              | Continuous trading        |
-| EOD              | End of day session        |
-| MQ               | Member query              |
-| OM               | Order matching            |
-| PCS              | Post-close session        |
-| PO               | Pre-open                  |
-| SOD              | Start of day              |
-| SUSP             | Suspended                 |
+| Enumeration ID   | Enumeration Description                   |
+|------------------|-------------------------------------------|
+| ‘””’             | No market phase                           |
+| A                | Periodic call auction                     |
+| CAF              | Closing auction freeze                    |
+| CAM              | Closing auction end of matching           |
+| CAO              | Closing auction start of order entry      |
+| CS               | Closing session                           |
+| CTE              | End of continuous trading                 |
+| EMO              | Closing auction end of market order entry |
+| CTN              | Continuous trading                        |
+| EOD              | End of day session                        |
+| MQ               | Member query                              |
+| OM               | Order matching                            |
+| PCS              | Post-close session                        |
+| PO               | Pre-open                                  |
+| SOD              | Start of day                              |
+| SUSP             | Suspended                                 |
 
 #### TRADE_PERIOD - Enumeration
 
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Regular trading           |
+| C                | Closing auction           |
 | I                | Intraday auction          |
 | O                | Opening auction           |
 | T                | Trading at closing price  |

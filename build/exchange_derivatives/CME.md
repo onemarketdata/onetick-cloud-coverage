@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Future             |          54634 | 5.8%         |
-| Futures Spread     |          97926 | 10.4%        |
-| Interest Rate Swap |             24 | 0.0%         |
-| Option             |         691420 | 73.42%       |
-| Option Spread      |          97668 | 10.37%       |
-| Total              |         941672 | 100%         |
+| Future             |          55271 | 5.94%        |
+| Futures Spread     |          95558 | 10.26%       |
+| Interest Rate Swap |             48 | 0.01%        |
+| Option             |         687461 | 73.85%       |
+| Option Spread      |          92596 | 9.95%        |
+| Total              |         930934 | 100%         |
 
 
 Consists of 3 Databases
