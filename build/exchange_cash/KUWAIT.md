@@ -27,9 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Equity          |            140 | 86.96%       |
+| Equity          |            139 | 86.34%       |
 | Index           |             20 | 12.42%       |
 | REIT            |              1 | 0.62%        |
+| Right           |              1 | 0.62%        |
 | Total           |            161 | 100%         |
 
 

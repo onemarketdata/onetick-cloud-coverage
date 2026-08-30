@@ -29,7 +29,8 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | Depository Receipt |             51 | 83.61%       |
 | Future             |              4 | 6.56%        |
-| Futures Spread     |              6 | 9.84%        |
+| Futures Spread     |              4 | 6.56%        |
+| Option             |              2 | 3.28%        |
 | Total              |             61 | 100%         |
 
 

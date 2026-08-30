@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |             24 | 13.33%       |
-| Equity          |            105 | 58.33%       |
-| Future          |             50 | 27.78%       |
-| Index           |              1 | 0.56%        |
-| Total           |            180 | 100%         |
+| ETF             |             24 | 12.24%       |
+| Equity          |            105 | 53.57%       |
+| Future          |             66 | 33.67%       |
+| Index           |              1 | 0.51%        |
+| Total           |            196 | 100%         |
 
 
 Consists of 3 Databases

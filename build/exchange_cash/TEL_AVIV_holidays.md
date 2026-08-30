@@ -8,14 +8,14 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone     | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|---------------|--------------|------------|--------------|------------|
+| Limited Trading Hours | Asia/Tel_Aviv | 2026-10-01   | 2026-10-01 | 09:45        | 14:25      |
+| Limited Trading Hours | Asia/Tel_Aviv | 2026-09-30   | 2026-09-30 | 09:45        | 14:25      |
+| Limited Trading Hours | Asia/Tel_Aviv | 2026-09-29   | 2026-09-29 | 09:45        | 14:25      |
+| Limited Trading Hours | Asia/Tel_Aviv | 2026-09-28   | 2026-09-28 | 09:45        | 14:25      |
+| Full Holiday          | Asia/Tel_Aviv | 2026-09-25   | 2026-09-25 | 00:00        | 24:00      |
+| Full Holiday          | Asia/Tel_Aviv | 2026-09-21   | 2026-09-21 | 00:00        | 24:00      |
+| Full Holiday          | Asia/Tel_Aviv | 2026-09-18   | 2026-09-18 | 00:00        | 24:00      |
+| Full Holiday          | Asia/Tel_Aviv | 2026-09-11   | 2026-09-11 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Tel_Aviv | 2026-07-23   | 2026-07-23 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Tel_Aviv | 2026-05-22   | 2026-05-22 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-05-21   | 2026-05-21 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-22   | 2026-04-22 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-21   | 2026-04-21 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-08   | 2026-04-08 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-07   | 2026-04-07 | 00:00        | 24:00      |
-| Limited Trading Hours | Asia/Tel_Aviv | 2026-04-06   | 2026-04-06 | 09:45        | 14:25      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-02   | 2026-04-02 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Tel_Aviv | 2026-04-01   | 2026-04-01 | 00:00        | 24:00      |
 

@@ -218,6 +218,7 @@ HEDGE_LEG_COUNT	STAT	Number of legs in the hedge portion of a spread (e.g. for o
 HEDGE_LEGS	STAT	Comma-separated list of symbols for the hedge portion of a spread
 HEDGE_PRICE	STAT	Comma-separated list of prices for the hedge portion of a futures / options spread. Prices are listed in the same order as the symbols in HEDGE_LEGS.
 HEDGE_RATIO	STAT	Comma-separated list of ratios for the hedge portion of a futures / options spread. Ratios are listed in the same order as the symbols in HEDGE_LEGS.
+HEDGED_TRADE	TRD	Indicates whether a trade was hedged ("H" - Hedged transaction, "" - Not a hedged transaction)
 HIGH	DAY, TRD_1M, TRD_1D, DFUT, DPRC, SNAP_TRD, SNAP	DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval
 HIGH_BID	QTE_1M	Highest bid price in the current bar interval
 HIGH_BID_SIZE	QTE_1M	Size of the bid quote that set HIGH_BID.  If there are multiple quotes at that price, the first one is used.
@@ -602,7 +603,7 @@ TRADE_SETTLEMENT_DATE	STAT, TRD, QTE	Date when a trade in the security is due to
 TRADE_TICK_COUNT	TRD_1M, TRD_1D	Number of eligible trades in the current bar interval
 TRADE_TYPE	TRD, TRD_TCA	Type of trade
 TRADE_TYPE_EXT	TRD	Extended trade type code
-TRADE_VALUE	DAY, TRD_NBBO_DAY	Total monetary value traded on the current trading day
+TRADE_VALUE	DAY, TRD_NBBO_DAY	Total monetary value traded on the current trading day.  Note: The value will typically be rounded to the nearest integer.
 TRADE_VALUE_MAIN_SESSION	TRD_NBBO_DAY	Main Session Trade Value
 TRADE_VALUE_AT_MID	TRD_NBBO_DAY	Main Session Traded Value for Trades at the NBBO Mid
 TRADE_VALUE_AT_NBBO	TRD_NBBO_DAY	Main Session Traded Value for Trades at the NBBO
@@ -628,7 +629,7 @@ TRD_DATE	TRD	Date for Latest Trade.
 TRF	TRD, TRD_TCA, DAY	Trade Reporting Facility used to report a trade (for trades reported to FINRA)
 TRF_TIME	TRD, TRD_TCA	Time at which a trade was processed by the Trade Reporting Facility (for trades reported to FINRA)
 TTE	TRD, TRD_TCA	Indicates whether a trade is exempt from the Trade Through Rule (1 - Trade Through Exempt, 0 - No Trade Through Exemption)
-TURNOVER	DAY	Total monetary value traded on the current trading day
+TURNOVER	DAY	Total monetary value traded on the current trading day. Note: The value will typically be rounded to the nearest integer.
 TWAP	TRD_1M, TRD_1D, VWAP_1H	TIme-weighted average price
 UNCOLLARED_AUCTION_BOOK_PRICE	IND	Theoretical auction price based only on orders in the auction book and ignoring any limits on price movement
 UNCOLLARED_AUCTION_BOOK_PRICE	IND	Theoretical auction price based only on orders in the auction book and ignoring any limits on price movement

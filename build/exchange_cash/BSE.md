@@ -27,17 +27,16 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Corporate Bond  |           9465 | 15.35%       |
-| ETF             |            100 | 0.16%        |
-| Equity          |           6616 | 10.73%       |
-| Future          |            628 | 1.02%        |
+| Corporate Bond  |           9539 | 15.32%       |
+| ETF             |            101 | 0.16%        |
+| Equity          |           6629 | 10.65%       |
+| Future          |            628 | 1.01%        |
 | Futures Spread  |             63 | 0.1%         |
-| Government Bond |           2669 | 4.33%        |
-| Option          |          41024 | 66.54%       |
-| Option Spread   |            779 | 1.26%        |
-| Test            |              2 | 0.0%         |
-| Unknown         |            306 | 0.5%         |
-| Total           |          61652 | 100%         |
+| Government Bond |           2672 | 4.29%        |
+| Option          |          41570 | 66.78%       |
+| Option Spread   |            790 | 1.27%        |
+| Unknown         |            257 | 0.41%        |
+| Total           |          62249 | 100%         |
 
 
 Consists of 3 Databases

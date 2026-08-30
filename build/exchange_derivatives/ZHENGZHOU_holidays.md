@@ -8,6 +8,9 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone     | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|---------------|--------------|------------|--------------|------------|
+| Full Holiday          | Asia/Shanghai | 2026-10-01   | 2026-10-01 | 00:00        | 24:00      |
+| Full Holiday          | Asia/Shanghai | 2026-09-25   | 2026-09-25 | 00:00        | 24:00      |
+| Limited Trading Hours | Asia/Shanghai | 2026-09-24   | 2026-09-24 | 00:00        | 24:00      |
 | Limited Trading Hours | Asia/Shanghai | 2026-06-22   | 2026-06-22 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Shanghai | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
 | Limited Trading Hours | Asia/Shanghai | 2026-05-06   | 2026-05-06 | 00:00        | 24:00      |
@@ -15,7 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Asia/Shanghai | 2026-05-04   | 2026-05-04 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Shanghai | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Limited Trading Hours | Asia/Shanghai | 2026-04-07   | 2026-04-07 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Shanghai | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
-| Limited Trading Hours | Asia/Shanghai | 2026-02-24   | 2026-02-24 | 00:00        | 24:00      |
-| Full Holiday          | Asia/Shanghai | 2026-02-23   | 2026-02-23 | 00:00        | 24:00      |
 

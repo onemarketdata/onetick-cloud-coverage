@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |            464 | 9.56%        |
+| Bond               |            463 | 9.53%        |
 | ETF                |             44 | 0.91%        |
-| Equity             |            775 | 15.97%       |
+| Equity             |            777 | 15.99%       |
 | Investment Fund    |             22 | 0.45%        |
-| Municipal Bond     |            507 | 10.44%       |
+| Municipal Bond     |            507 | 10.43%       |
 | Preferred Stock    |              2 | 0.04%        |
 | Right              |              2 | 0.04%        |
-| Structured Product |           3036 | 62.55%       |
+| Structured Product |           3040 | 62.56%       |
 | Unknown            |              2 | 0.04%        |
-| Total              |           4854 | 100%         |
+| Total              |           4859 | 100%         |
 
 
 Consists of 3 Databases

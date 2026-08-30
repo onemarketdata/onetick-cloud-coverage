@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone      | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|----------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Hong_Kong | 2026-10-01   | 2026-10-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Hong_Kong | 2026-07-01   | 2026-07-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Hong_Kong | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Hong_Kong | 2026-05-25   | 2026-05-25 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Hong_Kong | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Hong_Kong | 2026-02-19   | 2026-02-19 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Hong_Kong | 2026-02-18   | 2026-02-18 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Hong_Kong | 2026-02-17   | 2026-02-17 | 00:00        | 24:00      |
 

@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|------------------|--------------|------------|--------------|------------|
+| Full Holiday          | America/Santiago | 2026-09-18   | 2026-09-18 | 00:00        | 24:00      |
 | Full Holiday          | America/Santiago | 2026-07-16   | 2026-07-16 | 00:00        | 24:00      |
 | Full Holiday          | America/Santiago | 2026-06-29   | 2026-06-29 | 00:00        | 24:00      |
 | Full Holiday          | America/Santiago | 2026-05-21   | 2026-05-21 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | America/Santiago | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Limited Trading Hours | America/Santiago | 2025-12-31   | 2025-12-31 | 09:30        | 13:00      |
 | Full Holiday          | America/Santiago | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
-| Limited Trading Hours | America/Santiago | 2025-12-24   | 2025-12-24 | 09:30        | 13:00      |
 

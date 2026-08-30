@@ -1933,6 +1933,51 @@ CME	UPDATE_TYPE	F	Fill
 CME	UPDATE_TYPE	M	Modify
 CME	UPDATE_TYPE	P	Partial fill
 CME	UPDATE_TYPE	R	Refresh
+CME_PRED	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, implied trades, off-book trades)
+CME_PRED	AGGRESSOR_SIDE	B	Buy
+CME_PRED	AGGRESSOR_SIDE	S	Sell
+CME_PRED	BOOK_TYPE	0	Lit order book
+CME_PRED	BOOK_TYPE	1	Off-book
+CME_PRED	CALL_PUT_IND	C	Call option
+CME_PRED	CALL_PUT_IND	P	Put option
+CME_PRED	EVENT_CODE	0	No special event
+CME_PRED	EVENT_CODE	1	No cancel
+CME_PRED	EVENT_CODE	4	New trading day
+CME_PRED	EVENT_CODE	5	Implied matching on
+CME_PRED	EVENT_CODE	6	Implied matching off
+CME_PRED	MKT_PHASE	15	New price indication
+CME_PRED	MKT_PHASE	17	Trading
+CME_PRED	MKT_PHASE	18	Not available for trading
+CME_PRED	MKT_PHASE	2	Halted
+CME_PRED	MKT_PHASE	20	Unspecified
+CME_PRED	MKT_PHASE	21	Pre-open
+CME_PRED	MKT_PHASE	24	Pre-cross
+CME_PRED	MKT_PHASE	25	Cross
+CME_PRED	MKT_PHASE	26	Post-close
+CME_PRED	MKT_PHASE	4	Closed
+CME_PRED	ORDER_TYPE	I	Implied order
+CME_PRED	ORDER_TYPE	L	Limit order
+CME_PRED	REASON_CODE	0	Scheduled transition
+CME_PRED	REASON_CODE	1	Surveillance intervention
+CME_PRED	REASON_CODE	2	Market event
+CME_PRED	REASON_CODE	3	Instrument activation
+CME_PRED	REASON_CODE	4	Instrument expiration
+CME_PRED	REASON_CODE	5	Unspecified
+CME_PRED	REASON_CODE	6	Recovery
+CME_PRED	TRADE_PERIOD	-	Regular trading
+CME_PRED	TRADE_PERIOD	A	Auction
+CME_PRED	TRADE_TYPE	-	Regular trade
+CME_PRED	TRADE_TYPE	BLK	Block trade [Note: price may be null for block trades in spreads - this is because CME does not always publish a price]
+CME_PRED	TRADE_TYPE	BLKL	Leg of a strategy block trade
+CME_PRED	TRADE_TYPE	IMP	Implied trade [Trade where either the buy or the sell side was an implied price]
+CME_PRED	TRADE_TYPE	LEG	Strategy leg trade [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null]
+CME_PRED	TRADE_TYPE	RFC	Request for Cross (RFC) trade
+CME_PRED	UPDATE_TYPE	A	Add
+CME_PRED	UPDATE_TYPE	D	Delete
+CME_PRED	UPDATE_TYPE	F	Fill
+CME_PRED	UPDATE_TYPE	M	Modify
+CME_PRED	UPDATE_TYPE	P	Partial fill
+CME_PRED	UPDATE_TYPE	R	Refresh
 CME_SAMPLE	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, implied trades, off-book trades)
 CME_SAMPLE	AGGRESSOR_SIDE	B	Buy
 CME_SAMPLE	AGGRESSOR_SIDE	S	Sell
@@ -6587,6 +6632,8 @@ NORDIC_EQ	TRADE_TYPE	80	Portfolio trade
 NORDIC_EQ	TRADE_TYPE	82	Off-book trade with non-standard settlement
 NORDIC_EQ	TRADE_TYPE	84	Pre-opening trade
 NORDIC_EQ	TRADE_TYPE	86	VWAP trade
+NORDIC_EQ	TRADE_TYPE	AV	Auction Volume Discovery trade
+NORDIC_EQ	TRADE_TYPE	XQ	Non-price forming trade
 NORDIC_EQ	UPDATE_TYPE	A	Add
 NORDIC_EQ	UPDATE_TYPE	D	Delete
 NORDIC_EQ	UPDATE_TYPE	F	Fill
@@ -8118,11 +8165,13 @@ TRACE	PRICE_COND	S	Special price
 TRACE	PRICE_COND	""	No condition
 TRACE	SIZE_TYPE	E	Estimated size
 TRACE	SIZE_TYPE	""	Actual size
+TRACE	TRADE_TYPE	B	Basis trade / multi-leg transaction involving a futures contract
 TRACE	TRADE_TYPE	D	Dollar roll without stipulation
 TRACE	TRADE_TYPE	L	Dollar roll with stipulation
 TRACE	TRADE_TYPE	N	Stipulation
 TRACE	TRADE_TYPE	O	Specified pool transaction
 TRACE	TRADE_TYPE	P	Portfolio trade
+TRACE	TRADE_TYPE	S	Multi-leg transaction where one or more legs are executed at a pre-determined fixed price
 TRACE	TRADE_TYPE	W	Weighted average price
 TRACE	TRADE_TYPE	""	No condition
 TRACE	LATE_REPORTED	A	Trade reported late on an As-Of basi
@@ -8130,6 +8179,8 @@ TRACE	LATE_REPORTED	R	Reversal of an earlier trade
 TRACE	LATE_REPORTED	T	Outside hours
 TRACE	LATE_REPORTED	U	Out of sequence and outside hours
 TRACE	LATE_REPORTED	Z	Out of sequence
+TRACE	HEDGED_TRADE	H	Hedged transaction
+TRACE	HEDGED_TRADE	""	Not a hedged transaction
 TRACE	TRADE_PERIOD	e	Extended hours
 TRACE	TRADE_PERIOD	-	Regular trading
 TRACE	BOOK_TYPE	9	Off-exchange

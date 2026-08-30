@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone     | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|---------------|--------------|------------|--------------|------------|
+| Full Holiday    | Europe/Prague | 2026-09-28   | 2026-09-28 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Prague | 2026-07-06   | 2026-07-06 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Prague | 2026-05-08   | 2026-05-08 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Prague | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Europe/Prague | 2025-12-31   | 2025-12-31 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Prague | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Prague | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Prague | 2025-12-24   | 2025-12-24 | 00:00        | 24:00      |
 

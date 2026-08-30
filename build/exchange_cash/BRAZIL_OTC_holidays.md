@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|-------------|--------------|------------|--------------|------------|
+| Full Holiday          | Etc/GMT+3   | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-06-04   | 2026-06-04 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-04-21   | 2026-04-21 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Etc/GMT+3   | 2026-02-16   | 2026-02-16 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2025-12-31   | 2025-12-31 | 00:00        | 24:00      |
-| Full Holiday          | Etc/GMT+3   | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
 

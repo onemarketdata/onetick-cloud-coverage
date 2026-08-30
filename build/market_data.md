@@ -5,14 +5,33 @@ Data is stored in databases specific to the venue (equity, future, option or ind
 
 * TRD - `Trade Events`
 * QTE - `Quote Events`
+* NBBO - `NBBO Quotes across a Consolidated Market`
+* NBBO_COMP - `NBBO Quotes combined with the Best Odd Lot Orders (BOLO)`
+* QTE_COMP - `Quote Events combined with the Best Odd Lot Orders (BOLO)`
 * MKT - `Market Phase Events`
-* DAY - `End of Day Record`
-* NBBO - `NBBO Events`
-* PRL / PRL_FULL  - `Book Depth Events`
+* PRL - `Book Depth Events at L2 - Market by Level (MBL)`
+* PRL_FULL  - `Book Depth Events at L3 - Market by Order (MBO)`
 * IND - `Auction Imbalance Events`
+* EVENT - `Events such as Earnings and Company Conference Calls`
 * STAT - `Static Reference Data Record`
-* TRD_1M - `Trade Bar Retrieval`
-* QTE_1M - `Quote Bar Retrieval`
+
+Derived features sets are constructed from the source Trade (TRD), Quote (QTE), and NBBO (NBBO) tables, and include:
+
+* TRD_1M - `1 Minute Trade Bars`
+* QTE_1M - `1 Minute Quote Bars`
+* LAT_1M - `1 Minute Latency Bars for Real Time Data`
+* VWAP_1H - `1 Hour VWAP Bars`
+* DAY - `End of Day Record`
+* QTE_NBBO_DAY - `Daily Quote Metrics against NBBO`
+* TRD_NBBO_DAY - `Daily Trade Metrics against NBBO`
+* TRD_TCA - `Enriched Trade Events`
+
+Real Time last value caches are also provided as additional tables:
+
+* SNAP - `Latest Trade & Quote / NBBO`
+* SNAP_NBBO - `Latest NBBO`
+* SNAP_QTE - `Latest Quotes`
+* SNAP_TRD - `Latest Trades`
 
 ## Symbol Universe
 
@@ -63,7 +82,14 @@ LIMIT 5
 ## Trade Events
 
 Trade events are retrieved by specifying the `TRD` table, along with the specified database, symbol and time range.
-Trades are represented with `PRICE`, `SIZE`, and other fields.
+Trades are represented with:
+
+* `PRICE` - Trade Price,
+* `SIZE` - Trade Size or Quantity,
+* `TRADE_PERIOD` - Market period during which a trade was executed.
+* `BOOK_TYPE` - Type of order book or trading mechanism through which a trade was executed.
+
+Plus  other fields specific to the venue.
 
 ```
 SELECT * FROM US_COMP_SAMPLE.TRD
@@ -174,7 +200,16 @@ LIMIT 10
 
 ## End of Day Record
 
-End of Day Records are retrieved by specifying the `DAY` table, along with the specified database, symbol and time range.  This table is only available for a subset of databases.
+End of Day Records are retrieved by specifying the `DAY` table, along with the specified database, symbol and time range.
+This tables returns the `OPEN`, `HIGH` , `LOW` , `CLOSE` and `VOLUME`.  e.g. `OHLCV`.
+With `VOLUME` additionally divided by Trade category.  As Trade categories are venue specific, the `VOLUME` fields can vary by venue.
+
+For Derivative venues additionally the following fields are provided:
+
+* `OPEN_INT` - Open Interest
+* `OPEN_INT_DATE` - Open Interest Date
+* `SETTLE_PRICE` - Settlement Price
+* `SETTLE_DATE` - Settlement Date
 
 ```
 SELECT * FROM LSE_SAMPLE.DAY
@@ -186,16 +221,18 @@ LIMIT 10
 
 #### Day Retrieval Results
 
-| Symbol          | Timestamp           | SYMBOL_NAME     | TICK_TYPE   |   OMDSEQ |   HIGH |   LOW |     VOLUME |   OPEN |   CLOSE |   ON_BOOK_VOLUME |   OFF_BOOK_VOLUME |
-|-----------------|---------------------|-----------------|-------------|----------|--------|-------|------------|--------|---------|------------------|-------------------|
-| LSE_SAMPLE::VOD | 2024-01-03 19:30:00 | LSE_SAMPLE::VOD | DAY         |        0 |  70.75 | 69.38 | 90,161,664 |     70 |   69.51 |       31,819,135 |        58,342,529 |
+| Symbol          | Timestamp           | SYMBOL_NAME     | TICK_TYPE   |   OMDSEQ |   HIGH |   LOW |   VOLUME |   OPEN |   CLOSE |   ON_BOOK_VOLUME |   OFF_BOOK_VOLUME |
+|-----------------|---------------------|-----------------|-------------|----------|--------|-------|----------|--------|---------|------------------|-------------------|
+| LSE_SAMPLE::VOD | 2024-01-03 19:30:00 | LSE_SAMPLE::VOD | DAY         |        0 |  70.75 | 69.38 | 90161664 |     70 |   69.51 |         31819135 |          58342529 |
 
 
 
-## NBBO Events
+## NBBO Quotes across a Consolidated Market
 
 National Best Bid & Offer (NBBO) events are retrieved by specifying the `NBBO` table, along with the specified database, symbol and time range.
 This table is only available for databases that host composite exchanges, and has a similar schema to `QTE` tables, with `BID_PRICE`, `ASK_PRICE`, `BID_SIZE`, `ASK_SIZE`.
+For the US Market, the NBBO is received from the Consolidated Tape (the US SIP).  For all other consolidated markets the NBBO is constructed by OneTick.
+
 Additionally it also includes `BID_EXCHANGE` and `ASK_EXCHANGE`.
 
 ```
@@ -223,10 +260,60 @@ LIMIT 10
 
 
 
-## Book Depth Events
+## ``NBBO Quotes combined with the Best Odd Lot Orders (BOLO)``
 
-Book depth events are retrieved by specifying either the `PRL` or `PRL_FULL` table, depending on whether Market by Level (MBL) or Market by Order (MBO) data is available.
-Typically book depth data is analysed using orderbook processing.
+Since June 2026 the `US_COMP` database has also included the table `NBBO_COMP`, which combines the regulatory NBBO consisting of even lot quotes,
+with the Best Odd Lot Order (BOLO), producing a new NBBO including both Odd and Even Lot Quotes.  The result is typically an NBBO that has a narrower spread than the official NBBO based on Even Lots.
+The schema of `NBBO_COMP` follows the same schemas as for `NBBO`.
+
+```
+select * from US_COMP.NBBO_COMP
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2026-07-23 09:30:00 America/New_York'
+and TIMESTAMP < '2026-07-23 16:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
+## ``Quote Events combined with the Best Odd Lot Orders (BOLO)``
+
+Since June 2026 the `US_COMP` database has also included the table `QTE_COMP`, which combines the regulatory Quotes consisting of even lot quotes for each exchange,
+with the Best Odd Lot Order (BOLO), producing a new Quote for each exchange including both Odd and Even Lot Quotes.  The result is typically a Quote that has a narrower spread than the official exchange quote based on Even Lots.
+The schema of `QTE_COMP` follows the same schemas as for `QTE`.
+
+```
+select * from US_COMP.QTE_COMP
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2026-07-23 09:30:00 America/New_York'
+and TIMESTAMP < '2026-07-23 16:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
+## ``Book Depth Events at L2 - Market by Level (MBL)``
+
+Level 2 (L2) Book depth events are retrieved by specifying  the `PRL` table, returning Market by Level (MBL) data.
+Typically book depth data is analysed using orderbook processing functions such as `OB_SNAPSHOT` as a simple retrieval will return the sequence of price level updates, rather than the reconstructed book.
+
+```
+select * from BINANCE.PRL
+where SYMBOL_NAME = 'BTCUSD'
+and TIMESTAMP >= '2026-07-28 00:00:00.000 GMT'
+and TIMESTAMP < '2026-07-29 00:00:00.000 GMT'
+limit 1000
+```
+
+
+
+
+## ``Book Depth Events at L3 - Market by Order (MBO)``
+
+Level 3 (L3) Book depth events are retrieved by specifying  the `PRL_FULL` table, returning Market by Order (MBO) data .
+Typically book depth data is analysed using orderbook processing functions such as `OB_SNAPSHOT` as a simple retrieval will return the sequence of order messages, rather than the reconstructed book.
 
 ```
 SELECT * FROM LSE_SAMPLE.PRL_FULL
@@ -255,7 +342,7 @@ LIMIT 10
 
 ## Auction Imbalance Events
 
-Auction Imbalance events are retrieved by specifying the `IND` table, , along with the specified database, symbol and time range.
+Auction Imbalance events are retrieved by specifying the `IND` table, along with the specified database, symbol and time range.
 Events are represented with `PRICE`, `SIZE`, `IMB_SIDE`, `IMB_VOLUME` and other fields.
 
 ```
@@ -283,6 +370,26 @@ LIMIT 10
 
 
 
+## Events such as Earnings and Company Conference Calls
+
+Corporate Events such as Earning releases and Company Conference Calls explaining the earning releasses are listed in the `EVENT` table.
+This is currently restricted to the US market, and included in the `US_COMP` data asset, and specifically in the `US_COMP_DAILY` database.
+
+Each event includes the:
+
+* `TIMESTAMP` of the event
+* `EVENT_TYPE` of the event, which is either `EARNING_DATE` or `COMPANY_CONFERENCE_CALL`
+
+```
+select * from US_COMP_DAILY.EVENT
+where SYMBOL_NAME = 'CSCO'
+and TIMESTAMP >= '2026-01-01 00:00:00 America/New_York'
+and TIMESTAMP < '2026-06-01 00:00:00 America/New_York'
+```
+
+
+
+
 ## Static Reference Data Record
 
 The Symbol Universe database holds a standardized schema across all collected venues.  Additional fields may be available by querying the `STAT` table in a specific database.
@@ -305,13 +412,46 @@ LIMIT 10
 
 
 
-## Trade Bar Retrieval
+## 1 Minute Trade Bars
 
 Pre-calculated 1 minute Trade bars are retrieved by specifying the `TRD_1M` table, along with the specified bar database, symbol and time range.
 Trade Bars are represented with fields:
 `FIRST_TIME`, `FIRST`, `FIRST_SIZE`, `HIGH_TIME`, `HIGH`, `HIGH_SIZE`, `LOW_TIME`,
 `LOW`, `LOW_SIZE`, `LAST_TIME`, `LAST`, `LAST_SIZE`, `VWAP`, `TWAP`, `VOLUME`,
 `TRADE_TICK_COUNT`, `TRADE_CURRENCY`
+
+1-minute Trade bars are calculated from market open to market close (the end of continuous trading or the end of the closing auction, whichever is later);
+The first Bar is created one minute after the Open; or, if no activity has occurred by that time, after the first minute with any activity (i.e. after the first eligible trade for trade Bars, and after the first non-empty quote for quote bars).
+
+### Filtering Rules
+
+Trade Bars include all trades that are eligible to set the Last price, according to the exchange’s rules.
+In general, this means that:
+
+* Trades executed through the orderbook (either Lit or Dark) during continuous trading are included, with the exception of odd lots;
+* Auction trades are included;
+* All other trade types (off-market trades, late-reported trades, etc.) are excluded.
+
+For US equity markets, the trades included in the Last price (and hence the Bars) are determined by the CTA and UTP SIPs, the organizations responsible for consolidating trade and BBO data from the various US stock exchanges. The specific trade types included in the Consolidated Last price are documented in their trade feed specifications(\*), as below:
+`https://www.ctaplan.com/publicdocs/ctaplan/CTS_Pillar_Output_Specification.pdf`     (page 82)
+`https://www.utpplan.com/DOC/UtpBinaryOutputSpec.pdf`   (page 48)
+
+* Note that, because the bars also cover the pre- and post-market periods for US equities, condition T (Extended hours trade) is an exception to this, and will be included in the bars.
+
+### Currencies
+
+The Bar data is grouped by currency, with the field TRADE_CURRENCY indicating the currency in which the price fields (first/high/low/last) are expressed. It is possible to have multiple Bars for a single minute if there are multiple traded / quoted currencies in that minute.
+
+### Carrying Forward rules
+
+If there were no trades/quotes in the current bar, some fields are carried forward from the last valid bar.
+
+Fields carried forward for Trade bars:
+
+* LAST_TIME
+* LAST_PRICE
+* LAST_SIZE
+* TRADE_CURRENCY
 
 ```
 SELECT * FROM LSE_SAMPLE_BARS.TRD_1M
@@ -338,7 +478,7 @@ LIMIT 10
 
 
 
-## Quote Bar Retrieval
+## 1 Minute Quote Bars
 
 Pre-calculated 1 minute Quote bars are retrieved by specifying the `QTE_1M` table, along with the specified bar database, symbol and time range.
 Bars databases have the suffix `_BAR`.
@@ -350,6 +490,39 @@ Quote Bars are represented with fields:
 `MID_TWAP`, `MID_MEDIAN`, `MID_LAST`,
 `SPREAD_MIN`, `SPREAD_MAX`, `SPREAD_TWAP`, `SPREAD_MEDIAN`, `SPREAD_LAST`,
 `QUOTE_CURRENCY`, `QUOTE_TICK_COUNT`
+
+1-minute Quote bars are calculated for the duration of the continuous trading session, excluding intraday auctions or other breaks in trading.
+
+### Filtering Rules
+
+Quotes are filtered as follows:
+
+* If the Bid side is empty, the quote is excluded from all Bid statistics other than the Last bid fields;
+* If the Ask side is empty, the quote is excluded from all Ask statistics other than the Last ask fields;
+* If either the Bid or the Ask side is empty, the quote is excluded from Mid and Spread statistics;
+* If both the Bid and the Ask sides are empty, the quote is excluded from the quote count;
+* For country-composite datasets (e.g. US_COMP, CA_COMP), quote bars are computed based on the NBBO.
+
+### Currencies
+
+The Bar data is grouped by currency, with the field QUOTE_CURRENCY indicating the currency in which the price fields (first/high/low/last) are expressed. It is possible to have multiple Bars for a single minute if there are multiple traded / quoted currencies in that minute.
+
+### Carrying Forward rules
+
+If there were no /quotes in the current bar, some fields are carried forward from the last valid bar.
+For quote bars, one or both sides may be carried forward from the previous bar - for example, if the Bid side updated but the Ask side did not, the last Ask fields will be carried forward.
+
+Fields carried forward for Quote bars:
+
+* LAST_BID_TIME
+* LAST_BID_PRICE
+* LAST_BID_SIZE
+* LAST_ASK_TIME
+* LAST_ASK_PRICE
+* LAST_ASK_SIZE
+* MID_LAST
+* SPREAD_LAST
+* QUOTE_CURRENCY
 
 ```
 SELECT * FROM LSE_SAMPLE_BARS.QTE_1M
@@ -376,26 +549,258 @@ LIMIT 10
 
 
 
+## 1 Minute Latency Bars for Real Time Data
+
+Pre-calculated 1 minute Latency bars are retrieved by specifying the `LAT_1M` table, along with the specified bar database, symbol and time range.
+Latency bars are available for Real Time venues for the prior 48 hours.
+
+Latency is identified through:
+
+* `Load Latency` - Latency between Collection and Loading into the Memory Database
+* `Collection Latency` - Latency between the Exchange Publication and Real Time Collection
+
+Each minute 4 metrics are recorded for every real time collected symbol:
+
+* `AVG_LATENCY_COLLECTION` - Average Collection Latency Across the Minute Period
+* `MAX_LATENCY_COLLECTION` - Maximum Collection Latency Across the Minute Period
+* `AVG_LATENCY_LOAD` -  Average Load Latency Across the Minute Period
+* `MAX_LATENCY_LOAD` - Maximum Load Latency Across the Minute Period
+
+```
+select * from US_COMP_BARS.LAT_1M
+where SYMBOL_NAME = 'CSCO'
+and TIMESTAMP >= DATEADD('HOUR',-48,NOW())
+and TIMESTAMP < NOW()
+limit 1000
+```
+
+
+
+
+## 1 Hour VWAP Bars
+
+Pre-calculated 1 Hour VWAP bars are retrieved by specifying the `VWAP_1H` table, along with the specified bar database, symbol and time range.
+VWAP Bars include the following fields:
+
+* `VWAP` - Volume Weighted Average Price
+* `TWAP` - Time Weighted Average Price
+* `VOLUME` - Total volume of eligible trades in the current bar interval
+* `CURRENCY` - Currency in which the instrument’s price is expressed
+
+```
+select * from US_COMP_SAMPLE_BARS.VWAP_1H
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2024-01-03 00:00:00 America/New_York'
+and TIMESTAMP < '2024-01-04 00:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
+## Daily Quote Metrics against NBBO
+
+Quote Performance against the NBBO metrics are retrieved by specifying the `QTE_NBBO_DAY` table.
+This table is only available for Composite datasets which combine fragmented liquidity providing both the exchange quotes and NBBO.
+The table includes fields providing either the time an exchange is at the NBBO, or the time weighted average Size for the Exchange Bid and Ask when at the NBBO.
+As the exhchange may be at the NBBO on one side and not on the other, Durations in Seconds are returned for the `BID`, `ASK`, `BOTH` and `EITHER`.
+
+Fields include:
+
+* `NBBO_DURATION` - Main Session Duration in seconds that a valid NBBO is present
+* `EXCHANGE` - Exchange from which the update originates
+* `AT_NBBO_BOTH_DURATION` - Main Session Duration in seconds for the exchange to be at both the NBBO Bid and Ask
+* `AT_NBBO_BOTH_SIZE` - Main Session Time Weighted Average of the sum of BID_SIZE and ASK_SIZE from Exchange, when at the NBBO
+* `AT_NBBO_EITHER_DURATION` - Main Session Duration in seconds for the exchange to be at either or both the NBBO Bid or Ask
+* `AT_NBBO_EITHER_SIZE` - Main Session Time Weighted Average of the Bid and Ask Size from Exchange, when at either or both the NBBO Bid or Ask.  Size not at NBBO is not included.
+* `AT_NBBO_ASK_DURATION` - Main Session Duration in seconds for the exchange to be at the NBBO Ask
+* `AT_NBBO_ASK_SIZE` - Main Session Time Weighted Average of the ASK_SIZE from Exchange, when at the NBBO Ask
+* `AT_NBBO_BID_DURATION` - Main Session Duration in seconds for the exchange to be at the NBBO Bid
+* `AT_NBBO_BID_SIZE` - Main Session Time Weighted Average of the BID_SIZE from Exchange, when at the NBBO Bid
+
+```
+select * from US_COMP_MKT_SHARE.QTE_NBBO_DAY
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2024-01-03 00:00:00 America/New_York'
+and TIMESTAMP < '2024-01-04 00:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
+## Daily Trade Metrics against NBBO
+
+Trade Performance against the NBBO metrics are retrieved by specifying the `TRD_NBBO_DAY` table.
+This table is only available for Composite datasets which combine fragmented liquidity providing both the exchange trades and NBBO.
+Each trade is compared against the NBBO to determine whether it is:
+
+* `AT_NBBO` - At the NBBO
+* `AT_MID` - At the Mid Price
+* `INSIDE_NBBO` - Inside the NBBO
+* `OUTSIDE_NBBO` - Outside the NBBO
+
+The table returns metrics based on `TRADE_COUNT`, `TRADE_VALUE` and `VOLUME` for each `EXCHANGE`.
+
+Additionally Block trades are identified through the fields:
+
+* TRADE_COUNT_BLOCK - Block Count where block is a trade with value > $200,000 or volume > 10,000
+* TRADE_VALUE_BLOCK - Block Traded Value where block is a trade with value > $200,000 or volume > 10,000
+* BLOCK_VOLUME - Total volume of block trades executed on the current day
+
+```
+select * from US_COMP_MKT_SHARE.TRD_NBBO_DAY
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2024-01-03 00:00:00 America/New_York'
+and TIMESTAMP < '2024-01-04 00:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
+## Enriched Trade Events
+
+Enriched Trade events are retrieved by specifying the `TRD_TCA` table, along with the specified database, symbol and time range.
+The table is generated to both simplify and accelerate TCA analysis.
+Trade Events are enriched with prevailing quotes and mid price offsets to simplify TCA analysis
+Rather than manually calculating mark outs by repeatedly joining trades to prevailing quotes for each offset period, the work has already been performed.
+
+This table is copy of the `TRD` table, plus:
+
+* Prevailing Bid and Ask from the NBBO for a Composite, and QTE for a venue
+* Prevailing Mid Price
+* Mid Price at 21 offsets (6 back, and 15 forward).
+
+The Mid Price Offsets are:
+
+* Back 60s, 30s, 10s, 1s, 100ms & 10ms
+* Forward 10ms, 100ms, 500ms, 1s, 2s, 5s, 10s, 30s, 60s, 90s, 2min, 3min, 5min, 10min & 15min
+
+```
+select * from US_COMP_TCA.TRD_TCA
+where SYMBOL_NAME='CSCO'
+and TIMESTAMP >= '2026-01-03 00:00:00 America/New_York'
+and TIMESTAMP < '2026-01-04 00:00:00 America/New_York'
+limit 1000
+```
+
+
+
+
 ## Futures Continuous Contracts
 
-Trades for futures contract can be retrieved like any other instrument.
+Continuous contracts definitions are based on either contract expiry, Trade Volume, Open Interest or Trade count from individual contracts within the Product.
+
+They are queried using the following syntax, across Tick, Derived such as Minute Bar and Daily databases:
+
+* <ROOT>\\1 - Front Month to <ROOT>\\12 - Twelfth Month
+* <ROOT>_r_oi - Highest Open Interest
+* <ROOT>_r_vol - Highest Trade Volume
+* <ROOT>_r_tdi - Tick Data Methodology which depends on product and is only available in the TDI_FUT database.
+
+For the Front to Twelfth Month continuous contracts, the roll date is the expiration data of the current contract.
+
+For the volume and open-interest based continuous contracts, each day the system identifies the most active contract (based on volume or open interest).  A roll occurs only if the most active contract has changed.   Two key rules are applied to ensure consistency:
+
+* The new most active contract must have an expiration date later than the current contract.
+* The roll takes effect the day after the most active contract is identified.
+
+Continuous Contracts can be retrieved by changing the `SYMBOL_NAME` to the Continuous Contract.
+Additionally the `SYMBOL_DATE` must also be specified.
 
 ```
-SELECT * FROM TDI_FUT_SAMPLE.TRD
-WHERE SYMBOL_NAME='ESZ24'
-and TIMESTAMP >= '2024-01-03 00:00:00 UTC'
-and TIMESTAMP < '2024-01-04 00:00:00 UTC'
-LIMIT 10
-```
-
-Continuous Contracts can be retrieved by changing the `SYMBOL_NAME` to the Continuous Contract.  This is specified as `[Product]_r_tdi`.
-Additionally the `SYMBOL_DATE` must also be specified in the `WHERE` clause.
-
-```
-SELECT * FROM TDI_FUT_SAMPLE.TRD
-WHERE SYMBOL_NAME='ES_r_tdi'                --
+SELECT * FROM CME_SAMPLE.TRD
+WHERE SYMBOL_NAME='ES\\1'                --
 and TIMESTAMP >= '2024-01-03 00:00:00 UTC'
 and TIMESTAMP < '2024-01-04 00:00:00 UTC'
 and symbol_date = 20240103
 LIMIT 1000
 ```
+
+Front Month to Twelfth Month Continuous Contracts can also be specified with the Bloomberg [BSYM] symbology, using the syntax:
+
+* <Bloomberg ROOT>1 to <Bloomberg ROOT>12
+
+For example Brent Crude (exchange symbol BRN), has Bloomberg Product code CO, producing Bloomberg Continuous Contract CO1
+
+```
+select * from BSYM::ICE_EU_COM_SAMPLE_DAILY.DAY
+where SYMBOL_NAME='CO1 Comdty'                -- Front Month Continuous Contract ([Product code]1)
+and TIMESTAMP >= '2024-01-01 00:00:00 UTC'
+and TIMESTAMP < '2024-04-01 00:00:00 UTC'
+and UPDATE_TYPE = 'Summary'
+and symbol_date = 20240401
+```
+
+
+
+
+## Latest Trade & Quote / NBBO
+
+The latest prices for all instruments from a venue are most efficiently retrieved by quering the `SNAP` table within databases with the `_LATEST` suffix.
+which combines the last value caches for both trades and quotes / NBBO.
+The latest prices can also be returned by querying the traditional TRD, QTE, and NBBO tables, and aggregating for the last values for each symbol.
+The `SNAP` table, only holds the last venue, and is consequently much faster to retrieve the latest state across the whole market.
+
+As this is a real time table it is only made available to authorized subscribers.
+
+`US_COMP_LATEST` provides `SNAP` which combines the `SNAP_TRD` and `SNAP_NBBO` tables.
+All other `_LATEST` databases provide `SNAP` which combines the `SNAP_TRD` and `SNAP_QTE` tables.
+
+```
+select * from US_COMP_LATEST.SNAP
+where symbol_name = '-'
+and TIMESTAMP = NOW()
+```
+
+
+
+
+## Latest NBBO
+
+The latest NBBO for all US equity instruments are most efficiently retrieved by quering the `SNAP_NBBO` table in the `US_COMP_LATEST` database.
+This `SNAP_NBBO` table is a last value cache for storing the latest NBBO quotes for each symbol.
+This includes for each symbol the `BID_PRICE`, `ASK_PRICE`, `BID_SIZE`, and `ASK_SIZE`.
+
+```
+select * from US_COMP_LATEST.SNAP_NBBO
+where symbol_name = '-'
+and TIMESTAMP = NOW()
+```
+
+
+
+
+## Latest Quotes
+
+The latest quotes for all instruments from a venue are most efficiently retrieved by quering the `SNAP_QTE` table within databases with the `_LATEST` suffix.
+This `SNAP_QTE` table is a last value cache for storing the latest quotes for each symbol.
+This includes for each symbol the `BID_PRICE`, `ASK_PRICE`, `BID_SIZE`, and `ASK_SIZE`.
+
+```
+select * from NYMEX_LATEST.SNAP_QTE
+where symbol_name = '-'
+and TIMESTAMP = NOW()
+```
+
+
+
+
+## Latest Trades
+
+The latest trades for all instruments from a venue are most efficiently retrieved by quering the `SNAP_TRD` table within databases with the `_LATEST` suffix.
+This `SNAP_TRD` table is a last value cache for storing the latest trade for each symbol.
+This includes for each symbol the `PRICE` and `SIZE`, together with the current accumulated `VOLUME`,
+plus `HIGH`, `LOW`, `OPEN`, and previous `CLOSE`, and `CLOSE_DATE`.
+
+Derivative venues also include:  `SETTLE_PRICE`, `SETTLE_DATE`, `OPEN_INT`, and `OPEN_INT_DATE`.
+
+```
+select * from US_COMP_LATEST.SNAP_TRD
+where symbol_name = '-'
+and TIMESTAMP = NOW()
+```
+
+
+

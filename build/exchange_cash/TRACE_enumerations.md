@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * SIZE_TYPE - Indicates any special conditions applicable to the SIZE field
 * TRADE_TYPE - Type of trade
 * LATE_REPORTED - Indicates whether a trade was reported late and/or outside normal trading hours
+* HEDGED_TRADE - Indicates whether a trade was hedged (“H” - Hedged transaction, “” - Not a hedged transaction)
 * TRADE_PERIOD - Market period during which a trade was executed.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * REPORTING_PARTY_SIDE - Indicates whether the trade was reported by the buyer or the seller (“B” - Buyer, “S” - Seller, “” - Unspecified)
@@ -33,15 +34,17 @@ The following fields have Enumerations:
 
 #### TRADE_TYPE - Enumeration
 
-| Enumeration ID   | Enumeration Description         |
-|------------------|---------------------------------|
-| D                | Dollar roll without stipulation |
-| L                | Dollar roll with stipulation    |
-| N                | Stipulation                     |
-| O                | Specified pool transaction      |
-| P                | Portfolio trade                 |
-| W                | Weighted average price          |
-| ‘””’             | No condition                    |
+| Enumeration ID   | Enumeration Description                                                                   |
+|------------------|-------------------------------------------------------------------------------------------|
+| B                | Basis trade / multi-leg transaction involving a futures contract                          |
+| D                | Dollar roll without stipulation                                                           |
+| L                | Dollar roll with stipulation                                                              |
+| N                | Stipulation                                                                               |
+| O                | Specified pool transaction                                                                |
+| P                | Portfolio trade                                                                           |
+| S                | Multi-leg transaction where one or more legs are executed at a pre-determined fixed price |
+| W                | Weighted average price                                                                    |
+| ‘””’             | No condition                                                                              |
 
 #### LATE_REPORTED - Enumeration
 
@@ -52,6 +55,13 @@ The following fields have Enumerations:
 | T                | Outside hours                        |
 | U                | Out of sequence and outside hours    |
 | Z                | Out of sequence                      |
+
+#### HEDGED_TRADE - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| H                | Hedged transaction        |
+| ‘””’             | Not a hedged transaction  |
 
 #### TRADE_PERIOD - Enumeration
 

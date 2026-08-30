@@ -265,28 +265,30 @@ The following fields have Enumerations:
 
 #### TRADE_TYPE - Enumeration
 
-|   Enumeration ID | Enumeration Description                        |
+| Enumeration ID   | Enumeration Description                        |
 |------------------|------------------------------------------------|
-|                0 | `Nordic@Mid` trade          |
-|                1 | Automatch                                      |
-|              158 | OTC trade with standard settlement             |
-|              164 | OTC trade with non-standard settlement         |
-|              237 | SI trade with standard settlement              |
-|              246 | SI trade with non-standard settlement          |
-|              248 | Non-price forming trade                        |
-|              300 | Auction on Demand trade                        |
-|              301 | Trade at closing price                         |
-|               32 | Off-book trade [until 20100205]                |
-|               52 | Exercise Related trade [until 20231231]        |
-|               64 | Off-book trade with standard settlement        |
-|               65 | Routed trade                                   |
-|               69 | Exchange Granted trade                         |
-|               75 | Contingent trade                               |
-|               76 | Beneficial ownership transfer [until 20231231] |
-|               80 | Portfolio trade                                |
-|               82 | Off-book trade with non-standard settlement    |
-|               84 | Pre-opening trade                              |
-|               86 | VWAP trade                                     |
+| 0                | `Nordic@Mid` trade          |
+| 1                | Automatch                                      |
+| 158              | OTC trade with standard settlement             |
+| 164              | OTC trade with non-standard settlement         |
+| 237              | SI trade with standard settlement              |
+| 246              | SI trade with non-standard settlement          |
+| 248              | Non-price forming trade                        |
+| 300              | Auction on Demand trade                        |
+| 301              | Trade at closing price                         |
+| 32               | Off-book trade [until 20100205]                |
+| 52               | Exercise Related trade [until 20231231]        |
+| 64               | Off-book trade with standard settlement        |
+| 65               | Routed trade                                   |
+| 69               | Exchange Granted trade                         |
+| 75               | Contingent trade                               |
+| 76               | Beneficial ownership transfer [until 20231231] |
+| 80               | Portfolio trade                                |
+| 82               | Off-book trade with non-standard settlement    |
+| 84               | Pre-opening trade                              |
+| 86               | VWAP trade                                     |
+| AV               | Auction Volume Discovery trade                 |
+| XQ               | Non-price forming trade                        |
 
 #### UPDATE_TYPE - Enumeration
 

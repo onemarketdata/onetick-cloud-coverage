@@ -611,7 +611,7 @@ Daily Trade Metrics by Venue related to the NBBO
 | TRADE_COUNT_POST_MARKET     | double      | Trade Count of the Post-Market Trading Session                                                                                    |
 | TRADE_COUNT_PRE_MARKET      | double      | Trade Count of the Pre-Market Trading Session                                                                                     |
 | TRADE_COUNT_ROUND_LOT       | double      | Trade Count for Round Lot Trades                                                                                                  |
-| TRADE_VALUE                 | double      | Total monetary value traded on the current trading day                                                                            |
+| TRADE_VALUE                 | double      | Total monetary value traded on the current trading day.  Note: The value will typically be rounded to the nearest integer.        |
 | TRADE_VALUE_AT_MID          | double      | Main Session Traded Value for Trades at the NBBO Mid                                                                              |
 | TRADE_VALUE_AT_NBBO         | double      | Main Session Traded Value for Trades at the NBBO                                                                                  |
 | TRADE_VALUE_BLOCK           | double      | Block Traded Value where block is a trade with value > $200,000 or volume > 10,000                                                |

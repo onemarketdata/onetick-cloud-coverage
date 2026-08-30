@@ -10,6 +10,7 @@ It covers:
 * `CBOT` - CBOT Futures
 * `CFE` - Cboe Futures Exchange (CFE)
 * `CME` - CME Group Futures & Options
+* `CME_PRED` - CME Event Contracts / Prediction Markets
 * `CME_GLOBEX` - CME Globex Futures
 * `COMEX` - COMEX Futures
 * `DALIAN` - Dalian Commodity Exchange

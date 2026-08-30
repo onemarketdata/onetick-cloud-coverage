@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            238 | 3.74%        |
-| Option          |           6128 | 96.26%       |
-| Total           |           6366 | 100%         |
+| Future          |            238 | 3.27%        |
+| Option          |           7050 | 96.73%       |
+| Total           |           7288 | 100%         |
 
 
 Consists of 3 Databases

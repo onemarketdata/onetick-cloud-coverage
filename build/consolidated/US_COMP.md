@@ -27,20 +27,20 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| ADR                |            401 | 3.04%        |
+| ADR                |            401 | 3.03%        |
 | Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5523 | 41.84%       |
-| ETN                |             44 | 0.33%        |
-| ETV                |             89 | 0.67%        |
-| Equity             |           5267 | 39.9%        |
+| ETF                |           5546 | 41.95%       |
+| ETN                |             45 | 0.34%        |
+| ETV                |             90 | 0.68%        |
+| Equity             |           5265 | 39.82%       |
 | Fund               |            337 | 2.55%        |
-| Preferred Stock    |            439 | 3.33%        |
-| Right              |            121 | 0.92%        |
-| Structured Product |            159 | 1.2%         |
-| Unit               |            312 | 2.36%        |
+| Preferred Stock    |            436 | 3.3%         |
+| Right              |            120 | 0.91%        |
+| Structured Product |            160 | 1.21%        |
+| Unit               |            314 | 2.37%        |
 | Unknown            |             12 | 0.09%        |
-| Warrant            |            441 | 3.34%        |
-| Total              |          13201 | 100%         |
+| Warrant            |            440 | 3.33%        |
+| Total              |          13222 | 100%         |
 
 
 Consists of 6 Databases

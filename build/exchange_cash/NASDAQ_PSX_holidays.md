@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name     | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-------------------|------------------|--------------|------------|--------------|------------|
+| Full Holiday      | America/New_York | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-07-03   | 2026-07-03 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-05-25   | 2026-05-25 | 00:00        | 24:00      |

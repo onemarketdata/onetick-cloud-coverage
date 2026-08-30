@@ -29,11 +29,11 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | Bond               |              3 | 0.01%        |
 | Depository Receipt |            131 | 0.59%        |
-| ETC                |            552 | 2.49%        |
-| ETF                |           9557 | 43.09%       |
-| ETN                |            471 | 2.12%        |
-| Equity             |          11463 | 51.69%       |
-| Total              |          22177 | 100%         |
+| ETC                |            564 | 2.54%        |
+| ETF                |           9585 | 43.15%       |
+| ETN                |            472 | 2.12%        |
+| Equity             |          11459 | 51.58%       |
+| Total              |          22214 | 100%         |
 
 
 Consists of 2 Databases

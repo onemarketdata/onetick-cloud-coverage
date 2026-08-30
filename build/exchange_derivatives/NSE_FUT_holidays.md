@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone     | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|---------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Calcutta | 2026-09-14   | 2026-09-14 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Calcutta | 2026-06-26   | 2026-06-26 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Calcutta | 2026-05-28   | 2026-05-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Calcutta | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Calcutta | 2026-03-26   | 2026-03-26 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Calcutta | 2026-03-03   | 2026-03-03 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Calcutta | 2026-01-26   | 2026-01-26 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Calcutta | 2026-01-15   | 2026-01-15 | 00:00        | 24:00      |
 

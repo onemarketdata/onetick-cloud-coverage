@@ -25,14 +25,19 @@ Includes the following coverage:
 
 #### TRACE -  Coverage
 
-| Security Type   |   # of Symbols | % of Total   |
-|-----------------|----------------|--------------|
-| Total           |           4660 | 100%         |
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| Agency Bond        |           1020 | 4.13%        |
+| Corporate Bond     |          18864 | 76.34%       |
+| Government Bond    |             10 | 0.04%        |
+| Structured Product |           4818 | 19.5%        |
+| Total              |          24712 | 100%         |
 
 
-Consists of 1 Databases
+Consists of 2 Databases
 
 * `TRACE`  - Tick Data
+* `TRACE_DAILY`  - End of Day Metrics
 
 
 
@@ -44,5 +49,16 @@ Database includes the following tick types:
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+
+
+
+
+
+## TRACE_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

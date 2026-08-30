@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |             65 | 13.6%        |
-| ETF             |             14 | 2.93%        |
-| Equity          |            376 | 78.66%       |
+| Bond            |             64 | 13.42%       |
+| ETF             |             14 | 2.94%        |
+| Equity          |            376 | 78.83%       |
 | Mutual Fund     |              3 | 0.63%        |
-| REIT            |             20 | 4.18%        |
-| Total           |            478 | 100%         |
+| REIT            |             20 | 4.19%        |
+| Total           |            477 | 100%         |
 
 
 Consists of 3 Databases

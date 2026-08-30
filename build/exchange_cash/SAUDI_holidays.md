@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|-------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Riyadh | 2026-09-23   | 2026-09-23 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Riyadh | 2026-05-28   | 2026-05-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Riyadh | 2026-05-27   | 2026-05-27 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Riyadh | 2026-05-26   | 2026-05-26 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Riyadh | 2026-03-22   | 2026-03-22 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Riyadh | 2026-03-19   | 2026-03-19 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Riyadh | 2026-03-18   | 2026-03-18 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Riyadh | 2026-03-17   | 2026-03-17 | 00:00        | 24:00      |
 
