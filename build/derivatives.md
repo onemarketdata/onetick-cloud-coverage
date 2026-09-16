@@ -4,6 +4,7 @@ Futures & Options Exchanges including Futures, Futures Spreads, Options & Option
 
 It covers:
 
+* `A3` - A3 Markets - Matba Rofex
 * `ABAXX` - Abaxx Exchange
 * `ASX_FUT` - ASX 24 (Sydney Futures Exchange)
 * `BRAZIL_FUT` - B3 - Derivatives (BM&F)

@@ -41,12 +41,9 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * NBBO - National Best Bid / Offer quotes
 * QTE - Best bid / offer quotes
-* STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
 

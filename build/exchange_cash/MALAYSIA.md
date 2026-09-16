@@ -29,14 +29,13 @@ Includes the following coverage:
 |-----------------|----------------|--------------|
 | Bond            |              1 | 0.02%        |
 | ETF             |             14 | 0.34%        |
-| Equity          |           1108 | 26.72%       |
-| Fixed Income    |              8 | 0.19%        |
-| Preferred Stock |             20 | 0.48%        |
+| Equity          |           1109 | 27.1%        |
+| Fixed Income    |              7 | 0.17%        |
+| Preferred Stock |             18 | 0.44%        |
 | REIT            |              1 | 0.02%        |
-| Right           |              1 | 0.02%        |
-| Unknown         |             47 | 1.13%        |
-| Warrant         |           2947 | 71.06%       |
-| Total           |           4147 | 100%         |
+| Unknown         |             60 | 1.47%        |
+| Warrant         |           2883 | 70.44%       |
+| Total           |           4093 | 100%         |
 
 
 Consists of 2 Databases

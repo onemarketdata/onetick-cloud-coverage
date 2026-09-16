@@ -27,7 +27,7 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |            409 | 100%         |
+| Total           |            381 | 100%         |
 
 
 Consists of 1 Databases
@@ -42,6 +42,5 @@ Consists of 1 Databases
 Database includes the following tick types:
 
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
-* MKT - Market phase / instrument status information
 
 

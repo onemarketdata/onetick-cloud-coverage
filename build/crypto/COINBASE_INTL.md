@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |             18 | 10.78%       |
-| Future          |            149 | 89.22%       |
-| Total           |            167 | 100%         |
+| FX Spot         |             18 | 12.08%       |
+| Future          |            131 | 87.92%       |
+| Total           |            149 | 100%         |
 
 
 Consists of 2 Databases
@@ -58,7 +58,7 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 
 

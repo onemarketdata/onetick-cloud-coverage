@@ -1,4 +1,4 @@
-# FINRA TRACE - Corporates, Agencies, MBS, ABS, CMO
+# FINRA TRACE - Corporates, Treasuries, Agencies, MBS, ABS, CMO
 
 The Trade Reporting and Compliance Engine (TRACE) is the FINRA-developed vehicle that facilitates the mandatory reporting of over-the-counter transactions in eligible fixed income securities. All broker-dealers who are FINRA member firms have an obligation to report transactions in TRACE-eligible securities under an SEC-approved set of rules.
 
@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Agency Bond        |           1020 | 4.13%        |
-| Corporate Bond     |          18864 | 76.34%       |
-| Government Bond    |             10 | 0.04%        |
-| Structured Product |           4818 | 19.5%        |
-| Total              |          24712 | 100%         |
+| Agency Bond        |           1126 | 4.34%        |
+| Corporate Bond     |          19703 | 75.98%       |
+| Government Bond    |             11 | 0.04%        |
+| Structured Product |           5092 | 19.64%       |
+| Total              |          25932 | 100%         |
 
 
 Consists of 2 Databases

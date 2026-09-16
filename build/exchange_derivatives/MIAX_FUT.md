@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |             15 | 1.72%        |
-| Futures Spread  |             31 | 3.56%        |
-| Option          |            824 | 94.71%       |
-| Total           |            870 | 100%         |
+| Future          |             15 | 1.58%        |
+| Futures Spread  |             32 | 3.38%        |
+| Option          |            900 | 95.04%       |
+| Total           |            947 | 100%         |
 
 
 Consists of 3 Databases
@@ -48,7 +48,6 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
-* LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type

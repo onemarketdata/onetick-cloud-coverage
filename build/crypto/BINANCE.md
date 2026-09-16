@@ -5,7 +5,7 @@ Binance Holdings Ltd., branded Binance, is the largest cryptocurrency exchange i
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
 * Time Zone: UTC
-* Start Date: 20240701
+* Start Date: 20240701 Spots, Futures, 20260829 Options
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
@@ -27,9 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |           1358 | 63.7%        |
-| Future          |            774 | 36.3%        |
-| Total           |           2132 | 100%         |
+| FX Spot         |           1365 | 31.94%       |
+| Future          |            790 | 18.49%       |
+| Option          |           2118 | 49.57%       |
+| Total           |           4273 | 100%         |
 
 
 Consists of 2 Databases

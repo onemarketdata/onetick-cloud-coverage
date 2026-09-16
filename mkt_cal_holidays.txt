@@ -379,16 +379,16 @@
 377	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 378	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 379	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-380	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
-381	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-382	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
-383	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-384	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
-385	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-386	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-387	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-388	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-02-16	2026-02-16
-389	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-02-16	2026-02-16
+380	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
+381	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+382	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
+383	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+384	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
+385	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+386	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
+387	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
+388	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
+389	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
 390	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
 391	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
 392	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
@@ -399,36 +399,36 @@
 397	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
 398	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
 399	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-03-20	2026-03-20
-400	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
-401	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-402	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
-403	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-404	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-05-25	2026-05-25
-405	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-406	CBOT	Limited Trading Hours	America/Chicago	07:20	10:15	2026-04-03	2026-04-03
-407	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-408	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-02-16	2026-02-16
-409	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-02-16	2026-02-16
-410	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
-411	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-412	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
-413	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-414	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
-415	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-416	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-417	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-418	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-02-16	2026-02-16
-419	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-02-16	2026-02-16
-420	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-07-03	2026-07-03
-421	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-422	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-06-19	2026-06-19
-423	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-424	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-05-25	2026-05-25
-425	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-426	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-427	CME	Limited Trading Hours	America/Chicago	17:00	08:15	2026-04-03	2026-04-03
-428	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-429	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-02-16	2026-02-16
+400	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-09-07	2026-09-07
+401	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+402	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
+403	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+404	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
+405	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+406	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-05-25	2026-05-25
+407	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
+408	CBOT	Limited Trading Hours	America/Chicago	07:20	10:15	2026-04-03	2026-04-03
+409	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
+410	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
+411	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+412	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
+413	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+414	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
+415	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+416	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
+417	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
+418	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
+419	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
+420	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-09-07	2026-09-07
+421	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+422	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-07-03	2026-07-03
+423	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+424	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-06-19	2026-06-19
+425	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+426	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-05-25	2026-05-25
+427	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
+428	CME	Limited Trading Hours	America/Chicago	17:00	08:15	2026-04-03	2026-04-03
+429	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
 430	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
 431	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
 432	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
@@ -449,16 +449,16 @@
 447	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-05-18	2026-05-18
 448	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-05-01	2026-05-01
 449	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-04-03	2026-04-03
-450	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-07-03	2026-07-03
-451	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-452	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-06-19	2026-06-19
-453	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-454	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-05-25	2026-05-25
-455	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-456	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-02-16	2026-02-16
-457	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-01-19	2026-01-19
-458	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-459	COMEX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
+450	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-09-07	2026-09-07
+451	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-07-03	2026-07-03
+452	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+453	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-06-19	2026-06-19
+454	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+455	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-05-25	2026-05-25
+456	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+457	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-02-16	2026-02-16
+458	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-01-19	2026-01-19
+459	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
 460	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-09-30	2026-09-30
 461	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-09-07	2026-09-07
 462	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-08-03	2026-08-03
@@ -1279,16 +1279,16 @@
 1277	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-26	2026-03-26
 1278	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-03	2026-03-03
 1279	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-01-26	2026-01-26
-1280	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-07-03	2026-07-03
-1281	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1282	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-06-19	2026-06-19
-1283	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1284	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1285	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1286	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1287	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1288	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1289	NYMEX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
+1280	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1281	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-07-03	2026-07-03
+1282	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1283	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-06-19	2026-06-19
+1284	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1285	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1286	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1287	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1288	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1289	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
 1290	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
 1291	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
 1292	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
@@ -1500,15 +1500,15 @@
 1498	QATAR	Full Holiday	Asia/Qatar	00:00	24:00	2026-03-22	2026-03-22
 1499	QATAR	Full Holiday	Asia/Qatar	00:00	24:00	2026-03-19	2026-03-19
 1500	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-09-18	2026-09-18
-1501	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-07-16	2026-07-16
-1502	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-06-29	2026-06-29
-1503	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-05-21	2026-05-21
-1504	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-05-01	2026-05-01
-1505	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-04-03	2026-04-03
-1506	SANTIAGO	Limited Trading Hours	America/Santiago	09:30	13:00	2026-04-02	2026-04-02
-1507	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-01-01	2026-01-01
-1508	SANTIAGO	Limited Trading Hours	America/Santiago	09:30	13:00	2025-12-31	2025-12-31
-1509	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2025-12-25	2025-12-25
+1501	SANTIAGO	Limited Trading Hours	America/Santiago	09:30	13:00	2026-09-17	2026-09-17
+1502	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-07-16	2026-07-16
+1503	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-06-29	2026-06-29
+1504	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-05-21	2026-05-21
+1505	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-05-01	2026-05-01
+1506	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-04-03	2026-04-03
+1507	SANTIAGO	Limited Trading Hours	America/Santiago	09:30	13:00	2026-04-02	2026-04-02
+1508	SANTIAGO	Full Holiday	America/Santiago	00:00	24:00	2026-01-01	2026-01-01
+1509	SANTIAGO	Limited Trading Hours	America/Santiago	09:30	13:00	2025-12-31	2025-12-31
 1510	SAUDI	Full Holiday	Asia/Riyadh	00:00	24:00	2026-09-23	2026-09-23
 1511	SAUDI	Full Holiday	Asia/Riyadh	00:00	24:00	2026-05-28	2026-05-28
 1512	SAUDI	Full Holiday	Asia/Riyadh	00:00	24:00	2026-05-27	2026-05-27

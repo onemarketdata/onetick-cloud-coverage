@@ -72,7 +72,6 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * MKT - Market phase / instrument status information
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars

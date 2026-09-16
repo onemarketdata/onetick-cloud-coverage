@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Corporate Bond  |           9539 | 15.32%       |
-| ETF             |            101 | 0.16%        |
-| Equity          |           6629 | 10.65%       |
-| Future          |            628 | 1.01%        |
-| Futures Spread  |             63 | 0.1%         |
-| Government Bond |           2672 | 4.29%        |
-| Option          |          41570 | 66.78%       |
-| Option Spread   |            790 | 1.27%        |
-| Unknown         |            257 | 0.41%        |
-| Total           |          62249 | 100%         |
+| Corporate Bond  |           9737 | 16.91%       |
+| ETF             |            103 | 0.18%        |
+| Equity          |           6659 | 11.57%       |
+| Future          |            635 | 1.1%         |
+| Futures Spread  |             63 | 0.11%        |
+| Government Bond |           2683 | 4.66%        |
+| Option          |          36822 | 63.95%       |
+| Option Spread   |            618 | 1.07%        |
+| Unknown         |            258 | 0.45%        |
+| Total           |          57578 | 100%         |
 
 
 Consists of 3 Databases
@@ -84,6 +84,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

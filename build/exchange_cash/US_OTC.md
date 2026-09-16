@@ -28,17 +28,17 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Bond               |              1 | 0.01%        |
-| Depository Receipt |           1817 | 10.31%       |
-| ETF                |            710 | 4.03%        |
+| Depository Receipt |           1821 | 10.32%       |
+| ETF                |            718 | 4.07%        |
 | ETN                |             17 | 0.1%         |
-| Equity             |          14411 | 81.78%       |
+| Equity             |          14422 | 81.75%       |
 | Preferred Stock    |            271 | 1.54%        |
 | REIT               |             46 | 0.26%        |
-| Right              |             17 | 0.1%         |
-| Unit               |            126 | 0.72%        |
+| Right              |             18 | 0.1%         |
+| Unit               |            125 | 0.71%        |
 | Unknown            |             15 | 0.09%        |
-| Warrant            |            190 | 1.08%        |
-| Total              |          17621 | 100%         |
+| Warrant            |            188 | 1.07%        |
+| Total              |          17642 | 100%         |
 
 
 Consists of 3 Databases
@@ -83,6 +83,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

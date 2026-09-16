@@ -1,10 +1,10 @@
-# FINRA TRACE - Corporates, Agencies, MBS, ABS, CMO Market Holidays
+# FINRA TRACE - Corporates, Treasuries, Agencies, MBS, ABS, CMO Market Holidays
 
 The Trade Reporting and Compliance Engine (TRACE) is the FINRA-developed vehicle that facilitates the mandatory reporting of over-the-counter transactions in eligible fixed income securities. All broker-dealers who are FINRA member firms have an obligation to report transactions in TRACE-eligible securities under an SEC-approved set of rules.
 
 The last 10 Market Holidays are listed
 
-#### FINRA TRACE - Corporates, Agencies, MBS, ABS, CMO - Recent Market Holidays
+#### FINRA TRACE - Corporates, Treasuries, Agencies, MBS, ABS, CMO - Recent Market Holidays
 
 | Activity Name     | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-------------------|------------------|--------------|------------|--------------|------------|

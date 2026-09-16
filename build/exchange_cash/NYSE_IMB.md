@@ -27,7 +27,7 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |          13220 | 100%         |
+| Total           |          13232 | 100%         |
 
 
 Consists of 1 Databases
@@ -42,7 +42,5 @@ Consists of 1 Databases
 Database includes the following tick types:
 
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
-* SECURITY_STATUS_MESSAGE - Security Status Message
-* SYMBOL_INDEX_MAPPING - Symbol Index Mapping
 
 

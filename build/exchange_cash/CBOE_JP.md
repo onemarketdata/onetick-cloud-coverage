@@ -27,13 +27,14 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |           3541 | 100%         |
+| Total           |           3722 | 100%         |
 
 
-Consists of 2 Databases
+Consists of 3 Databases
 
 * `CBOE_JP`  - Tick Data
 * `CBOE_JP_BARS`  - 1 Minute Bars
+* `CBOE_JP_DAILY`  - End of Day Metrics
 
 
 
@@ -60,5 +61,15 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## CBOE_JP_DAILY
+
+Database includes the following tick types:
+
+* STAT - Static data, e.g. ISIN, description, security type
 
 

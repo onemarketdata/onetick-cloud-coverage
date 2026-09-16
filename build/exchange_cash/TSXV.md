@@ -28,15 +28,15 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Debenture       |              2 | 0.11%        |
-| Equity          |           1675 | 95.77%       |
+| Equity          |           1674 | 95.82%       |
 | Fund            |              2 | 0.11%        |
 | Preferred Stock |              8 | 0.46%        |
 | REIT            |              7 | 0.4%         |
-| Right           |              3 | 0.17%        |
+| Right           |              2 | 0.11%        |
 | Test            |             12 | 0.69%        |
 | Unknown         |              1 | 0.06%        |
 | Warrant         |             39 | 2.23%        |
-| Total           |           1749 | 100%         |
+| Total           |           1747 | 100%         |
 
 
 Consists of 3 Databases
@@ -85,6 +85,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

@@ -27,7 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |          13193 | 100%         |
+| Bond            |             19 | 2.97%        |
+| Corporate Bond  |            316 | 49.38%       |
+| Equity          |            304 | 47.5%        |
+| Mutual Fund     |              1 | 0.16%        |
+| Total           |            640 | 100%         |
 
 
 Consists of 2 Databases
@@ -42,10 +46,11 @@ Consists of 2 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * MKT - Market phase / instrument status information
 * QTE - Best bid / offer quotes
-* STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+* STAT - Static data, e.g. ISIN, description, security type
 
 
 

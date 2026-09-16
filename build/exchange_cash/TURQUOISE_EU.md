@@ -28,7 +28,8 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | ETF             |            312 | 12.97%       |
-| Equity          |           2094 | 87.03%       |
+| Equity          |           2093 | 86.99%       |
+| Unknown         |              1 | 0.04%        |
 | Total           |           2406 | 100%         |
 
 

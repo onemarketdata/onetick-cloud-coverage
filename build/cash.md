@@ -97,7 +97,7 @@ It covers:
 * `TEL_AVIV` - Tel Aviv Stock Exchange
 * `THAILAND` - Stock Exchange of Thailand
 * `TOKYO` - Tokyo Stock Exchange (+ Fukuoka / Sapporo)
-* `TRACE` - FINRA TRACE - Corporates, Agencies, MBS, ABS, CMO
+* `TRACE` - FINRA TRACE - Corporates, Treasuries, Agencies, MBS, ABS, CMO
 * `TRADEGATE` - Tradegate Exchange
 * `TSX` - Toronto Stock Exchange
 * `TSXV` - TSX Venture Exchange

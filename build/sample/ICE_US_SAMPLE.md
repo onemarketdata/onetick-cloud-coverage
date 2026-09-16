@@ -31,11 +31,10 @@ Includes the following coverage:
 | Total           |             40 | 100%         |
 
 
-Consists of 3 Databases
+Consists of 2 Databases
 
 * `ICE_US_SAMPLE`  - Tick Data
 * `ICE_US_SAMPLE_BARS`  - 1 Minute Bars
-* `ICE_US_SAMPLE_DAILY`  - End of Day Metrics
 
 
 
@@ -46,7 +45,6 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
-* LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
 * QTE - Best bid / offer quotes
@@ -67,17 +65,5 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
-
-
-
-
-
-## ICE_US_SAMPLE_DAILY
-
-Database includes the following tick types:
-
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

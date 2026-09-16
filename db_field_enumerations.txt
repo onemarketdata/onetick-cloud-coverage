@@ -1,4 +1,20 @@
 DB	FIELD	VALUE	DESCRIPTION
+A3	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
+A3	AGGRESSOR_SIDE	B	Buy
+A3	AGGRESSOR_SIDE	S	Sell
+A3	TRADE_TYPE	""	Regular trade
+A3	TRADE_TYPE	BLK	Block trade
+A3	TRADE_TYPE	LEG	Strategy leg trade [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null]
+A3	TRADE_PERIOD	-	Regular trading
+A3	BOOK_TYPE	0	Lit order book
+A3	BOOK_TYPE	1	Off-book
+A3	MKT_PHASE	0	Pre-trading
+A3	MKT_PHASE	1	Trading
+A3	MKT_PHASE	2	Post-trading
+A3	MKT_PHASE	3	After hours
+A3	MKT_PHASE	4	Closed
+A3	MKT_PHASE	8	Closing price crossing
+A3	MKT_PHASE	H	Halted
 ABU_DHABI	BOOK_TYPE	0	Lit order book
 ABU_DHABI	BOOK_TYPE	1	Off-book
 ABU_DHABI	TRADE_PERIOD	-	Regular trading
@@ -3009,6 +3025,20 @@ EEX	TRADE_TYPE	23	Exchange for Swap
 EEX	TRADE_TYPE	24	Strategy leg trade
 EEX	TRADE_TYPE	5	Exchange for Physical
 EGYPT	TRADE_TYPE	1	Regular trade
+EGYPT	TRADE_PERIOD	C	Closing auction
+EGYPT	TRADE_PERIOD	O	Opening auction
+EGYPT	TRADE_PERIOD	T	Trading at last price
+EGYPT	TRADE_PERIOD	-	Regular trading
+EGYPT	BOOK_TYPE	0	Lit order book
+EGYPT	MKT_PHASE	1	Pre-open
+EGYPT	MKT_PHASE	2	Pre-opening adjustment
+EGYPT	MKT_PHASE	3	Trading
+EGYPT	MKT_PHASE	4	Adjustment
+EGYPT	MKT_PHASE	5	Unavailable
+EGYPT	MKT_PHASE	7	End of day
+EGYPT	MKT_PHASE	8	Pre-close
+EGYPT	MKT_PHASE	9	Pre-closing adjustment
+EGYPT	MKT_PHASE	10	Trading at closing price
 EQUIDUCT	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 EQUIDUCT	AGGRESSOR_SIDE	B	Buy
 EQUIDUCT	AGGRESSOR_SIDE	S	Sell
@@ -4640,6 +4670,8 @@ KOREA_EQ	TRADE_PERIOD	L	Outside hours (Late session)
 KOREA_EQ	TRADE_PERIOD	O	Opening auction
 KOREA_EQ	TRADE_PERIOD	T	Trading at closing price
 KOREA_EQ	TRADE_PERIOD	U	Unscheduled auction
+KOREA_EQ	TRADE_PERIOD	c	Post-close auction
+KOREA_EQ	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOREA_EQ	TRADE_TYPE	1	Regular trade
 KOREA_EQ	TRADE_TYPE	10	Pre-opening basket trade
 KOREA_EQ	TRADE_TYPE	11	K-Blox block trade
@@ -4676,6 +4708,8 @@ KOREA_ETF	TRADE_PERIOD	L	Outside hours (Late session)
 KOREA_ETF	TRADE_PERIOD	O	Opening auction
 KOREA_ETF	TRADE_PERIOD	T	Trading at closing price
 KOREA_ETF	TRADE_PERIOD	U	Unscheduled auction
+KOREA_ETF	TRADE_PERIOD	c	Post-close auction
+KOREA_ETF	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOREA_ETF	TRADE_TYPE	1	Regular trade
 KOREA_ETF	TRADE_TYPE	10	Pre-opening basket trade
 KOREA_ETF	TRADE_TYPE	11	K-Blox block trade
@@ -4725,6 +4759,8 @@ KOSDAQ	TRADE_PERIOD	L	Outside hours (Late session)
 KOSDAQ	TRADE_PERIOD	O	Opening auction
 KOSDAQ	TRADE_PERIOD	T	Trading at closing price
 KOSDAQ	TRADE_PERIOD	U	Unscheduled auction
+KOSDAQ	TRADE_PERIOD	c	Post-close auction
+KOSDAQ	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOSDAQ	TRADE_TYPE	1	Regular trade
 KOSDAQ	TRADE_TYPE	10	Pre-opening basket trade
 KOSDAQ	TRADE_TYPE	11	K-Blox block trade
@@ -4752,8 +4788,6 @@ KOSDAQ	TRADE_TYPE	9	Pre-opening K-Blox block trade
 KR_COMP	BOOK_TYPE	0	Lit order book
 KR_COMP	BOOK_TYPE	1	Off-book
 KR_COMP	BOOK_TYPE	2	Dark book
-KR_COMP	CALL_PUT_IND	C	Call option
-KR_COMP	CALL_PUT_IND	P	Put option
 KR_COMP	OMD_STATUS	A	Auction
 KR_COMP	OMD_STATUS	B	Break / Pause
 KR_COMP	OMD_STATUS	C	Closing auction
@@ -4784,6 +4818,8 @@ KR_COMP	TRADE_PERIOD	L	Outside hours (Late session)
 KR_COMP	TRADE_PERIOD	O	Opening auction
 KR_COMP	TRADE_PERIOD	T	Trading at closing price
 KR_COMP	TRADE_PERIOD	U	Unscheduled auction
+KR_COMP	TRADE_PERIOD	c	Post-close auction
+KR_COMP	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KR_COMP	TRADE_TYPE	1	Regular trade
 KR_COMP	TRADE_TYPE	10	Pre-opening basket trade
 KR_COMP	TRADE_TYPE	11	K-Blox block trade

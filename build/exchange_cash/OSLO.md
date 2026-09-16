@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Equity          |            298 | 100.0%       |
-| Total           |            298 | 100%         |
+| Equity          |            295 | 100.0%       |
+| Total           |            295 | 100%         |
 
 
 Consists of 4 Databases
@@ -62,6 +62,7 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* LAT_1M - 1-minute Latency bars for real time delivered data
 * MKT - Market phase / instrument status information
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars

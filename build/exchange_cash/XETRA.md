@@ -27,13 +27,13 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETC             |            205 | 4.01%        |
-| ETF             |           3090 | 60.51%       |
-| ETN             |            387 | 7.58%        |
-| Equity          |           1420 | 27.8%        |
+| ETC             |            205 | 4.0%         |
+| ETF             |           3106 | 60.66%       |
+| ETN             |            387 | 7.56%        |
+| Equity          |           1419 | 27.71%       |
 | Right           |              1 | 0.02%        |
-| Unknown         |              4 | 0.08%        |
-| Total           |           5107 | 100%         |
+| Unknown         |              2 | 0.04%        |
+| Total           |           5120 | 100%         |
 
 
 Consists of 4 Databases
@@ -67,6 +67,7 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* LAT_1M - 1-minute Latency bars for real time delivered data
 * MKT - Market phase / instrument status information
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars

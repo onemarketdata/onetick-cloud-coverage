@@ -38,7 +38,6 @@ Consists of 1 Databases
 
 Database includes the following tick types:
 
-* CACS - Corporate Actions for Security
 * CACT - Corporate Actions for All Securities
 
 

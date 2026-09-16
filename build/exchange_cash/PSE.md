@@ -29,11 +29,11 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | Depository Receipt |              2 | 0.47%        |
 | ETF                |              1 | 0.23%        |
-| Equity             |            290 | 67.76%       |
-| Preferred Stock    |             95 | 22.2%        |
-| Unknown            |             39 | 9.11%        |
+| Equity             |            290 | 67.92%       |
+| Preferred Stock    |             96 | 22.48%       |
+| Unknown            |             37 | 8.67%        |
 | Warrant            |              1 | 0.23%        |
-| Total              |            428 | 100%         |
+| Total              |            427 | 100%         |
 
 
 Consists of 3 Databases

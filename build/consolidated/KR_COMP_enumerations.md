@@ -5,7 +5,6 @@ Consolidated data from all Korean equities exchanges.
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
-* CALL_PUT_IND - “C” - Call option, “P” - Put option
 * OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * QUOTE_VENUE - Venue (MIC) from which a quote originates
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -19,13 +18,6 @@ The following fields have Enumerations:
 |                0 | Lit order book            |
 |                1 | Off-book                  |
 |                2 | Dark book                 |
-
-#### CALL_PUT_IND - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| C                | Call option               |
-| P                | Put option                |
 
 #### OMD_STATUS - Enumeration
 
@@ -62,15 +54,17 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
-| Enumeration ID   | Enumeration Description       |
-|------------------|-------------------------------|
-| -                | Regular trading               |
-| C                | Closing auction               |
-| E                | Outside hours (Early session) |
-| L                | Outside hours (Late session)  |
-| O                | Opening auction               |
-| T                | Trading at closing price      |
-| U                | Unscheduled auction           |
+| Enumeration ID   | Enumeration Description              |
+|------------------|--------------------------------------|
+| -                | Regular trading                      |
+| C                | Closing auction                      |
+| E                | Outside hours (Early session)        |
+| L                | Outside hours (Late session)         |
+| O                | Opening auction                      |
+| T                | Trading at closing price             |
+| U                | Unscheduled auction                  |
+| c                | Post-close auction                   |
+| u                | Unscheduled auction (extended hours) |
 
 #### TRADE_TYPE - Enumeration
 

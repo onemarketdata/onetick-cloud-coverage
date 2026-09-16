@@ -27,14 +27,14 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |          48143 | 52.7%        |
-| ETC             |            533 | 0.58%        |
-| ETF             |           7620 | 8.34%        |
-| ETN             |            772 | 0.85%        |
-| Equity          |          23068 | 25.25%       |
-| Fund            |          11220 | 12.28%       |
+| Bond            |          48153 | 51.55%       |
+| ETC             |            534 | 0.57%        |
+| ETF             |           8282 | 8.87%        |
+| ETN             |            782 | 0.84%        |
+| Equity          |          24405 | 26.13%       |
+| Fund            |          11256 | 12.05%       |
 | Right           |              1 | 0.0%         |
-| Total           |          91357 | 100%         |
+| Total           |          93413 | 100%         |
 
 
 Consists of 3 Databases
@@ -81,6 +81,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

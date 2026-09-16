@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |           7539 | 4.01%        |
-| Futures Spread  |             52 | 0.03%        |
-| Option          |         180486 | 95.96%       |
-| Total           |         188077 | 100%         |
+| Future          |           7107 | 4.22%        |
+| Futures Spread  |             53 | 0.03%        |
+| Option          |         161152 | 95.75%       |
+| Total           |         168312 | 100%         |
 
 
 Consists of 2 Databases
@@ -45,9 +45,7 @@ Consists of 2 Databases
 
 Database includes the following tick types:
 
-* QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD - Trades
 
 
 
@@ -58,8 +56,5 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * QTE_1M - 1-minute quote bars
-* TRD_1D - Daily trade bars
-* TRD_1M - 1-minute trade bars
-* VWAP_1H - 1-hour VWAP bars
 
 

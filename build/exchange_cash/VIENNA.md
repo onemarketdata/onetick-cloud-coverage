@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |          51804 | 85.38%       |
-| Convertible Bond   |            295 | 0.49%        |
+| Bond               |          52540 | 85.49%       |
+| Convertible Bond   |            299 | 0.49%        |
 | Depository Receipt |             24 | 0.04%        |
-| ETF                |            384 | 0.63%        |
-| Equity             |           1045 | 1.72%        |
+| ETF                |            384 | 0.62%        |
+| Equity             |           1090 | 1.77%        |
 | Investment Fund    |              9 | 0.01%        |
 | Municipal Bond     |             49 | 0.08%        |
 | Preferred Stock    |             14 | 0.02%        |
-| Structured Product |           7051 | 11.62%       |
-| Total              |          60675 | 100%         |
+| Structured Product |           7049 | 11.47%       |
+| Total              |          61458 | 100%         |
 
 
 Consists of 4 Databases
@@ -70,6 +70,7 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* LAT_1M - 1-minute Latency bars for real time delivered data
 * MKT - Market phase / instrument status information
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars

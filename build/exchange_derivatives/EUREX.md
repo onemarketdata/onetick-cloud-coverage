@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |          23399 | 3.35%        |
-| Futures Spread  |           5737 | 0.82%        |
-| Option          |         663542 | 95.01%       |
-| Option Spread   |           5571 | 0.8%         |
-| Unknown         |            112 | 0.02%        |
-| Total           |         698361 | 100%         |
+| Future          |          23552 | 3.36%        |
+| Futures Spread  |           5732 | 0.82%        |
+| Option          |         663584 | 94.71%       |
+| Option Spread   |           7725 | 1.1%         |
+| Unknown         |             46 | 0.01%        |
+| Total           |         700639 | 100%         |
 
 
 Consists of 5 Databases
@@ -40,8 +40,8 @@ Consists of 5 Databases
 * `EUREX`  - Tick Data
 * `EUREX_BARS`  - 1 Minute Bars
 * `EUREX_DAILY`  - End of Day Metrics
-* `EUREX_LATEST`  - Real Time Latest Values
 * `EUREX_L2`  - Tick Data
+* `EUREX_LATEST`  - Real Time Latest Values
 
 
 
@@ -54,7 +54,6 @@ Database includes the following tick types:
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * MKT - Market phase / instrument status information
 * QTE - Best bid / offer quotes
-* SEC_GROUP -  Group Reference
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
@@ -84,7 +83,16 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
+
+
+
+
+
+## EUREX_L2
+
+Database includes the following tick types:
+
+* PRL - Market depth data, aggregated by price point (MBP)
 
 
 
@@ -97,15 +105,5 @@ Database includes the following tick types:
 * SNAP - Latest Trade & Quote / NBBO Prices for all Instruments in the venue
 * SNAP_QTE - Latest Quotes for all Instruments in the venue
 * SNAP_TRD - Latest Trade Prices for all Traded Instruments in the venue
-
-
-
-
-
-## EUREX_L2
-
-Database includes the following tick types:
-
-* PRL - Market depth data, aggregated by price point (MBP)
 
 

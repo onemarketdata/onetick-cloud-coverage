@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |           5404 | 34.3%        |
-| Futures Spread  |          10353 | 65.7%        |
-| Total           |          15757 | 100%         |
+| Future          |           5692 | 35.54%       |
+| Futures Spread  |          10322 | 64.46%       |
+| Total           |          16014 | 100%         |
 
 
 Consists of 4 Databases
@@ -66,8 +66,8 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* LAT_1M - 1-minute Latency bars for real time delivered data
 * MKT - Market phase / instrument status information
+* LAT_1M - 1-minute Latency bars for real time delivered data
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars

@@ -54,7 +54,6 @@ Consists of 3 Databases
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * NBBO - National Best Bid / Offer quotes
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
@@ -68,7 +67,6 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
@@ -82,7 +80,6 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
 
 

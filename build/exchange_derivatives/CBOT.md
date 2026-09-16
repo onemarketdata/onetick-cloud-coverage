@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Future             |           1346 | 20.97%       |
-| Futures Spread     |           5024 | 78.28%       |
-| Interest Rate Swap |             48 | 0.75%        |
-| Total              |           6418 | 100%         |
+| Future             |           1381 | 21.97%       |
+| Futures Spread     |           4858 | 77.27%       |
+| Interest Rate Swap |             48 | 0.76%        |
+| Total              |           6287 | 100%         |
 
 
 Consists of 4 Databases
@@ -48,6 +48,7 @@ Consists of 4 Databases
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* FIXING - Fixing prices
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information

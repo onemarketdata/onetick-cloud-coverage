@@ -20,10 +20,12 @@ Daily price and statistical data, e.g. closing price, settlement price, open int
 
 #### RATES - DAY Table Schema
 
-| Field   | Data Type   | Description                                                                                                                                                                                                                            |
-|---------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CLOSE   | double      | Closing price                                                                                                                                                                                                                          |
-| OMDSEQ  | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| Field       | Data Type   | Description                                                                                                                                                                                                                            |
+|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP   | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| CLOSE       | double      | Closing price                                                                                                                                                                                                                          |
+| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### RATES - STAT
 
@@ -31,9 +33,11 @@ Static data, e.g. ISIN, description, security type
 
 #### RATES - STAT Table Schema
 
-| Field    | Data Type   | Description                                                                                                                                                                                                                            |
-|----------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| NAME     | string[64]  | Description of the instrument                                                                                                                                                                                                          |
-| OID      | string[14]  | OneMarketData ID                                                                                                                                                                                                                       |
-| OMDSEQ   | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
-| SEC_TYPE | string[30]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| Field       | Data Type   | Description                                                                                                                                                                                                                            |
+|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP   | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| NAME        | string[64]  | Description of the instrument                                                                                                                                                                                                          |
+| OID         | string[14]  | OneMarketData ID                                                                                                                                                                                                                       |
+| SEC_TYPE    | string[30]  | Security type, e.g. Equity, ETF, Future                                                                                                                                                                                                |
+| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |

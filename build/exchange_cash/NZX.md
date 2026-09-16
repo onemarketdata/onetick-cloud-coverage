@@ -53,8 +53,8 @@ Database includes the following tick types:
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * MKT - Market phase / instrument status information
 * QTE - Best bid / offer quotes
-* STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+* STAT - Static data, e.g. ISIN, description, security type
 
 
 
@@ -81,6 +81,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

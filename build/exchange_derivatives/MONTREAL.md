@@ -27,19 +27,18 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |           1517 | 0.94%        |
-| Futures Spread  |           2827 | 1.74%        |
-| Option          |         155412 | 95.89%       |
-| Option Spread   |           2313 | 1.43%        |
+| Future          |           1517 | 0.93%        |
+| Futures Spread  |           2830 | 1.73%        |
+| Option          |         155532 | 95.34%       |
+| Option Spread   |           3249 | 1.99%        |
 | Unknown         |             12 | 0.01%        |
-| Total           |         162081 | 100%         |
+| Total           |         163140 | 100%         |
 
 
-Consists of 3 Databases
+Consists of 2 Databases
 
 * `MONTREAL`  - Tick Data
 * `MONTREAL_BARS`  - 1 Minute Bars
-* `MONTREAL_DAILY`  - End of Day Metrics
 
 
 
@@ -49,12 +48,10 @@ Consists of 3 Databases
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* IND - Indicative pricing, e.g. indicative auction prices and imbalance
 * MKT - Market phase / instrument status information
 * PRL - Market depth data, aggregated by price point (MBP)
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD - Trades
 
 
 
@@ -70,16 +67,5 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
-
-
-
-
-
-## MONTREAL_DAILY
-
-Database includes the following tick types:
-
-* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* STAT - Static data, e.g. ISIN, description, security type
 
 

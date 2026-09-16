@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |             20 | 1.77%        |
-| Equity          |            412 | 36.52%       |
+| ETF             |             21 | 1.86%        |
+| Equity          |            412 | 36.49%       |
 | Index           |              1 | 0.09%        |
 | Mutual Fund     |              4 | 0.35%        |
-| Warrant         |            691 | 61.26%       |
-| Total           |           1128 | 100%         |
+| Warrant         |            691 | 61.2%        |
+| Total           |           1129 | 100%         |
 
 
 Consists of 2 Databases
@@ -48,6 +48,7 @@ Consists of 2 Databases
 Database includes the following tick types:
 
 * IDX - Index values
+* LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type

@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Unknown         |           7152 | 100.0%       |
-| Total           |           7152 | 100%         |
+| Unknown         |           7153 | 100.0%       |
+| Total           |           7153 | 100%         |
 
 
 Consists of 3 Databases

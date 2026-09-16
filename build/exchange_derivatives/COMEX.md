@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |           1346 | 10.3%        |
-| Futures Spread  |          11719 | 89.7%        |
-| Total           |          13065 | 100%         |
+| Future          |           1288 | 10.49%       |
+| Futures Spread  |          10992 | 89.51%       |
+| Total           |          12280 | 100%         |
 
 
 Consists of 4 Databases
@@ -48,13 +48,14 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IND - Indicative pricing, e.g. indicative auction prices and imbalance
+* FIXING - Fixing prices
 * LULD - Limit Up / Limit Down price levels
 * MKT - Market phase / instrument status information
 * PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
 * QTE - Best bid / offer quotes
 * RFQ - Data related to a Request for Quote
-* STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
+* STAT - Static data, e.g. ISIN, description, security type
 
 
 
@@ -65,8 +66,8 @@ Database includes the following tick types:
 Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
-* LAT_1M - 1-minute Latency bars for real time delivered data
 * MKT - Market phase / instrument status information
+* LAT_1M - 1-minute Latency bars for real time delivered data
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars

@@ -29,18 +29,18 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | ADR                |            401 | 3.03%        |
 | Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5546 | 41.95%       |
+| ETF                |           5556 | 41.98%       |
 | ETN                |             45 | 0.34%        |
 | ETV                |             90 | 0.68%        |
-| Equity             |           5265 | 39.82%       |
+| Equity             |           5262 | 39.76%       |
 | Fund               |            337 | 2.55%        |
-| Preferred Stock    |            436 | 3.3%         |
-| Right              |            120 | 0.91%        |
+| Preferred Stock    |            436 | 3.29%        |
+| Right              |            125 | 0.94%        |
 | Structured Product |            160 | 1.21%        |
 | Unit               |            314 | 2.37%        |
 | Unknown            |             12 | 0.09%        |
-| Warrant            |            440 | 3.33%        |
-| Total              |          13222 | 100%         |
+| Warrant            |            440 | 3.32%        |
+| Total              |          13234 | 100%         |
 
 
 Consists of 1 Databases
@@ -57,5 +57,6 @@ Database includes the following tick types:
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * SHORT_INT - Short Interest Statistics every 2 weeks
 * TRD - Trades
+* STAT - Static data, e.g. ISIN, description, security type
 
 

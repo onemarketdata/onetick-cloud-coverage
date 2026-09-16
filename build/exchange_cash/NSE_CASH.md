@@ -27,7 +27,7 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Total           |           2164 | 100%         |
+| Total           |           2158 | 100%         |
 
 
 Consists of 2 Databases
@@ -42,10 +42,9 @@ Consists of 2 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IDX - Index values
-* PRL_ACTIVE - Shows all orders entered into the book, including aggressive orders that are matched immediately
 * PRL_FULL - Full orderbook data, showing updates to each individual order (MBO)
-* PRL_INACTIVE - Shows dormant / inactive orders (e.g. unelected stop orders) that are parked outside the main order book
 * QTE - Best bid / offer quotes
 * TRD - Trades
 
@@ -57,6 +56,7 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE_1M - 1-minute quote bars
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars

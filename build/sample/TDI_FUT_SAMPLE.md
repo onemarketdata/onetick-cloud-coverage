@@ -31,11 +31,10 @@ Includes the following coverage:
 | Total           |           3861 | 100%         |
 
 
-Consists of 3 Databases
+Consists of 2 Databases
 
 * `TDI_FUT_SAMPLE`  - Tick Data
 * `TDI_FUT_SAMPLE_BARS`  - 1 Minute Bars
-* `TDI_FUT_SAMPLE_DAILY`  - End of Day Metrics
 
 
 
@@ -58,15 +57,5 @@ Database includes the following tick types:
 
 * QTE_1M - 1-minute quote bars
 * TRD_1M - 1-minute trade bars
-
-
-
-
-
-## TDI_FUT_SAMPLE_DAILY
-
-Database includes the following tick types:
-
-* STAT - Static data, e.g. ISIN, description, security type
 
 

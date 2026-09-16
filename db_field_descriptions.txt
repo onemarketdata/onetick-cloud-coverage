@@ -1,4 +1,4 @@
-FIELD	string[256] TICK_TYPE	string[1024] DESCRIPTION
+FIELD	string[1024] TICK_TYPE	string[1024] DESCRIPTION
 52_WEEK_HIGH	DAY	Highest price over the last 52 weeks
 52_WEEK_HIGH_COUNT	DAY	Number of instruments that have set a new 52-week high on the current trading day
 52_WEEK_LOW	DAY	Lowest price over the last 52 weeks
@@ -95,7 +95,7 @@ BUY_ALGO_TYPE	TRD	Type of algorithm / routing properties associated with the ord
 BUY_ORDER_CAPACITY	TRD	Indicates whether the buyer was acting in a Principal / Agency / Custodial capacity
 BUY_ORDER_ID	TRD	ID of the buy order involved in a trade
 BUY_SELL_FLAG	PRL, PRL_FULL	Orderbook side (0 - Buy, 1 - Sell)
-BUY_VOLUME	TRD_1M, DAY	Traded volume originating from incoming buy orders.  Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.
+BUY_VOLUME	TRD_1M, TRD_1D, DAY	Traded volume originating from incoming buy orders.  Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.
 BYPASS	TRD	Identifies whether the trade resulted from a Bypass order
 CALL_PUT_IND	STAT	"C" - Call option, "P" - Put option
 CAVEAT_EMPTOR	STAT	Caveat Emptor flag, indicating whether additional care should be taken before investing in the security ("Y" - Yes, "N" - No)
@@ -117,6 +117,7 @@ COND2	IND	Second condition code
 COND3	IND	Third condition code
 CONSOLIDATED_TAPE	STAT	Consolidated Tape on which a US security is published (A/B/C).
 CONTRA_PARTY_TYPE	TRD	Type of participant that the trade was executed against (on the other side from the reporting party)
+CONTRACT_FREQUENCY	STAT	Expiration frequency of a derivative contract ("D" - Daily, "W" - Weekly, "M" - Monthly, "Q" - Quarterly, "A" - Annual, "I" - Irregular)
 CONTRACT_MULTIPLE	STAT	Multiple that should be applied to the price of a futures / options contract to determine its value
 CONTRACT_SIZE	STAT	Indicates a derivative's underlying quantity
 CONTRACT_UNITS	STAT	Units in which CONTRACT_SIZE is expressed
@@ -125,7 +126,8 @@ CONTRIBUTOR_ID	QTE, IDX	Identifies the party that provided a contributed rate (e
 CONVERSION_PRICE	STAT	Conversion price of a convertible security
 CONVEXITY	QTE	Rate of change of a fixed income security's duration with respect to interest rates
 CONV_RATIO	STAT	Conversion ratio of convertible security
-CORR	TRD, TRD_TCA	Type of trade correction / cancellation
+CORR	QTE, TRD, TRD_TCA	Type of trade correction / cancellation
+COUNTRY	COMPLETENESS	Country Code for the Database
 COUNTRY_LIST	STAT	Country in which the instrument is listed
 COUNTRY_REG	STAT	Country in which the security's ownership register is maintained
 COUPON_DATE	STAT	Date of the next coupon payment, or the previous payment if the final payment has already happened (YYYYMMDD)
@@ -172,6 +174,7 @@ EXCH_STRIKE_MULTIPLIER	STAT	Multiplier used to convert from the exchange's inter
 EXCH_SEC_TYPE	STAT	Instrument type as specified by the exchange
 EXCH_STRATEGY_TYPE	STAT	Type of strategy / spread, as specified by the exchange
 EXCH_SYMBOL	STAT	Ticker symbol specified by the exchange
+EXCH_SYMBOL_2	STAT	Secondary ticker symbol specified by the exchange
 EXCH_TIME	TRD, IND, QTE, QTE_COMP, QTE_ODD_LOT, MKT, PRL, PRL_FULL, IDX, LULD, SNAP_TRD, SNAP, TRD_TCA, NAV, INAV 	Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp
 EX_COUPON_DATE	STAT	Date when the security starts trading ex-coupon (YYYYMMDD)
 EXECUTED_ORDER_ID	TRD	ID of the resting (passive) order that was executed
@@ -308,7 +311,7 @@ MARKET_START	COMPLETENESS	Daily Start Time for Trading
 MATURITY_DATE	STAT	Date when the instrument reaches maturity (YYYYMMDD)
 MAX_ORDER_SIZE	STAT	Maximum order size
 MAX_TRADE_SIZE	STAT	Maximum tradable size
-MIC	STAT, CONSTITUENTS, PCF, PCF_LONG	Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded
+MIC	STAT, CONSTITUENTS, PCF, PCF_LONG, COMPLETENESS	Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded
 MIC_LIST	STAT	List of MICs (4 bytes each, no separator) for the markets where the instrument is listed
 MID_LAST	QTE_1M	Midpoint of the last best bid/ask in the current bar interval. [Note: One-sided or empty quotes are excluded from the calculation]
 MID_MEDIAN	QTE_1M	Median of the midpoint of the best bid/ask quotes over the current bar interval. [Note: One-sided or empty quotes are excluded from the calculation]
@@ -492,8 +495,8 @@ SELLER	TRD	ID of the market participant on the sell side of a trade
 SELLER_TYPE	TRD	Type of market participant on the sell side of a trade
 SELL_ORDER_CAPACITY	TRD	Indicates whether the seller was acting in a Principal / Agency / Custodial capacity
 SELL_ORDER_ID	TRD	ID of the sell order involved in a trade
-SELL_VOLUME	TRD_1M, DAY	Traded volume originating from incoming sell orders. Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.
-SEQ_NUM	TRD, TRD_TCA, IND, LULD, MKT, QTE_COMP	Sequence number of the update, as specified by the exchange (for single exchange feeds) or the aggregator (e.g. CTA/UTP) for consolidated feeds
+SELL_VOLUME	TRD_1M, TRD_1D, DAY	Traded volume originating from incoming sell orders. Excludes trades involving hidden orders, as well as off-book trades and auction trades, for the which the side of the aggressive order is undefined or unknown.
+SEQ_NUM	TRD, TRD_TCA, IND, LULD, MKT, QTE, QTE_COMP	Sequence number of the update, as specified by the exchange (for single exchange feeds) or the aggregator (e.g. CTA/UTP) for consolidated feeds
 SERIES	STAT	Series number of a futures / options product, indicating the number of times the product has been modified due to corporate actions
 SESSION	MKT, DAY, PRL, IND	Trading session to which the update relates, e.g. "Day", "Night", "T", "T+1"
 SETTLE_DATE	DAY, SNAP_TRD, SNAP	Trading date to which the settlement price relates (YYYYMMDD)
@@ -560,6 +563,8 @@ SYM_HIGHEST_VOLUME	CONT	Symbol used for building continuous futures contracts, r
 SYMBOLOGY	COMPLETENESS	Symbology assigned to the Database
 SYMBOL	SNAP, SNAP_TRD, SNAP_QTE, SNAP_NBBO	Symbol associated with the latest trade or quote.	
 SYMBOL_COUNT	COMPLETENESS	Count of Symbols loaded into the Database Table for the specified day.
+SYMBOL_NAME	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, NAV, INAV, STAT, DAY, QTE, QTE_ODD_LOT, NBBO, RFQ, QTE_COMP, NBBO_COMP, SNAP, SNAP_TRD, SNAP_NBBO, SNAP_QTE, LULD, MKT, TRD_1M, QTE_1M, TRD_1D, VWAP_1H, QTE_NBBO_DAY, TRD_NBBO_DAY, PROC_EVENTS, COMPLETENESS, CACT, DPRC, DFUT, DES, MKTCAL, SHO, CASH, CONSTITUENTS, FX_RATE, PCF, PCF_LONG	Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)
+TIMESTAMP	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, NAV, INAV, STAT, DAY, QTE, QTE_ODD_LOT, NBBO, RFQ, QTE_COMP, NBBO_COMP, SNAP, SNAP_TRD, SNAP_NBBO, SNAP_QTE, LULD, MKT, TRD_1M, QTE_1M, TRD_1D, VWAP_1H, QTE_NBBO_DAY, TRD_NBBO_DAY, PROC_EVENTS, COMPLETENESS, CACT, DPRC, DFUT, DES, MKTCAL, SHO, CASH, CONSTITUENTS, FX_RATE, PCF, PCF_LONG	Event Timestamp (typically at a nano-second resolution)
 TEST_SYMBOL	STAT	"Y" - Test symbol, "N" - Not a test symbol
 THETA	DAY	Option theta, i.e. the rate of time decay in the value of an option or its premium
 TICKER	TRD, TRD_TCA, QTE, DES, CONSTITUENTS, PCF, PCF_LONG	Ticker symbol, as specified by the data source

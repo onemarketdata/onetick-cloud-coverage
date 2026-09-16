@@ -27,18 +27,19 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |            436 | 65.07%       |
-| ETF             |             72 | 10.75%       |
-| Equity          |            138 | 20.6%        |
-| Index           |              9 | 1.34%        |
-| Unknown         |             15 | 2.24%        |
-| Total           |            670 | 100%         |
+| Bond            |            406 | 62.17%       |
+| ETF             |             88 | 13.48%       |
+| Equity          |            138 | 21.13%       |
+| Index           |              9 | 1.38%        |
+| Unknown         |             12 | 1.84%        |
+| Total           |            653 | 100%         |
 
 
-Consists of 2 Databases
+Consists of 3 Databases
 
 * `COLOMBIA`  - Tick Data
 * `COLOMBIA_BARS`  - 1 Minute Bars
+* `COLOMBIA_DAILY`  - End of Day Metrics
 
 
 
@@ -67,5 +68,16 @@ Database includes the following tick types:
 * TRD_1D - Daily trade bars
 * TRD_1M - 1-minute trade bars
 * VWAP_1H - 1-hour VWAP bars
+
+
+
+
+
+## COLOMBIA_DAILY
+
+Database includes the following tick types:
+
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
+* STAT - Static data, e.g. ISIN, description, security type
 
 

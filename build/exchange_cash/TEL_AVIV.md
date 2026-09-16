@@ -27,22 +27,22 @@ Includes the following coverage:
 
 | Security Type    |   # of Symbols | % of Total   |
 |------------------|----------------|--------------|
-| Bond             |            133 | 1.15%        |
-| Commercial Paper |             31 | 0.27%        |
+| Bond             |            135 | 1.2%         |
+| Commercial Paper |             33 | 0.29%        |
 | Commodity        |              1 | 0.01%        |
-| Convertible Bond |             33 | 0.28%        |
-| Corporate Bond   |            837 | 7.21%        |
-| ETF              |            507 | 4.37%        |
-| Equity           |            561 | 4.83%        |
+| Convertible Bond |             34 | 0.3%         |
+| Corporate Bond   |            841 | 7.46%        |
+| ETF              |            507 | 4.5%         |
+| Equity           |            562 | 4.98%        |
 | FX               |             14 | 0.12%        |
-| Future           |             12 | 0.1%         |
-| Government Bond  |             34 | 0.29%        |
-| Index            |            127 | 1.09%        |
-| Option           |           9220 | 79.44%       |
-| Treasury Bill    |             12 | 0.1%         |
-| Unknown          |              1 | 0.01%        |
-| Warrant          |             83 | 0.72%        |
-| Total            |          11606 | 100%         |
+| Future           |             12 | 0.11%        |
+| Government Bond  |             34 | 0.3%         |
+| Index            |            129 | 1.14%        |
+| Option           |           8874 | 78.71%       |
+| Treasury Bill    |             13 | 0.12%        |
+| Unknown          |              4 | 0.04%        |
+| Warrant          |             81 | 0.72%        |
+| Total            |          11274 | 100%         |
 
 
 Consists of 3 Databases
@@ -90,6 +90,5 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
-* TRD_1D - Daily trade bars
 
 

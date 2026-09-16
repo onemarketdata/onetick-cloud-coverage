@@ -27,8 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Index           |           5606 | 100.0%       |
-| Total           |           5606 | 100%         |
+| Index           |           5395 | 100.0%       |
+| Total           |           5395 | 100%         |
 
 
 Consists of 2 Databases
@@ -46,7 +46,6 @@ Database includes the following tick types:
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IDX - Index values
 * QTE - Best bid / offer quotes
-* STAT - Static data, e.g. ISIN, description, security type
 
 
 
