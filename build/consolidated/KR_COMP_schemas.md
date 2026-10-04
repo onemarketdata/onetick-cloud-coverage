@@ -11,6 +11,7 @@ Database includes the following tick types:
 
 * DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * IDX - Index values
+* NBBO - National Best Bid / Offer quotes
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
@@ -58,6 +59,26 @@ Index values
 | EXCH_TIME   | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
 | PRICE       | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                              |
 | OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+
+### KR_COMP - NBBO
+
+National Best Bid / Offer quotes
+
+#### KR_COMP - NBBO Table Schema
+
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME    | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP      | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| BID_PRICE      | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)                                                                                                       |
+| BID_SIZE       | long        | Best bid size                                                                                                                                                                                                                          |
+| BID_SIZE_TOTAL | long        | Total size at the (national) best bid price across all participant markets                                                                                                                                                             |
+| BID_EXCHANGE   | string[4]   | Exchange that set the best bid                                                                                                                                                                                                         |
+| ASK_PRICE      | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)                                                                                                       |
+| ASK_SIZE       | long        | Best ask size                                                                                                                                                                                                                          |
+| ASK_SIZE_TOTAL | long        | Total size at the (national) best ask price across all participant markets                                                                                                                                                             |
+| ASK_EXCHANGE   | string[4]   | Exchange that set the best ask                                                                                                                                                                                                         |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### KR_COMP - QTE
 

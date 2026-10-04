@@ -28,12 +28,12 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Commodity       |              2 | 0.02%        |
-| FRA             |             88 | 0.85%        |
+| FRA             |             88 | 0.9%         |
 | Forward         |              2 | 0.02%        |
-| Future          |            672 | 6.49%        |
-| Futures Spread  |           1175 | 11.35%       |
-| Option          |           8410 | 81.26%       |
-| Total           |          10349 | 100%         |
+| Future          |            653 | 6.65%        |
+| Futures Spread  |           1003 | 10.21%       |
+| Option          |           8075 | 82.21%       |
+| Total           |           9823 | 100%         |
 
 
 Consists of 3 Databases

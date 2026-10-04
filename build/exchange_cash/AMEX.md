@@ -1,6 +1,6 @@
 # NYSE American Equities
 
-The AMEX (American Stock Exchange) is a prominent US stock and options exchange based in New York City, which is now officially known as the NYSE American. Acquired by the NYSE’s parent company, it functions as an electronic exchange primarily focused on listing and trading small-cap stocks and ETFs (Exchange Traded Funds)
+The AMEX (American Stock Exchange) is a prominent US stock and options exchange based in New York City, which is now officially known as the NYSE American. Acquired by the NYSE’s parent company, it functions as an electronic exchange primarily focused on listing and trading small-cap stocks and ETFs (Exchange Traded Funds.  Full L1 history for AMEX from the Consolidated Tape is available in the US_COMP dataset.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -29,18 +29,18 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | ADR                |            401 | 3.03%        |
 | Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5548 | 41.93%       |
+| ETF                |           5538 | 41.89%       |
 | ETN                |             45 | 0.34%        |
 | ETV                |             90 | 0.68%        |
-| Equity             |           5230 | 39.53%       |
+| Equity             |           5233 | 39.58%       |
 | Fund               |            337 | 2.55%        |
 | Preferred Stock    |            435 | 3.29%        |
-| Right              |            125 | 0.94%        |
+| Right              |            120 | 0.91%        |
 | Structured Product |            160 | 1.21%        |
 | Test               |             51 | 0.39%        |
-| Unit               |            313 | 2.37%        |
+| Unit               |            314 | 2.38%        |
 | Warrant            |            440 | 3.33%        |
-| Total              |          13231 | 100%         |
+| Total              |          13220 | 100%         |
 
 
 Consists of 2 Databases

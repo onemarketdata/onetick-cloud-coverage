@@ -280,18 +280,19 @@ The following fields have Enumerations:
 
 #### TRADE_PERIOD - Enumeration
 
-| Enumeration ID   | Enumeration Description                          |
-|------------------|--------------------------------------------------|
-| A                | Other auction [e.g. after-hours odd lot auction] |
-| C                | Closing auction                                  |
-| I                | Intraday auction                                 |
-| O                | Opening auction                                  |
-| T                | Trading at closing price                         |
-| U                | Unscheduled auction                              |
-| p                | Auction initiated by market participant          |
-| u                | Unscheduled auction (extended hours)             |
-| -                | Regular trading                                  |
-| ‘””’             | Not applicable                                   |
+| Enumeration ID   | Enumeration Description                                  |
+|------------------|----------------------------------------------------------|
+| A                | Other auction [e.g. after-hours odd lot auction]         |
+| C                | Closing auction                                          |
+| I                | Intraday auction                                         |
+| O                | Opening auction                                          |
+| T                | Trading at closing price                                 |
+| U                | Unscheduled auction                                      |
+| p                | Auction initiated by market participant                  |
+| q                | Auction initiated by market participant (extended hours) |
+| u                | Unscheduled auction (extended hours)                     |
+| -                | Regular trading                                          |
+| ‘””’             | Not applicable                                           |
 
 #### TRADE_TYPE - Enumeration
 

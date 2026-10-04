@@ -5,6 +5,7 @@ The Indonesia Stock Exchange (IDX) offers trading in equities, bonds, ETFs, and 
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -15,6 +16,21 @@ The following fields have Enumerations:
 |                0 | Lit order book            |
 |                1 | Off-book                  |
 |                4 | Special terms book        |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description                       |
+|------------------|-----------------------------------------------|
+|                0 | Closed / Pre-Trading                          |
+|                1 | Opening Auction Match                         |
+|                2 | Continuous Trading (Session I)                |
+|                3 | Intermission (Lunch Break)                    |
+|                4 | Continuous Trading (Session II)               |
+|                5 | Closing Auction Match                         |
+|                6 | End of Day (EOD) / Post-Trading               |
+|                7 | Post-Close (or After-Hours / Trading at Last) |
+|                8 | Pre-Open (or Pre-Opening)                     |
+|                9 | Pre-Closing                                   |
 
 #### TRADE_PERIOD - Enumeration
 

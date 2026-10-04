@@ -1,6 +1,6 @@
 # Cboe EDGX Market Holidays
 
-he Cboe EDGX Exchange is a prominent U.S. equities and options market operated by Cboe Global Markets. It is distinguished by its extended trading hours —opening at 4:00 AM ET—its patent-pending Retail Priority allocation model, and a comprehensive depth-of-book feed for market participants
+he Cboe EDGX Exchange is a prominent U.S. equities and options market operated by Cboe Global Markets. It is distinguished by its extended trading hours —opening at 4:00 AM ET—its patent-pending Retail Priority allocation model, and a comprehensive depth-of-book feed for market participants.  Full L1 history for Cboe EDGX from the Consolidated Tape is available in the US_COMP dataset.
 
 The last 10 Market Holidays are listed
 

@@ -5,6 +5,7 @@ The Australian Stock Exchange (ASX) offers trading in equities, bonds, ETFs, der
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_REPORT_TYPE - Additional detail on the source of an off-book (reported) trade
 * TRADE_TYPE - Type of trade
@@ -16,6 +17,21 @@ The following fields have Enumerations:
 |                0 | Lit order book            |
 |                1 | Off-book                  |
 |                2 | Dark book                 |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description             |
+|------------------|-------------------------------------|
+|                8 | OPEN / Normal Trading               |
+|               14 | CSPA (Closing Single Price Auction) |
+|               12 | Pre-CSPA                            |
+|                5 | PRE-OPEN                            |
+|               23 | OSPA (Opening Single Price Auction) |
+|                2 | ADJUST                              |
+|                4 | CLOSE                               |
+|               24 | POST CLOSE                          |
+|               10 | PRE-NR (Pre-Notice Received)        |
+|               25 | DONE FOR DAY                        |
 
 #### TRADE_PERIOD - Enumeration
 
@@ -60,6 +76,8 @@ The following fields have Enumerations:
 | 5                | Overseas                                     |
 | 50               | Loan                                         |
 | 51               | Loan return                                  |
+| 52               | Non-screen traded government instrument      |
+| 53               | Non-screen traded wholesale                  |
 | 54               | Foreign to foreign                           |
 | 58               | Price stabilisation                          |
 | 59               | Price stabilisation late trade               |

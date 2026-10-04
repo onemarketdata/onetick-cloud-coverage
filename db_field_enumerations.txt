@@ -1,10 +1,10 @@
-DB	FIELD	VALUE	DESCRIPTION
+DB	FIELD	VALUE	DESCRIPTION string[128]
 A3	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 A3	AGGRESSOR_SIDE	B	Buy
 A3	AGGRESSOR_SIDE	S	Sell
 A3	TRADE_TYPE	""	Regular trade
 A3	TRADE_TYPE	BLK	Block trade
-A3	TRADE_TYPE	LEG	Strategy leg trade [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null]
+A3	TRADE_TYPE	LEG	Strategy leg trade  [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null]
 A3	TRADE_PERIOD	-	Regular trading
 A3	BOOK_TYPE	0	Lit order book
 A3	BOOK_TYPE	1	Off-book
@@ -26,6 +26,10 @@ ABU_DHABI	TRADE_TYPE	""	Regular trade
 ABU_DHABI	TRADE_TYPE	1	Regular trade
 ABU_DHABI	TRADE_TYPE	2	Block trade
 ABU_DHABI	TRADE_TYPE	3	Auction trade
+ABU_DHABI	MKT_PHASE	8	Pre-Close
+ABU_DHABI	MKT_PHASE	14	Trade-At-Last / TAL
+ABU_DHABI	MKT_PHASE	12	Closed
+ABU_DHABI	MKT_PHASE	5	Open / Ongoing Trading
 ALPHA	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 ALPHA	AGGRESSOR_SIDE	B	Buy
 ALPHA	AGGRESSOR_SIDE	S	Sell
@@ -483,6 +487,17 @@ ARCA	ORDER_TYPE	L	Limit order
 ASX	BOOK_TYPE	0	Lit order book
 ASX	BOOK_TYPE	1	Off-book
 ASX	BOOK_TYPE	2	Dark book
+ASX	MKT_PHASE	8	OPEN / Normal Trading 
+ASX	MKT_PHASE	14	CSPA (Closing Single Price Auction)
+ASX	MKT_PHASE	12	Pre-CSPA
+ASX	MKT_PHASE	5	PRE-OPEN
+ASX	MKT_PHASE	23	OSPA (Opening Single Price Auction)
+ASX	MKT_PHASE	5	PRE-OPEN
+ASX	MKT_PHASE	2	ADJUST
+ASX	MKT_PHASE	4	CLOSE
+ASX	MKT_PHASE	24	POST CLOSE
+ASX	MKT_PHASE	10	PRE-NR (Pre-Notice Received)
+ASX	MKT_PHASE	25	DONE FOR DAY
 ASX	TRADE_PERIOD	-	Regular trading
 ASX	TRADE_PERIOD	C	Closing auction
 ASX	TRADE_PERIOD	O	Opening auction
@@ -517,6 +532,8 @@ ASX	TRADE_REPORT_TYPE	47	Forward delivery
 ASX	TRADE_REPORT_TYPE	5	Overseas
 ASX	TRADE_REPORT_TYPE	50	Loan
 ASX	TRADE_REPORT_TYPE	51	Loan return
+ASX	TRADE_REPORT_TYPE	52	Non-screen traded government instrument
+ASX	TRADE_REPORT_TYPE	53	Non-screen traded wholesale
 ASX	TRADE_REPORT_TYPE	54	Foreign to foreign
 ASX	TRADE_REPORT_TYPE	58	Price stabilisation
 ASX	TRADE_REPORT_TYPE	59	Price stabilisation late trade
@@ -792,6 +809,12 @@ BLUE_OCEAN	UPDATE_TYPE	P	Partial fill
 BLUE_OCEAN	ORDER_TYPE	L	limit order
 BRAZIL_EQ	BOOK_TYPE	0	Lit order book
 BRAZIL_EQ	BOOK_TYPE	1	Off-book
+BRAZIL_EQ	MKT_PHASE	02	Trading halt (Pause)
+BRAZIL_EQ	MKT_PHASE	04	No-Open (Close)
+BRAZIL_EQ	MKT_PHASE	17	Ready to trade (Open)
+BRAZIL_EQ	MKT_PHASE	18	Not available for trading (Pre-close)
+BRAZIL_EQ	MKT_PHASE	21	Pre-Open
+BRAZIL_EQ	MKT_PHASE	101	Final Closing Call
 BRAZIL_EQ	TRADE_PERIOD	-	Regular trading
 BRAZIL_EQ	TRADE_PERIOD	C	Closing auction
 BRAZIL_EQ	TRADE_PERIOD	L	Outside hours (Late session)
@@ -1052,6 +1075,12 @@ BUDAPEST	TRADE_TYPE	6	Opening auction
 BUDAPEST	TRADE_TYPE	7	Intraday auction
 BUDAPEST	TRADE_TYPE	8	Closing auction
 BUDAPEST	TRADE_TYPE	9	Volatility auction
+BYBIT	AGGRESSOR_SIDE	B	Buy
+BYBIT	AGGRESSOR_SIDE	S	Sell
+BYBIT	QUOTE_VENUE	BYBIT	Bybit
+BYBIT	TRADE_VENUE	BYBIT	Bybit
+BYBIT	TRADE_PERIOD	-	Regular trading
+BYBIT	BOOK_TYPE	0	Lit order book
 BXE	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 BXE	AGGRESSOR_SIDE	B	Buy
 BXE	AGGRESSOR_SIDE	S	Sell
@@ -2097,6 +2126,10 @@ COINBASE_US	TRADE_VENUE	COINBASEUS	COINBASE US
 COINBASE_US	TRADE_PERIOD	-	Regular trading
 COINBASE_US	BOOK_TYPE	0	Lit order book
 COLOMBIA	BOOK_TYPE	0	Lit order book
+COLOMBIA	MKT_PHASE	3	Open Market (Mercado Abierto)
+COLOMBIA	MKT_PHASE	6	Pre-Open / Pre-Trading (Pre-Apertura)
+COLOMBIA	MKT_PHASE	7	Opening Auction (Subasta de Apertura)
+COLOMBIA	MKT_PHASE	8	Closing Auction (Subasta de Cierre)
 COLOMBIA	TRADE_PERIOD	-	Regular trading
 COLOMBIA	TRADE_PERIOD	C	Closing auction
 COLOMBIA	TRADE_PERIOD	I	Intraday auction
@@ -2644,6 +2677,12 @@ DE_REGIONAL	TRADE_TYPE	M	Price from subscription period
 DE_REGIONAL	TRADE_TYPE	X	Regular trade
 DFM	BOOK_TYPE	0	Lit order book
 DFM	BOOK_TYPE	1	Off-book
+DFM	MKT_PHASE	1	Pre-Trading / Enquiry
+DFM	MKT_PHASE	2	Pre-Opening Session
+DFM	MKT_PHASE	5	Post-Trading
+DFM	MKT_PHASE	20	Continuous Trading (Main Session)
+DFM	MKT_PHASE	21	Trading at Last (TAL)
+DFM	MKT_PHASE	36	Pre-Closing Session
 DFM	TRADE_PERIOD	-	Regular trading
 DFM	TRADE_PERIOD	C	Closing auction
 DFM	TRADE_PERIOD	O	Opening auction
@@ -2690,25 +2729,44 @@ DUBLIN	MKT_PHASE (before 20190204)	SUSP	Suspended
 DUBLIN	MKT_PHASE (before 20190204)	TRAD	Continuous trading
 DUBLIN	MKT_PHASE (before 20190204)	UNDE	Undefined
 DUBLIN	MKT_PHASE (before 20190204)	VOLA	Volatility auction
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	" "	Undefined
-DUBLIN	MKT_PHASE (from 20190204) - Byte 2 (Market period)	" "	Undefined
-DUBLIN	MKT_PHASE (from 20190204) - Byte 3 (Phase qualifier)	" "	Undefined
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	A	Auction call
-DUBLIN	MKT_PHASE (from 20190204) - Byte 3 (Phase qualifier)	C	Call BBO only
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	C	Closed
-DUBLIN	MKT_PHASE (from 20190204) - Byte 2 (Market period)	C	Closing
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	H	Halted
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	I	Inaccessible
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	N	Continuous uncrossing
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	O	Continuous trading
-DUBLIN	MKT_PHASE (from 20190204) - Byte 2 (Market period)	O	Opening
-DUBLIN	MKT_PHASE (from 20190204) - Byte 3 (Phase qualifier)	Q	Quoting period
-DUBLIN	MKT_PHASE (from 20190204) - Byte 3 (Phase qualifier)	R	Random uncrossing
-DUBLIN	MKT_PHASE (from 20190204) - Byte 2 (Market period)	S	Standard
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	S	Suspended
-DUBLIN	MKT_PHASE (from 20190204) - Byte 3 (Phase qualifier)	T	Trading at last
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	U	Uncrossing
-DUBLIN	MKT_PHASE (from 20190204) - Byte 1 (Orderbook state)	Z	 Reserved
+DUBLIN	MKT_PHASE	AC 	Auction call - Closing
+DUBLIN	MKT_PHASE	AO 	Auction call - Opening
+DUBLIN	MKT_PHASE	AS 	Auction call - Standard
+DUBLIN	MKT_PHASE	CC 	Closed - Closing
+DUBLIN	MKT_PHASE	CO 	Closed - Opening
+DUBLIN	MKT_PHASE	HC 	Halted - Closing
+DUBLIN	MKT_PHASE	HCS	Halted - Closing - Trading at last + random uncrossing
+DUBLIN	MKT_PHASE	HCT	Halted - Closing - Trading at last
+DUBLIN	MKT_PHASE	HO 	Halted - Opening
+DUBLIN	MKT_PHASE	HSR	Halted - Standard - Random uncrossing
+DUBLIN	MKT_PHASE	HST	Halted - Standard - Trading at last
+DUBLIN	MKT_PHASE	IC 	Inaccessible - Closing
+DUBLIN	MKT_PHASE	IO 	Inaccessible - Opening
+DUBLIN	MKT_PHASE	OCS	Continuous trading - Closing - Trading at last + random uncrossing
+DUBLIN	MKT_PHASE	OCT	Continuous trading - Closing - Trading at last
+DUBLIN	MKT_PHASE	OSR	Continuous trading - Standard - Random uncrossing
+DUBLIN	MKT_PHASE	OST	Continuous trading - Standard - Trading at last
+DUBLIN	MKT_PHASE	SC 	Suspended - Closing
+DUBLIN	MKT_PHASE	SCS	Suspended - Closing - Trading at last + random uncrossing
+DUBLIN	MKT_PHASE	SCT	Suspended - Closing - Trading at last
+DUBLIN	MKT_PHASE	SO 	Suspended - Opening
+DUBLIN	MKT_PHASE	SS 	Suspended - Standard
+DUBLIN	MKT_PHASE	SSR	Suspended - Standard - Random uncrossing
+DUBLIN	MKT_PHASE	SST	Suspended - Standard - Trading at last
+DUBLIN	MKT_PHASE	UC 	Uncrossing - Closing
+DUBLIN	MKT_PHASE	UCR	Uncrossing - Closing - Random uncrossing
+DUBLIN	MKT_PHASE	UCS	Uncrossing - Closing - Trading at last + random uncrossing
+DUBLIN	MKT_PHASE	UO 	Uncrossing - Opening
+DUBLIN	MKT_PHASE	UOR	Uncrossing - Opening - Random uncrossing
+DUBLIN	MKT_PHASE	USR	Uncrossing - Standard - Random uncrossing
+DUBLIN	MKT_PHASE	UST	Uncrossing - Standard - Trading at last
+DUBLIN	MKT_PHASE	ZC 	Reserved - Closing
+DUBLIN	MKT_PHASE	ZCS	Reserved - Closing - Trading at last + random uncrossing
+DUBLIN	MKT_PHASE	ZCT	Reserved - Closing - Trading at last
+DUBLIN	MKT_PHASE	ZO 	Reserved - Opening
+DUBLIN	MKT_PHASE	ZS 	Reserved - Standard
+DUBLIN	MKT_PHASE	ZSR	Reserved - Standard - Random uncrossing
+DUBLIN	MKT_PHASE	ZST	Reserved - Standard - Trading at last
 DUBLIN	MMT_ALGO_IND	-	Not an algorithmic trade
 DUBLIN	MMT_ALGO_IND	H	Algorithmic trade
 DUBLIN	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -3649,26 +3707,44 @@ EURONEXT	MKT_PHASE (before 20170717)	EAMO	Early monitoring
 EURONEXT	MKT_PHASE (before 20170717)	HALT	Halted
 EURONEXT	MKT_PHASE (before 20170717)	LAMO	Late monitoring
 EURONEXT	MKT_PHASE (before 20170717)	TAL	Trading at Last
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	" "	Undefined
-EURONEXT	MKT_PHASE (from 20170717) - Byte 2 (Market period)	" "	Undefined
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	" "	Undefined
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	A	Auction call
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	C	Call BBO only
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	C	Closed
-EURONEXT	MKT_PHASE (from 20170717) - Byte 2 (Market period)	C	Closing
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	H	Halted
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	I	Inaccessible
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	N	Continuous uncrossing
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	O	Continuous trading
-EURONEXT	MKT_PHASE (from 20170717) - Byte 2 (Market period)	O	Opening
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	Q	Quoting period
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	R	Random uncrossing
-EURONEXT	MKT_PHASE (from 20170717) - Byte 2 (Market period)	S	Standard
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	S	Suspended
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	S	Trading at last + random uncrossing
-EURONEXT	MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier):	T	Trading at last
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	U	Uncrossing
-EURONEXT	MKT_PHASE (from 20170717) - Byte 1 (Orderbook state)	Z	Reserved
+EURONEXT	MKT_PHASE	AC 	Auction call - Closing
+EURONEXT	MKT_PHASE	AO 	Auction call - Opening
+EURONEXT	MKT_PHASE	AS 	Auction call - Standard
+EURONEXT	MKT_PHASE	CC 	Closed - Closing
+EURONEXT	MKT_PHASE	CO 	Closed - Opening
+EURONEXT	MKT_PHASE	HC 	Halted - Closing
+EURONEXT	MKT_PHASE	HCS	Halted - Closing - Trading at last + random uncrossing
+EURONEXT	MKT_PHASE	HCT	Halted - Closing - Trading at last
+EURONEXT	MKT_PHASE	HO 	Halted - Opening
+EURONEXT	MKT_PHASE	HSR	Halted - Standard - Random uncrossing
+EURONEXT	MKT_PHASE	HST	Halted - Standard - Trading at last
+EURONEXT	MKT_PHASE	IC 	Inaccessible - Closing
+EURONEXT	MKT_PHASE	IO 	Inaccessible - Opening
+EURONEXT	MKT_PHASE	OCS	Continuous trading - Closing - Trading at last + random uncrossing
+EURONEXT	MKT_PHASE	OCT	Continuous trading - Closing - Trading at last
+EURONEXT	MKT_PHASE	OSR	Continuous trading - Standard - Random uncrossing
+EURONEXT	MKT_PHASE	OST	Continuous trading - Standard - Trading at last
+EURONEXT	MKT_PHASE	SC 	Suspended - Closing
+EURONEXT	MKT_PHASE	SCS	Suspended - Closing - Trading at last + random uncrossing
+EURONEXT	MKT_PHASE	SCT	Suspended - Closing - Trading at last
+EURONEXT	MKT_PHASE	SO 	Suspended - Opening
+EURONEXT	MKT_PHASE	SS 	Suspended - Standard
+EURONEXT	MKT_PHASE	SSR	Suspended - Standard - Random uncrossing
+EURONEXT	MKT_PHASE	SST	Suspended - Standard - Trading at last
+EURONEXT	MKT_PHASE	UC 	Uncrossing - Closing
+EURONEXT	MKT_PHASE	UCR	Uncrossing - Closing - Random uncrossing
+EURONEXT	MKT_PHASE	UCS	Uncrossing - Closing - Trading at last + random uncrossing
+EURONEXT	MKT_PHASE	UO 	Uncrossing - Opening
+EURONEXT	MKT_PHASE	UOR	Uncrossing - Opening - Random uncrossing
+EURONEXT	MKT_PHASE	USR	Uncrossing - Standard - Random uncrossing
+EURONEXT	MKT_PHASE	UST	Uncrossing - Standard - Trading at last
+EURONEXT	MKT_PHASE	ZC 	Reserved - Closing
+EURONEXT	MKT_PHASE	ZCS	Reserved - Closing - Trading at last + random uncrossing
+EURONEXT	MKT_PHASE	ZCT	Reserved - Closing - Trading at last
+EURONEXT	MKT_PHASE	ZO 	Reserved - Opening
+EURONEXT	MKT_PHASE	ZS 	Reserved - Standard
+EURONEXT	MKT_PHASE	ZSR	Reserved - Standard - Random uncrossing
+EURONEXT	MKT_PHASE	ZST	Reserved - Standard - Trading at last
 EURONEXT	MMT_ALGO_IND	-	Not an algorithmic trade
 EURONEXT	MMT_ALGO_IND	H	Algorithmic trade
 EURONEXT	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -3772,6 +3848,7 @@ EURONEXT	TRADE_TYPE	101	Large in Scale (LiS) trade with provisional price
 EURONEXT	TRADE_TYPE	102	Large in Scale (LiS) package trade with provisional price
 EURONEXT	TRADE_TYPE	103	Issuing / Tender offer trade
 EURONEXT	TRADE_TYPE	104	RFQ trade
+EURONEXT	TRADE_TYPE	105	Auction Volume Discovery (AVD) trade
 EURONEXT	TRADE_TYPE	20	Best of Book trade
 EURONEXT	TRADE_TYPE	24	Trade cancellation
 EURONEXT	TRADE_TYPE	25	Off-market trade
@@ -3943,6 +4020,14 @@ FRANKFURT	TRADE_TYPE	M	Price from subscription period
 FRANKFURT	TRADE_TYPE	X	Regular trade
 HANOI	BOOK_TYPE	0	Lit order book
 HANOI	BOOK_TYPE	1	Off-book
+HANOI	MKT_PHASE	0	Pre-Open / Day Start
+HANOI	MKT_PHASE	1	Periodic Opening Session
+HANOI	MKT_PHASE	4	Continuous Trading Session (Morning)
+HANOI	MKT_PHASE	12	Intermission (Lunch Break)
+HANOI	MKT_PHASE	14	Continuous Trading Session (Afternoon)
+HANOI	MKT_PHASE	16	Periodic Closing Session (ATC)
+HANOI	MKT_PHASE	18	PLO After-Hours Trading Session
+HANOI	MKT_PHASE	97	Market Closed
 HANOI	TRADE_PERIOD	-	Regular trading
 HANOI	TRADE_PERIOD	A	Auction
 HANOI	TRADE_PERIOD	C	Closing auction
@@ -4443,6 +4528,16 @@ IN_COMP	TRADE_VENUE	XNSE	National Stock Exchange of India
 INDONESIA	BOOK_TYPE	0	Lit order book
 INDONESIA	BOOK_TYPE	1	Off-book
 INDONESIA	BOOK_TYPE	4	Special terms book
+INDONESIA	MKT_PHASE	0	Closed / Pre-Trading
+INDONESIA	MKT_PHASE	1	Opening Auction Match
+INDONESIA	MKT_PHASE	2	Continuous Trading (Session I)
+INDONESIA	MKT_PHASE	3	Intermission (Lunch Break)
+INDONESIA	MKT_PHASE	4	Continuous Trading (Session II)
+INDONESIA	MKT_PHASE	5	Closing Auction Match
+INDONESIA	MKT_PHASE	6	End of Day (EOD) / Post-Trading
+INDONESIA	MKT_PHASE	7	Post-Close (or After-Hours / Trading at Last)
+INDONESIA	MKT_PHASE	8	Pre-Open (or Pre-Opening)
+INDONESIA	MKT_PHASE	9	Pre-Closing
 INDONESIA	TRADE_PERIOD	-	Regular trading
 INDONESIA	TRADE_PERIOD	C	Closing auction
 INDONESIA	TRADE_PERIOD	O	Opening auction
@@ -4670,8 +4765,6 @@ KOREA_EQ	TRADE_PERIOD	L	Outside hours (Late session)
 KOREA_EQ	TRADE_PERIOD	O	Opening auction
 KOREA_EQ	TRADE_PERIOD	T	Trading at closing price
 KOREA_EQ	TRADE_PERIOD	U	Unscheduled auction
-KOREA_EQ	TRADE_PERIOD	c	Post-close auction
-KOREA_EQ	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOREA_EQ	TRADE_TYPE	1	Regular trade
 KOREA_EQ	TRADE_TYPE	10	Pre-opening basket trade
 KOREA_EQ	TRADE_TYPE	11	K-Blox block trade
@@ -4708,8 +4801,6 @@ KOREA_ETF	TRADE_PERIOD	L	Outside hours (Late session)
 KOREA_ETF	TRADE_PERIOD	O	Opening auction
 KOREA_ETF	TRADE_PERIOD	T	Trading at closing price
 KOREA_ETF	TRADE_PERIOD	U	Unscheduled auction
-KOREA_ETF	TRADE_PERIOD	c	Post-close auction
-KOREA_ETF	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOREA_ETF	TRADE_TYPE	1	Regular trade
 KOREA_ETF	TRADE_TYPE	10	Pre-opening basket trade
 KOREA_ETF	TRADE_TYPE	11	K-Blox block trade
@@ -4759,8 +4850,6 @@ KOSDAQ	TRADE_PERIOD	L	Outside hours (Late session)
 KOSDAQ	TRADE_PERIOD	O	Opening auction
 KOSDAQ	TRADE_PERIOD	T	Trading at closing price
 KOSDAQ	TRADE_PERIOD	U	Unscheduled auction
-KOSDAQ	TRADE_PERIOD	c	Post-close auction
-KOSDAQ	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 KOSDAQ	TRADE_TYPE	1	Regular trade
 KOSDAQ	TRADE_TYPE	10	Pre-opening basket trade
 KOSDAQ	TRADE_TYPE	11	K-Blox block trade
@@ -4788,6 +4877,8 @@ KOSDAQ	TRADE_TYPE	9	Pre-opening K-Blox block trade
 KR_COMP	BOOK_TYPE	0	Lit order book
 KR_COMP	BOOK_TYPE	1	Off-book
 KR_COMP	BOOK_TYPE	2	Dark book
+KR_COMP	CALL_PUT_IND	C	Call option
+KR_COMP	CALL_PUT_IND	P	Put option
 KR_COMP	OMD_STATUS	A	Auction
 KR_COMP	OMD_STATUS	B	Break / Pause
 KR_COMP	OMD_STATUS	C	Closing auction
@@ -4819,7 +4910,9 @@ KR_COMP	TRADE_PERIOD	O	Opening auction
 KR_COMP	TRADE_PERIOD	T	Trading at closing price
 KR_COMP	TRADE_PERIOD	U	Unscheduled auction
 KR_COMP	TRADE_PERIOD	c	Post-close auction
+KR_COMP	TRADE_PERIOD	o	Opening auction (extended hours)
 KR_COMP	TRADE_PERIOD	u	Unscheduled auction (extended hours)
+KR_COMP	TRADE_TYPE	""	Regular trade
 KR_COMP	TRADE_TYPE	1	Regular trade
 KR_COMP	TRADE_TYPE	10	Pre-opening basket trade
 KR_COMP	TRADE_TYPE	11	K-Blox block trade
@@ -4844,10 +4937,23 @@ KR_COMP	TRADE_TYPE	6	After-hours K-Blox block trade
 KR_COMP	TRADE_TYPE	7	After-hours basket trade
 KR_COMP	TRADE_TYPE	8	Single price auction trade
 KR_COMP	TRADE_TYPE	9	Pre-opening K-Blox block trade
+KR_COMP	TRADE_TYPE	BLK	Block trade
+KR_COMP	TRADE_TYPE	BKT	Basket trade
+KR_COMP	TRADE_TYPE	CL	Trade at closing price
 KR_COMP	TRADE_VENUE	XKOS	Kosdaq
 KR_COMP	TRADE_VENUE	XKRX	Korea Exchange
 KUWAIT	BOOK_TYPE	0	Lit order book
 KUWAIT	BOOK_TYPE	5	Buy-in
+KUWAIT	MKT_PHASE	1	Enquiry (Pre-Market)
+KUWAIT	MKT_PHASE	2	Opening Auction (Pre-Open)
+KUWAIT	MKT_PHASE	4	Trading Halt
+KUWAIT	MKT_PHASE	5	Circuit Breaker
+KUWAIT	MKT_PHASE	12	Continuous Trading
+KUWAIT	MKT_PHASE	18	Closing Auction
+KUWAIT	MKT_PHASE	20	Trade at Last
+KUWAIT	MKT_PHASE	21	Close of Trading
+KUWAIT	MKT_PHASE	25	End of Day (System Finalisation)
+KUWAIT	MKT_PHASE	99	Close of Day / Market Offline
 KUWAIT	TRADE_PERIOD	-	Regular trading
 KUWAIT	TRADE_PERIOD	C	Closing auction
 KUWAIT	TRADE_PERIOD	O	Opening auction
@@ -5946,26 +6052,46 @@ MILAN	MKT_PHASE (before 20230327)	w	No active session
 MILAN	MKT_PHASE (before 20230327)	x	End of post-close
 MILAN	MKT_PHASE (before 20230327)	y	Pre-trading
 MILAN	MKT_PHASE (before 20230327)	z	Closing price publication
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	" "	Undefined
-MILAN	MKT_PHASE (from 20230327) - Byte 2 (Market period)	" "	Undefined
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	 	Undefined
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	A	Auction call
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	C	Call BBO only
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	C	Closed
-MILAN	MKT_PHASE (from 20230327) - Byte 2 (Market period)	C	Closing
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	H	Halted
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	I	Inaccessible
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	N	Continuous uncrossing
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	O	Continuous trading
-MILAN	MKT_PHASE (from 20230327) - Byte 2 (Market period)	O	Opening
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	Q	Quoting period
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	R	Random uncrossing
-MILAN	MKT_PHASE (from 20230327) - Byte 2 (Market period)	S	Standard
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	S	Suspended
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	S	Trading at last + random uncrossing
-MILAN	MKT_PHASE (from 20230327) - Byte 3 (Phase qualifier)	T	Trading at last
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	U	Uncrossing
-MILAN	MKT_PHASE (from 20230327) - Byte 1 (Orderbook state)	Z	Reserved
+MILAN	MKT_PHASE	AC 	Auction call - Closing
+MILAN	MKT_PHASE	ACQ 	Auction call - Closing - Quoting period
+MILAN	MKT_PHASE	AO 	Auction call - Opening
+MILAN	MKT_PHASE	AS 	Auction call - Standard
+MILAN	MKT_PHASE	CC 	Closed - Closing
+MILAN	MKT_PHASE	CO 	Closed - Opening
+MILAN	MKT_PHASE	HC 	Halted - Closing
+MILAN	MKT_PHASE	HCS	Halted - Closing - Trading at last + random uncrossing
+MILAN	MKT_PHASE	HCT	Halted - Closing - Trading at last
+MILAN	MKT_PHASE	HO 	Halted - Opening
+MILAN	MKT_PHASE	HS 	Halted - Standard
+MILAN	MKT_PHASE	HSR	Halted - Standard - Random uncrossing
+MILAN	MKT_PHASE	HST	Halted - Standard - Trading at last
+MILAN	MKT_PHASE	IC 	Inaccessible - Closing
+MILAN	MKT_PHASE	IO 	Inaccessible - Opening
+MILAN	MKT_PHASE	OCS	Continuous trading - Closing - Trading at last + random uncrossing
+MILAN	MKT_PHASE	OCT	Continuous trading - Closing - Trading at last
+MILAN	MKT_PHASE	OSR	Continuous trading - Standard - Random uncrossing
+MILAN	MKT_PHASE	OST	Continuous trading - Standard - Trading at last
+MILAN	MKT_PHASE	SC 	Suspended - Closing
+MILAN	MKT_PHASE	SCS	Suspended - Closing - Trading at last + random uncrossing
+MILAN	MKT_PHASE	SCT	Suspended - Closing - Trading at last
+MILAN	MKT_PHASE	SO 	Suspended - Opening
+MILAN	MKT_PHASE	SS 	Suspended - Standard
+MILAN	MKT_PHASE	SSR	Suspended - Standard - Random uncrossing
+MILAN	MKT_PHASE	SST	Suspended - Standard - Trading at last
+MILAN	MKT_PHASE	UC 	Uncrossing - Closing
+MILAN	MKT_PHASE	UCR	Uncrossing - Closing - Random uncrossing
+MILAN	MKT_PHASE	UCS	Uncrossing - Closing - Trading at last + random uncrossing
+MILAN	MKT_PHASE	UO 	Uncrossing - Opening
+MILAN	MKT_PHASE	UOR	Uncrossing - Opening - Random uncrossing
+MILAN	MKT_PHASE	USR	Uncrossing - Standard - Random uncrossing
+MILAN	MKT_PHASE	UST	Uncrossing - Standard - Trading at last
+MILAN	MKT_PHASE	ZC 	Reserved - Closing
+MILAN	MKT_PHASE	ZCS	Reserved - Closing - Trading at last + random uncrossing
+MILAN	MKT_PHASE	ZCT	Reserved - Closing - Trading at last
+MILAN	MKT_PHASE	ZO 	Reserved - Opening
+MILAN	MKT_PHASE	ZS 	Reserved - Standard
+MILAN	MKT_PHASE	ZSR	Reserved - Standard - Random uncrossing
+MILAN	MKT_PHASE	ZST	Reserved - Standard - Trading at last
 MILAN	MMT_ALGO_IND	-	Not an algorithmic trade
 MILAN	MMT_ALGO_IND	H	Algorithmic trade
 MILAN	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -6267,6 +6393,9 @@ NASDAQ	UPDATE_TYPE	O	Partial fill (non-printable)
 NASDAQ	UPDATE_TYPE	P	Partial fill
 NASDAQ	ORDER_TYPE	L	Limit order
 NASDAQ_DUBAI	BOOK_TYPE	0	Lit order book
+NASDAQ_DUBAI	MKT_PHASE	1	Pre-Opening / Auction Session
+NASDAQ_DUBAI	MKT_PHASE	2	Main Trading Session / Continuous Trading
+NASDAQ_DUBAI	MKT_PHASE	3	Post-Trading / Closing Session
 NASDAQ_DUBAI	TRADE_PERIOD	-	Regular trading
 NASDAQ_DUBAI	TRADE_PERIOD	C	Closing auction
 NASDAQ_DUBAI	TRADE_PERIOD	O	Opening auction
@@ -6506,6 +6635,22 @@ NEO	UPDATE_TYPE	D	Delete
 NEO	UPDATE_TYPE	M	Modify
 NEO	UPDATE_TYPE	F	Fill
 NEO	UPDATE_TYPE	P	Partial fill
+NEXTRADE	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
+NEXTRADE	AGGRESSOR_SIDE	B	Buy
+NEXTRADE	AGGRESSOR_SIDE	S	Sell
+NEXTRADE	TRADE_TYPE	""	Regular trade
+NEXTRADE	TRADE_TYPE	BLK	Block trade
+NEXTRADE	TRADE_TYPE	BKT	Basket trade
+NEXTRADE	TRADE_TYPE	CL	Trade at closing price
+NEXTRADE	TRADE_PERIOD	E	Extended hours (early session)
+NEXTRADE	TRADE_PERIOD	L	Extended hours (late session)
+NEXTRADE	TRADE_PERIOD	T	Trading at last price
+NEXTRADE	TRADE_PERIOD	U	Unscheduled auction
+NEXTRADE	TRADE_PERIOD	o	Opening auction (extended hours)
+NEXTRADE	TRADE_PERIOD	u	Unscheduled auction (extended hours)
+NEXTRADE	TRADE_PERIOD	-	Regular trading
+NEXTRADE	BOOK_TYPE	0	Lit order book
+NEXTRADE	BOOK_TYPE	1	Off-book
 NORDIC_EQ	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 NORDIC_EQ	AGGRESSOR_SIDE	B	Buy
 NORDIC_EQ	AGGRESSOR_SIDE	S	Sell
@@ -7259,25 +7404,44 @@ OSLO	MKT_PHASE (before 20201130)	18	Closed
 OSLO	MKT_PHASE (before 20201130)	2	Halted
 OSLO	MKT_PHASE (before 20201130)	21	Opening auction call
 OSLO	MKT_PHASE (before 20201130)	26	Post-close
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	" "	Undefined
-OSLO	MKT_PHASE (from 20201130) - Byte 2 (Market period)	" "	Undefined
-OSLO	MKT_PHASE (from 20201130) - Byte 3 (Phase qualifier)	" "	Undefined
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	A	Auction call
-OSLO	MKT_PHASE (from 20201130) - Byte 3 (Phase qualifier)	C	Call BBO only
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	C	Closed
-OSLO	MKT_PHASE (from 20201130) - Byte 2 (Market period)	C	Closing
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	H	Halted
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	I	Inaccessible
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	N	Continuous uncrossing
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	O	Continuous trading
-OSLO	MKT_PHASE (from 20201130) - Byte 2 (Market period)	O	Opening
-OSLO	MKT_PHASE (from 20201130) - Byte 3 (Phase qualifier)	Q	Quoting period
-OSLO	MKT_PHASE (from 20201130) - Byte 3 (Phase qualifier)	R	Random uncrossing
-OSLO	MKT_PHASE (from 20201130) - Byte 2 (Market period)	S	Standard
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	S	Suspended
-OSLO	MKT_PHASE (from 20201130) - Byte 3 (Phase qualifier)	T	Trading at last
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	U	Uncrossing
-OSLO	MKT_PHASE (from 20201130) - Byte 1 (Orderbook state)	Z	Reserved
+OSLO	MKT_PHASE	AC 	Auction call - Closing
+OSLO	MKT_PHASE	AO 	Auction call - Opening
+OSLO	MKT_PHASE	AS 	Auction call - Standard
+OSLO	MKT_PHASE	CC 	Closed - Closing
+OSLO	MKT_PHASE	CO 	Closed - Opening
+OSLO	MKT_PHASE	HC 	Halted - Closing
+OSLO	MKT_PHASE	HCS	Halted - Closing - Trading at last + random uncrossing
+OSLO	MKT_PHASE	HCT	Halted - Closing - Trading at last
+OSLO	MKT_PHASE	HO 	Halted - Opening
+OSLO	MKT_PHASE	HSR	Halted - Standard - Random uncrossing
+OSLO	MKT_PHASE	HST	Halted - Standard - Trading at last
+OSLO	MKT_PHASE	IC 	Inaccessible - Closing
+OSLO	MKT_PHASE	IO 	Inaccessible - Opening
+OSLO	MKT_PHASE	OCS	Continuous trading - Closing - Trading at last + random uncrossing
+OSLO	MKT_PHASE	OCT	Continuous trading - Closing - Trading at last
+OSLO	MKT_PHASE	OSR	Continuous trading - Standard - Random uncrossing
+OSLO	MKT_PHASE	OST	Continuous trading - Standard - Trading at last
+OSLO	MKT_PHASE	SC 	Suspended - Closing
+OSLO	MKT_PHASE	SCS	Suspended - Closing - Trading at last + random uncrossing
+OSLO	MKT_PHASE	SCT	Suspended - Closing - Trading at last
+OSLO	MKT_PHASE	SO 	Suspended - Opening
+OSLO	MKT_PHASE	SS 	Suspended - Standard
+OSLO	MKT_PHASE	SSR	Suspended - Standard - Random uncrossing
+OSLO	MKT_PHASE	SST	Suspended - Standard - Trading at last
+OSLO	MKT_PHASE	UC 	Uncrossing - Closing
+OSLO	MKT_PHASE	UCR	Uncrossing - Closing - Random uncrossing
+OSLO	MKT_PHASE	UCS	Uncrossing - Closing - Trading at last + random uncrossing
+OSLO	MKT_PHASE	UO 	Uncrossing - Opening
+OSLO	MKT_PHASE	UOR	Uncrossing - Opening - Random uncrossing
+OSLO	MKT_PHASE	USR	Uncrossing - Standard - Random uncrossing
+OSLO	MKT_PHASE	UST	Uncrossing - Standard - Trading at last
+OSLO	MKT_PHASE	ZC 	Reserved - Closing
+OSLO	MKT_PHASE	ZCS	Reserved - Closing - Trading at last + random uncrossing
+OSLO	MKT_PHASE	ZCT	Reserved - Closing - Trading at last
+OSLO	MKT_PHASE	ZO 	Reserved - Opening
+OSLO	MKT_PHASE	ZS 	Reserved - Standard
+OSLO	MKT_PHASE	ZSR	Reserved - Standard - Random uncrossing
+OSLO	MKT_PHASE	ZST	Reserved - Standard - Trading at last
 OSLO	MMT_ALGO_IND	-	Not an algorithmic trade
 OSLO	MMT_ALGO_IND	H	Algorithmic trade
 OSLO	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -7609,7 +7773,6 @@ PURE	UPDATE_TYPE	D	Delete
 PURE	UPDATE_TYPE	F	Fill
 PURE	UPDATE_TYPE	M	Modify
 PURE	UPDATE_TYPE	P	Partial fill
-QATAR	BOOK_TYPE	0	Lit order book
 QATAR	TRADE_PERIOD	-	Regular trading
 QATAR	TRADE_PERIOD	C	Closing auction
 QATAR	TRADE_PERIOD	O	Opening auction
@@ -7810,6 +7973,13 @@ SHENZHEN	TRADE_TYPE	105	Bidding trade
 SHFE	TRADE_TYPE	""	Regular trade
 SHFE	CALL_PUT_IND	C	Call option
 SHFE	CALL_PUT_IND	P	Put option
+SHFE	TRADE_PERIOD	""	Not applicable
+SHFE	TRADE_PERIOD	O	Opening auction
+SHFE	BOOK_TYPE	0	Lit order book
+SHFE	TRADE_SESSION	Day	Day session
+SHFE	TRADE_SESSION	Night	Night session
+SHFE	QUOTE_SESSION	Day	Day session
+SHFE	QUOTE_SESSION	Night	Night session
 STUTTGART	BOOK_TYPE	""	Not applicable
 STUTTGART	BOOK_TYPE	1	Off-book
 STUTTGART	BOOK_TYPE	9	Off-exchange
@@ -9972,6 +10142,7 @@ XETRA	TRADE_PERIOD	O	Opening auction
 XETRA	TRADE_PERIOD	T	Trading at closing price
 XETRA	TRADE_PERIOD	U	Unscheduled auction
 XETRA	TRADE_PERIOD	p	Auction initiated by market participant
+XETRA	TRADE_PERIOD	q	Auction initiated by market participant (extended hours)
 XETRA	TRADE_PERIOD	u	Unscheduled auction (extended hours)
 XETRA	TRADE_PERIOD	-	Regular trading
 XETRA	TRADE_PERIOD	""	Not applicable

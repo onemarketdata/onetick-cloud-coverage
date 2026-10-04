@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|------------------|--------------|------------|--------------|------------|
+| Full Holiday          | America/Montreal | 2026-10-12   | 2026-10-12 | 00:00        | 24:00      |
+| Limited Trading Hours | America/Montreal | 2026-10-09   | 2026-10-09 | 06:00        | 13:30      |
 | Full Holiday          | America/Montreal | 2026-09-30   | 2026-09-30 | 00:00        | 24:00      |
 | Limited Trading Hours | America/Montreal | 2026-09-29   | 2026-09-29 | 06:00        | 13:30      |
 | Full Holiday          | America/Montreal | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
@@ -16,6 +18,4 @@ The last 10 Market Holidays are listed
 | Limited Trading Hours | America/Montreal | 2026-07-31   | 2026-07-31 | 06:00        | 13:30      |
 | Full Holiday          | America/Montreal | 2026-07-01   | 2026-07-01 | 00:00        | 24:00      |
 | Limited Trading Hours | America/Montreal | 2026-06-30   | 2026-06-30 | 06:00        | 13:30      |
-| Full Holiday          | America/Montreal | 2026-05-18   | 2026-05-18 | 00:00        | 24:00      |
-| Limited Trading Hours | America/Montreal | 2026-05-15   | 2026-05-15 | 06:00        | 13:30      |
 

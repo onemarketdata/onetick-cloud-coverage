@@ -1,6 +1,6 @@
 # The Nasdaq Trading Hours
 
-The Nasdaq is an American multinational financial services corporation that operates the world’s second-largest stock exchange by market capitalization
+The Nasdaq is an American multinational financial services corporation that operates the world’s second-largest stock exchange by market capitalization.  Full L1 history for NASDAQ from the Consolidated Tape is available in the US_COMP dataset.
 
 Trading Hours are divided into multiple sessions
 

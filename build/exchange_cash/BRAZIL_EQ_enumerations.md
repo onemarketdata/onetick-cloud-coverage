@@ -5,6 +5,7 @@ B3’s Bovespa equities segment is Brazil’s main stock exchange for trading st
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -14,6 +15,17 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 |                0 | Lit order book            |
 |                1 | Off-book                  |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description               |
+|------------------|---------------------------------------|
+|               02 | Trading halt (Pause)                  |
+|               04 | No-Open (Close)                       |
+|               17 | Ready to trade (Open)                 |
+|               18 | Not available for trading (Pre-close) |
+|               21 | Pre-Open                              |
+|              101 | Final Closing Call                    |
 
 #### TRADE_PERIOD - Enumeration
 

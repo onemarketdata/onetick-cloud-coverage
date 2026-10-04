@@ -27,16 +27,16 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |          52540 | 85.49%       |
-| Convertible Bond   |            299 | 0.49%        |
+| Bond               |          51804 | 85.38%       |
+| Convertible Bond   |            295 | 0.49%        |
 | Depository Receipt |             24 | 0.04%        |
-| ETF                |            384 | 0.62%        |
-| Equity             |           1090 | 1.77%        |
+| ETF                |            384 | 0.63%        |
+| Equity             |           1045 | 1.72%        |
 | Investment Fund    |              9 | 0.01%        |
 | Municipal Bond     |             49 | 0.08%        |
 | Preferred Stock    |             14 | 0.02%        |
-| Structured Product |           7049 | 11.47%       |
-| Total              |          61458 | 100%         |
+| Structured Product |           7051 | 11.62%       |
+| Total              |          60675 | 100%         |
 
 
 Consists of 4 Databases

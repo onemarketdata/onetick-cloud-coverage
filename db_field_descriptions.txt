@@ -118,7 +118,9 @@ COND3	IND	Third condition code
 CONSOLIDATED_TAPE	STAT	Consolidated Tape on which a US security is published (A/B/C).
 CONTRA_PARTY_TYPE	TRD	Type of participant that the trade was executed against (on the other side from the reporting party)
 CONTRACT_FREQUENCY	STAT	Expiration frequency of a derivative contract ("D" - Daily, "W" - Weekly, "M" - Monthly, "Q" - Quarterly, "A" - Annual, "I" - Irregular)
+CONTRACT_LOCATION	STAT	Location to which a derivative contract relates (e.g. ISO load zone for US power contracts)
 CONTRACT_MULTIPLE	STAT	Multiple that should be applied to the price of a futures / options contract to determine its value
+CONTRACT_REGION	STAT	Region to which a derivative contract relates
 CONTRACT_SIZE	STAT	Indicates a derivative's underlying quantity
 CONTRACT_UNITS	STAT	Units in which CONTRACT_SIZE is expressed
 CONTRACT_VERSION	STAT	Version number of an individual futures / options contract, incremented each time the contract terms are modified by a corporate action on the underlying

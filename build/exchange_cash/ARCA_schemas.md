@@ -1,6 +1,6 @@
 # NYSE Arca Equities Schemas
 
-NYSE Arca is a fully electronic U.S. securities exchange and a subsidiary of the New York Stock Exchange (NYSE) Group. Originally founded as the Archipelago Exchange (ArcaEx), it merged with the NYSE in 2006. Today, it is the global market leader in trading Exchange-Traded Products (ETPs) like ETFs and ETNs
+NYSE Arca is a fully electronic U.S. securities exchange and a subsidiary of the New York Stock Exchange (NYSE) Group. Originally founded as the Archipelago Exchange (ArcaEx), it merged with the NYSE in 2006. Today, it is the global market leader in trading Exchange-Traded Products (ETPs) like ETFs and ETNs.  Full L1 history for ARCA from the Consolidated Tape is available in the US_COMP dataset.
 
 
 

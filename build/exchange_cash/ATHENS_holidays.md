@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone     | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|---------------|--------------|------------|--------------|------------|
+| Full Holiday    | Europe/Athens | 2026-10-28   | 2026-10-28 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Athens | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Athens | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Athens | 2026-04-13   | 2026-04-13 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Europe/Athens | 2026-03-25   | 2026-03-25 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Athens | 2026-02-23   | 2026-02-23 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Athens | 2026-01-06   | 2026-01-06 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Athens | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 

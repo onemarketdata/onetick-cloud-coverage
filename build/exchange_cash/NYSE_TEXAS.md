@@ -1,6 +1,6 @@
 # NYSE Texas
 
-NYSE Texas is a fully electronic equities exchange headquartered in Dallas, Texas, operated by the New York Stock Exchange. Launched in March 2025, it was created by reincorporating and rebranding NYSE Chicago to provide a dedicated listing and trading venue for companies in the South and Southwest.
+NYSE Texas is a fully electronic equities exchange headquartered in Dallas, Texas, operated by the New York Stock Exchange. Launched in March 2025, it was created by reincorporating and rebranding NYSE Chicago to provide a dedicated listing and trading venue for companies in the South and Southwest.  Full L1 history for NYSE Texas from the Consolidated Tape is available in the US_COMP dataset.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -29,18 +29,18 @@ Includes the following coverage:
 |--------------------|----------------|--------------|
 | ADR                |            401 | 3.03%        |
 | Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5548 | 41.93%       |
+| ETF                |           5538 | 41.89%       |
 | ETN                |             45 | 0.34%        |
 | ETV                |             90 | 0.68%        |
-| Equity             |           5230 | 39.53%       |
+| Equity             |           5233 | 39.58%       |
 | Fund               |            337 | 2.55%        |
 | Preferred Stock    |            435 | 3.29%        |
-| Right              |            125 | 0.94%        |
+| Right              |            120 | 0.91%        |
 | Structured Product |            160 | 1.21%        |
 | Test               |             52 | 0.39%        |
-| Unit               |            313 | 2.37%        |
+| Unit               |            314 | 2.38%        |
 | Warrant            |            440 | 3.33%        |
-| Total              |          13232 | 100%         |
+| Total              |          13221 | 100%         |
 
 
 Consists of 2 Databases

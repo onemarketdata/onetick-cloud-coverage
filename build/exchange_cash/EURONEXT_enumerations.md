@@ -7,20 +7,7 @@ The following fields have Enumerations:
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE (before 20170717) -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
-* MKT_PHASE (from 20170717) - Byte 2 (Market period) -
-* MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
-* MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
-* MKT_PHASE (from 20170717) - Byte 2 (Market period) -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
-* MKT_PHASE (from 20170717) - Byte 2 (Market period) -
-* MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): -
-* MKT_PHASE (from 20170717) - Byte 2 (Market period) -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
-* MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): -
-* MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) -
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * MMT_ALGO_IND - Identifies whether a trade involved an algorithmic order.
 * MMT_BENCHMARK_IND - Identifies whether a trade was priced according to a defined benchmark (e.g. VWAP) or reference price (e.g. midpoint of the primary market BBO), or whether it was part of a trade in multiple instruments (contingent trade or portfolio trade).
 * MMT_CROSS_IND - Identifies agency cross trades, where a broker crossed two client orders outside the order book.
@@ -76,95 +63,48 @@ The following fields have Enumerations:
 | LAMO             | Late monitoring            |
 | TAL              | Trading at Last            |
 
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
+#### MKT_PHASE - Enumeration
 
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| ‘” “’            | Undefined                 |
-
-#### MKT_PHASE (from 20170717) - Byte 2 (Market period) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| ‘” “’            | Undefined                 |
-
-#### MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| ‘” “’            | Undefined                 |
-
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| A                | Auction call              |
-
-#### MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| C                | Call BBO only             |
-
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| C                | Closed                    |
-
-#### MKT_PHASE (from 20170717) - Byte 2 (Market period) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| C                | Closing                   |
-
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| H                | Halted                    |
-| I                | Inaccessible              |
-| N                | Continuous uncrossing     |
-| O                | Continuous trading        |
-
-#### MKT_PHASE (from 20170717) - Byte 2 (Market period) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| O                | Opening                   |
-
-#### MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| Q                | Quoting period            |
-| R                | Random uncrossing         |
-
-#### MKT_PHASE (from 20170717) - Byte 2 (Market period) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| S                | Standard                  |
-
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| S                | Suspended                 |
-
-#### MKT_PHASE (from 20170717) - Byte 3 (Phase qualifier): - Enumeration
-
-| Enumeration ID   | Enumeration Description             |
-|------------------|-------------------------------------|
-| S                | Trading at last + random uncrossing |
-| T                | Trading at last                     |
-
-#### MKT_PHASE (from 20170717) - Byte 1 (Orderbook state) - Enumeration
-
-| Enumeration ID   | Enumeration Description   |
-|------------------|---------------------------|
-| U                | Uncrossing                |
-| Z                | Reserved                  |
+| Enumeration ID   | Enumeration Description                                            |
+|------------------|--------------------------------------------------------------------|
+| AC               | Auction call - Closing                                             |
+| AO               | Auction call - Opening                                             |
+| AS               | Auction call - Standard                                            |
+| CC               | Closed - Closing                                                   |
+| CO               | Closed - Opening                                                   |
+| HC               | Halted - Closing                                                   |
+| HCS              | Halted - Closing - Trading at last + random uncrossing             |
+| HCT              | Halted - Closing - Trading at last                                 |
+| HO               | Halted - Opening                                                   |
+| HSR              | Halted - Standard - Random uncrossing                              |
+| HST              | Halted - Standard - Trading at last                                |
+| IC               | Inaccessible - Closing                                             |
+| IO               | Inaccessible - Opening                                             |
+| OCS              | Continuous trading - Closing - Trading at last + random uncrossing |
+| OCT              | Continuous trading - Closing - Trading at last                     |
+| OSR              | Continuous trading - Standard - Random uncrossing                  |
+| OST              | Continuous trading - Standard - Trading at last                    |
+| SC               | Suspended - Closing                                                |
+| SCS              | Suspended - Closing - Trading at last + random uncrossing          |
+| SCT              | Suspended - Closing - Trading at last                              |
+| SO               | Suspended - Opening                                                |
+| SS               | Suspended - Standard                                               |
+| SSR              | Suspended - Standard - Random uncrossing                           |
+| SST              | Suspended - Standard - Trading at last                             |
+| UC               | Uncrossing - Closing                                               |
+| UCR              | Uncrossing - Closing - Random uncrossing                           |
+| UCS              | Uncrossing - Closing - Trading at last + random uncrossing         |
+| UO               | Uncrossing - Opening                                               |
+| UOR              | Uncrossing - Opening - Random uncrossing                           |
+| USR              | Uncrossing - Standard - Random uncrossing                          |
+| UST              | Uncrossing - Standard - Trading at last                            |
+| ZC               | Reserved - Closing                                                 |
+| ZCS              | Reserved - Closing - Trading at last + random uncrossing           |
+| ZCT              | Reserved - Closing - Trading at last                               |
+| ZO               | Reserved - Opening                                                 |
+| ZS               | Reserved - Standard                                                |
+| ZSR              | Reserved - Standard - Random uncrossing                            |
+| ZST              | Reserved - Standard - Trading at last                              |
 
 #### MMT_ALGO_IND - Enumeration
 
@@ -363,6 +303,7 @@ The following fields have Enumerations:
 | 102              | Large in Scale (LiS) package trade with provisional price |
 | 103              | Issuing / Tender offer trade                              |
 | 104              | RFQ trade                                                 |
+| 105              | Auction Volume Discovery (AVD) trade                      |
 | 20               | Best of Book trade                                        |
 | 24               | Trade cancellation                                        |
 | 25               | Off-market trade                                          |

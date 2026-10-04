@@ -1,6 +1,6 @@
 # Nasdaq PSX
 
-Nasdaq PSX (Philadelphia Stock Exchange) is one of Nasdaq’s three U.S. equities exchanges. It utilizes a price/time priority model and features a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO)
+Nasdaq PSX (Philadelphia Stock Exchange) is one of Nasdaq’s three U.S. equities exchanges. It utilizes a price/time priority model and features a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO).  Full L1 history for Nasdaq PSX from the Consolidated Tape is available in the US_COMP dataset.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -27,21 +27,21 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| ADR                |            401 | 3.03%        |
+| ADR                |            401 | 3.04%        |
 | Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5534 | 41.87%       |
-| ETN                |             45 | 0.34%        |
+| ETF                |           5528 | 41.86%       |
+| ETN                |             44 | 0.33%        |
 | ETV                |             90 | 0.68%        |
-| Equity             |           5225 | 39.53%       |
+| Equity             |           5228 | 39.59%       |
 | Fund               |            337 | 2.55%        |
 | Preferred Stock    |            435 | 3.29%        |
-| Right              |            124 | 0.94%        |
-| Structured Product |            160 | 1.21%        |
+| Right              |            120 | 0.91%        |
+| Structured Product |            159 | 1.2%         |
 | Test               |             23 | 0.17%        |
-| Unit               |            313 | 2.37%        |
+| Unit               |            312 | 2.36%        |
 | Unknown            |             36 | 0.27%        |
-| Warrant            |            439 | 3.32%        |
-| Total              |          13218 | 100%         |
+| Warrant            |            437 | 3.31%        |
+| Total              |          13206 | 100%         |
 
 
 Consists of 2 Databases

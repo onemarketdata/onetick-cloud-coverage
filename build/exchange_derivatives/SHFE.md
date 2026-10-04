@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            238 | 3.56%        |
-| Option          |           6442 | 96.44%       |
-| Total           |           6680 | 100%         |
+| Future          |            238 | 3.27%        |
+| Option          |           7050 | 96.73%       |
+| Total           |           7288 | 100%         |
 
 
 Consists of 3 Databases
@@ -45,6 +45,7 @@ Consists of 3 Databases
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
@@ -70,6 +71,7 @@ Database includes the following tick types:
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
 
 

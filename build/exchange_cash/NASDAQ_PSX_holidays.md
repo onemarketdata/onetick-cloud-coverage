@@ -1,6 +1,6 @@
 # Nasdaq PSX Market Holidays
 
-Nasdaq PSX (Philadelphia Stock Exchange) is one of Nasdaq’s three U.S. equities exchanges. It utilizes a price/time priority model and features a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO)
+Nasdaq PSX (Philadelphia Stock Exchange) is one of Nasdaq’s three U.S. equities exchanges. It utilizes a price/time priority model and features a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO).  Full L1 history for Nasdaq PSX from the Consolidated Tape is available in the US_COMP dataset.
 
 The last 10 Market Holidays are listed
 

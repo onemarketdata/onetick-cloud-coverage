@@ -7,6 +7,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 
 #### BOOK_TYPE - Enumeration
 
@@ -33,4 +34,13 @@ The following fields have Enumerations:
 | 1                | Regular trade             |
 | 2                | Block trade               |
 | 3                | Auction trade             |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description   |
+|------------------|---------------------------|
+|                8 | Pre-Close                 |
+|               14 | Trade-At-Last / TAL       |
+|               12 | Closed                    |
+|                5 | Open / Ongoing Trading    |
 

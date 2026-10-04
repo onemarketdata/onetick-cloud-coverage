@@ -20,11 +20,11 @@ The following fields have Enumerations:
 
 #### TRADE_TYPE - Enumeration
 
-| Enumeration ID   | Enumeration Description                                                                                                      |
-|------------------|------------------------------------------------------------------------------------------------------------------------------|
-| ‘””’             | Regular trade                                                                                                                |
-| BLK              | Block trade                                                                                                                  |
-| LEG              | Strategy leg trade [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null] |
+| Enumeration ID   | Enumeration Description                                                                                                       |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| ‘””’             | Regular trade                                                                                                                 |
+| BLK              | Block trade                                                                                                                   |
+| LEG              | Strategy leg trade  [Synthetic trade reported on each outright leg when two spread orders are matched - price is always null] |
 
 #### TRADE_PERIOD - Enumeration
 

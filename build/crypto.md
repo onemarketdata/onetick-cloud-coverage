@@ -7,6 +7,7 @@ It covers:
 * `BINANCE` - Binance
 * `BITFINEX` - Bitfinex
 * `BITNOMIAL` - Bitnomial
+* `BYBIT` - Bybit
 * `COINBASE_INTL` - Coinbase - International Exchange
 * `COINBASE_US` - Coinbase - US Exchange
 * `DERIBIT` - Deribit

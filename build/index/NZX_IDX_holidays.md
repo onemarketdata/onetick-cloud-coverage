@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|------------------|--------------|------------|--------------|------------|
+| Full Holiday          | Pacific/Auckland | 2026-10-26   | 2026-10-26 | 00:00        | 24:00      |
 | Full Holiday          | Pacific/Auckland | 2026-07-10   | 2026-07-10 | 00:00        | 24:00      |
 | Full Holiday          | Pacific/Auckland | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday          | Pacific/Auckland | 2026-04-27   | 2026-04-27 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Pacific/Auckland | 2026-01-02   | 2026-01-02 | 00:00        | 24:00      |
 | Full Holiday          | Pacific/Auckland | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 | Limited Trading Hours | Pacific/Auckland | 2025-12-31   | 2025-12-31 | 10:00        | 13:00      |
-| Full Holiday          | Pacific/Auckland | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
 

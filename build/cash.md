@@ -71,6 +71,7 @@ It covers:
 * `NASDAQ_PSX` - Nasdaq PSX
 * `NASDAQ_TEXAS` - Nasdaq Texas
 * `NEO` - Cboe Canada (formerly Neo Exchange)
+* `NEXTRADE` - Nextrade ATS
 * `NORDIC_EQ` - Nasdaq Nordic (Stockholm, Copenhagen, Helsinki, Iceland) - Equities
 * `NSE_CASH` - National Stock Exchange of India - Equities
 * `NSE_IX` - NSE International Exchange

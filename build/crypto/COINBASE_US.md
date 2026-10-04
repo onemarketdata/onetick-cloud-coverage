@@ -5,7 +5,7 @@ Coinbase is the largest US-based cryptocurrency exchange, founded in 2012 by Bri
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
 * Time Zone: UTC
-* Start Date: 20240901 Spot, 20260829 Futures
+* Start Date: 20240901 - Spots, 20260829 - Futures
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
@@ -27,9 +27,8 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |            522 | 87.15%       |
-| Future          |             77 | 12.85%       |
-| Total           |            599 | 100%         |
+| FX Spot         |            521 | 100.0%       |
+| Total           |            521 | 100%         |
 
 
 Consists of 2 Databases

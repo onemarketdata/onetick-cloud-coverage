@@ -9,11 +9,39 @@ The Shanghai Futures Exchange is one of China’s four futures exchanges, tradin
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * QTE - Best bid / offer quotes
 * STAT - Static data, e.g. ISIN, description, security type
 * TRD - Trades
 
 
+
+### SHFE - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### SHFE - DAY Table Schema
+
+| Field           | Data Type   | Description                                                                                                                                                                                                                            |
+|-----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME     | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP       | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| UPDATE_TYPE     | string[16]  | Type of update                                                                                                                                                                                                                         |
+| OPEN            | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| HIGH            | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW             | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| CLOSE           | double      | Closing price                                                                                                                                                                                                                          |
+| VOLUME          | double      | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| SETTLE_PRICE    | double      | Settlement price                                                                                                                                                                                                                       |
+| SETTLE_DATE     | string[8]   | Trading date to which the settlement price relates (YYYYMMDD)                                                                                                                                                                          |
+| OPEN_INT        | double      | Open interest for futures / options                                                                                                                                                                                                    |
+| OPEN_INT_DATE   | string[8]   | Trading date to which the open interest relates (YYYYMMDD)                                                                                                                                                                             |
+| TRADE_COUNT     | double      | Number of trades on the current trading day                                                                                                                                                                                            |
+| VWAP            | double      | Volume-weighted average price                                                                                                                                                                                                          |
+| ON_BOOK_VOLUME  | double      | Total volume traded through the orderbook                                                                                                                                                                                              |
+| OFF_BOOK_VOLUME | double      | Total volume traded off-book                                                                                                                                                                                                           |
+| SPREAD_VOLUME   | double      | Total volume originating from spread executions  [i.e. strategy leg trades reported in each outright leg when two spread orders are matched]                                                                                           |
+| OMDSEQ          | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### SHFE - QTE
 
@@ -21,16 +49,17 @@ Best bid / offer quotes
 
 #### SHFE - QTE Table Schema
 
-| Field       | Data Type   | Description                                                                                                                                                                                                                            |
-|-------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SYMBOL_NAME | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
-| TIMESTAMP   | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
-| EXCH_TIME   | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
-| BID_PRICE   | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)                                                                                                       |
-| BID_SIZE    | long        | Best bid size                                                                                                                                                                                                                          |
-| ASK_PRICE   | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)                                                                                                       |
-| ASK_SIZE    | long        | Best ask size                                                                                                                                                                                                                          |
-| OMDSEQ      | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| Field         | Data Type   | Description                                                                                                                                                                                                                            |
+|---------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME   | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP     | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| EXCH_TIME     | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
+| BID_PRICE     | double      | Best bid price. A null value is used if the bid side is empty, or if the best bid is set by unpriced orders (e.g. market orders)                                                                                                       |
+| BID_SIZE      | long        | Best bid size                                                                                                                                                                                                                          |
+| ASK_PRICE     | double      | Best ask price. A null value is used if the ask side is empty, or if the best ask is set by unpriced orders (e.g. market orders)                                                                                                       |
+| ASK_SIZE      | long        | Best ask size                                                                                                                                                                                                                          |
+| QUOTE_SESSION | string[8]   | Trading session from which the quote originates, e.g. Day, Night                                                                                                                                                                       |
+| OMDSEQ        | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### SHFE - STAT
 
@@ -44,8 +73,6 @@ Static data, e.g. ISIN, description, security type
 | TIMESTAMP             | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                    |
 | NAME                  | string[150] | Description of the instrument                                                                                                                                                                                                              |
 | EXCH_SYMBOL           | string[40]  | Ticker symbol specified by the exchange                                                                                                                                                                                                    |
-| RTS_SYMBOL            | string[32]  | Ticker symbol used by ICE Data Services                                                                                                                                                                                                    |
-| FIGI                  | string[12]  | Financial Instrument Global Identifier, identifying an individual instrument traded on a specific venue                                                                                                                                    |
 | PRODUCT_CODE          | string[10]  | Root code of a futures / options product, as specified by the exchange (e.g. CL for Crude Oil futures on NYMEX).   For inter-product spreads, PRODUCT_CODE will include both products, e.g. AB-CD for a spread between products AB and CD. |
 | MIC                   | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                           |
 | OPERATING_MIC         | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                         |
@@ -68,17 +95,22 @@ Trades
 
 #### SHFE - TRD Table Schema
 
-| Field        | Data Type   | Description                                                                                                                                                                                                                            |
-|--------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SYMBOL_NAME  | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
-| TIMESTAMP    | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
-| EXCH_TIME    | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
-| PRICE        | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                              |
-| SIZE         | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross                                       |
-| TRADE_TYPE   | string[6]   | Type of trade                                                                                                                                                                                                                          |
-| DELETED_TIME | msectime    | Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                       |
-| TICK_STATUS  | int         | Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                           |
-| OMDSEQ       | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
+| Field          | Data Type   | Description                                                                                                                                                                                                                            |
+|----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME    | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP      | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| EXCH_TIME      | nsectime    | Event timestamp, as provided by the exchange. For electronic trading this refers to the matching engine timestamp                                                                                                                      |
+| PRICE          | double      | TRD: Trade price, IDX: Index value, IND: Indicative price, PRL: Price point to which the depth entry relates, PRL_FULL: Order price, FIXING: Fixing price, RFC: Price associated with a Request for Cross                              |
+| SIZE           | long        | TRD: Trade size, IND: Indicative size, PRL: Size at the relevant price point, PRL_FULL: Order size, RFQ: Size associated with a Request for Quote, RFC: Size associated with a Request for Cross                                       |
+| AGGRESSOR_SIDE | string[1]   | Indicates whether a trade resulted from an incoming buy or sell order.                                                                                                                                                                 |
+| TRADE_TYPE     | string[6]   | Type of trade                                                                                                                                                                                                                          |
+| TRADE_PERIOD   | string[1]   | Market period during which a trade was executed.                                                                                                                                                                                       |
+| BOOK_TYPE      | string[1]   | Type of order book or trading mechanism through which a trade was executed.                                                                                                                                                            |
+| TRADE_SESSION  | string[8]   | Trading session from which a trade originates, e.g. Day, Night                                                                                                                                                                         |
+| TRADE_ID       | string[20]  | Trade identifier, generally the ID assigned by the matching engine                                                                                                                                                                     |
+| DELETED_TIME   | msectime    | Internal OneTick field. Usually null unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                       |
+| TICK_STATUS    | int         | Internal OneTick field. Always 0 unless hidden ticks are requested (e.g. SHOW_HIDDEN_TICKS).                                                                                                                                           |
+| OMDSEQ         | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 
 
@@ -225,9 +257,37 @@ Daily trade bars
 
 Database includes the following tick types:
 
+* DAY - Daily price and statistical data, e.g. closing price, settlement price, open interest
 * STAT - Static data, e.g. ISIN, description, security type
 
 
+
+### SHFE_DAILY - DAY
+
+Daily price and statistical data, e.g. closing price, settlement price, open interest
+
+#### SHFE_DAILY - DAY Table Schema
+
+| Field           | Data Type   | Description                                                                                                                                                                                                                            |
+|-----------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SYMBOL_NAME     | string      | Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)                                                                         |
+| TIMESTAMP       | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                |
+| UPDATE_TYPE     | string[16]  | Type of update                                                                                                                                                                                                                         |
+| OPEN            | double      | Open price for the current trading day                                                                                                                                                                                                 |
+| HIGH            | double      | DAY: High price for the current trading day  TRD_1M: Price of the highest-priced eligible trade in the current bar interval                                                                                                            |
+| LOW             | double      | DAY: Low price for the current trading day.  TRD_1M: Price of the lowest-priced eligible trade in the current bar interval                                                                                                             |
+| CLOSE           | double      | Closing price                                                                                                                                                                                                                          |
+| VOLUME          | double      | DAY: Total volume traded on the current trading day  TRD_1M, VWAP_1H: Total volume of eligible trades in the current bar interval                                                                                                      |
+| SETTLE_PRICE    | double      | Settlement price                                                                                                                                                                                                                       |
+| SETTLE_DATE     | string[8]   | Trading date to which the settlement price relates (YYYYMMDD)                                                                                                                                                                          |
+| OPEN_INT        | double      | Open interest for futures / options                                                                                                                                                                                                    |
+| OPEN_INT_DATE   | string[8]   | Trading date to which the open interest relates (YYYYMMDD)                                                                                                                                                                             |
+| TRADE_COUNT     | double      | Number of trades on the current trading day                                                                                                                                                                                            |
+| VWAP            | double      | Volume-weighted average price                                                                                                                                                                                                          |
+| ON_BOOK_VOLUME  | double      | Total volume traded through the orderbook                                                                                                                                                                                              |
+| OFF_BOOK_VOLUME | double      | Total volume traded off-book                                                                                                                                                                                                           |
+| SPREAD_VOLUME   | double      | Total volume originating from spread executions  [i.e. strategy leg trades reported in each outright leg when two spread orders are matched]                                                                                           |
+| OMDSEQ          | uint        | Sequence number allowing ticks of different types at the same timestamp to be sorted into the correct chronological order.  e.g. if a trade and a quote have the same timestamp, the one with the lower value of OMDSEQ arrived first. |
 
 ### SHFE_DAILY - STAT
 
@@ -241,8 +301,6 @@ Static data, e.g. ISIN, description, security type
 | TIMESTAMP             | nsectime    | Event Timestamp (typically at a nano-second resolution)                                                                                                                                                                                    |
 | NAME                  | string[150] | Description of the instrument                                                                                                                                                                                                              |
 | EXCH_SYMBOL           | string[40]  | Ticker symbol specified by the exchange                                                                                                                                                                                                    |
-| RTS_SYMBOL            | string[32]  | Ticker symbol used by ICE Data Services                                                                                                                                                                                                    |
-| FIGI                  | string[12]  | Financial Instrument Global Identifier, identifying an individual instrument traded on a specific venue                                                                                                                                    |
 | PRODUCT_CODE          | string[10]  | Root code of a futures / options product, as specified by the exchange (e.g. CL for Crude Oil futures on NYMEX).   For inter-product spreads, PRODUCT_CODE will include both products, e.g. AB-CD for a spread between products AB and CD. |
 | MIC                   | string[4]   | Market Identifier Code (MIC, ISO 10383) identifying the market on which the instrument is traded                                                                                                                                           |
 | OPERATING_MIC         | string[4]   | Market Identifier Code (MIC, ISO 10383) of the exchange that operates the market on which the instrument is traded                                                                                                                         |

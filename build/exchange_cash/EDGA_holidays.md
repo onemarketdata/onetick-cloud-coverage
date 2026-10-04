@@ -1,6 +1,6 @@
 # Cboe EDGA Market Holidays
 
-Cboe EDGA Exchange (EDGA) is a U.S. equities market that transitioned from an inverted to a tier-free, maker-taker pricing structure. It offers unique features like hidden price improvement, retail priority, and periodic auctions to optimize order execution
+Cboe EDGA Exchange (EDGA) is a U.S. equities market that transitioned from an inverted to a tier-free, maker-taker pricing structure. It offers unique features like hidden price improvement, retail priority, and periodic auctions to optimize order execution.  Full L1 history for Cboe EDGA from the Consolidated Tape is available in the US_COMP dataset.
 
 The last 10 Market Holidays are listed
 

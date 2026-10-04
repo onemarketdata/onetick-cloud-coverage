@@ -5,7 +5,7 @@ OKX (formerly OKEx) is a major Seychelles-based cryptocurrency exchange founded 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
 * Time Zone: UTC
-* Start Date: 20240822
+* Start Date: 20240822 - Spots & Futures, 20260909 - Options
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |           1411 | 67.71%       |
-| Future          |            673 | 32.29%       |
-| Total           |           2084 | 100%         |
+| FX Spot         |           1380 | 68.45%       |
+| Future          |            636 | 31.55%       |
+| Total           |           2016 | 100%         |
 
 
 Consists of 2 Databases
