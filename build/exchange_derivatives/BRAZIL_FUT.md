@@ -5,7 +5,7 @@ B3’s Bovespa equities segment is Brazil’s main Derivatives exchange for trad
 * Country: Brazil [BR]
 * Mkt Hours: 10:00-18:15
 * Time Zone: America/Sao_Paulo
-* Start Date: 20091211
+* Start Date: 20091211 - Futures, 20240102 - Options
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

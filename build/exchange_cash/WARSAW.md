@@ -4,7 +4,7 @@ The Warsaw Stock Exchange (GPW) is the largest stock exchange in Central and Eas
 
 * Country: Poland [PL]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/Berlin
+* Time Zone: Europe/Warsaw
 * Start Date: 20140224
 * Real Time Available: No
 * Bars Available: Yes

@@ -5,7 +5,7 @@ MEFF is the Spanish derivatives exchange, offering trading in futures and option
 * Country: Spain [ES]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Europe/Madrid
-* Start Date: 20091211
+* Start Date: 20091211 - Futures, 20250102 - Options
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes

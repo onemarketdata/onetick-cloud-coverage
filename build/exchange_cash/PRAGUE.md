@@ -4,7 +4,7 @@ The Prague Stock Exchange is the principal stock exchange in the Czech Republic.
 
 * Country: Czechia Czech Republic [CZ]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/Berlin
+* Time Zone: Europe/Prague
 * Start Date: 20140102
 * Real Time Available: No
 * Bars Available: Yes

@@ -4,7 +4,7 @@ The Qatar Stock Exchange (QSE) provides a trading platform for Qatari public sha
 
 * Country: Qatar [QA]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Asia/Dubai
+* Time Zone: Asia/Qatar
 * Start Date: 20160627
 * Real Time Available: No
 * Bars Available: Yes

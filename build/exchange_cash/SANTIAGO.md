@@ -4,7 +4,7 @@ The Santiago Stock Exchange (BCS) offers trading in equities, bonds, derivatives
 
 * Country: Chile [CL]
 * Mkt Hours: 08:00-17:00
-* Time Zone: America/Sao_Paulo
+* Time Zone: America/Santiago
 * Start Date: 20081110 - Equities, 20210803 - Indices
 * Real Time Available: No
 * Bars Available: Yes

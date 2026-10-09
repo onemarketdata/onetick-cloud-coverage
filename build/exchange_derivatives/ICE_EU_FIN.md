@@ -5,7 +5,7 @@ ICE Europe Financials facilitates trading in interest rate, equity index, and FX
 * Country: UK United Kindom [GB]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Europe/London
-* Start Date: 20180730
+* Start Date: 20140929
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes

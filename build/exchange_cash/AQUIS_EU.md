@@ -4,7 +4,7 @@ Aquis Europe is the European segment of the Aquis pan-European cash equities tra
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/Paris
+* Time Zone: Europe/London
 * Start Date: 20190930
 * Real Time Available: No
 * Bars Available: Yes

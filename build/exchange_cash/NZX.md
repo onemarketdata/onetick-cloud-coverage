@@ -4,7 +4,7 @@ The NZX is New Zealand’s main securities exchange trading equities, bonds and 
 
 * Country: New Zealand [NZ]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Australia/Sydney
+* Time Zone: Pacific/Auckland
 * Start Date: 20141202
 * Real Time Available: No
 * Bars Available: Yes

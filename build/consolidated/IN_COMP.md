@@ -5,7 +5,7 @@ Consolidated data from all Indian equities exchanges.
 * Country: India [IN]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Asia/Kolkata
-* Start Date: 20250224
+* Start Date: 20120102
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

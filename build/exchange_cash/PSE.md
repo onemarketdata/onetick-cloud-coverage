@@ -4,7 +4,7 @@ The Philippine Stock Exchange (PSE) offers trading in equities, bonds, ETFs, and
 
 * Country: Philippines [PH]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Asia/Tokyo
+* Time Zone: Asia/Manila
 * Start Date: 20091210
 * Real Time Available: No
 * Bars Available: Yes

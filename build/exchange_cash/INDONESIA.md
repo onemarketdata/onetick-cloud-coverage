@@ -5,7 +5,7 @@ The Indonesia Stock Exchange (IDX) offers trading in equities, bonds, ETFs, and 
 * Country: Indonesia [ID]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Asia/Kuala_Lumpur
-* Start Date: 20190808 - Equities, 20170201 - Indices
+* Start Date: 20160509
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

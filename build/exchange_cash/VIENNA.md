@@ -4,7 +4,7 @@ The Vienna Stock Exchange is the only stock exchange in Austria trading Austrian
 
 * Country: Austria [AT]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/Berlin
+* Time Zone: Europe/Vienna
 * Start Date: 20120601
 * Real Time Available: Yes
 * Bars Available: Yes

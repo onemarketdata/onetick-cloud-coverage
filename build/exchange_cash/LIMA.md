@@ -4,7 +4,7 @@ The Lima Stock Exchange is the official stock exchange of Peru where securities 
 
 * Country: Peru [PE]
 * Mkt Hours: 08:00-17:00
-* Time Zone: America/Sao_Paulo
+* Time Zone: America/Lima
 * Start Date: 20160627
 * Real Time Available: No
 * Bars Available: Yes

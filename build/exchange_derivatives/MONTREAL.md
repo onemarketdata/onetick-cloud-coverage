@@ -5,7 +5,7 @@ The Montreal Exchange (MX) offers trading in futures and options on equities, in
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
 * Time Zone: America/Toronto
-* Start Date: 20091211
+* Start Date: 20091211 - Futures, 20250526 - Options
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes

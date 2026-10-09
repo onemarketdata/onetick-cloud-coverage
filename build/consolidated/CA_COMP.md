@@ -5,7 +5,7 @@ Consolidated data from all Canadian equities exchanges, covering Trades, Quotes 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
 * Time Zone: America/Toronto
-* Start Date: 20170529
+* Start Date: 20171101
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

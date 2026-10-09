@@ -4,7 +4,7 @@ Euronext Dublin, formerly the Irish Stock Exchange, is part of the Euronext grou
 
 * Country: Ireland [IE]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/London
+* Time Zone: Europe/Dublin
 * Start Date: 20120601
 * Real Time Available: Yes
 * Bars Available: Yes

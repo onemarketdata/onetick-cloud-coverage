@@ -5,7 +5,7 @@ Borsa Istanbul is Turkey’s sole stock exchange offering trading in Turkish equ
 * Country: Turkey [TR]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Asia/Istanbul
-* Start Date: 20160901
+* Start Date: 20091110
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

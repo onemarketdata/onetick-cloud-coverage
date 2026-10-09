@@ -5,7 +5,7 @@ ICE Europe Commodities provides trading in commodity futures and options like cr
 * Country: UK United Kindom [GB]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Europe/London
-* Start Date: 20220923
+* Start Date: 20091109
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes

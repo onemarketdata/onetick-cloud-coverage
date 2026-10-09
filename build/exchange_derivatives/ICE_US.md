@@ -5,7 +5,7 @@ ICE US offers trading in futures and options across asset classes like agricultu
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
 * Time Zone: America/New_York
-* Start Date: 20220126
+* Start Date: 20091109
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes

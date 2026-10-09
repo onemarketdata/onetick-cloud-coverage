@@ -5,7 +5,7 @@ Consolidated data from all Taiwan equities exchanges.
 * Country: Taiwan [TW]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Asia/Taipei
-* Start Date: 20160602
+* Start Date: 20140902
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No

@@ -5,7 +5,7 @@ Opening and Closing Auction Imbalance data for the ARCA Exchange
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
 * Time Zone: America/New_York
-* Start Date: 20250811
+* Start Date: 20250825
 * Real Time Available: Yes
 * Bars Available: No
 * Book Depth Available: No

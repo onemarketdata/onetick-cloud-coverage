@@ -4,7 +4,7 @@ Warsaw Stock Exchange operates a financial instruments exchange. The Exchange tr
 
 * Country: Poland [PL]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Europe/Berlin
+* Time Zone: Europe/Warsaw
 * Start Date: 20221121
 * Real Time Available: No
 * Bars Available: Yes

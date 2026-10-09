@@ -4,7 +4,7 @@ The Ho Chi Minh Stock Exchange (HOSE) is Vietnam’s largest stock exchange, loc
 
 * Country: Vietnam [VN]
 * Mkt Hours: 08:00-17:00
-* Time Zone: Asia/Singapore
+* Time Zone: Asia/Ho_Chi_Minh
 * Start Date: 20110829
 * Real Time Available: No
 * Bars Available: Yes

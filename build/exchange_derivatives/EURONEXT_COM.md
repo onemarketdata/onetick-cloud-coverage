@@ -5,7 +5,7 @@ Euronext Commodity Derivatives offers trading in agricultural and energy commodi
 * Country: France Netherlands [FR NL]
 * Mkt Hours: 08:00-17:00
 * Time Zone: Europe/Paris
-* Start Date: 20110104
+* Start Date: 20110104 - Futures 20250102 - Options
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
