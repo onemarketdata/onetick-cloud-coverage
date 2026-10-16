@@ -27,9 +27,9 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |             64 | 13.42%       |
+| Bond            |             63 | 13.21%       |
 | ETF             |             14 | 2.94%        |
-| Equity          |            376 | 78.83%       |
+| Equity          |            377 | 79.04%       |
 | Mutual Fund     |              3 | 0.63%        |
 | REIT            |             20 | 4.19%        |
 | Total           |            477 | 100%         |

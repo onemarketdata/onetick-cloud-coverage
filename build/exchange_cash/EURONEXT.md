@@ -27,11 +27,11 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |          11168 | 79.19%       |
-| ETF             |           1731 | 12.27%       |
-| Equity          |           1197 | 8.49%        |
+| Bond            |          11255 | 79.13%       |
+| ETF             |           1762 | 12.39%       |
+| Equity          |           1201 | 8.44%        |
 | Test            |              6 | 0.04%        |
-| Total           |          14102 | 100%         |
+| Total           |          14224 | 100%         |
 
 
 Consists of 4 Databases

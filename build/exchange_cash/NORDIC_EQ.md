@@ -31,12 +31,12 @@ Includes the following coverage:
 | Depository Receipt |              6 | 0.28%        |
 | ETF                |             32 | 1.48%        |
 | ETN                |             16 | 0.74%        |
-| Equity             |           1431 | 66.13%       |
-| Investment Fund    |            496 | 22.92%       |
+| Equity             |           1434 | 66.14%       |
+| Investment Fund    |            496 | 22.88%       |
 | Preferred Stock    |              9 | 0.42%        |
-| Right              |             19 | 0.88%        |
-| Unknown            |             90 | 4.16%        |
-| Total              |           2164 | 100%         |
+| Right              |             15 | 0.69%        |
+| Unknown            |             95 | 4.38%        |
+| Total              |           2168 | 100%         |
 
 
 Consists of 4 Databases

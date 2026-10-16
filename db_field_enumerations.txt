@@ -7605,6 +7605,8 @@ OTCM	UPDATE_TYPE	2	Quote update
 OTCM	UPDATE_TYPE	3	New quote
 OTCM	UPDATE_TYPE	4	Start of day quote
 OTCM	UPDATE_TYPE	5	Open/Close quote
+OTCM	QUOTE_COND	""	Regular quote
+OTCM	QUOTE_COND	S	Saturated quote [participant is unresponsive, quote excluded from the overall BBO]
 PRAGUE	BOOK_TYPE	0	Lit order book
 PRAGUE	BOOK_TYPE	1	Off-book
 PRAGUE	BOOK_TYPE	2	Dark book
@@ -9787,31 +9789,61 @@ WARSAW	BOOK_TYPE	0	Lit order book
 WARSAW	BOOK_TYPE	1	Off-book
 WARSAW	BOOK_TYPE	""	Not applicable
 WARSAW	EVENT_CODE	""	Unspecified
-WARSAW	EVENT_CODE	A	Ask-only period
-WARSAW	EVENT_CODE	B	Bid-only period
-WARSAW	EVENT_CODE	C	Uncrossing
-WARSAW	EVENT_CODE	D	Scheduled re-opening cancelled
-WARSAW	EVENT_CODE	M	Halted
-WARSAW	EVENT_CODE	N	Initialisation
-WARSAW	EVENT_CODE	O	Instrument opened
-WARSAW	EVENT_CODE	P	Re-opening auction
-WARSAW	EVENT_CODE	R	Halted at uncrossing
-WARSAW	EVENT_CODE	Y	Start of single-sided quoting period
-WARSAW	EVENT_CODE	Z	End of sigle-sided quoting period
-WARSAW	MKT_PHASE	A	Auction
-WARSAW	MKT_PHASE	CLAU	Closing auction uncrossing
-WARSAW	MKT_PHASE	CLCA	Closing auction call
-WARSAW	MKT_PHASE	CLSD	Closed
-WARSAW	MKT_PHASE	COAU	Core auction uncrossing
-WARSAW	MKT_PHASE	COCA	Core auction call
-WARSAW	MKT_PHASE	COCO	Core continuous
-WARSAW	MKT_PHASE	COMO	Core monitoring
-WARSAW	MKT_PHASE	CTAL	Core trading at last
-WARSAW	MKT_PHASE	EAMO	Early monitoring
-WARSAW	MKT_PHASE	H	Halted
-WARSAW	MKT_PHASE	HALT	Halted
-WARSAW	MKT_PHASE	LAMO	Late monitoring
-WARSAW	MKT_PHASE	LTAL	Late trading at last
+WARSAW	EVENT_CODE	A	Ask-only period [until 20261002]
+WARSAW	EVENT_CODE	B	Bid-only period [until 20261002]
+WARSAW	EVENT_CODE	C	Uncrossing [until 20261002]
+WARSAW	EVENT_CODE	D	Scheduled re-opening cancelled [until 20261002]
+WARSAW	EVENT_CODE	M	Halted [until 20261002]
+WARSAW	EVENT_CODE	N	Initialisation [until 20261002]
+WARSAW	EVENT_CODE	O	Instrument opened [until 20261002]
+WARSAW	EVENT_CODE	P	Re-opening auction [until 20261002]
+WARSAW	EVENT_CODE	R	Halted at uncrossing [until 20261002]
+WARSAW	EVENT_CODE	Y	Start of single-sided quoting period [until 20261002]
+WARSAW	EVENT_CODE	Z	End of sigle-sided quoting period [until 20261002]
+WARSAW	MKT_PHASE	A	Auction [until 20261002]
+WARSAW	MKT_PHASE	CLAU	Closing auction uncrossing [until 20261002]
+WARSAW	MKT_PHASE	CLCA	Closing auction call [until 20261002]
+WARSAW	MKT_PHASE	CLSD	Closed [until 20261002]
+WARSAW	MKT_PHASE	COAU	Core auction uncrossing [until 20261002]
+WARSAW	MKT_PHASE	COCA	Core auction call [until 20261002]
+WARSAW	MKT_PHASE	COCO	Core continuous [until 20261002]
+WARSAW	MKT_PHASE	COMO	Core monitoring [until 20261002]
+WARSAW	MKT_PHASE	CTAL	Core trading at last [until 20261002]
+WARSAW	MKT_PHASE	EAMO	Early monitoring [until 20261002]
+WARSAW	MKT_PHASE	H	Halted [until 20261002]
+WARSAW	MKT_PHASE	HALT	Halted [until 20261002]
+WARSAW	MKT_PHASE	LAMO	Late monitoring [until 20261002]
+WARSAW	MKT_PHASE	LTAL	Late trading at last [until 20261002]
+WARSAW	MKT_PHASE	1	Continuous trading
+WARSAW	MKT_PHASE	2	Continuous trading (reference price)
+WARSAW	MKT_PHASE	3	Trading at last
+WARSAW	MKT_PHASE	4	Opening auction
+WARSAW	MKT_PHASE	5	Block transactions exact matching
+WARSAW	MKT_PHASE	6	Trading disabled
+WARSAW	MKT_PHASE	7	Uncrossing
+WARSAW	MKT_PHASE	8	Closing auction
+WARSAW	MKT_PHASE	9	Intraday auction
+WARSAW	MKT_PHASE	10	Volatility auction (static)
+WARSAW	MKT_PHASE	11	Volatility auction (dynamic)
+WARSAW	MKT_PHASE	12	Extended volatility auction (static)
+WARSAW	MKT_PHASE	13	Extended volatility auction (dynamic)
+WARSAW	MKT_PHASE	14	Early monitoring
+WARSAW	MKT_PHASE	15	Late monitoring
+WARSAW	MKT_PHASE	16	Hybrid normal trading
+WARSAW	MKT_PHASE	17	Hybrid buy only
+WARSAW	MKT_PHASE	18	Hybrid pre-trading
+WARSAW	MKT_PHASE	19	Auction after suspension
+WARSAW	MKT_PHASE	20	IPO
+WARSAW	MKT_PHASE	21	Tender offer
+WARSAW	MKT_PHASE	22	Hybrid pre-trading buy only
+WARSAW	MKT_PHASE	102	Inactive
+WARSAW	MKT_PHASE	103	Suspended by Market Operations
+WARSAW	MKT_PHASE	104	Outside static collars
+WARSAW	MKT_PHASE	105	Outside dynamic collars
+WARSAW	MKT_PHASE	106	Regulatory suspension
+WARSAW	MKT_PHASE	108	Hybrid no valid quotes
+WARSAW	MKT_PHASE	109	Hybrid knockout
+WARSAW	MKT_PHASE	110	Hybrid knockout by issuer
 WARSAW	MMT_ALGO_IND	-	Not an algorithmic trade
 WARSAW	MMT_ALGO_IND	H	Algorithmic trade
 WARSAW	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -9826,6 +9858,7 @@ WARSAW	MMT_DUP_IND	-	Unique trade report
 WARSAW	MMT_MKT_MECH	-	Not applicable
 WARSAW	MMT_MKT_MECH	1	Central Limit Order Book
 WARSAW	MMT_MKT_MECH	4	Off Book
+WARSAW	MMT_MKT_MECH	7	Hybrid / Other
 WARSAW	MMT_MOD_IND	-	New trade
 WARSAW	MMT_MOD_IND	A	Amended trade
 WARSAW	MMT_MOD_IND	C	Trade cancellation
@@ -9861,15 +9894,15 @@ WARSAW	ORDER_ENTRY_STATUS	N	Order entry enabled
 WARSAW	ORDER_ENTRY_STATUS	Y	Order entry disabled
 WARSAW	ORDER_TYPE	L	Limit order
 WARSAW	ORDER_TYPE	M	Market order
-WARSAW	REASON_CODE	""	Unspecified
-WARSAW	REASON_CODE	A	Max number of orders exceeded
-WARSAW	REASON_CODE	C	Trade price outside dynamic collars
-WARSAW	REASON_CODE	G	Regulatory halt
-WARSAW	REASON_CODE	M	Manual halt
-WARSAW	REASON_CODE	R	No liquidity provider quote
-WARSAW	REASON_CODE	S	Trade price outside static collars
-WARSAW	REASON_CODE	W	Knocked out
-WARSAW	REASON_CODE	X	Underlying halted
+WARSAW	REASON_CODE	""	Unspecified [until 20261002]
+WARSAW	REASON_CODE	A	Max number of orders exceeded [until 20261002]
+WARSAW	REASON_CODE	C	Trade price outside dynamic collars [until 20261002]
+WARSAW	REASON_CODE	G	Regulatory halt [until 20261002]
+WARSAW	REASON_CODE	M	Manual halt [until 20261002]
+WARSAW	REASON_CODE	R	No liquidity provider quote [until 20261002]
+WARSAW	REASON_CODE	S	Trade price outside static collars [until 20261002]
+WARSAW	REASON_CODE	W	Knocked out [until 20261002]
+WARSAW	REASON_CODE	X	Underlying halted [until 20261002]
 WARSAW	TRADE_PERIOD	A	Other auction [e.g. after-hours odd lot auction]
 WARSAW	TRADE_PERIOD	C	Closing auction
 WARSAW	TRADE_PERIOD	I	Intraday auction

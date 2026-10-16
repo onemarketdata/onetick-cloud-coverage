@@ -28,11 +28,11 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Bond            |              2 | 0.04%        |
-| ETF             |           2467 | 54.22%       |
-| Equity          |           2006 | 44.09%       |
-| Investment Fund |             72 | 1.58%        |
+| ETF             |           2530 | 54.87%       |
+| Equity          |           2004 | 43.46%       |
+| Investment Fund |             72 | 1.56%        |
 | Preferred Stock |              3 | 0.07%        |
-| Total           |           4550 | 100%         |
+| Total           |           4611 | 100%         |
 
 
 Consists of 4 Databases

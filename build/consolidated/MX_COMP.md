@@ -27,12 +27,12 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |           1659 | 16.93%       |
-| Equity          |           2711 | 27.66%       |
-| Mutual Fund     |           4113 | 41.97%       |
-| Unknown         |             31 | 0.32%        |
-| Warrant         |           1287 | 13.13%       |
-| Total           |           9801 | 100%         |
+| ETF             |           1684 | 17.1%        |
+| Equity          |           2722 | 27.64%       |
+| Mutual Fund     |           4092 | 41.56%       |
+| Unknown         |             34 | 0.35%        |
+| Warrant         |           1315 | 13.35%       |
+| Total           |           9847 | 100%         |
 
 
 Consists of 3 Databases

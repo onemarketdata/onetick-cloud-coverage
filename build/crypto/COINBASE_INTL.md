@@ -27,9 +27,7 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |             18 | 10.78%       |
-| Future          |            149 | 89.22%       |
-| Total           |            167 | 100%         |
+| Total           |           8811 | 100%         |
 
 
 Consists of 2 Databases

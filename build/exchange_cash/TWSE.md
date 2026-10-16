@@ -28,14 +28,14 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Depository Receipt |              6 | 0.02%        |
-| ETF                |            227 | 0.67%        |
+| ETF                |            229 | 0.62%        |
 | ETN                |             15 | 0.04%        |
-| Equity             |           1100 | 3.26%        |
-| Government Bond    |            148 | 0.44%        |
-| Preferred Stock    |             28 | 0.08%        |
+| Equity             |           1099 | 2.97%        |
+| Government Bond    |            148 | 0.4%         |
+| Preferred Stock    |             27 | 0.07%        |
 | REIT               |              6 | 0.02%        |
-| Structured Product |          32250 | 95.47%       |
-| Total              |          33780 | 100%         |
+| Structured Product |          35513 | 95.87%       |
+| Total              |          37043 | 100%         |
 
 
 Consists of 3 Databases

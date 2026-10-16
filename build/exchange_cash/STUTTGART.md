@@ -25,16 +25,14 @@ Includes the following coverage:
 
 #### STUTTGART -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| Depository Receipt |              1 | 0.01%        |
-| ETF                |           5243 | 34.17%       |
-| Equity             |          10005 | 65.2%        |
-| Investment Fund    |             28 | 0.18%        |
-| Preferred Stock    |             31 | 0.2%         |
-| Right              |             10 | 0.07%        |
-| Unknown            |             28 | 0.18%        |
-| Total              |          15346 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| ETF             |           5471 | 34.86%       |
+| Equity          |          10154 | 64.7%        |
+| Investment Fund |             28 | 0.18%        |
+| Preferred Stock |             30 | 0.19%        |
+| Right           |             10 | 0.06%        |
+| Total           |          15693 | 100%         |
 
 
 Consists of 3 Databases

@@ -11,11 +11,11 @@ The last 10 Market Holidays are listed
 | Full Holiday    | America/Toronto | 2026-12-28   | 2026-12-28 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-12-25   | 2026-12-25 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-10-12   | 2026-10-12 | 00:00        | 24:00      |
+| Full Holiday    | America/Toronto | 2026-09-30   | 2026-09-30 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-08-03   | 2026-08-03 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-07-01   | 2026-07-01 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-05-18   | 2026-05-18 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday    | America/Toronto | 2026-02-16   | 2026-02-16 | 00:00        | 24:00      |
-| Full Holiday    | America/Toronto | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
 

@@ -25,22 +25,9 @@ Includes the following coverage:
 
 #### ARCA -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| ADR                |            401 | 3.03%        |
-| Corporate Bond     |             56 | 0.42%        |
-| ETF                |           5538 | 41.88%       |
-| ETN                |             45 | 0.34%        |
-| ETV                |             90 | 0.68%        |
-| Equity             |           5233 | 39.58%       |
-| Fund               |            337 | 2.55%        |
-| Preferred Stock    |            435 | 3.29%        |
-| Right              |            120 | 0.91%        |
-| Structured Product |            160 | 1.21%        |
-| Test               |             53 | 0.4%         |
-| Unit               |            314 | 2.37%        |
-| Warrant            |            440 | 3.33%        |
-| Total              |          13222 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Total           |           4149 | 100%         |
 
 
 Consists of 2 Databases

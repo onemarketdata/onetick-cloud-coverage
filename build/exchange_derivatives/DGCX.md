@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Future          |            291 | 41.39%       |
-| Futures Spread  |            166 | 23.61%       |
-| Option          |            246 | 34.99%       |
-| Total           |            703 | 100%         |
+| Future          |            242 | 36.95%       |
+| Futures Spread  |            167 | 25.5%        |
+| Option          |            246 | 37.56%       |
+| Total           |            655 | 100%         |
 
 
 Consists of 2 Databases

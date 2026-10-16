@@ -28,16 +28,15 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | ETF                |             13 | 0.23%        |
-| Equity             |           2269 | 40.19%       |
-| Fund               |             44 | 0.78%        |
-| Index              |             58 | 1.03%        |
-| NVDR               |           1513 | 26.8%        |
-| Preferred Stock    |             16 | 0.28%        |
-| REIT               |             64 | 1.13%        |
-| Structured Product |           1581 | 28.01%       |
-| Unknown            |              4 | 0.07%        |
-| Warrant            |             83 | 1.47%        |
-| Total              |           5645 | 100%         |
+| Equity             |           2303 | 41.26%       |
+| Fund               |             49 | 0.88%        |
+| Index              |             58 | 1.04%        |
+| NVDR               |           1547 | 27.71%       |
+| Preferred Stock    |             16 | 0.29%        |
+| REIT               |             64 | 1.15%        |
+| Structured Product |           1449 | 25.96%       |
+| Warrant            |             83 | 1.49%        |
+| Total              |           5582 | 100%         |
 
 
 Consists of 3 Databases

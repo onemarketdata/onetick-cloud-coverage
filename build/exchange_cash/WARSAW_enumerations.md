@@ -47,39 +47,69 @@ The following fields have Enumerations:
 
 #### EVENT_CODE - Enumeration
 
-| Enumeration ID   | Enumeration Description              |
-|------------------|--------------------------------------|
-| ‘””’             | Unspecified                          |
-| A                | Ask-only period                      |
-| B                | Bid-only period                      |
-| C                | Uncrossing                           |
-| D                | Scheduled re-opening cancelled       |
-| M                | Halted                               |
-| N                | Initialisation                       |
-| O                | Instrument opened                    |
-| P                | Re-opening auction                   |
-| R                | Halted at uncrossing                 |
-| Y                | Start of single-sided quoting period |
-| Z                | End of sigle-sided quoting period    |
+| Enumeration ID   | Enumeration Description                               |
+|------------------|-------------------------------------------------------|
+| ‘””’             | Unspecified                                           |
+| A                | Ask-only period [until 20261002]                      |
+| B                | Bid-only period [until 20261002]                      |
+| C                | Uncrossing [until 20261002]                           |
+| D                | Scheduled re-opening cancelled [until 20261002]       |
+| M                | Halted [until 20261002]                               |
+| N                | Initialisation [until 20261002]                       |
+| O                | Instrument opened [until 20261002]                    |
+| P                | Re-opening auction [until 20261002]                   |
+| R                | Halted at uncrossing [until 20261002]                 |
+| Y                | Start of single-sided quoting period [until 20261002] |
+| Z                | End of sigle-sided quoting period [until 20261002]    |
 
 #### MKT_PHASE - Enumeration
 
-| Enumeration ID   | Enumeration Description    |
-|------------------|----------------------------|
-| A                | Auction                    |
-| CLAU             | Closing auction uncrossing |
-| CLCA             | Closing auction call       |
-| CLSD             | Closed                     |
-| COAU             | Core auction uncrossing    |
-| COCA             | Core auction call          |
-| COCO             | Core continuous            |
-| COMO             | Core monitoring            |
-| CTAL             | Core trading at last       |
-| EAMO             | Early monitoring           |
-| H                | Halted                     |
-| HALT             | Halted                     |
-| LAMO             | Late monitoring            |
-| LTAL             | Late trading at last       |
+| Enumeration ID   | Enumeration Description                     |
+|------------------|---------------------------------------------|
+| A                | Auction [until 20261002]                    |
+| CLAU             | Closing auction uncrossing [until 20261002] |
+| CLCA             | Closing auction call [until 20261002]       |
+| CLSD             | Closed [until 20261002]                     |
+| COAU             | Core auction uncrossing [until 20261002]    |
+| COCA             | Core auction call [until 20261002]          |
+| COCO             | Core continuous [until 20261002]            |
+| COMO             | Core monitoring [until 20261002]            |
+| CTAL             | Core trading at last [until 20261002]       |
+| EAMO             | Early monitoring [until 20261002]           |
+| H                | Halted [until 20261002]                     |
+| HALT             | Halted [until 20261002]                     |
+| LAMO             | Late monitoring [until 20261002]            |
+| LTAL             | Late trading at last [until 20261002]       |
+| 1                | Continuous trading                          |
+| 2                | Continuous trading (reference price)        |
+| 3                | Trading at last                             |
+| 4                | Opening auction                             |
+| 5                | Block transactions exact matching           |
+| 6                | Trading disabled                            |
+| 7                | Uncrossing                                  |
+| 8                | Closing auction                             |
+| 9                | Intraday auction                            |
+| 10               | Volatility auction (static)                 |
+| 11               | Volatility auction (dynamic)                |
+| 12               | Extended volatility auction (static)        |
+| 13               | Extended volatility auction (dynamic)       |
+| 14               | Early monitoring                            |
+| 15               | Late monitoring                             |
+| 16               | Hybrid normal trading                       |
+| 17               | Hybrid buy only                             |
+| 18               | Hybrid pre-trading                          |
+| 19               | Auction after suspension                    |
+| 20               | IPO                                         |
+| 21               | Tender offer                                |
+| 22               | Hybrid pre-trading buy only                 |
+| 102              | Inactive                                    |
+| 103              | Suspended by Market Operations              |
+| 104              | Outside static collars                      |
+| 105              | Outside dynamic collars                     |
+| 106              | Regulatory suspension                       |
+| 108              | Hybrid no valid quotes                      |
+| 109              | Hybrid knockout                             |
+| 110              | Hybrid knockout by issuer                   |
 
 #### MMT_ALGO_IND - Enumeration
 
@@ -129,6 +159,7 @@ The following fields have Enumerations:
 | -                | Not applicable            |
 | 1                | Central Limit Order Book  |
 | 4                | Off Book                  |
+| 7                | Hybrid / Other            |
 
 #### MMT_MOD_IND - Enumeration
 
@@ -212,17 +243,17 @@ The following fields have Enumerations:
 
 #### REASON_CODE - Enumeration
 
-| Enumeration ID   | Enumeration Description             |
-|------------------|-------------------------------------|
-| ‘””’             | Unspecified                         |
-| A                | Max number of orders exceeded       |
-| C                | Trade price outside dynamic collars |
-| G                | Regulatory halt                     |
-| M                | Manual halt                         |
-| R                | No liquidity provider quote         |
-| S                | Trade price outside static collars  |
-| W                | Knocked out                         |
-| X                | Underlying halted                   |
+| Enumeration ID   | Enumeration Description                              |
+|------------------|------------------------------------------------------|
+| ‘””’             | Unspecified [until 20261002]                         |
+| A                | Max number of orders exceeded [until 20261002]       |
+| C                | Trade price outside dynamic collars [until 20261002] |
+| G                | Regulatory halt [until 20261002]                     |
+| M                | Manual halt [until 20261002]                         |
+| R                | No liquidity provider quote [until 20261002]         |
+| S                | Trade price outside static collars [until 20261002]  |
+| W                | Knocked out [until 20261002]                         |
+| X                | Underlying halted [until 20261002]                   |
 
 #### TRADE_PERIOD - Enumeration
 
