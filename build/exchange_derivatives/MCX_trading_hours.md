@@ -8,5 +8,5 @@ Trading Hours are divided into multiple sessions
 
 | Session Name   | Time Zone     | Start Time   | End Time   |
 |----------------|---------------|--------------|------------|
-| DAY            | Asia/Calcutta | 09:00        | 23:30      |
+| DAY            | Asia/Calcutta | 09:00        | 23:55      |
 

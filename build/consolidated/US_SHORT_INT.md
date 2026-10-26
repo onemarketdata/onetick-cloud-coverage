@@ -25,9 +25,22 @@ Includes the following coverage:
 
 #### US_SHORT_INT -  Coverage
 
-| Security Type   |   # of Symbols | % of Total   |
-|-----------------|----------------|--------------|
-| Total           |          13314 | 100%         |
+| Security Type      |   # of Symbols | % of Total   |
+|--------------------|----------------|--------------|
+| ADR                |            403 | 3.03%        |
+| Corporate Bond     |             57 | 0.43%        |
+| ETF                |           5662 | 42.51%       |
+| ETN                |             45 | 0.34%        |
+| ETV                |             90 | 0.68%        |
+| Equity             |           5267 | 39.54%       |
+| Fund               |            335 | 2.52%        |
+| Preferred Stock    |            430 | 3.23%        |
+| Right              |            121 | 0.91%        |
+| Structured Product |            155 | 1.16%        |
+| Unit               |            310 | 2.33%        |
+| Unknown            |             13 | 0.1%         |
+| Warrant            |            432 | 3.24%        |
+| Total              |          13320 | 100%         |
 
 
 Consists of 1 Databases

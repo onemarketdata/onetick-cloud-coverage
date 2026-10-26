@@ -8,7 +8,7 @@ Trading Hours are divided into multiple sessions
 
 | Session Name   | Time Zone    | Start Time   | End Time   |
 |----------------|--------------|--------------|------------|
-| PRE_MARKET     | America/Lima | 07:30        | 09:00      |
-| MARKET         | America/Lima | 09:00        | 16:10      |
-| POST_MARKET    | America/Lima | 16:10        | 17:30      |
+| PRE_MARKET     | America/Lima | 09:00        | 09:30      |
+| MARKET         | America/Lima | 09:30        | 16:00      |
+| POST_MARKET    | America/Lima | 16:00        | 16:10      |
 

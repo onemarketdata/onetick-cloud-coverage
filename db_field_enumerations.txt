@@ -125,16 +125,20 @@ AMEX	AGGRESSOR_SIDE	S	Sell
 AMEX	TRADE_TYPE	""	Regular trade
 AMEX	TRADE_TYPE	A	Auction trade
 AMEX	TRADE_TYPE	H	Regular trade against hidden liquidity
-AMEX	TRADE_TYPE_EXT	@	Standard settlement
-AMEX	TRADE_TYPE_EXT	" "	No trade-through exemption
-AMEX	TRADE_TYPE_EXT	F	Intremarket sweep
-AMEX	TRADE_TYPE_EXT	O	Market center opening trade
-AMEX	TRADE_TYPE_EXT	5	Re-opening trade
-AMEX	TRADE_TYPE_EXT	6	Market center closing trade
-AMEX	TRADE_TYPE_EXT	T	Extended hours
-AMEX	TRADE_TYPE_EXT	U	Extended hours + out of sequence
-AMEX	TRADE_TYPE_EXT	Z	Out of sequence
-AMEX	TRADE_TYPE_EXT	I	Odd lot trade
+AMEX	TRADE_TYPE_EXT	@   	Standard settlement - No trade-through exemption - Not applicable - Not applicable
+AMEX	TRADE_TYPE_EXT	@  I	Standard settlement - No trade-through exemption - Not applicable - Odd lot trade
+AMEX	TRADE_TYPE_EXT	@ T 	Standard settlement - No trade-through exemption - Extended hours - Not applicable
+AMEX	TRADE_TYPE_EXT	@ TI	Standard settlement - No trade-through exemption - Extended hours - Odd lot trade
+AMEX	TRADE_TYPE_EXT	@5  	Standard settlement - Re-opening trade - Not applicable - Not applicable
+AMEX	TRADE_TYPE_EXT	@5T 	Standard settlement - Re-opening trade - Extended hours  - Not applicable
+AMEX	TRADE_TYPE_EXT	@6  	Standard settlement - Market center closing trade - Not applicable - Not applicable
+AMEX	TRADE_TYPE_EXT	@6 I	Standard settlement - Market center closing trade - Not applicable - Odd lot trade
+AMEX	TRADE_TYPE_EXT	@F  	Standard settlement - Intermarket sweep - Not applicable - Not applicable
+AMEX	TRADE_TYPE_EXT	@F I	Standard settlement - Intermarket sweep - Not applicable - Odd lot trade
+AMEX	TRADE_TYPE_EXT	@FT 	Standard settlement - Intermarket sweep - Extended hours - Not applicable
+AMEX	TRADE_TYPE_EXT	@FTI	Standard settlement - Intermarket sweep - Extended hours - Odd lot trade
+AMEX	TRADE_TYPE_EXT	@O  	Standard settlement - Market center opening trade - Not applicable - Not applicable
+AMEX	TRADE_TYPE_EXT	@O I	Standard settlement - Market center opening trade - Not applicable - Odd lot trade
 AMEX	ODD_LOT	Y	Odd lot
 AMEX	ODD_LOT	""	Not an odd lot
 AMEX	TRADE_PERIOD	-	Regular trading
@@ -413,16 +417,20 @@ ARCA	AGGRESSOR_SIDE	S	Sell
 ARCA	TRADE_TYPE	""	Regular trade
 ARCA	TRADE_TYPE	A	Auction trade
 ARCA	TRADE_TYPE	H	Regular trade against hidden liquidity
-ARCA	TRADE_TYPE_EXT	@	Standard settlement
-ARCA	TRADE_TYPE_EXT	" "	No trade-through exemption
-ARCA	TRADE_TYPE_EXT	F	Intremarket sweep
-ARCA	TRADE_TYPE_EXT	O	Market center opening trade
-ARCA	TRADE_TYPE_EXT	5	Re-opening trade
-ARCA	TRADE_TYPE_EXT	6	Market center closing trade
-ARCA	TRADE_TYPE_EXT	T	Extended hours
-ARCA	TRADE_TYPE_EXT	U	Extended hours + out of sequence
-ARCA	TRADE_TYPE_EXT	Z	Out of sequence
-ARCA	TRADE_TYPE_EXT	I	Odd lot trade
+ARCA	TRADE_TYPE_EXT	@   	Standard settlement - No trade-through exemption - Not applicable - Not applicable
+ARCA	TRADE_TYPE_EXT	@  I	Standard settlement - No trade-through exemption - Not applicable - Odd lot trade
+ARCA	TRADE_TYPE_EXT	@ T 	Standard settlement - No trade-through exemption - Extended hours - Not applicable
+ARCA	TRADE_TYPE_EXT	@ TI	Standard settlement - No trade-through exemption - Extended hours - Odd lot trade
+ARCA	TRADE_TYPE_EXT	@5  	Standard settlement - Re-opening trade - Not applicable - Not applicable
+ARCA	TRADE_TYPE_EXT	@5T 	Standard settlement - Re-opening trade - Extended hours  - Not applicable
+ARCA	TRADE_TYPE_EXT	@6  	Standard settlement - Market center closing trade - Not applicable - Not applicable
+ARCA	TRADE_TYPE_EXT	@6 I	Standard settlement - Market center closing trade - Not applicable - Odd lot trade
+ARCA	TRADE_TYPE_EXT	@F  	Standard settlement - Intermarket sweep - Not applicable - Not applicable
+ARCA	TRADE_TYPE_EXT	@F I	Standard settlement - Intermarket sweep - Not applicable - Odd lot trade
+ARCA	TRADE_TYPE_EXT	@FT 	Standard settlement - Intermarket sweep - Extended hours - Not applicable
+ARCA	TRADE_TYPE_EXT	@FTI	Standard settlement - Intermarket sweep - Extended hours - Odd lot trade
+ARCA	TRADE_TYPE_EXT	@O  	Standard settlement - Market center opening trade - Not applicable - Not applicable
+ARCA	TRADE_TYPE_EXT	@O I	Standard settlement - Market center opening trade - Not applicable - Odd lot trade
 ARCA	ODD_LOT	Y	Odd lot
 ARCA	ODD_LOT	""	Not an odd lot
 ARCA	TRADE_PERIOD	-	Regular trading
@@ -1165,6 +1173,7 @@ BXE	MMT_PUB_MODE	3	Deferred publication (illiquid instrument)
 BXE	MMT_PUB_MODE	4	Deferred publication (size specific to instrument)
 BXE	MMT_PUB_MODE	5	Deferred publication (illiquid instrument and size specific to instrument)
 BXE	MMT_PUB_MODE	6	Deferred publication (illiquid instrument and Large in Scale)
+BXE	MMT_PUB_MODE	G	Deferral for ETCs / ETNs / SFPs / emission allowances
 BXE	MMT_TRANS_CAT	-	No condition
 BXE	MMT_TRANS_CAT	D	Dark trade
 BXE	MMT_TRANS_CAT	R	Trade receiving price improvement
@@ -7063,16 +7072,20 @@ NYSE	AGGRESSOR_SIDE	S	Sell
 NYSE	TRADE_TYPE	""	Regular trade
 NYSE	TRADE_TYPE	A	Auction trade
 NYSE	TRADE_TYPE	H	Regular trade against hidden liquidity
-NYSE	TRADE_TYPE_EXT	@	Standard settlement
-NYSE	TRADE_TYPE_EXT	" "	No trade-through exemption
-NYSE	TRADE_TYPE_EXT	F	Intremarket sweep
-NYSE	TRADE_TYPE_EXT	O	Market center opening trade
-NYSE	TRADE_TYPE_EXT	5	Re-opening trade
-NYSE	TRADE_TYPE_EXT	6	Market center closing trade
-NYSE	TRADE_TYPE_EXT	T	Extended hours
-NYSE	TRADE_TYPE_EXT	U	Extended hours + out of sequence
-NYSE	TRADE_TYPE_EXT	Z	Out of sequence
-NYSE	TRADE_TYPE_EXT	I	Odd lot trade
+NYSE	TRADE_TYPE_EXT	@   	Standard settlement - No trade-through exemption - Not applicable - Not applicable
+NYSE	TRADE_TYPE_EXT	@  I	Standard settlement - No trade-through exemption - Not applicable - Odd lot trade
+NYSE	TRADE_TYPE_EXT	@ T 	Standard settlement - No trade-through exemption - Extended hours - Not applicable
+NYSE	TRADE_TYPE_EXT	@ TI	Standard settlement - No trade-through exemption - Extended hours - Odd lot trade
+NYSE	TRADE_TYPE_EXT	@5  	Standard settlement - Re-opening trade - Not applicable - Not applicable
+NYSE	TRADE_TYPE_EXT	@5T 	Standard settlement - Re-opening trade - Extended hours  - Not applicable
+NYSE	TRADE_TYPE_EXT	@6  	Standard settlement - Market center closing trade - Not applicable - Not applicable
+NYSE	TRADE_TYPE_EXT	@6 I	Standard settlement - Market center closing trade - Not applicable - Odd lot trade
+NYSE	TRADE_TYPE_EXT	@F  	Standard settlement - Intermarket sweep - Not applicable - Not applicable
+NYSE	TRADE_TYPE_EXT	@F I	Standard settlement - Intermarket sweep - Not applicable - Odd lot trade
+NYSE	TRADE_TYPE_EXT	@FT 	Standard settlement - Intermarket sweep - Extended hours - Not applicable
+NYSE	TRADE_TYPE_EXT	@FTI	Standard settlement - Intermarket sweep - Extended hours - Odd lot trade
+NYSE	TRADE_TYPE_EXT	@O  	Standard settlement - Market center opening trade - Not applicable - Not applicable
+NYSE	TRADE_TYPE_EXT	@O I	Standard settlement - Market center opening trade - Not applicable - Odd lot trade
 NYSE	ODD_LOT	Y	Odd lot
 NYSE	ODD_LOT	""	Not an odd lot
 NYSE	TRADE_PERIOD	-	Regular trading
@@ -7145,16 +7158,20 @@ NYSE_TEXAS	AGGRESSOR_SIDE	S	Sell
 NYSE_TEXAS	TRADE_TYPE	""	Regular trade
 NYSE_TEXAS	TRADE_TYPE	A	Auction trade
 NYSE_TEXAS	TRADE_TYPE	H	Regular trade against hidden liquidity
-NYSE_TEXAS	TRADE_TYPE_EXT	@	Standard settlement
-NYSE_TEXAS	TRADE_TYPE_EXT	" "	No trade-through exemption
-NYSE_TEXAS	TRADE_TYPE_EXT	F	Intremarket sweep
-NYSE_TEXAS	TRADE_TYPE_EXT	O	Market center opening trade
-NYSE_TEXAS	TRADE_TYPE_EXT	5	Re-opening trade
-NYSE_TEXAS	TRADE_TYPE_EXT	6	Market center closing trade
-NYSE_TEXAS	TRADE_TYPE_EXT	T	Extended hours
-NYSE_TEXAS	TRADE_TYPE_EXT	U	Extended hours + out of sequence
-NYSE_TEXAS	TRADE_TYPE_EXT	Z	Out of sequence
-NYSE_TEXAS	TRADE_TYPE_EXT	I	Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@   	Standard settlement - No trade-through exemption - Not applicable - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@  I	Standard settlement - No trade-through exemption - Not applicable - Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@ T 	Standard settlement - No trade-through exemption - Extended hours - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@ TI	Standard settlement - No trade-through exemption - Extended hours - Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@5  	Standard settlement - Re-opening trade - Not applicable - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@5T 	Standard settlement - Re-opening trade - Extended hours  - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@6  	Standard settlement - Market center closing trade - Not applicable - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@6 I	Standard settlement - Market center closing trade - Not applicable - Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@F  	Standard settlement - Intermarket sweep - Not applicable - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@F I	Standard settlement - Intermarket sweep - Not applicable - Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@FT 	Standard settlement - Intermarket sweep - Extended hours - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@FTI	Standard settlement - Intermarket sweep - Extended hours - Odd lot trade
+NYSE_TEXAS	TRADE_TYPE_EXT	@O  	Standard settlement - Market center opening trade - Not applicable - Not applicable
+NYSE_TEXAS	TRADE_TYPE_EXT	@O I	Standard settlement - Market center opening trade - Not applicable - Odd lot trade
 NYSE_TEXAS	ODD_LOT	Y	Odd lot
 NYSE_TEXAS	ODD_LOT	""	Not an odd lot
 NYSE_TEXAS	TRADE_PERIOD	-	Regular trading
@@ -7361,6 +7378,8 @@ OSAKA_FUT	TRADE_TYPE	36	Tailor-Made Combination leg trade
 OSAKA_FUT	TRADE_TYPE	43	Trade from implied order
 OSAKA_FUT	TRADE_TYPE	5	J-Net cross trade
 OSAKA_FUT	TRADE_TYPE	7	Standard Combination leg trade
+OSAKA_FUT	TRADE_SESSION	Day	Day session
+OSAKA_FUT	TRADE_SESSION	Night	Night session
 OSAKA_JGB	BOOK_TYPE	0	Lit order book
 OSAKA_JGB	BOOK_TYPE	1	Off-book
 OSAKA_JGB	CALL_PUT_IND	C	Call option
@@ -7377,6 +7396,8 @@ OSAKA_JGB	TRADE_TYPE	36	Tailor-Made Combination leg trade
 OSAKA_JGB	TRADE_TYPE	43	Trade from implied order
 OSAKA_JGB	TRADE_TYPE	5	J-Net cross trade
 OSAKA_JGB	TRADE_TYPE	7	Standard Combination leg trade
+OSAKA_JGB	TRADE_SESSION	Day	Day session
+OSAKA_JGB	TRADE_SESSION	Night	Night session
 OSLO	AGGRESSOR_SIDE	""	Undefined (e.g. auction trades, off-book trades)
 OSLO	AGGRESSOR_SIDE	B	Buy
 OSLO	AGGRESSOR_SIDE	S	Sell
@@ -7775,6 +7796,7 @@ PURE	UPDATE_TYPE	D	Delete
 PURE	UPDATE_TYPE	F	Fill
 PURE	UPDATE_TYPE	M	Modify
 PURE	UPDATE_TYPE	P	Partial fill
+QATAR	BOOK_TYPE	0	Lit order book
 QATAR	TRADE_PERIOD	-	Regular trading
 QATAR	TRADE_PERIOD	C	Closing auction
 QATAR	TRADE_PERIOD	O	Opening auction
@@ -8621,6 +8643,17 @@ TURQUOISE	BOOK_TYPE	1	Off-book
 TURQUOISE	BOOK_TYPE	2	Dark book
 TURQUOISE	BOOK_TYPE	6	Auction book
 TURQUOISE	BOOK_TYPE	9	Off-exchange
+TURQUOISE	MKT_PHASE	0	Inactive
+TURQUOISE	MKT_PHASE	1	Start of day
+TURQUOISE	MKT_PHASE	2	Regular trading
+TURQUOISE	MKT_PHASE	3	Closed
+TURQUOISE	MKT_PHASE	4	Halted
+TURQUOISE	MKT_PHASE	5	Suspended
+TURQUOISE	MKT_PHASE	19	End of regular trading
+TURQUOISE	MKT_PHASE	23	No active session
+TURQUOISE	MKT_PHASE	110	Halt (matching partition suspended)
+TURQUOISE	MKT_PHASE	111	Halt (system suspended)
+TURQUOISE	MKT_PHASE	116	Regulatory halt
 TURQUOISE	MMT_ALGO_IND	-	Not an algorithmic trade
 TURQUOISE	MMT_ALGO_IND	H	Algorithmic trade
 TURQUOISE	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -8696,6 +8729,17 @@ TURQUOISE_EU	BOOK_TYPE	1	Off-book
 TURQUOISE_EU	BOOK_TYPE	2	Dark book
 TURQUOISE_EU	BOOK_TYPE	6	Auction book
 TURQUOISE_EU	BOOK_TYPE	9	Off-exchange
+TURQUOISE_EU	MKT_PHASE	0	Inactive
+TURQUOISE_EU	MKT_PHASE	1	Start of day
+TURQUOISE_EU	MKT_PHASE	2	Regular trading
+TURQUOISE_EU	MKT_PHASE	3	Closed
+TURQUOISE_EU	MKT_PHASE	4	Halted
+TURQUOISE_EU	MKT_PHASE	5	Suspended
+TURQUOISE_EU	MKT_PHASE	19	End of regular trading
+TURQUOISE_EU	MKT_PHASE	23	No active session
+TURQUOISE_EU	MKT_PHASE	110	Halt (matching partition suspended)
+TURQUOISE_EU	MKT_PHASE	111	Halt (system suspended)
+TURQUOISE_EU	MKT_PHASE	116	Regulatory halt
 TURQUOISE_EU	MMT_ALGO_IND	-	Not an algorithmic trade
 TURQUOISE_EU	MMT_ALGO_IND	H	Algorithmic trade
 TURQUOISE_EU	MMT_BENCHMARK_IND	-	Not a benchmark trade
@@ -8835,86 +8879,120 @@ US_COMP	BOOK_TYPE	9	Off-exchange
 US_COMP	BOOK_TYPE	""	Not applicable
 US_COMP	EVENT_TYPE	EARNING_DATE	Earnings Issue
 US_COMP	EVENT_TYPE	COMPANY_CONFERENCE_CALL	Company Conference Call
-US_COMP	QTE_COND / COND (QTE)	0	Fast trading
-US_COMP	QTE_COND / COND (QTE)	1	Non-firm bid and offer [Prior to 20030910: Depth on offer side]
-US_COMP	QTE_COND / COND (QTE)	10	Opening quote [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	11	News pending [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	12	Regular quote [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	13	Trading halt due to related security [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	14	Trading halt in view of common [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	15	Order influx [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	16	No open / no resume [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	17	Opening range [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	18	Re-opening range [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	19	Related security news dissemination [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	2	Order influx [Prior to 20030910: Depth on bid side]
-US_COMP	QTE_COND / COND (QTE)	20	Related security news pending [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	27	Additional information [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	28	Additional information due to related security [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	29	Resume [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	3	Republished LULD price band [Prior to 20030910: Closing quote]
-US_COMP	QTE_COND / COND (QTE)	4	On demand intraday auction [Prior to 20030910: News dissemination]
-US_COMP	QTE_COND / COND (QTE)	5	Fast trading [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	6	Depth on bid and offer [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	7	Order imbalance [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	8	Closed maket maker [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	9	Non-firm quote [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	99	Regular, one-sided quote [until 20030909]
-US_COMP	QTE_COND / COND (QTE)	A	Slow quote on offer side
-US_COMP	QTE_COND / COND (QTE)	B	Slow quote on bid side
-US_COMP	QTE_COND / COND (QTE)	C	Closing
-US_COMP	QTE_COND / COND (QTE)	D	News dissemination
-US_COMP	QTE_COND / COND (QTE)	E	Slow quote on bid side due to LRP or GAP quote
-US_COMP	QTE_COND / COND (QTE)	F	Slow quote on offer side due to LRP or GAP quote
-US_COMP	QTE_COND / COND (QTE)	G	Trading range indication
-US_COMP	QTE_COND / COND (QTE)	H	Slow quote on bid and offer sides
-US_COMP	QTE_COND / COND (QTE)	I	Order imbalance
-US_COMP	QTE_COND / COND (QTE)	L	Market maker closed (FINRA)
-US_COMP	QTE_COND / COND (QTE)	M	LULD trading pause
-US_COMP	QTE_COND / COND (QTE)	N	Non-firm quote
-US_COMP	QTE_COND / COND (QTE)	O	Opening quote
-US_COMP	QTE_COND / COND (QTE)	P	News pending
-US_COMP	QTE_COND / COND (QTE)	R	Regular, two-sided quote
-US_COMP	QTE_COND / COND (QTE)	T	Resume
-US_COMP	QTE_COND / COND (QTE)	U	Slow on bid and offer sides due to LRP or GAP quote
-US_COMP	QTE_COND / COND (QTE)	W	Slow quote due to a Set Slow list on both bid and offer sides
-US_COMP	QTE_COND / COND (QTE)	X	Equipment changeover
-US_COMP	QTE_COND / COND (QTE)	Y	Regular, one-sided quote
-US_COMP	QTE_COND / COND (QTE)	Z	No open / no resume
-US_COMP	TRADE_TYPE / COND (TRD)	""	No condition
-US_COMP	TRADE_TYPE / COND (TRD)	" " (space)	No condition
-US_COMP	TRADE_TYPE / COND (TRD)	@	No condition
-US_COMP	TRADE_TYPE / COND (TRD)	1	Stopped stock
-US_COMP	TRADE_TYPE / COND (TRD)	4	Derivatively priced
-US_COMP	TRADE_TYPE / COND (TRD)	5	Market center re-opening trade
-US_COMP	TRADE_TYPE / COND (TRD)	6	Market center closing trade
-US_COMP	TRADE_TYPE / COND (TRD)	7	Qualified contingent trade
-US_COMP	TRADE_TYPE / COND (TRD)	9	Corrected consolidated close price
-US_COMP	TRADE_TYPE / COND (TRD)	A	Acquisition
-US_COMP	TRADE_TYPE / COND (TRD)	B	Average price trade (CTA issues) or Bunched trade (UTP issues)
-US_COMP	TRADE_TYPE / COND (TRD)	C	Cash trade (Same day clearing)
-US_COMP	TRADE_TYPE / COND (TRD)	D	Distribution
-US_COMP	TRADE_TYPE / COND (TRD)	E	Automatic execution
-US_COMP	TRADE_TYPE / COND (TRD)	F	Intermarket sweep
-US_COMP	TRADE_TYPE / COND (TRD)	G	Bunched sold trade
-US_COMP	TRADE_TYPE / COND (TRD)	H	Price variation trade
-US_COMP	TRADE_TYPE / COND (TRD)	I	Odd lot trade
-US_COMP	TRADE_TYPE / COND (TRD)	K	Rule 127 (NYSE) or Rule 155 trade (NYSE American)
-US_COMP	TRADE_TYPE / COND (TRD)	L	Sold last (Late reported)
-US_COMP	TRADE_TYPE / COND (TRD)	M	Market center official close
-US_COMP	TRADE_TYPE / COND (TRD)	N	Next day trade (Next day clearing)
-US_COMP	TRADE_TYPE / COND (TRD)	O	Market center opening trade
-US_COMP	TRADE_TYPE / COND (TRD)	P	Prior reference price
-US_COMP	TRADE_TYPE / COND (TRD)	Q	Market center official open
-US_COMP	TRADE_TYPE / COND (TRD)	R	Seller
-US_COMP	TRADE_TYPE / COND (TRD)	S	Split trade
-US_COMP	TRADE_TYPE / COND (TRD)	T	Extended hours trade
-US_COMP	TRADE_TYPE / COND (TRD)	U	Extended hours (sold out of sequence)
-US_COMP	TRADE_TYPE / COND (TRD)	V	Contingent trade
-US_COMP	TRADE_TYPE / COND (TRD)	W	Average price trade
-US_COMP	TRADE_TYPE / COND (TRD)	X	Cross (auction) trade
-US_COMP	TRADE_TYPE / COND (TRD)	Y	Yellow flag regular trade
-US_COMP	TRADE_TYPE / COND (TRD)	Z	Sold (out of sequence)
+US_COMP	QTE_COND	0	Fast trading
+US_COMP	QTE_COND	1	Non-firm bid and offer [Prior to 20030910: Depth on offer side]
+US_COMP	QTE_COND	10	Opening quote [until 20030909]
+US_COMP	QTE_COND	11	News pending [until 20030909]
+US_COMP	QTE_COND	12	Regular quote [until 20030909]
+US_COMP	QTE_COND	13	Trading halt due to related security [until 20030909]
+US_COMP	QTE_COND	14	Trading halt in view of common [until 20030909]
+US_COMP	QTE_COND	15	Order influx [until 20030909]
+US_COMP	QTE_COND	16	No open / no resume [until 20030909]
+US_COMP	QTE_COND	17	Opening range [until 20030909]
+US_COMP	QTE_COND	18	Re-opening range [until 20030909]
+US_COMP	QTE_COND	19	Related security news dissemination [until 20030909]
+US_COMP	QTE_COND	2	Order influx [Prior to 20030910: Depth on bid side]
+US_COMP	QTE_COND	20	Related security news pending [until 20030909]
+US_COMP	QTE_COND	27	Additional information [until 20030909]
+US_COMP	QTE_COND	28	Additional information due to related security [until 20030909]
+US_COMP	QTE_COND	29	Resume [until 20030909]
+US_COMP	QTE_COND	3	Republished LULD price band [Prior to 20030910: Closing quote]
+US_COMP	QTE_COND	4	On demand intraday auction [Prior to 20030910: News dissemination]
+US_COMP	QTE_COND	5	Fast trading [until 20030909]
+US_COMP	QTE_COND	6	Depth on bid and offer [until 20030909]
+US_COMP	QTE_COND	7	Order imbalance [until 20030909]
+US_COMP	QTE_COND	8	Closed maket maker [until 20030909]
+US_COMP	QTE_COND	9	Non-firm quote [until 20030909]
+US_COMP	QTE_COND	99	Regular, one-sided quote [until 20030909]
+US_COMP	QTE_COND	A	Slow quote on offer side
+US_COMP	QTE_COND	B	Slow quote on bid side
+US_COMP	QTE_COND	C	Closing
+US_COMP	QTE_COND	D	News dissemination
+US_COMP	QTE_COND	E	Slow quote on bid side due to LRP or GAP quote
+US_COMP	QTE_COND	F	Slow quote on offer side due to LRP or GAP quote
+US_COMP	QTE_COND	G	Trading range indication
+US_COMP	QTE_COND	H	Slow quote on bid and offer sides
+US_COMP	QTE_COND	I	Order imbalance
+US_COMP	QTE_COND	L	Market maker closed (FINRA)
+US_COMP	QTE_COND	M	LULD trading pause
+US_COMP	QTE_COND	N	Non-firm quote
+US_COMP	QTE_COND	O	Opening quote
+US_COMP	QTE_COND	P	News pending
+US_COMP	QTE_COND	R	Regular, two-sided quote
+US_COMP	QTE_COND	T	Resume
+US_COMP	QTE_COND	U	Slow on bid and offer sides due to LRP or GAP quote
+US_COMP	QTE_COND	W	Slow quote due to a Set Slow list on both bid and offer sides
+US_COMP	QTE_COND	X	Equipment changeover
+US_COMP	QTE_COND	Y	Regular, one-sided quote
+US_COMP	QTE_COND	Z	No open / no resume
+US_COMP	TRADE_TYPE	""	No condition
+US_COMP	TRADE_TYPE	" " (space)	No condition
+US_COMP	TRADE_TYPE	@	No condition
+US_COMP	TRADE_TYPE	1	Stopped stock
+US_COMP	TRADE_TYPE	4	Derivatively priced
+US_COMP	TRADE_TYPE	5	Market center re-opening trade
+US_COMP	TRADE_TYPE	6	Market center closing trade
+US_COMP	TRADE_TYPE	7	Qualified contingent trade
+US_COMP	TRADE_TYPE	9	Corrected consolidated close price
+US_COMP	TRADE_TYPE	A	Acquisition
+US_COMP	TRADE_TYPE	B	Average price trade (CTA issues) or Bunched trade (UTP issues)
+US_COMP	TRADE_TYPE	C	Cash trade (Same day clearing)
+US_COMP	TRADE_TYPE	D	Distribution
+US_COMP	TRADE_TYPE	E	Automatic execution
+US_COMP	TRADE_TYPE	F	Intermarket sweep
+US_COMP	TRADE_TYPE	G	Bunched sold trade
+US_COMP	TRADE_TYPE	H	Price variation trade
+US_COMP	TRADE_TYPE	I	Odd lot trade
+US_COMP	TRADE_TYPE	K	Rule 127 (NYSE) or Rule 155 trade (NYSE American)
+US_COMP	TRADE_TYPE	L	Sold last (Late reported)
+US_COMP	TRADE_TYPE	M	Market center official close
+US_COMP	TRADE_TYPE	N	Next day trade (Next day clearing)
+US_COMP	TRADE_TYPE	O	Market center opening trade
+US_COMP	TRADE_TYPE	P	Prior reference price
+US_COMP	TRADE_TYPE	Q	Market center official open
+US_COMP	TRADE_TYPE	R	Seller
+US_COMP	TRADE_TYPE	S	Split trade
+US_COMP	TRADE_TYPE	T	Extended hours trade
+US_COMP	TRADE_TYPE	U	Extended hours (sold out of sequence)
+US_COMP	TRADE_TYPE	V	Contingent trade
+US_COMP	TRADE_TYPE	W	Average price trade
+US_COMP	TRADE_TYPE	X	Cross (auction) trade
+US_COMP	TRADE_TYPE	Y	Yellow flag regular trade
+US_COMP	TRADE_TYPE	Z	Sold (out of sequence)
+US_COMP	TRADE_TYPE	""	No condition
+US_COMP	TRADE_TYPE	" " (space)	No condition
+US_COMP	COND	@	No condition
+US_COMP	COND	1	Stopped stock
+US_COMP	COND	4	Derivatively priced
+US_COMP	COND	5	Market center re-opening trade
+US_COMP	COND	6	Market center closing trade
+US_COMP	COND	7	Qualified contingent trade
+US_COMP	COND	9	Corrected consolidated close price
+US_COMP	COND	A	Acquisition
+US_COMP	COND	B	Average price trade (CTA issues) or Bunched trade (UTP issues)
+US_COMP	COND	C	Cash trade (Same day clearing)
+US_COMP	COND	D	Distribution
+US_COMP	COND	E	Automatic execution
+US_COMP	COND	F	Intermarket sweep
+US_COMP	COND	G	Bunched sold trade
+US_COMP	COND	H	Price variation trade
+US_COMP	COND	I	Odd lot trade
+US_COMP	COND	K	Rule 127 (NYSE) or Rule 155 trade (NYSE American)
+US_COMP	COND	L	Sold last (Late reported)
+US_COMP	COND	M	Market center official close
+US_COMP	COND	N	Next day trade (Next day clearing)
+US_COMP	COND	O	Market center opening trade
+US_COMP	COND	P	Prior reference price
+US_COMP	COND	Q	Market center official open
+US_COMP	COND	R	Seller
+US_COMP	COND	S	Split trade
+US_COMP	COND	T	Extended hours trade
+US_COMP	COND	U	Extended hours (sold out of sequence)
+US_COMP	COND	V	Contingent trade
+US_COMP	COND	W	Average price trade
+US_COMP	COND	X	Cross (auction) trade
+US_COMP	COND	Y	Yellow flag regular trade
+US_COMP	COND	Z	Sold (out of sequence)
 US_COMP	CORR	0	Regular trade
 US_COMP	CORR	1	Trade which was later corrected [contains the corrected data for the trade]
 US_COMP	CORR	10	Trade cancellation
@@ -8923,7 +9001,7 @@ US_COMP	CORR	12	Trade correction [contains the correction time and the original 
 US_COMP	CORR	7	Trade which was later marked as erroneous
 US_COMP	CORR	8	Trade which was later cancelled
 US_COMP	EXCHANGE	A	NYSE American (Amex)
-US_COMP	EXCHANGE	B	Nasdaq BX
+US_COMP	EXCHANGE	B	Nasdaq Texas
 US_COMP	EXCHANGE	C	NYSE National (NSX)
 US_COMP	EXCHANGE	D	FINRA ADF + NYSE/Nasdaq TRFs
 US_COMP	EXCHANGE	F	Texas Stock Exchange
@@ -8945,6 +9023,52 @@ US_COMP	EXCHANGE	W	CBOE Stock Exchange (CBSX) [until April 2014]
 US_COMP	EXCHANGE	X	Nasdaq PSX
 US_COMP	EXCHANGE	Y	Cboe BYX
 US_COMP	EXCHANGE	Z	Cboe BZX
+US_COMP	BID_EXCHANGE	A	NYSE American (Amex)
+US_COMP	BID_EXCHANGE	B	Nasdaq Texas
+US_COMP	BID_EXCHANGE	C	NYSE National (NSX)
+US_COMP	BID_EXCHANGE	D	FINRA ADF + NYSE/Nasdaq TRFs
+US_COMP	BID_EXCHANGE	F	Texas Stock Exchange
+US_COMP	BID_EXCHANGE	G	24X National Exchange
+US_COMP	BID_EXCHANGE	H	MIAX Pearl
+US_COMP	BID_EXCHANGE	I	International Securities Exchange [until July 2010]
+US_COMP	BID_EXCHANGE	J	Cboe EDGA
+US_COMP	BID_EXCHANGE	K	Cboe EDGX
+US_COMP	BID_EXCHANGE	L	Long-Term Stock Exchange (LTSE)
+US_COMP	BID_EXCHANGE	M	NYSE Texas
+US_COMP	BID_EXCHANGE	N	New York Stock Exchange
+US_COMP	BID_EXCHANGE	P	NYSE Arca
+US_COMP	BID_EXCHANGE	Q	Nasdaq (Tape C securities)
+US_COMP	BID_EXCHANGE	S	Consolidated Tape System (CTS)
+US_COMP	BID_EXCHANGE	T	Nasdaq (Tape A,B securities)
+US_COMP	BID_EXCHANGE	U	Members Exchange (MEMX)
+US_COMP	BID_EXCHANGE	V	The Investors' Exchange (IEX)
+US_COMP	BID_EXCHANGE	W	CBOE Stock Exchange (CBSX) [until April 2014]
+US_COMP	BID_EXCHANGE	X	Nasdaq PSX
+US_COMP	BID_EXCHANGE	Y	Cboe BYX
+US_COMP	BID_EXCHANGE	Z	Cboe BZX
+US_COMP	ASK_EXCHANGE	A	NYSE American (Amex)
+US_COMP	ASK_EXCHANGE	B	Nasdaq Texas
+US_COMP	ASK_EXCHANGE	C	NYSE National (NSX)
+US_COMP	ASK_EXCHANGE	D	FINRA ADF + NYSE/Nasdaq TRFs
+US_COMP	ASK_EXCHANGE	F	Texas Stock Exchange
+US_COMP	ASK_EXCHANGE	G	24X National Exchange
+US_COMP	ASK_EXCHANGE	H	MIAX Pearl
+US_COMP	ASK_EXCHANGE	I	International Securities Exchange [until July 2010]
+US_COMP	ASK_EXCHANGE	J	Cboe EDGA
+US_COMP	ASK_EXCHANGE	K	Cboe EDGX
+US_COMP	ASK_EXCHANGE	L	Long-Term Stock Exchange (LTSE)
+US_COMP	ASK_EXCHANGE	M	NYSE Texas
+US_COMP	ASK_EXCHANGE	N	New York Stock Exchange
+US_COMP	ASK_EXCHANGE	P	NYSE Arca
+US_COMP	ASK_EXCHANGE	Q	Nasdaq (Tape C securities)
+US_COMP	ASK_EXCHANGE	S	Consolidated Tape System (CTS)
+US_COMP	ASK_EXCHANGE	T	Nasdaq (Tape A,B securities)
+US_COMP	ASK_EXCHANGE	U	Members Exchange (MEMX)
+US_COMP	ASK_EXCHANGE	V	The Investors' Exchange (IEX)
+US_COMP	ASK_EXCHANGE	W	CBOE Stock Exchange (CBSX) [until April 2014]
+US_COMP	ASK_EXCHANGE	X	Nasdaq PSX
+US_COMP	ASK_EXCHANGE	Y	Cboe BYX
+US_COMP	ASK_EXCHANGE	Z	Cboe BZX
 US_COMP	FINRA_ADF_IND	""	Not applicable
 US_COMP	FINRA_ADF_IND	0	Quote represents the FINRA BBO
 US_COMP	FINRA_ADF_IND	1	Quote from a single FINRA ADF venue
@@ -8994,11 +9118,15 @@ US_COMP	REASON_CODE	""	Unspecified
 US_COMP	REASON_CODE	1	Market-wide circuit breaker (MWCB) level 1 breached
 US_COMP	REASON_CODE	2	MWCB level 2 breached
 US_COMP	REASON_CODE	3	MWCB level 3 breached
+US_COMP	REASON_CODE	A	Additional information requested
+US_COMP	REASON_CODE	C	Regulatory concern
 US_COMP	REASON_CODE	C11	Halt concluded by other regulatory authority, quotation / trading to resume
 US_COMP	REASON_CODE	C3	Issuer news not forthcoming, quotation / trading to resume
 US_COMP	REASON_CODE	C4	Listing requirements met, quotation / trading to resume
 US_COMP	REASON_CODE	C9	Filings met, quotation / trading to resume
 US_COMP	REASON_CODE	D	News dissemination
+US_COMP	REASON_CODE	E	Merger effective
+US_COMP	REASON_CODE	F	ETF component prices not available
 US_COMP	REASON_CODE	H10	SEC trading suspension
 US_COMP	REASON_CODE	H11	Regulatory concern
 US_COMP	REASON_CODE	H4	Non-compliance with listing requirements
@@ -9017,6 +9145,8 @@ US_COMP	REASON_CODE	MWC1	MWCB level 1 breached
 US_COMP	REASON_CODE	MWC2	MWCB level 2 breached
 US_COMP	REASON_CODE	MWC3	MWCB level 3 breached
 US_COMP	REASON_CODE	MWCQ	MWCB resumption
+US_COMP	REASON_CODE	N	Corporate action
+US_COMP	REASON_CODE	O	New security offering
 US_COMP	REASON_CODE	O1	Halted by Market Operations
 US_COMP	REASON_CODE	P	News pending
 US_COMP	REASON_CODE	R1	New issue available
@@ -9031,6 +9161,7 @@ US_COMP	REASON_CODE	T5	Trading pause
 US_COMP	REASON_CODE	T6	Extraordinary market activity
 US_COMP	REASON_CODE	T7	Quotation only period
 US_COMP	REASON_CODE	T8	ETF halt
+US_COMP	REASON_CODE	V	Intraday indicative value not available
 US_COMP	REASON_CODE	X	Operational
 US_COMP	REASON_CODE	Y	Sub-penny trading
 US_COMP	RESTRICTION_IND	""	No short sale restriction
@@ -9081,6 +9212,13 @@ US_COMP	SECURITY_STATUS_IND	W	Qualifications halt concluded, filings met, tradin
 US_COMP	SECURITY_STATUS_IND	X	Equipment changeover (CTA), Halt concluded by other regulatory authority, trading to resume (UTP)
 US_COMP	SECURITY_STATUS_IND	Y	Sub-penny trading (CTA) / New issue available (UTP)
 US_COMP	SECURITY_STATUS_IND	Z	No open, no resume (CTA) / Issue available (UTP)
+US_COMP	SHORT_SALE_RESTRICTION	0	No short sale restriction
+US_COMP	SHORT_SALE_RESTRICTION	1	Short sale restriction in effect
+US_COMP	SHORT_SALE_RESTRICTION	2	Short sale restriction continued
+US_COMP	SHORT_SALE_RESTRICTION	A	Short sale restriction activated
+US_COMP	SHORT_SALE_RESTRICTION	C	Short sale restriction continued
+US_COMP	SHORT_SALE_RESTRICTION	D	Short sale restriction deactivated
+US_COMP	SHORT_SALE_RESTRICTION	E	Short sale restriction in effect
 US_COMP	SIP_MSG_ID	""	Originates from an exchange
 US_COMP	SIP_MSG_ID	E	Generated by UTP
 US_COMP	SIP_MSG_ID	S	Generated by Consolidated Tape System (CTS)
@@ -10195,3 +10333,5 @@ XETRA	TRADE_TYPE	VAL	Price without turnover (valuation price) [until 20170630]
 XETRA	TRADE_TYPE	X	Regular trade [until 20170630]
 ZHENGZHOU	CALL_PUT_IND	C	Call option
 ZHENGZHOU	CALL_PUT_IND	P	Put option
+ZHENGZHOU	TRADE_PERIOD	O	Opening auction
+ZHENGZHOU	TRADE_PERIOD	-	Regular trading

@@ -30,11 +30,11 @@ Includes the following coverage:
 | Debenture       |              1 | 0.13%        |
 | ETF             |              1 | 0.13%        |
 | ETN             |              1 | 0.13%        |
-| Equity          |            737 | 98.53%       |
+| Equity          |            739 | 98.4%        |
 | Preferred Stock |              2 | 0.27%        |
 | Unknown         |              1 | 0.13%        |
-| Warrant         |              5 | 0.67%        |
-| Total           |            748 | 100%         |
+| Warrant         |              6 | 0.8%         |
+| Total           |            751 | 100%         |
 
 
 Consists of 2 Databases

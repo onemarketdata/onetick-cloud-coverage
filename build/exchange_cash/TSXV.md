@@ -28,7 +28,7 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Debenture       |              3 | 0.17%        |
-| Equity          |           1675 | 95.71%       |
+| Equity          |           1674 | 95.71%       |
 | Fund            |              2 | 0.11%        |
 | Preferred Stock |              7 | 0.4%         |
 | REIT            |              7 | 0.4%         |
@@ -36,7 +36,7 @@ Includes the following coverage:
 | Test            |             12 | 0.69%        |
 | Unknown         |              1 | 0.06%        |
 | Warrant         |             41 | 2.34%        |
-| Total           |           1750 | 100%         |
+| Total           |           1749 | 100%         |
 
 
 Consists of 3 Databases

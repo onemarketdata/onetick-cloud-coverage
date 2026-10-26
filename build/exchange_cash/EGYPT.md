@@ -28,8 +28,8 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Bond            |             19 | 2.97%        |
-| Corporate Bond  |            314 | 49.14%       |
-| Equity          |            304 | 47.57%       |
+| Corporate Bond  |            313 | 48.98%       |
+| Equity          |            305 | 47.73%       |
 | Mutual Fund     |              1 | 0.16%        |
 | Unknown         |              1 | 0.16%        |
 | Total           |            639 | 100%         |

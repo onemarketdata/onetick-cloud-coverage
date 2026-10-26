@@ -9,5 +9,5 @@ Trading Hours are divided into multiple sessions
 | Session Name   | Time Zone        | Start Time   | End Time   |
 |----------------|------------------|--------------|------------|
 | DAY            | Australia/Sydney | 09:50        | 16:30      |
-| NIGHT1         | Australia/Sydney | 17:10        | 07:00      |
+| NIGHT1         | Australia/Sydney | 17:10        | 08:00      |
 

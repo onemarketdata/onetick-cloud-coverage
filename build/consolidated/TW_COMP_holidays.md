@@ -9,6 +9,7 @@ The last 10 Market Holidays are listed
 | Activity Name   | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|-------------|--------------|------------|--------------|------------|
 | Full Holiday    | Asia/Taipei | 2026-10-26   | 2026-10-26 | 00:00        | 24:00      |
+| Full Holiday    | Asia/Taipei | 2026-10-23   | 2026-10-23 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-10-09   | 2026-10-09 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-09-28   | 2026-09-28 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-09-25   | 2026-09-25 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Taipei | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Taipei | 2026-02-27   | 2026-02-27 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Taipei | 2026-02-20   | 2026-02-20 | 00:00        | 24:00      |
 

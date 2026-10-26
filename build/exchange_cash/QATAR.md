@@ -27,14 +27,14 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Bond            |             35 | 13.46%       |
-| ETF             |              2 | 0.77%        |
-| Equity          |             55 | 21.15%       |
-| Government Bond |             37 | 14.23%       |
-| Index           |             13 | 5.0%         |
-| Treasury Bill   |            117 | 45.0%        |
-| Unknown         |              1 | 0.38%        |
-| Total           |            260 | 100%         |
+| Bond            |             32 | 14.88%       |
+| ETF             |              2 | 0.93%        |
+| Equity          |             55 | 25.58%       |
+| Government Bond |             34 | 15.81%       |
+| Index           |             13 | 6.05%        |
+| Treasury Bill   |             78 | 36.28%       |
+| Unknown         |              1 | 0.47%        |
+| Total           |            215 | 100%         |
 
 
 Consists of 3 Databases

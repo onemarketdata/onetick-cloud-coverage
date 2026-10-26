@@ -9,6 +9,6 @@ Trading Hours are divided into multiple sessions
 | Session Name   | Time Zone     | Start Time   | End Time   |
 |----------------|---------------|--------------|------------|
 | PRE_MARKET     | Europe/Vienna | 08:00        | 09:00      |
-| MARKET         | Europe/Vienna | 09:00        | 17:34      |
-| POST_MARKET    | Europe/Vienna | 17:34        | 17:45      |
+| MARKET         | Europe/Vienna | 09:00        | 17:35      |
+| POST_MARKET    | Europe/Vienna | 17:35        | 17:50      |
 

@@ -25,14 +25,13 @@ Includes the following coverage:
 
 #### CME -  Coverage
 
-| Security Type      |   # of Symbols | % of Total   |
-|--------------------|----------------|--------------|
-| Future             |          52941 | 5.55%        |
-| Futures Spread     |          90032 | 9.44%        |
-| Interest Rate Swap |             24 | 0.0%         |
-| Option             |         708978 | 74.31%       |
-| Option Spread      |         102107 | 10.7%        |
-| Total              |         954082 | 100%         |
+| Security Type   |   # of Symbols | % of Total   |
+|-----------------|----------------|--------------|
+| Future          |             38 | 0.1%         |
+| Futures Spread  |             43 | 0.11%        |
+| Option          |          10904 | 28.48%       |
+| Option Spread   |          27307 | 71.31%       |
+| Total           |          38292 | 100%         |
 
 
 Consists of 3 Databases

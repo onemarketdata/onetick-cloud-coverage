@@ -28,11 +28,11 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Depository Receipt |              9 | 0.34%        |
-| Equity             |           2605 | 98.26%       |
+| Equity             |           2604 | 98.26%       |
 | Investment Fund    |              1 | 0.04%        |
 | Preferred Stock    |             13 | 0.49%        |
 | REIT               |             23 | 0.87%        |
-| Total              |           2651 | 100%         |
+| Total              |           2650 | 100%         |
 
 
 Consists of 2 Databases

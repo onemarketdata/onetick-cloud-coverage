@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |            105 | 1.48%        |
-| Equity          |           6729 | 94.94%       |
-| Unknown         |            254 | 3.58%        |
-| Total           |           7088 | 100%         |
+| ETF             |            108 | 1.52%        |
+| Equity          |           6742 | 94.97%       |
+| Unknown         |            249 | 3.51%        |
+| Total           |           7099 | 100%         |
 
 
 Consists of 3 Databases

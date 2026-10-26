@@ -6,6 +6,7 @@ The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * MMT_ALGO_IND - Identifies whether a trade involved an algorithmic order.
 * MMT_BENCHMARK_IND - Identifies whether a trade was priced according to a defined benchmark (e.g. VWAP) or reference price (e.g. midpoint of the primary market BBO), or whether it was part of a trade in multiple instruments (contingent trade or portfolio trade).
 * MMT_CROSS_IND - Identifies agency cross trades, where a broker crossed two client orders outside the order book.
@@ -38,6 +39,22 @@ The following fields have Enumerations:
 |                2 | Dark book                 |
 |                6 | Auction book              |
 |                9 | Off-exchange              |
+
+#### MKT_PHASE - Enumeration
+
+|   Enumeration ID | Enumeration Description             |
+|------------------|-------------------------------------|
+|                0 | Inactive                            |
+|                1 | Start of day                        |
+|                2 | Regular trading                     |
+|                3 | Closed                              |
+|                4 | Halted                              |
+|                5 | Suspended                           |
+|               19 | End of regular trading              |
+|               23 | No active session                   |
+|              110 | Halt (matching partition suspended) |
+|              111 | Halt (system suspended)             |
+|              116 | Regulatory halt                     |
 
 #### MMT_ALGO_IND - Enumeration
 

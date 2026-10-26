@@ -6,16 +6,16 @@ The last 10 Market Holidays are listed
 
 #### Euronext Milan (Borsa Italiana) - Equities - Recent Market Holidays
 
-| Activity Name   | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
-|-----------------|-------------|--------------|------------|--------------|------------|
-| Full Holiday    | Europe/Rome | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2026-04-06   | 2026-04-06 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-12-31   | 2025-12-31 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-12-24   | 2025-12-24 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-08-15   | 2025-08-15 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Rome | 2025-05-01   | 2025-05-01 | 00:00        | 24:00      |
+| Activity Name     | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
+|-------------------|-------------|--------------|------------|--------------|------------|
+| Non Trading Hours | Europe/Rome | 2026-12-30   | 2026-12-30 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-29   | 2026-12-29 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-28   | 2026-12-28 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-23   | 2026-12-23 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-22   | 2026-12-22 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-21   | 2026-12-21 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-08   | 2026-12-08 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-12-07   | 2026-12-07 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-08-28   | 2026-08-28 | 18:00        | 18:00      |
+| Non Trading Hours | Europe/Rome | 2026-08-27   | 2026-08-27 | 18:00        | 18:00      |
 

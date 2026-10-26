@@ -28,8 +28,8 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | INAV            |             44 | 0.31%        |
-| Index           |          14185 | 99.69%       |
-| Total           |          14229 | 100%         |
+| Index           |          14195 | 99.69%       |
+| Total           |          14239 | 100%         |
 
 
 Consists of 2 Databases

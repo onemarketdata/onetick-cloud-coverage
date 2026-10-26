@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
+* TRADE_SESSION - Trading session from which a trade originates, e.g. “Day”, “Night”
 
 #### BOOK_TYPE - Enumeration
 
@@ -44,4 +45,11 @@ The following fields have Enumerations:
 |               43 | Trade from implied order          |
 |                5 | J-Net cross trade                 |
 |                7 | Standard Combination leg trade    |
+
+#### TRADE_SESSION - Enumeration
+
+| Enumeration ID   | Enumeration Description   |
+|------------------|---------------------------|
+| Day              | Day session               |
+| Night            | Night session             |
 

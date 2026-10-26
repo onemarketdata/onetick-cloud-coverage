@@ -31,8 +31,8 @@ Includes the following coverage:
 | Equity             |           1813 | 90.74%       |
 | Index              |             33 | 1.65%        |
 | Preferred Stock    |              3 | 0.15%        |
-| Right              |              9 | 0.45%        |
-| Unknown            |            130 | 6.51%        |
+| Right              |              7 | 0.35%        |
+| Unknown            |            132 | 6.61%        |
 | Warrant            |              1 | 0.05%        |
 | Total              |           1998 | 100%         |
 

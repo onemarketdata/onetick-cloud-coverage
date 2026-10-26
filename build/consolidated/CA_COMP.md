@@ -27,19 +27,19 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Debenture          |             55 | 0.94%        |
-| Depositary Receipt |            205 | 3.52%        |
-| ETF                |           2105 | 36.11%       |
+| Debenture          |             56 | 0.96%        |
+| Depositary Receipt |            216 | 3.69%        |
+| ETF                |           2123 | 36.24%       |
 | ETN                |              1 | 0.02%        |
-| Equity             |           2988 | 51.25%       |
+| Equity             |           2985 | 50.96%       |
 | Investment Fund    |             29 | 0.5%         |
-| Preferred Stock    |            282 | 4.84%        |
-| REIT               |             40 | 0.69%        |
+| Preferred Stock    |            284 | 4.85%        |
+| REIT               |             39 | 0.67%        |
 | Right              |              3 | 0.05%        |
-| Test               |             57 | 0.98%        |
+| Test               |             57 | 0.97%        |
 | Unknown            |              3 | 0.05%        |
 | Warrant            |             62 | 1.06%        |
-| Total              |           5830 | 100%         |
+| Total              |           5858 | 100%         |
 
 
 Consists of 3 Databases

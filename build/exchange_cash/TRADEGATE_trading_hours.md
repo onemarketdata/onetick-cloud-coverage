@@ -8,5 +8,5 @@ Trading Hours are divided into multiple sessions
 
 | Session Name   | Time Zone   | Start Time   | End Time   |
 |----------------|-------------|--------------|------------|
-| MARKET         | CET         | 08:00        | 20:00      |
+| MARKET         | CET         | 07:30        | 22:00      |
 

@@ -188,6 +188,7 @@ The following fields have Enumerations:
 | 4                | Deferred publication (size specific to instrument)                         |
 | 5                | Deferred publication (illiquid instrument and size specific to instrument) |
 | 6                | Deferred publication (illiquid instrument and Large in Scale)              |
+| G                | Deferral for ETCs / ETNs / SFPs / emission allowances                      |
 
 #### MMT_TRANS_CAT - Enumeration
 

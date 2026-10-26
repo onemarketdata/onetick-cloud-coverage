@@ -28,12 +28,12 @@ Includes the following coverage:
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
 | Bond            |              8 | 0.14%        |
-| ETF             |             13 | 0.23%        |
-| Equity          |           3989 | 69.36%       |
-| Fund            |            391 | 6.8%         |
+| ETF             |             12 | 0.21%        |
+| Equity          |           3980 | 69.22%       |
+| Fund            |            393 | 6.83%        |
 | REIT            |             35 | 0.61%        |
-| Warrant         |           1315 | 22.87%       |
-| Total           |           5751 | 100%         |
+| Warrant         |           1322 | 22.99%       |
+| Total           |           5750 | 100%         |
 
 
 Consists of 2 Databases

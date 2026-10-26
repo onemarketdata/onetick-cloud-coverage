@@ -186,6 +186,7 @@ EXPIRATION_DATE	STAT	Date when a derivative expires (YYYYMMDD)
 EXPIRY_CODE	STAT	Code identifying a specific futures / options expiry within the exchange system
 EXPIRY_WEEK	STAT	Identifies the week of the month in which weekly futures / options expire
 FAR_PRICE	IND	Theoretical auction price, taking into account only MOC/LOC orders (i.e. excluding orders in the continuous book)
+FGC	STAT	Composite FIGI
 FIGI	STAT, CONSTITUENTS, PCF, PCF_LONG	Financial Instrument Global Identifier, identifying an individual instrument traded on a specific venue
 FILL_PRICE	PRL_FULL	Price at which the order was executed
 FILL_SIZE	PRL_FULL	Size filled in an order execution event
@@ -237,7 +238,7 @@ HIGH_YIELD	DAY	Yield corresponding to the high price
 HIGHEST_TIMESTAMP	COMPLETENESS	Highest Timestamp loaded for the specified day
 ICB_CODE	STAT	ICB code; industry sector classification maintained by FTSE Russell
 ID_SYMBOL	XREF	Symbology Code
-ID_TYPE		XREF	Symbol as specified by Symbology
+ID_TYPE	XREF	Symbol as specified by Symbology
 IMB_REF_PRICE	IND	Reference price used for calculating the auction imbalance
 IMB_SIDE	IND	Indicates if one side of the orderbook has excess executable orders during an auction phase.
 IMB_VOLUME	IND	Size of an auction imbalance, i.e. the excess volume of orders on the side indicated by IMB_SIDE
@@ -490,6 +491,7 @@ RTS_SYMBOL	STAT	Ticker symbol used by ICE Data Services
 SCHEDULED_EVENT_TIME	MKT	Time when an event is due to take place (e.g. if the status update refers to an auction call phase, this indicates when the auction cross will occur)
 SEC_SUBTYPE	STAT	Security subtype
 SEC_TYPE	STAT, SNAP, SNAP_TRD	Security type, e.g. "Equity", "ETF", "Future"
+SECTOR	STAT	Sector for instrument
 SECURITY_STATUS_IND	QTE	Security status
 SEDOL	STAT, PCF_LONG	SEDOL code
 SELL_ALGO_TYPE	TRD	Type of algorithm / routing properties associated with the order on the sell side of a trade
@@ -761,7 +763,7 @@ HALT_CONDITION	SECURITY_STATUS_MESSAGE	Hald Condition
 INDICATION_LOW_PRICE	SECURITY_STATUS_MESSAGE	Indication Low Price
 INDICATION_HIGH_PRICE	SECURITY_STATUS_MESSAGE	Indication High Price
 SELL_SHORT_TRIGGERING_EXCHANGE_ID	SECURITY_STATUS_MESSAGE	Sell Short Triggering Exchange ID
-SELL_SHORT_TRIGGERING_VOLUME		SECURITY_STATUS_MESSAGE	Sell Short Triggering Volume
+SELL_SHORT_TRIGGERING_VOLUME	SECURITY_STATUS_MESSAGE	Sell Short Triggering Volume
 SELL_SHORT_TRIGGER_TIME	SECURITY_STATUS_MESSAGE	Sell Short Trigger Time
 SELL_SHORT_RESTRICTION_STATE	SECURITY_STATUS_MESSAGE	Sell Short Restriction State
 MARKET_STATE	SECURITY_STATUS_MESSAGE	Market State

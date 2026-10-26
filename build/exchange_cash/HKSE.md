@@ -27,17 +27,17 @@ Includes the following coverage:
 
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
-| Bond               |           1369 | 5.82%        |
+| Bond               |           1371 | 5.73%        |
 | Depository Receipt |              2 | 0.01%        |
-| ETF                |            456 | 1.94%        |
-| Equity             |           2827 | 12.02%       |
+| ETF                |            455 | 1.9%         |
+| Equity             |           2832 | 11.84%       |
 | Preferred Stock    |              1 | 0.0%         |
 | REIT               |             11 | 0.05%        |
-| Right              |              8 | 0.03%        |
+| Right              |              6 | 0.03%        |
 | Statistics         |              2 | 0.01%        |
-| Unknown            |           3351 | 14.25%       |
-| Warrant            |          15487 | 65.86%       |
-| Total              |          23514 | 100%         |
+| Unknown            |           4285 | 17.91%       |
+| Warrant            |          14959 | 62.53%       |
+| Total              |          23924 | 100%         |
 
 
 Consists of 2 Databases

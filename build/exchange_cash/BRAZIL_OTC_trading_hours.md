@@ -8,7 +8,7 @@ Trading Hours are divided into multiple sessions
 
 | Session Name   | Time Zone   | Start Time   | End Time   |
 |----------------|-------------|--------------|------------|
-| PRE_MARKET     | Etc/GMT+3   | 09:30        | 10:00      |
-| MARKET         | Etc/GMT+3   | 10:00        | 17:15      |
-| POST_MARKET    | Etc/GMT+3   | 17:30        | 18:00      |
+| PRE_MARKET     | Etc/GMT+3   | 09:45        | 10:00      |
+| MARKET         | Etc/GMT+3   | 10:00        | 18:15      |
+| POST_MARKET    | Etc/GMT+3   | 18:15        | 18:45      |
 

@@ -27,11 +27,13 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| Certificate     |           3271 | 79.28%       |
-| ETF             |              7 | 0.17%        |
-| Equity          |            351 | 8.51%        |
-| Investment Fund |            497 | 12.05%       |
-| Total           |           4126 | 100%         |
+| Certificate     |           2832 | 76.66%       |
+| ETF             |              7 | 0.19%        |
+| Equity          |            350 | 9.47%        |
+| Investment Fund |            497 | 13.45%       |
+| Right           |              1 | 0.03%        |
+| Unknown         |              7 | 0.19%        |
+| Total           |           3694 | 100%         |
 
 
 Consists of 4 Databases

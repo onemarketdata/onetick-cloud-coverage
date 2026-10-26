@@ -40,6 +40,7 @@ It covers:
 * `NZX_DAIRY` - SGX-NZX Dairy Derivatives
 * `NORDIC_FUT` - Nasdaq Nordic - Derivatives
 * `NSE_FUT` - National Stock Exchange of India - Derivatives
+* `NODAL` - Nodal Exchange
 * `NYMEX` - NYMEX Futures
 * `OSAKA_COM` - Osaka Exchange - Commodity Derivatives (formerly TOCOM)
 * `OSAKA_FUT` - Osaka Exchange - Index + Equity Futures

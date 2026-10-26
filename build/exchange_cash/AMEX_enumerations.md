@@ -39,18 +39,22 @@ The following fields have Enumerations:
 
 #### TRADE_TYPE_EXT - Enumeration
 
-| Enumeration ID   | Enumeration Description          |
-|------------------|----------------------------------|
-| @                | Standard settlement              |
-| ‘” “’            | No trade-through exemption       |
-| F                | Intremarket sweep                |
-| O                | Market center opening trade      |
-| 5                | Re-opening trade                 |
-| 6                | Market center closing trade      |
-| T                | Extended hours                   |
-| U                | Extended hours + out of sequence |
-| Z                | Out of sequence                  |
-| I                | Odd lot trade                    |
+| Enumeration ID   | Enumeration Description                                                             |
+|------------------|-------------------------------------------------------------------------------------|
+| @                | Standard settlement - No trade-through exemption - Not applicable - Not applicable  |
+| @  I             | Standard settlement - No trade-through exemption - Not applicable - Odd lot trade   |
+| @ T              | Standard settlement - No trade-through exemption - Extended hours - Not applicable  |
+| @ TI             | Standard settlement - No trade-through exemption - Extended hours - Odd lot trade   |
+| @5               | Standard settlement - Re-opening trade - Not applicable - Not applicable            |
+| @5T              | Standard settlement - Re-opening trade - Extended hours  - Not applicable           |
+| @6               | Standard settlement - Market center closing trade - Not applicable - Not applicable |
+| @6 I             | Standard settlement - Market center closing trade - Not applicable - Odd lot trade  |
+| @F               | Standard settlement - Intermarket sweep - Not applicable - Not applicable           |
+| @F I             | Standard settlement - Intermarket sweep - Not applicable - Odd lot trade            |
+| @FT              | Standard settlement - Intermarket sweep - Extended hours - Not applicable           |
+| @FTI             | Standard settlement - Intermarket sweep - Extended hours - Odd lot trade            |
+| @O               | Standard settlement - Market center opening trade - Not applicable - Not applicable |
+| @O I             | Standard settlement - Market center opening trade - Not applicable - Odd lot trade  |
 
 #### ODD_LOT - Enumeration
 

@@ -27,12 +27,14 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| ETF             |           5471 | 34.86%       |
-| Equity          |          10154 | 64.7%        |
+| ETF             |           5498 | 34.97%       |
+| ETN             |              1 | 0.01%        |
+| Equity          |          10156 | 64.59%       |
 | Investment Fund |             28 | 0.18%        |
 | Preferred Stock |             30 | 0.19%        |
 | Right           |             10 | 0.06%        |
-| Total           |          15693 | 100%         |
+| Unknown         |              1 | 0.01%        |
+| Total           |          15724 | 100%         |
 
 
 Consists of 3 Databases

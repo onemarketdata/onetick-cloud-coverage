@@ -28,14 +28,14 @@ Includes the following coverage:
 | Security Type      |   # of Symbols | % of Total   |
 |--------------------|----------------|--------------|
 | Bond               |              7 | 0.25%        |
-| Convertible Bond   |             38 | 1.37%        |
-| Depository Receipt |             71 | 2.55%        |
-| ETF                |            417 | 15.0%        |
-| ETP                |             88 | 3.17%        |
-| Equity             |           1779 | 63.99%       |
-| Unknown            |             86 | 3.09%        |
-| Warrant            |            294 | 10.58%       |
-| Total              |           2780 | 100%         |
+| Convertible Bond   |             37 | 1.32%        |
+| Depository Receipt |             72 | 2.58%        |
+| ETF                |            420 | 15.02%       |
+| ETP                |             89 | 3.18%        |
+| Equity             |           1784 | 63.81%       |
+| Unknown            |             90 | 3.22%        |
+| Warrant            |            297 | 10.62%       |
+| Total              |           2796 | 100%         |
 
 
 Consists of 3 Databases

@@ -27,10 +27,10 @@ Includes the following coverage:
 
 | Security Type   |   # of Symbols | % of Total   |
 |-----------------|----------------|--------------|
-| FX Spot         |             57 | 0.79%        |
-| Future          |            193 | 2.68%        |
-| Option          |           6957 | 96.53%       |
-| Total           |           7207 | 100%         |
+| FX Spot         |             57 | 0.88%        |
+| Future          |            234 | 3.6%         |
+| Option          |           6218 | 95.53%       |
+| Total           |           6509 | 100%         |
 
 
 Consists of 2 Databases
