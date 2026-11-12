@@ -1,6 +1,6 @@
 # Cboe Europe Trade Reporting
 
-Cboe Europe Trade Reporting allows firms to report off-order book trades in European equities to comply with MiFID II trade reporting obligations.
+Off-book trade reports published through Cboe Europe’s Approved Publication Arrangement (APA), with history from February 2015, including over-the-counter, systematic internaliser (SI) and negotiated block trades in European equities. This is the off-exchange portion of European volume that does not appear on lit order books, which you need to calculate a stock’s total traded volume.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Cboe Europe Trade Reporting allows firms to report off-order book trades in Euro
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

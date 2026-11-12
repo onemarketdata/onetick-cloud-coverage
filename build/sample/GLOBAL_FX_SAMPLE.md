@@ -1,6 +1,6 @@
 # Global FX (Spots, Forwards, NDFs) Sample
 
-Global Forex markets offer trading in spot, forward on various currency paris , between January 1,2024 and March 31, 2024
+A sample of the GLOBAL_FX database with spot, forward and non-deliverable forward (NDF) rates for major and emerging-market currency pairs, between January 1, 2024 and March 31, 2024. Bars are included. The full history is from 2008.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Global Forex markets offer trading in spot, forward on various currency paris , 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

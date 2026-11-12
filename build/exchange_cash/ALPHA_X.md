@@ -1,6 +1,6 @@
 # TSX Alpha-X / Alpha DRK
 
-Alpha-X is a visible order book that has all of the same order types and trading functionalities currently available on TSX Alpha Exchange, and features the new Smart Limit™ order type, Alpha DRK is a fully dark order book with a comprehensive suite of pegged (Primary, Market, Minimum Price Improvement, Midpoint) market and limit order types, and has the new Smart Peg™ order type.
+Trades, Quotes and Book depth from two TMX order books launched in November 2023: Alpha-X, a lit book with the same order types as TSX Alpha plus the Smart Limit order type, and Alpha DRK, a fully dark book with pegged (primary, market, minimum price improvement and midpoint) orders and the Smart Peg order type. Use it to compare lit and dark liquidity in TSX- and TSX Venture-listed securities.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ Alpha-X is a visible order book that has all of the same order types and trading
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

@@ -1,6 +1,6 @@
 # Euronext Commodity Derivatives Schemas
 
-Euronext Commodity Derivatives offers trading in agricultural and energy commodity futures and options.
+Futures, options and spreads with Trades, Quotes and bars from Euronext’s commodity derivatives market (formerly MATIF), with futures from January 2011 and options from January 2025. Euronext’s milling wheat future is the European benchmark for wheat prices, and the market also lists rapeseed and corn contracts.
 
 
 

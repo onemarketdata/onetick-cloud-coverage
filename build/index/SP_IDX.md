@@ -1,6 +1,6 @@
 # S&P Indices
 
-S&P Dow Jones Indices is a leading provider of indices like the S&P 500, Dow Jones Industrial Average and more.
+Index values for S&P indices from S&P Dow Jones Indices, with history from January 2020. Key indices include the S&P 500, S&P MidCap 400, S&P SmallCap 600 and S&P Composite 1500, plus the S&P 500 sector indices.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ S&P Dow Jones Indices is a leading provider of indices like the S&P 500, Dow Jon
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Exchange (Calculation Time)
+* Key Indices:
 
 
 

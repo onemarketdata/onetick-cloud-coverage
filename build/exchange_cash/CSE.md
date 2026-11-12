@@ -1,6 +1,6 @@
 # Canadian Securities Exchange
 
-The Canadian Securities Exchange (CSE) is an alternative equities exchange in Canada, providing a listing venue and trading services for emerging companies and investment products.
+Trades, Quotes and Book depth from the Canadian Securities Exchange (CSE), Canada’s third listing exchange, with history from May 2017. CSE focuses on emerging and small-cap companies, including many junior mining, technology, cannabis and crypto issuers, and this database covers trading in CSE-listed securities. For CSE’s other books see PURE and CSE2.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ The Canadian Securities Exchange (CSE) is an alternative equities exchange in Ca
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

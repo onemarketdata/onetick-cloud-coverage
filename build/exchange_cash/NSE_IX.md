@@ -1,6 +1,6 @@
 # NSE International Exchange
 
-NSE IX offers Indian single stock and index derivatives, currency derivatives, commodity derivatives, depository receipts, and global stocks, with most trading in USD.
+Trades, quotes, bars and book depth from NSE International Exchange (NSE IX) in GIFT City, India’s International Financial Services Centre, with history from August 2025. Trading is mainly in US dollars and includes derivatives on Indian indices and stocks, currency and commodity derivatives, depository receipts and US stocks. NSE IX is home to GIFT Nifty futures, the offshore NIFTY 50 contract that moved from SGX in 2023.
 
 * Country: India [IN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ NSE IX offers Indian single stock and index derivatives, currency derivatives, c
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: Nifty 50 [NSE_CASH::NIFTY50]
 
 
 

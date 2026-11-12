@@ -1,6 +1,6 @@
 # Shenzhen Stock Exchange - Indices
 
-The Shenzhen Stock Exchange offers trading in major Chinese indices like the SZSE Component Index and ChiNext.
+Index values from the Shenzhen Stock Exchange, with history from February 2017. Key indices include the SZSE Component Index, the ChiNext Index of growth and technology companies, and the SZSE 100.
 
 * Country: China [CN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Shenzhen Stock Exchange offers trading in major Chinese indices like the SZS
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Metropolitan Stock Exchange of India
 
-The Metropolitan Stock Exchange of India (MSEI) offers trading in equities, bonds, ETFs, and derivatives.
+Futures and spreads with Trades, Quotes and bars from the Metropolitan Stock Exchange of India (MSE), with history from January 2014. It is a smaller Mumbai-based multi-asset exchange whose derivatives activity has been concentrated in currency futures such as USD/INR, alongside equity derivatives anchored by its flagship SX40 index.
 
 * Country: India [IN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Metropolitan Stock Exchange of India (MSEI) offers trading in equities, bond
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

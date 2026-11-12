@@ -1,6 +1,6 @@
 # CBOT Futures Trading Hours
 
-The CME Chicago Board of Trade (CBOT) offers trading in futures on agricultural commodities, interest rates, and equity indices.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from the Chicago Board of Trade (CBOT), part of CME Group, with history from November 2009. CBOT lists the benchmark grain and oilseed futures (corn, soybeans, wheat, soybean oil and soybean meal), US Treasury note and bond futures, and E-mini Dow futures.
 
 Trading Hours are divided into multiple sessions
 

@@ -1,6 +1,6 @@
 # Budapest Stock Exchange - Indices
 
-The Budapest Stock Exchange trades major Hungarian equity indices like the BUX and BUMIX.
+Index values from the Budapest Stock Exchange, with history from February 2017. Indices include the BUX, Hungary’s blue-chip benchmark, the BUMIX for mid and small caps, and the CETOP index of Central European blue chips.
 
 * Country: Hungary [HU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Budapest Stock Exchange trades major Hungarian equity indices like the BUX a
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

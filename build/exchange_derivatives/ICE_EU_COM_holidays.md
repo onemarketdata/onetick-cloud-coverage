@@ -1,6 +1,6 @@
 # ICE Europe Commodities Market Holidays
 
-ICE Europe Commodities provides trading in commodity futures and options like crude oil, natural gas, power, emissions, and more.
+Futures, options and spreads with Trades, Quotes, bars and book depth from ICE Futures Europe’s commodity markets, with history from November 2009. It is home to Brent crude futures, the global oil benchmark, plus gasoil, UK natural gas (NBP), London cocoa, robusta coffee, white sugar and EU emissions futures.
 
 The last 10 Market Holidays are listed
 

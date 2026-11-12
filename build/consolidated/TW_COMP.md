@@ -1,6 +1,6 @@
 # Taiwan Consolidated Equities
 
-Consolidated data from all Taiwan equities exchanges.
+Consolidated trades, NBBO, and exchange quotes and bars for Taiwanese equities from the Taiwan Stock Exchange (TWSE) and the Taipei Exchange (TPEx), with history from September 2014. It covers both main-board listings and TPEx over-the-counter stocks in one database. Covered stocks include constituents of the TAIEX and FTSE TWSE Taiwan 50.
 
 * Country: Taiwan [TW]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Consolidated data from all Taiwan equities exchanges.
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: TAIEX [TWSE_IDX::IX0001], FTSE TWSE Taiwan 50 [TWSE_IDX::TW50]
 
 
 

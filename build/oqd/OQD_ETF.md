@@ -1,6 +1,6 @@
 # US ETF Constituents
 
-US ETF Values, Constituents and Constituent Weightings
+Daily data for US-listed ETFs, with history from January 2019, including each ETF’s values, constituents and constituent weightings. Use it to look through an ETF to its underlying securities, measure index exposure or reconstruct ETF baskets over time.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ US ETF Values, Constituents and Constituent Weightings
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

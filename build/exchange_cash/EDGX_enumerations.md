@@ -1,6 +1,6 @@
 # Cboe EDGX Enumerations
 
-he Cboe EDGX Exchange is a prominent U.S. equities and options market operated by Cboe Global Markets. It is distinguished by its extended trading hours —opening at 4:00 AM ET—its patent-pending Retail Priority allocation model, and a comprehensive depth-of-book feed for market participants.  Full L1 history for Cboe EDGX from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from the Cboe EDGX Equities Exchange, operated by Cboe Global Markets, with history from May 2025. EDGX is known for its early trading session starting at 4:00 a.m. ET, where it holds a large share of pre-market volume, and for Retail Priority, which places attested retail investors’ displayed orders ahead of other orders at the same price. Full L1 history for Cboe EDGX from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -12,6 +12,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * RPI - Indicates the presence of Retail Price Improvement interest on bid and/or ask side
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * UPDATE_TYPE - Type of update
 * ORDER_TYPE - Type of order.
 
@@ -77,6 +78,32 @@ The following fields have Enumerations:
 | Q                | Quote only                  |
 | S                | Closed                      |
 | T                | Trading                     |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### UPDATE_TYPE - Enumeration
 

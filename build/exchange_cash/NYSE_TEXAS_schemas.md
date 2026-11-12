@@ -1,6 +1,6 @@
 # NYSE Texas Schemas
 
-NYSE Texas is a fully electronic equities exchange headquartered in Dallas, Texas, operated by the New York Stock Exchange. Launched in March 2025, it was created by reincorporating and rebranding NYSE Chicago to provide a dedicated listing and trading venue for companies in the South and Southwest.  Full L1 history for NYSE Texas from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from NYSE Texas, with history from May 2025. NYSE Texas is a fully electronic equities exchange headquartered in Dallas, part of the New York Stock Exchange group owned by Intercontinental Exchange (ICE). Launched in 2025 by reincorporating and rebranding NYSE Chicago, it provides a dedicated listing and trading venue for companies in Texas and the Southwest. Full L1 history for NYSE Texas from the Consolidated Tape is available in the US_COMP dataset.
 
 
 

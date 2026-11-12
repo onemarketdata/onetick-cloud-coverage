@@ -1,6 +1,6 @@
 # Vienna Stock Exchange Market Holidays
 
-The Vienna Stock Exchange is the only stock exchange in Austria trading Austrian equities and bonds.
+Trades, quotes, bars and book depth, with real-time data, from the Vienna Stock Exchange (Wiener B?rse), Austria’s stock exchange, with history from June 2012, covering its prime, standard, direct and global market segments. Covered stocks include ATX constituents, and Wiener B?rse also calculates Central and Eastern European indices such as CECE; index values are in VIENNA_IDX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

@@ -1,6 +1,6 @@
 # National Stock Exchange of India - Equities
 
-The NSE is India’s largest stock exchange offering trading in Indian company stocks and equity products.
+Trades, quotes, bars and book depth from the National Stock Exchange of India (NSE) equity market, India’s largest stock exchange by turnover, with history from January 2012. Index data includes the NIFTY 50 and other NIFTY indices.
 
 * Country: India [IN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The NSE is India’s largest stock exchange offering trading in Indian company s
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: Nifty 50 [NSE_CASH::NIFTY50]
 
 
 

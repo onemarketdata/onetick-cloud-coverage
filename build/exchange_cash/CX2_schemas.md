@@ -1,6 +1,6 @@
 # Nasdaq CX2 Schemas
 
-Nasdaq CX2 is Nasdaq’s alternative trading system (ATS) for trading NMS stocks using a price-time priority order book model.
+Trades, Quotes and Book depth from Nasdaq CX2, one of Nasdaq Canada’s marketplaces, with history from May 2017. CX2 is a lit order book for Canadian-listed securities that runs separately from Nasdaq CXC with its own fee schedule and order-type rules, so comparing the two shows how Canadian liquidity is split between Nasdaq’s books.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 
 

@@ -1,6 +1,6 @@
 # CME Group Futures & Options  Trading Hours
 
-The CME Group operates derivatives exchanges ( CBOT COMEX NYMEX CME Globex ) offering trading in futures and options across asset classes like agriculture, energy, metals, interest rates, equities, and cryptocurrencies. MGEX is for trading agricultural futures and options.  This CME Database includes Book Depth MBO data and additional fields that are not supported in the other CME Databases.
+Futures, options and spreads with Trades, Qutoes, bars and market-by-order (MBO) book depth from CME Group’s exchanges, CME, CBOT, NYMEX and COMEX, all traded on the CME Globex platform, with history from March 2019. Products span agriculture, energy, metals, interest rates, equity indices, FX and cryptocurrencies. It also covers Minneapolis hard red spring wheat contracts from MGEX (now MIAX Futures), which traded on CME Globex until 2025. This database includes MBO book depth and additional fields that are not available in the other CME databases.
 
 Trading Hours are divided into multiple sessions
 

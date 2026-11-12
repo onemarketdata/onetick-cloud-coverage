@@ -1,6 +1,6 @@
 # Blue Ocean ATS Enumerations
 
-Blue Ocean ATS (BOATS) is a US-based Alternative Trading System (ATS) run by Blue Ocean Technologies, enabling trading of U.S. stocks (NMS) during non-traditional hours, specifically 8 PM to 4 AM ET, Sunday to Thursday, bridging the overnight gap
+Trades, Quotes, Auction Imbalances, and Book depth from Blue Ocean ATS (BOATS), with history from December 2025. Operated by Blue Ocean Technologies, BOATS launched in 2021 as the first US alternative trading system built for overnight trading of NMS stocks. It runs from 8 PM to 4 AM ET, Sunday to Thursday, bridging the gap between US sessions when Asian markets are most active.
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * TRADE_PERIOD - Market period during which a trade was executed.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * REASON_CODE - Reason for an instrument status update
 * SHORT_SALE_RESTRICTION - Indicates whether short selling is permitted
 * UPDATE_TYPE - Type of update
@@ -53,6 +54,32 @@ The following fields have Enumerations:
 | H                | Halted                    |
 | P                | Paused                    |
 | Q                | Quoting                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### REASON_CODE - Enumeration
 

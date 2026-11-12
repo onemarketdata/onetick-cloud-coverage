@@ -1,6 +1,6 @@
 # CBOT Futures
 
-The CME Chicago Board of Trade (CBOT) offers trading in futures on agricultural commodities, interest rates, and equity indices.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from the Chicago Board of Trade (CBOT), part of CME Group, with history from November 2009. CBOT lists the benchmark grain and oilseed futures (corn, soybeans, wheat, soybean oil and soybean meal), US Treasury note and bond futures, and E-mini Dow futures.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ The CME Chicago Board of Trade (CBOT) offers trading in futures on agricultural 
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival (from 20091109), Exchange (Matching Engine) from 20190331
+* Key Indices:
 
 
 

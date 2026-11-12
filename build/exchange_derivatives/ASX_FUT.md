@@ -1,6 +1,6 @@
 # ASX 24 (Sydney Futures Exchange)
 
-ASX 24, formerly the Sydney Futures Exchange, offers trading in futures and options on interest rates, equities, commodities, and currencies.
+Futures and spreads with bars from ASX 24 (formerly the Sydney Futures Exchange), with history from April 2011. Key contracts include the SPI 200 equity index future, 3-year and 10-year Australian Treasury bond futures, 90-day bank bill futures and 30-day interbank cash rate futures, plus electricity and agricultural contracts.
 
 * Country: Australia [AU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ ASX 24, formerly the Sydney Futures Exchange, offers trading in futures and opti
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

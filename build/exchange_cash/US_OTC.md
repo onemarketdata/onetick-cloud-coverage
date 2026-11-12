@@ -1,6 +1,6 @@
 # US OTC Equities (Trades only)
 
-FINRA reported trades for OTC instruments
+FINRA-reported trades in US OTC equities (non-NMS securities), with history from January 2016, covering OTCQX, OTCQB, Pink and other over-the-counter trades reported to FINRA. It contains trades only: for OTC quotes use OTCM, and for exchange-listed (NMS) securities use US_COMP.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ FINRA reported trades for OTC instruments
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

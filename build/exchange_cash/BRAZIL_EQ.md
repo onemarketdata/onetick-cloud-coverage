@@ -1,6 +1,6 @@
 # B3 (Bovespa) - Equities + Equity Options
 
-B3’s Bovespa equities segment is Brazil’s main stock exchange for trading stocks and equity options.
+Trades, quotes and bars for B3’s equities segment (formerly Bovespa), Brazil’s stock exchange, covering stocks, ETFs, BDRs and equity options, with equities from May 2008 and indices from January 2014. Index data includes the Ibovespa, Brazil’s main equity benchmark, and other B3 indices.
 
 * Country: Brazil [BR]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ B3’s Bovespa equities segment is Brazil’s main stock exchange for trading st
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Ibovespa [BRAZIL_EQ::IBOV]
 
 
 

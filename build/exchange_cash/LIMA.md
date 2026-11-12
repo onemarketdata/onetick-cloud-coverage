@@ -1,6 +1,6 @@
 # Lima Stock Exchange
 
-The Lima Stock Exchange is the official stock exchange of Peru where securities like stocks, bonds and derivatives are traded.
+Trades, quotes and bars from the Lima Stock Exchange (Bolsa de Valores de Lima, BVL), Peru’s stock exchange, with history from June 2016. BVL lists many mining companies, and covered stocks include constituents of the S&P/BVL Peru General and S&P/BVL Lima 25 indices. BVL is now part of the nuam regional exchange group with the Santiago and Colombia exchanges.
 
 * Country: Peru [PE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Lima Stock Exchange is the official stock exchange of Peru where securities 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P/BVL Peru General Index
 
 
 

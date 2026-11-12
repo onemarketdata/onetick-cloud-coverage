@@ -1,6 +1,6 @@
-# Cboe Australia (CXA) Schemas
+# TMX Australia (CXA) Schemas
 
-Cboe Australia, formerly Chi-X Australia, is an alternative trading system providing trading in Australian equities, ETFs, and other listed securities.
+Trades, quotes and bars from TMX Australia Exchange (formerly Cboe Australia and before that Chi-X Australia), Australia’s alternative trading venue to the ASX, with history from June 2016. TMX Group acquired the exchange from Cboe in July 2026. It trades ASX-listed equities and ETFs and also lists its own ETFs, warrants and structured products. Covered stocks include constituents of the S&P/ASX 200.  A consolidated tape for both Australian equity markets is provided in the AU_COMP dataset.
 
 
 

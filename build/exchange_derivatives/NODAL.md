@@ -1,6 +1,6 @@
 # Nodal Exchange
 
-Nodal Exchange is a leading commodities derivatives exchange providing price, credit, and liquidity risk management to participants in the North American energy markets. It operates as the #1 power futures exchange in the United States, capturing roughly 55% market share of the U.S. power futures open interest.
+Futures, options and spreads with Trades, Quotes and book depth from Nodal Exchange, with history from August 2026. Nodal, part of EEX Group, is the leading North American power futures exchange, holding more than half of US power futures open interest. It also lists natural gas futures and one of the largest suites of environmental futures and options, including carbon contracts, all cleared through its subsidiary Nodal Clear.
 
 * Country: USA United States [US]
 * Mkt Hours: 08:00-18:00
@@ -9,6 +9,8 @@ Nodal Exchange is a leading commodities derivatives exchange providing price, cr
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices:
 
 
 

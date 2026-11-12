@@ -1,6 +1,6 @@
 # Borsa Italiana Derivatives (IDEM)
 
-IDEM is the derivatives market operated by Borsa Italiana (Italian Stock Exchange), trading equity, energy and fixed income derivatives
+Futures and spreads with Trades, Quotes and bars from Euronext Derivatives Milan (formerly IDEM), Borsa Italiana’s derivatives market, now part of Euronext, with history from April 2011. Key contracts include FTSE MIB index futures and mini futures, single-stock futures on Italian companies, and Italian power futures.
 
 * Country: Italy [IT]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ IDEM is the derivatives market operated by Borsa Italiana (Italian Stock Exchang
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

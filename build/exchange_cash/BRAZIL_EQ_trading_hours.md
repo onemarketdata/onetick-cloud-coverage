@@ -1,6 +1,6 @@
 # B3 (Bovespa) - Equities + Equity Options Trading Hours
 
-B3’s Bovespa equities segment is Brazil’s main stock exchange for trading stocks and equity options.
+Trades, quotes and bars for B3’s equities segment (formerly Bovespa), Brazil’s stock exchange, covering stocks, ETFs, BDRs and equity options, with equities from May 2008 and indices from January 2014. Index data includes the Ibovespa, Brazil’s main equity benchmark, and other B3 indices.
 
 Trading Hours are divided into multiple sessions
 
@@ -10,5 +10,5 @@ Trading Hours are divided into multiple sessions
 |----------------|-------------|--------------|------------|
 | PRE_MARKET     | Etc/GMT+3   | 09:45        | 10:00      |
 | MARKET         | Etc/GMT+3   | 10:00        | 18:15      |
-| POST_MARKET    | Etc/GMT+3   | 18:15        | 18:45      |
+| POST_MARKET    | Etc/GMT+3   | 18:25        | 18:45      |
 

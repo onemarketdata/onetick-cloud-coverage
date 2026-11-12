@@ -1,6 +1,6 @@
 # Bucharest Stock Exchange Market Holidays
 
-The Bucharest Stock Exchange is the stock exchange of Romania located in Bucharest
+Trades and quotes from the Bucharest Stock Exchange (BVB), Romania’s stock exchange, with history from December 2014, covering its regulated market and alternative trading system. Index data is included, such as the BET index of the most traded Romanian companies.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|------------------|--------------|------------|--------------|------------|
+| Full Holiday    | Europe/Bucharest | 2026-12-01   | 2026-12-01 | 00:00        | 24:00      |
+| Full Holiday    | Europe/Bucharest | 2026-11-30   | 2026-11-30 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Bucharest | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Bucharest | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Bucharest | 2026-04-13   | 2026-04-13 | 00:00        | 24:00      |
@@ -16,6 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Europe/Bucharest | 2026-01-06   | 2026-01-06 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Bucharest | 2026-01-02   | 2026-01-02 | 00:00        | 24:00      |
 | Full Holiday    | Europe/Bucharest | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Bucharest | 2025-12-26   | 2025-12-26 | 00:00        | 24:00      |
-| Full Holiday    | Europe/Bucharest | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
 

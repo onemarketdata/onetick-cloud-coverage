@@ -1,6 +1,6 @@
 # Ho Chi Minh Stock Exchange Schemas
 
-The Ho Chi Minh Stock Exchange (HOSE) is Vietnam’s largest stock exchange, located in Ho Chi Minh City. Recently, it had 404 listed companies trading stocks, closed-end fund certificates, ETFs, covered warrants and bonds, with a total market capitalization of over $256 billion.[1][12]
+Trades, quotes and bars from the Ho Chi Minh Stock Exchange (HOSE), Vietnam’s largest stock exchange, with history from August 2011. It lists just over 400 companies and trades stocks, closed-end fund certificates, ETFs, covered warrants and bonds. Index data is included, covering the VN-Index, which tracks all HOSE-listed stocks, and the VN30 of the 30 largest companies.
 
 
 

@@ -1,6 +1,6 @@
 # CSE2 Exchange Market Holidays
 
-CSE2 is the Canadian Securities Exchange’s alternative trading system, offering an unprotected market for trading securities listed on the CSE and other Canadian marketplaces.
+Trades, Quotes and Book depth from CSE2, a second order book operated by the Canadian Securities Exchange, with history from November 2022. CSE2 is an unprotected market, meaning its quotes are not protected under Canada’s order protection rule, and it trades securities listed on the CSE and other Canadian marketplaces.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The last 10 Market Holidays are listed
 

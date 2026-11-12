@@ -1,6 +1,6 @@
 # US Consolidated Equity Replay for Intraday / CEP
 
-Consolidated data from all US equities exchanges, replayed and available for testing intraday access plus CEP / stream processing
+A real-time replay of consolidated US equity trades and quotes from the SIP, published as if live so you can test intraday queries and complex event processing (CEP) / streaming subscriptions without a live feed. Data covers all US equity exchanges and FINRA trade reporting facilities and appears for the current day.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ Consolidated data from all US equities exchanges, replayed and available for tes
 * Real Time Available: Yes
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: SIP Consolidation Time
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

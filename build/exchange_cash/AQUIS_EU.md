@@ -1,6 +1,6 @@
 # Aquis Europe
 
-Aquis Europe is the European segment of the Aquis pan-European cash equities trading books, covering securities across 13 European markets outside the UK.
+Trades, quotes, bars and book depth from Aquis Exchange Europe, the Paris-based EU MTF that Aquis set up after Brexit, with history from September 2019. It trades equities from European markets outside the UK and uses the same subscription pricing model as Aquis UK. Aquis has been owned by SIX Group since July 2025. Covered stocks include constituents of the EURO STOXX 50, DAX and CAC 40.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Aquis Europe is the European segment of the Aquis pan-European cash equities tra
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

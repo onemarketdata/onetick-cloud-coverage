@@ -1,6 +1,6 @@
 # Korea Exchange - Kosdaq Enumerations
 
-The Kosdaq market is the Korean stock market for small and medium companies, operated by Korea Exchange.
+Trades, quotes and bars from the KOSDAQ market of the Korea Exchange, Korea’s market for growth, technology and small- and mid-cap companies, with history from May 2008. Index data includes the KOSDAQ Composite and KOSDAQ 150.  A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 The following fields have Enumerations:
 

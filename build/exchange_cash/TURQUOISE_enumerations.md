@@ -1,10 +1,11 @@
 # Turquoise UK Enumerations
 
-Turquoise is a European multilateral trading facility (MTF) owned by the London Stock Exchange Group. It offers trading in over 4,300 securities across 19 European markets, including UK, Swiss, European, and US shares, ETFs, and depository receipts.[6][7] Turquoise uses a hybrid model allowing trading both on and off traditional exchanges.
+Trades, quotes and bars from Turquoise, a pan-European multilateral trading facility (MTF) owned by the London Stock Exchange Group, with history from October 2010. Founded in 2008 by a group of investment banks, Turquoise offers trading in UK, Swiss, US and European shares, ETFs and depositary receipts through Turquoise UK in London and Turquoise Europe in Amsterdam. It is known for its lit order book and its block trading services, formerly Turquoise Plato and now branded Turquoise Dark.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * MMT_ALGO_IND - Identifies whether a trade involved an algorithmic order.
@@ -19,6 +20,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -29,6 +31,22 @@ The following fields have Enumerations:
 | ‘””’             | Undefined (e.g. auction trades, off-book trades) |
 | B                | Buy                                              |
 | S                | Sell                                             |
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### BOOK_TYPE - Enumeration
 
@@ -164,6 +182,32 @@ The following fields have Enumerations:
 | O                | Opening auction                |
 | P                | On demand auction              |
 | U                | Unscheduled auction            |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

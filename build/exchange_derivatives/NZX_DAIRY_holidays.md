@@ -1,6 +1,6 @@
 # SGX-NZX Dairy Derivatives Market Holidays
 
-SGX-NZX’s Dairy Derivatives Market provides the dairy industry with a forward view of dairy prices and a cash settled instrument for managing price risk simply and efficiently.
+Futures, options and spreads from the SGX-NZX dairy derivatives market, with history from March 2026. Contracts are cash-settled against Global Dairy Trade (GDT) auction prices for products such as whole milk powder, skim milk powder, butter and anhydrous milk fat, plus NZ milk price futures, and are used to hedge global dairy prices.
 
 The last 10 Market Holidays are listed
 

@@ -1,6 +1,6 @@
 # COMEX Futures
 
-COMEX is a division of the CME Group, offering trading in metal futures and options.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from COMEX, CME Group’s metals exchange, with history from November 2009. COMEX gold, silver and copper futures (including micro contracts) are global benchmarks for metals pricing.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ COMEX is a division of the CME Group, offering trading in metal futures and opti
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival (from 20091109), Exchange (Matching Engine) from 20190331
+* Key Indices:
 
 
 

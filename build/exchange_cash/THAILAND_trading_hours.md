@@ -1,6 +1,6 @@
 # Stock Exchange of Thailand Trading Hours
 
-The Stock Exchange of Thailand facilitates trading in Thai company stocks, bonds, derivatives and other products.
+Trades, quotes, bars and book depth from the Stock Exchange of Thailand (SET), with history from September 2014, covering the SET main board and the Market for Alternative Investment (mai). Index data includes the SET Index, SET50 and SET100.
 
 Trading Hours are divided into multiple sessions
 

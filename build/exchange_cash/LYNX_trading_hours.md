@@ -1,6 +1,6 @@
 # Lynx ATS Trading Hours
 
-Lynx is an alternative trading system (ATS) or dark pool operated by Cboe Global Markets in Canada.
+Trades, Quotes and Book depth from Lynx ATS, a Canadian alternative trading system operated by Tradelogiq Markets Inc. alongside Omega ATS, which trades TSX- and TSX Venture-listed securities, with history from May 2017. Combined with the other Canadian venue databases, or CA_COMP for consolidated data, it shows how liquidity in Canadian stocks such as S&P/TSX 60 constituents is split across marketplaces.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 Trading Hours are divided into multiple sessions
 

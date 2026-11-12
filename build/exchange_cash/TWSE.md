@@ -1,6 +1,6 @@
 # Taiwan Stock Exchange
 
-The Taiwan Stock Exchange is the main stock exchange in Taiwan where public Taiwanese companies are listed.
+Trades, quotes, bars and book depth from the Taiwan Stock Exchange (TWSE), Taiwan’s main board, with history from September 2014. It is home to major semiconductor companies such as TSMC. Covered stocks include constituents of the TAIEX and FTSE TWSE Taiwan 50; index values are in TWSE_IDX.  A consolidated tape for both Taiwanese equity markets is provided in the TW_COMP dataset.
 
 * Country: Taiwan [TW]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Taiwan Stock Exchange is the main stock exchange in Taiwan where public Taiw
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: TAIEX [TWSE_IDX::IX0001], FTSE TWSE Taiwan 50 [TWSE_IDX::TW50]
 
 
 

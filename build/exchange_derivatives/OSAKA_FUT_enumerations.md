@@ -1,10 +1,11 @@
 # Osaka Exchange - Index + Equity Futures Enumerations
 
-The Osaka Exchange offers trading in index and equity futures, including the Nikkei 225 futures and options.
+Futures and spreads with Trades, Quotes and bars from Osaka Exchange (OSE), part of Japan Exchange Group, with history from November 2009. OSE is Japan’s main index derivatives market, with Nikkei 225 futures (including mini and micro contracts), TOPIX futures and JPX-Nikkei 400 futures.
 
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 * TRADE_SESSION - Trading session from which a trade originates, e.g. “Day”, “Night”
@@ -15,6 +16,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 |                0 | Lit order book            |
 |                1 | Off-book                  |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

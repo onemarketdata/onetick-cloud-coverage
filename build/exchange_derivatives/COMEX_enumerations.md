@@ -1,6 +1,6 @@
 # COMEX Futures Enumerations
 
-COMEX is a division of the CME Group, offering trading in metal futures and options.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from COMEX, CME Group’s metals exchange, with history from November 2009. COMEX gold, silver and copper futures (including micro contracts) are global benchmarks for metals pricing.
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * EVENT_CODE - Event that triggered an instrument status update
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -61,6 +62,32 @@ The following fields have Enumerations:
 |               25 | Cross                     |
 |               26 | Post-close                |
 |                4 | Closed                    |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

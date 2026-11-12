@@ -1,6 +1,6 @@
 # Japan Consolidated Equities Sample
 
-A subset of symbols from all Japanese venues, between January 2,2024 and March 31, 2024.
+A sample of the JP_COMP consolidated tape database covering a subset of symbols across all Japanese equity venues, including the Tokyo, Nagoya, Fukuoka and Sapporo exchanges and the Japannext and Cboe Japan PTSs, between January 2, 2024 and March 31, 2024. It includes consolidated trades, quotes and bars for measuring how PTS volume adds to exchange liquidity. The full database covers constituents of the Nikkei 225 and TOPIX.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ A subset of symbols from all Japanese venues, between January 2,2024 and March 3
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Nikkei 225 Index [TDI_IDX::NE]
 
 
 

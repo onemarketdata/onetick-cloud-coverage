@@ -1,6 +1,6 @@
 # Aquis UK
 
-Aquis Stock Exchange is designed specifically for growth enterprises: we are fully focused on powering the companies of the future.
+Trades, quotes, bars and book depth from Aquis Exchange UK, a pan-European MTF trading UK and European equities, with history from September 2016. Aquis is known for subscription-based pricing, where members pay according to message traffic rather than per trade, and it operates lit and dark books. It has been owned by SIX Group since July 2025. Covered stocks include constituents of the FTSE 100 and major European indices.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Aquis Stock Exchange is designed specifically for growth enterprises: we are ful
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

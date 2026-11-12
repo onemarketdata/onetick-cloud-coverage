@@ -1,6 +1,6 @@
 # Abu Dhabi Securities Exchange
 
-The Abu Dhabi Securities Exchange (ADX) facilitates trading in equities, bonds, ETFs, and other securities issued by UAE companies.
+Trades, quotes and bars from the Abu Dhabi Securities Exchange (ADX), with history from June 2016, covering equities, bonds, ETFs and futures of UAE companies. Index data is included, such as the FTSE ADX General Index (FADGI), the main benchmark for Abu Dhabi-listed stocks.
 
 * Country: UAE [AE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Abu Dhabi Securities Exchange (ADX) facilitates trading in equities, bonds, 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: FTSE ADX 15 [ABU_DHABI::FADX15]
 
 
 

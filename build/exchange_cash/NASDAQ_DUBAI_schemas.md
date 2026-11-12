@@ -1,6 +1,6 @@
 # Nasdaq Dubai Schemas
 
-Nasdaq Dubai offers trading in equities, bonds, derivatives, and Islamic finance products like Sukuk.
+Trades, quotes and bars from Nasdaq Dubai, the international exchange in the Dubai International Financial Centre (DIFC), with history from June 2014. It lists equities, ETFs, bonds, futures and Sukuk (Islamic bonds), trades in US dollars, and is one of the world’s largest venues for listing Sukuk.
 
 
 

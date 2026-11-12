@@ -1,6 +1,6 @@
 # Cboe CXE (Chi-X Europe) Schemas
 
-Cboe CXE, formerly Chi-X Europe, is a pan-European equities exchange and multilateral trading facility operated by Cboe Global Markets.
+Trades, quotes and bars from Cboe CXE (formerly Chi-X Europe), with history from January 2009. It is one of Cboe’s two pan-European order books, with lit, dark and off-book segments plus Cboe Large in Scale (LIS) block trading, and trades equities and ETFs across many European markets. Covered stocks include constituents of the FTSE 100, DAX, CAC 40 and EURO STOXX 50.
 
 
 

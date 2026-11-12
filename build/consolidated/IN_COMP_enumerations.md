@@ -1,6 +1,6 @@
 # India Consolidated Equities Enumerations
 
-Consolidated data from all Indian equities exchanges.
+Consolidated trades, NBBO, exchange quotes and bars for Indian equities from the National Stock Exchange of India (NSE) and BSE, including the BSE SME platform, with history from January 2012. It lets you analyse Indian stocks across both major exchanges in one database. Covered stocks include constituents of the NIFTY 50 and BSE SENSEX.
 
 The following fields have Enumerations:
 

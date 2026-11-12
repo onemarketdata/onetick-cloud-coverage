@@ -1,6 +1,6 @@
 # Cboe EDGX Market Holidays
 
-he Cboe EDGX Exchange is a prominent U.S. equities and options market operated by Cboe Global Markets. It is distinguished by its extended trading hours —opening at 4:00 AM ET—its patent-pending Retail Priority allocation model, and a comprehensive depth-of-book feed for market participants.  Full L1 history for Cboe EDGX from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from the Cboe EDGX Equities Exchange, operated by Cboe Global Markets, with history from May 2025. EDGX is known for its early trading session starting at 4:00 a.m. ET, where it holds a large share of pre-market volume, and for Retail Priority, which places attested retail investors’ displayed orders ahead of other orders at the same price. Full L1 history for Cboe EDGX from the Consolidated Tape is available in the US_COMP dataset.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name     | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-------------------|------------------|--------------|------------|--------------|------------|
+| Non Trading Hours | America/New_York | 2026-11-27   | 2026-11-27 | 13:00        | 17:00      |
+| Full Holiday      | America/New_York | 2026-11-26   | 2026-11-26 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-07-03   | 2026-07-03 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
@@ -15,7 +17,4 @@ The last 10 Market Holidays are listed
 | Full Holiday      | America/New_York | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-02-16   | 2026-02-16 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-01-19   | 2026-01-19 | 00:00        | 24:00      |
-| Full Holiday      | America/New_York | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Full Holiday      | America/New_York | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
-| Non Trading Hours | America/New_York | 2025-12-24   | 2025-12-24 | 13:00        | 17:00      |
 

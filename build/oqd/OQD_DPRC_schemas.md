@@ -1,6 +1,6 @@
 # Daily Price History for Global Equities Schemas
 
-Daily Price History for Global Equities
+Daily price history for global equities, with history from January 1968, including daily open, high, low, close and volume. Combined with OQD_CACT you can build split- and dividend-adjusted price histories, and it can be joined with the OQD security master and symbology databases.
 
 
 

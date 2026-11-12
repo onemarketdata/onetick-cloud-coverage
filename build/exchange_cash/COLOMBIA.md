@@ -1,6 +1,6 @@
 # Colombia Stock Exchange
 
-The Colombia Stock Exchange (BVC) offers trading in equities, bonds, derivatives, and other financial instruments issued by Colombian companies.
+Trades, quotes and bars from the Colombia Stock Exchange (Bolsa de Valores de Colombia, BVC), with history from June 2016, covering Colombian equities and related products. Index data includes the MSCI COLCAP, Colombia’s main equity benchmark. BVC is now part of the nuam regional exchange group with the Santiago and Lima exchanges.
 
 * Country: Colombia [CO]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Colombia Stock Exchange (BVC) offers trading in equities, bonds, derivatives
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: MSCI COLCAP [COLOMBIA::ICAP]
 
 
 

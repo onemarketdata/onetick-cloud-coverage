@@ -1,6 +1,6 @@
 # Luxembourg Stock Exchange
 
-The Luxembourg Stock Exchange specializes in the listing of international securities like bonds and funds.
+Trades, quotes and bars from the Luxembourg Stock Exchange (LuxSE), with history from February 2015, covering its regulated market and the Euro MTF market. LuxSE is one of the world’s largest venues for listing international bonds, including green, social and sustainability bonds through the Luxembourg Green Exchange. Covered stocks include constituents of the LuxX index.
 
 * Country: Luxembourg [LU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Luxembourg Stock Exchange specializes in the listing of international securi
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: LuxX [LUXEMBOURG::LUXX]
 
 
 

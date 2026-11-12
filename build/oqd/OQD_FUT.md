@@ -1,6 +1,6 @@
 # Daily Price History for Global Futures
 
-Daily Price History for Global Futures
+Daily price history for global futures, with history from January 2016. It provides a compact end-of-day view of futures contracts across exchanges, useful for building continuous contracts and term structures without processing tick data.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Daily Price History for Global Futures
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

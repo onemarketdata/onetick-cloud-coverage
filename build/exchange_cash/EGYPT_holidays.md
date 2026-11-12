@@ -1,6 +1,6 @@
 # Egyptian Exchange Market Holidays
 
-The Egyptian Exchange facilitates trading in equities, bonds, securitized mortgage and asset-backed securities of Egyptian companies.
+Trades, quotes and bars from the Egyptian Exchange (EGX), with history from June 2016, covering Egyptian equities and bonds on the main market and Nilex, its market for small and medium enterprises. Covered stocks include constituents of the EGX30, Egypt’s main equity benchmark.
 
 The last 10 Market Holidays are listed
 

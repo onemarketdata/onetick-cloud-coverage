@@ -1,6 +1,6 @@
 # TSX Alpha-X / Alpha DRK Enumerations
 
-Alpha-X is a visible order book that has all of the same order types and trading functionalities currently available on TSX Alpha Exchange, and features the new Smart Limit™ order type, Alpha DRK is a fully dark order book with a comprehensive suite of pegged (Primary, Market, Minimum Price Improvement, Midpoint) market and limit order types, and has the new Smart Peg™ order type.
+Trades, Quotes and Book depth from two TMX order books launched in November 2023: Alpha-X, a lit book with the same order types as TSX Alpha plus the Smart Limit order type, and Alpha DRK, a fully dark book with pegged (primary, market, minimum price improvement and midpoint) orders and the Smart Peg order type. Use it to compare lit and dark liquidity in TSX- and TSX Venture-listed securities.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -60,6 +61,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | ‘””’             | Board lot                 |
 | Y                | Odd lot                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

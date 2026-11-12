@@ -1,6 +1,6 @@
 # Vienna Stock Exchange - Indices Market Holidays
 
-The Vienna Stock Exchange provides indices tracking the performance of Austrian and Central and Eastern European equities, including the ATX and CECE indices.
+Index values from the Vienna Stock Exchange (Wiener B?rse), with history from February 2017. Key indices include the ATX (Austrian Traded Index) and ATX Prime, and the CECE family of Central and Eastern European indices, which Wiener B?rse calculates.
 
 The last 10 Market Holidays are listed
 

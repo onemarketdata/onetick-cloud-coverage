@@ -1,6 +1,6 @@
 # CME Group (PCAP) Sample Enumerations
 
-A subset of symbols from the CME Group exchanges ( CBOT COMEX NYMEX CME Globex ), covering the Futures for products:  CL (Crude Oil), ES (E-Mini S&P 500), GC (Gold), NG (Henry Hub Natural Gas), NQ (E-Mini Nasdaq 100), ZC (Corn).   Between January 2,2024 and March 31, 2024.
+A sample of the CME Group database covering a subset of symbols from CME Group’s four exchanges (CME, CBOT, NYMEX and COMEX), traded on the CME Globex electronic platform, between January 2, 2024 and March 31, 2024. Captured from PCAP, it includes trades, quotes, book depth and bars for futures, options and spreads on CL (WTI Crude Oil), ES (E-mini S&P 500), GC (Gold), NG (Henry Hub Natural Gas), NQ (E-mini Nasdaq-100) and ZC (Corn).
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * EVENT_CODE - Event that triggered an instrument status update
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -61,6 +62,32 @@ The following fields have Enumerations:
 |               25 | Cross                     |
 |               26 | Post-close                |
 |                4 | Closed                    |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

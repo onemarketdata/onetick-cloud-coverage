@@ -1,6 +1,6 @@
 # Hong Kong Futures Exchange
 
-The Hong Kong Futures Exchange (HKFE) offers trading in futures and options on equities, indices, interest rates, and commodities.
+Futures and spreads with Trades, Quotes and bars from the Hong Kong Futures Exchange (HKFE), part of HKEX, with history from November 2009. Key contracts include Hang Seng Index, Mini-Hang Seng Index, Hang Seng China Enterprises Index and Hang Seng TECH Index futures, and USD/CNH futures.
 
 * Country: Hong Kong SAR China [HK]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Hong Kong Futures Exchange (HKFE) offers trading in futures and options on e
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

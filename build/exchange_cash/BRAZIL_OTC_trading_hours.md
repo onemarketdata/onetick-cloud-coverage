@@ -1,6 +1,6 @@
 # B3 (Bovespa) - OTC Market Trading Hours
 
-The São Paulo Stock, Commodities and Futures Exchange (known as B3 S.A. - Brasil, Bolsa,balcão) currently has several different trading market segments: the traditional stock exchange and over-the-counter markets, and the special trading segments Level 1, Level 2 and New Market (Novo Mercado), Bovespa Mais and Bovespa Mais Level 2, which allow the trading of securities of listed companies adopting a special level of corporate governance.
+Trades and quotes from B3’s organized over-the-counter (balc?o organizado) equities market, with history from May 2008. B3 S.A. - Brasil, Bolsa, Balc?o, formerly BM&FBOVESPA, is Brazil’s exchange group and operates both listed and OTC markets. For exchange trading in Brazilian stocks, including Ibovespa constituents, see BRAZIL_EQ.
 
 Trading Hours are divided into multiple sessions
 
@@ -10,5 +10,5 @@ Trading Hours are divided into multiple sessions
 |----------------|-------------|--------------|------------|
 | PRE_MARKET     | Etc/GMT+3   | 09:45        | 10:00      |
 | MARKET         | Etc/GMT+3   | 10:00        | 18:15      |
-| POST_MARKET    | Etc/GMT+3   | 18:15        | 18:45      |
+| POST_MARKET    | Etc/GMT+3   | 18:25        | 18:45      |
 

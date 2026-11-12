@@ -1,6 +1,6 @@
 # Cboe BYX Schemas
 
-Cboe BYX is one of Cboe Global Markets’ four U.S. equities exchanges, operating as a distinct electronic order book for trading NMS securities with its own unique fee schedule and market model. It is well known for utilizing Periodic Auctions during regular trading hours to help minimize market impact and provide liquidity.  Full L1 history for Cboe BYX from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes, Auction Imbalances and Book depth from Cboe BYX, one of Cboe Global Markets’ four US equities exchanges, with history from May 2025. BYX runs its own order book for NMS securities and is known for its inverted (taker-maker) pricing model, which charges a fee for providing liquidity and pays a rebate for removing it, attracting order flow that wants queue priority. Full L1 history for Cboe BYX from the Consolidated Tape is available in the US_COMP dataset.
 
 
 

@@ -1,6 +1,6 @@
 # Mexico Consolidated Equities Schemas
 
-Consolidated data from all Mexicon equities exchanges.
+Consolidated trades, NBBO, exchange quotes and bars for Mexican equities from the Bolsa Mexicana de Valores (BMV) and BIVA (Bolsa Institucional de Valores), with history from June 2024. It gives a single view of Mexican stocks across both of the country’s exchanges. Covered stocks include constituents of the S&P/BMV IPC.
 
 
 

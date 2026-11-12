@@ -1,6 +1,6 @@
 # Global Indices
 
-A Curated List of Global Indices, usually published on 1 second and 15 second intervals
+A curated list of global indices, usually published at 1-second and 15-second intervals, with history from January 1983. It brings index levels from many markets into one database, so you can compare benchmarks across regions without subscribing to each exchange’s index feed.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ A Curated List of Global Indices, usually published on 1 second and 15 second in
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

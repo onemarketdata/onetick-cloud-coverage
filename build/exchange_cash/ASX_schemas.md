@@ -1,6 +1,6 @@
 # Australian Stock Exchange Schemas
 
-The Australian Stock Exchange (ASX) offers trading in equities, bonds, ETFs, derivatives, and other securities issued by Australian companies.
+Trades, quotes and bars from the Australian Securities Exchange (ASX), with history from May 2008. ASX is Australia’s primary listing venue for equities, ETFs, hybrids and warrants, and its opening and closing auctions set official prices for S&P/ASX 200 and All Ordinaries constituents. For the Australian Equity consolidated tape including TMX Australia Exchange (formerly Cboe Australia) as well, use AU_COMP.
 
 
 

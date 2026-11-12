@@ -1,6 +1,6 @@
 # Singapore Exchange (SGX) Schemas
 
-The Singapore Exchange is one of the leading securities and derivatives exchanges in Asia-Pacific.
+Trades, quotes and bars from the Singapore Exchange (SGX) securities market, with history from July 2014, covering the Mainboard and Catalist as well as ETFs, REITs and bonds. Covered stocks include constituents of the Straits Times Index (STI); index values are in ST_IDX.
 
 
 

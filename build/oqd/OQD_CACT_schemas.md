@@ -1,6 +1,6 @@
 # Global Corporate Actions History Schemas
 
-Global Corporate Actions History
+Global corporate actions history, with history from January 1968, including cash and stock dividends, splits, rights issues, mergers, spin-offs, and name and symbol changes. Use it to adjust prices and volumes for corporate events and to follow companies through identifier changes, together with OQD_DPRC and OQD_SEC.
 
 
 

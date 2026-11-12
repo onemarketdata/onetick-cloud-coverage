@@ -1,6 +1,6 @@
 # Tokyo Stock Exchange - Indices Trading Hours
 
-A series of stock market indices for the Tokyo Stock Exchange.
+Index values from the Tokyo Stock Exchange, with history from February 2017. These cover TSE market indices such as the Prime, Standard and Growth market indices, the TSE REIT Index and sector indices; for the TOPIX family use TOPIX_IDX.
 
 Trading Hours are divided into multiple sessions
 

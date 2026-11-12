@@ -1,6 +1,6 @@
 # Korea Exchange - Equities (KOSPI) Market Holidays
 
-The KOSPI is the main equity market operated by Korea Exchange, where large cap Korean stocks are traded.
+Trades, quotes and bars from the Korea Exchange’s KOSPI market, where Korea’s large-cap stocks such as Samsung Electronics and SK Hynix trade, with history from May 2008. Index data is included, covering the KOSPI and KOSPI 200. A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 The last 10 Market Holidays are listed
 

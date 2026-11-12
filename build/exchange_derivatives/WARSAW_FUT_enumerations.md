@@ -1,9 +1,11 @@
 # Warsaw Stock Exchange - Derivatives Enumerations
 
-Warsaw Stock Exchange operates a financial instruments exchange. The Exchange trades equities, fixed income, derivatives, listings, bonds, subscription rights.
+Futures and options with Trades, Quotes,  bars and book depth from the derivatives market of the Warsaw Stock Exchange (GPW), with history from November 2022. The flagship contracts are futures and options on the WIG20 index of Poland’s largest companies, first listed in 1998 as the exchange’s first derivatives, alongside mWIG40 index futures, single-stock futures and USD, EUR, GBP and CHF currency futures against the zloty.
 
 The following fields have Enumerations:
 
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
+* CALL_PUT_IND - “C” - Call option, “P” - Put option
 * EVENT_CODE - Event that triggered an instrument status update
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * MMT_ALGO_IND - Identifies whether a trade involved an algorithmic order.
@@ -20,11 +22,28 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_ENTRY_STATUS - Indicates the availability of order entry / modification / cancellation
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * TRADE_TYPE - Type of trade
 * UPDATE_TYPE - Type of update
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### CALL_PUT_IND - Enumeration
 
@@ -165,6 +184,32 @@ The following fields have Enumerations:
 | K                | Closing auction               |
 | O                | Opening auction               |
 | U                | Unscheduled auction           |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_ENTRY_STATUS - Enumeration
 

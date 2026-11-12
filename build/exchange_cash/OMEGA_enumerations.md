@@ -1,6 +1,6 @@
 # Omega ATS Enumerations
 
-Omega is an alternative trading system (ATS) or dark pool in Canada.
+Trades, Quotes and Book depth from Omega ATS, a Canadian alternative trading system that trades TSX- and TSX Venture-listed securities, with history from October 2017. Omega ATS is operated by Tradelogiq Markets (formerly Omega Securities), which also runs Lynx ATS, and is known for its inverted taker-maker pricing. Combined with the other Canadian venue databases, or CA_COMP for consolidated data, it shows how liquidity in Canadian stocks such as S&P/TSX 60 constituents is split across marketplaces.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
@@ -61,6 +62,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | ‘””’             | Board lot                 |
 | Y                | Odd lot                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

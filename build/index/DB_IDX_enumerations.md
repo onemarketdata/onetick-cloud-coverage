@@ -1,6 +1,6 @@
 # Deutsche Boerse / STOXX Indices Enumerations
 
-Deutsche Boerse operates the Frankfurt Stock Exchange and provides indices like the STOXX indices covering European and global markets across asset classes.
+Index values from Deutsche B?rse and STOXX, with volatility indices and iNAVs from August 2013 and all other DAX and STOXX indices from January 2017. Key indices include the DAX, MDAX, SDAX and TecDAX, the EURO STOXX 50 and STOXX Europe 600, the VSTOXX and VDAX-NEW volatility indices, and intraday indicative net asset values (iNAVs) for ETFs.
 
 The following fields have Enumerations:
 

@@ -1,6 +1,6 @@
 # Zhengzhou Commodity Exchange Enumerations
 
-The Zhengzhou Commodity Exchange (ZCE) offers trading in agricultural and industrial commodity futures and options.
+Futures, options and spreads with Trades, Quotes and bars from the Zhengzhou Commodity Exchange (ZCE), with history from May 2016. ZCE lists China’s main contracts for cotton, sugar, apples, rapeseed products, PTA, methanol, glass and soda ash.
 
 The following fields have Enumerations:
 

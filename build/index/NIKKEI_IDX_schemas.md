@@ -1,6 +1,6 @@
 # Nikkei Indices Schemas
 
-Nikkei Indices are a series of stock market indices for the Tokyo Stock Exchange, including the Nikkei 225, which tracks the top 225 blue-chip companies in Japan.
+Index values for Nikkei indices, with history from February 2017. Key indices include the Nikkei 225 (Nikkei Stock Average), Japan’s best-known price-weighted benchmark of 225 large Tokyo-listed companies, the Nikkei 225 VI volatility index and the JPX-Nikkei Index 400.
 
 
 

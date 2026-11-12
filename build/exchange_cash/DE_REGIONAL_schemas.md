@@ -1,6 +1,6 @@
 # German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Schemas
 
-These are the regional stock exchanges in major German cities like Berlin, Munich, Dusseldorf, Hamburg, and Hannover, providing trading venues for local companies and securities.
+Trades, quotes and bars from Germany’s regional exchanges in Berlin, Munich, D?sseldorf, Hamburg and Hanover, with history from January 2017. These venues are popular with retail investors and use market makers to quote a very wide range of German and international shares, bonds and funds, often outside Xetra hours. Use them with XETRA and FRANKFURT for a full view of German trading in stocks such as DAX constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 
 

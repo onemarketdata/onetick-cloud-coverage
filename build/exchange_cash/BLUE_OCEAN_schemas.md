@@ -1,6 +1,6 @@
 # Blue Ocean ATS Schemas
 
-Blue Ocean ATS (BOATS) is a US-based Alternative Trading System (ATS) run by Blue Ocean Technologies, enabling trading of U.S. stocks (NMS) during non-traditional hours, specifically 8 PM to 4 AM ET, Sunday to Thursday, bridging the overnight gap
+Trades, Quotes, Auction Imbalances, and Book depth from Blue Ocean ATS (BOATS), with history from December 2025. Operated by Blue Ocean Technologies, BOATS launched in 2021 as the first US alternative trading system built for overnight trading of NMS stocks. It runs from 8 PM to 4 AM ET, Sunday to Thursday, bridging the gap between US sessions when Asian markets are most active.
 
 
 

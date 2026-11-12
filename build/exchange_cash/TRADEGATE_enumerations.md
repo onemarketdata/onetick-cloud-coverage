@@ -1,6 +1,6 @@
 # Tradegate Exchange Enumerations
 
-Tradegate is a German securities trading platform and regulated market operated by the Berlin and Frankfurt stock exchanges.
+Trades, quotes and bars from Tradegate Exchange, a Berlin-based exchange, with history from December 2014. Tradegate is popular with retail brokers because of its long trading hours (7:30-22:00 CET) and market maker pricing, and it covers thousands of German and international shares, ETFs and bonds.
 
 The following fields have Enumerations:
 
@@ -20,6 +20,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -155,6 +156,32 @@ The following fields have Enumerations:
 | K                | Closing auction                |
 | O                | Opening auction                |
 | U                | Unscheduled auction            |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

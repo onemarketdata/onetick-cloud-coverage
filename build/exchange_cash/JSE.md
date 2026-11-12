@@ -1,6 +1,6 @@
 # Johannesburg Stock Exchange
 
-The Johannesburg Stock Exchange is the largest stock exchange in Africa, trading South African stocks across sectors.
+Trades, quotes and bars from the Johannesburg Stock Exchange (JSE), Africa’s largest stock exchange, with history from February 2015, covering the Main Board and AltX for smaller companies. Many JSE companies are also listed in London. Covered stocks include constituents of the FTSE/JSE Top 40 and All Share indices.
 
 * Country: South Africa [ZA]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Johannesburg Stock Exchange is the largest stock exchange in Africa, trading
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: FTSE/JSE All Share Index
 
 
 

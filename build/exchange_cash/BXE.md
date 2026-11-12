@@ -1,6 +1,6 @@
 # Cboe BXE (BATS Europe)
 
-Cboe BXE, formerly BATS Europe, is a pan-European MTF offering trading in equities, ETFs, and other securities across multiple European markets.
+Trades, quotes and bars from Cboe BXE (formerly BATS Europe), with history from July 2011. It is one of Cboe’s two pan-European order books (alongside CXE), with lit, dark, periodic auction and off-book segments trading equities and ETFs across many European markets. Covered stocks include constituents of the FTSE 100, DAX, CAC 40 and EURO STOXX 50.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Cboe BXE, formerly BATS Europe, is a pan-European MTF offering trading in equiti
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

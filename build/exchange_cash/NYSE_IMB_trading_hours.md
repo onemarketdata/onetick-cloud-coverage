@@ -1,6 +1,6 @@
 # NYSE Auction Imbalance Data Trading Hours
 
-Opening and Closing Auction Imbalance data for the NYSE Exchange
+Opening and closing auction imbalance data for the New York Stock Exchange, with history from January 2020 and real-time data available. Messages report paired quantity, imbalance quantity and side and indicative match prices ahead of the NYSE opening and closing auctions, which set the official closing prices widely used for index and fund valuations.
 
 Trading Hours are divided into multiple sessions
 

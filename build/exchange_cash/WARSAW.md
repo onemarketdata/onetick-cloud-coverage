@@ -1,6 +1,6 @@
 # Warsaw Stock Exchange
 
-The Warsaw Stock Exchange (GPW) is the largest stock exchange in Central and Eastern Europe located in Poland.
+Trades, quotes, bars and book depth from the Warsaw Stock Exchange (GPW), the largest exchange in Central and Eastern Europe, with history from February 2014, covering the main market, NewConnect for smaller companies and Catalyst bonds. Covered stocks include constituents of the WIG20, mWIG40 and WIG.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Poland [PL]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Warsaw Stock Exchange (GPW) is the largest stock exchange in Central and Eas
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: WIG, WIG20
 
 
 

@@ -1,11 +1,12 @@
 # Ho Chi Minh Stock Exchange Enumerations
 
-The Ho Chi Minh Stock Exchange (HOSE) is Vietnam’s largest stock exchange, located in Ho Chi Minh City. Recently, it had 404 listed companies trading stocks, closed-end fund certificates, ETFs, covered warrants and bonds, with a total market capitalization of over $256 billion.[1][12]
+Trades, quotes and bars from the Ho Chi Minh Stock Exchange (HOSE), Vietnam’s largest stock exchange, with history from August 2011. It lists just over 400 companies and trades stocks, closed-end fund certificates, ETFs, covered warrants and bonds. Index data is included, covering the VN-Index, which tracks all HOSE-listed stocks, and the VN30 of the 30 largest companies.
 
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -51,6 +52,32 @@ The following fields have Enumerations:
 |                7 | Market halt release                                  |
 |                8 | Market halt                                          |
 |                9 | Circuit breaker auction                              |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

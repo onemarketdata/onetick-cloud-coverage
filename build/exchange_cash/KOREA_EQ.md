@@ -1,6 +1,6 @@
 # Korea Exchange - Equities (KOSPI)
 
-The KOSPI is the main equity market operated by Korea Exchange, where large cap Korean stocks are traded.
+Trades, quotes and bars from the Korea Exchange’s KOSPI market, where Korea’s large-cap stocks such as Samsung Electronics and SK Hynix trade, with history from May 2008. Index data is included, covering the KOSPI and KOSPI 200. A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 * Country: Korea [KR]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The KOSPI is the main equity market operated by Korea Exchange, where large cap 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: KOSPI 200 [TDI_IDX::KM]
 
 
 

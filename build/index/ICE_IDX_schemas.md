@@ -1,6 +1,6 @@
 # ICE Global Index Feed Schemas
 
-The ICE Global Index Feed provides real-time and historical data for a wide range of global indices.
+Index values from the ICE Global Index Feed, with history from February 2017. It brings together indices calculated by ICE and third parties, including the US Dollar Index (DXY), ICE fixed income indices and NYSE indices such as the NYSE Composite.
 
 
 

@@ -1,6 +1,6 @@
 # Turquoise UK
 
-Turquoise is a European multilateral trading facility (MTF) owned by the London Stock Exchange Group. It offers trading in over 4,300 securities across 19 European markets, including UK, Swiss, European, and US shares, ETFs, and depository receipts.[6][7] Turquoise uses a hybrid model allowing trading both on and off traditional exchanges.
+Trades, quotes and bars from Turquoise, a pan-European multilateral trading facility (MTF) owned by the London Stock Exchange Group, with history from October 2010. Founded in 2008 by a group of investment banks, Turquoise offers trading in UK, Swiss, US and European shares, ETFs and depositary receipts through Turquoise UK in London and Turquoise Europe in Amsterdam. It is known for its lit order book and its block trading services, formerly Turquoise Plato and now branded Turquoise Dark.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Turquoise is a European multilateral trading facility (MTF) owned by the London 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

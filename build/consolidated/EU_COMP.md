@@ -1,6 +1,6 @@
 # European Consolidated Equities
 
-This is a consolidated feed providing trade data and best bid/offer across European equity markets, giving a unified view of the European equity landscape.
+Consolidated trades and NBBO best bid/offer across European equity markets, combining primary exchanges (LSE, Euronext, Xetra, SIX, Nasdaq Nordic, Borsa Italiana, BME and others), MTFs (Cboe Europe, Aquis, Turquoise, Equiduct) and APA trade reports in 21 countries, with history from January 2015. It gives a unified, cross-venue view of each European stock in a single query. Covered stocks include constituents of all European equity indices including STOXX 50, STOXX Europe 600, FTSE 100, DAX and CAC 40.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CZ DE DK ES FI FR GB GR HU IE IS IT LU NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ This is a consolidated feed providing trade data and best bid/offer across Europ
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

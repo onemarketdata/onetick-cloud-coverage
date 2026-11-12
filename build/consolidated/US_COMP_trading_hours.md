@@ -1,6 +1,6 @@
 # US Consolidated Equities (exc. OTC) Trading Hours
 
-Consolidated data from all US equities exchanges excluding OTC traded securities.  Provides from the US SIP (CTA/UTP)
+Consolidated trades, NBBO and exchange quotes, plus bars for US stocks and ETFs from the US SIPs (CTA and UTP), covering all US equity exchanges, including newer venues such as 24X National Exchange and the Texas Stock Exchange, plus FINRA trade reporting facilities. History is available from January 1993 and data is also available in real time. OTC-traded securities are excluded, and are found in the US_OTC dataset.
 
 Trading Hours are divided into multiple sessions
 

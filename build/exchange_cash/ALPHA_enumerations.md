@@ -1,6 +1,6 @@
 # TSX Alpha Enumerations
 
-TSX Alpha Exchange (Alpha) is a trading venue owned and operated by TMX Group (TMX) trading Toronto Stock Exchange (TSX) and TSX Venture Exchange (TSXV) listed securities.
+Trades, Quotes and Book depth from TSX Alpha Exchange, a Canadian marketplace operated by TMX Group that trades TSX- and TSX Venture-listed securities, with history from May 2017. Alpha launched in 2015 with a randomised order-processing delay (speed bump), later replaced by a static delay, which makes its order book behave differently from other Canadian venues. For TMX’s newer Alpha-X and Alpha DRK books see ALPHA_X. Covered stocks include constituents of the S&P/TSX 60.  A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -10,6 +10,7 @@ The following fields have Enumerations:
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
 * ORDER_TYPE - Type of order.
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
@@ -66,6 +67,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | L                | Limit order               |
 | M                | Market order              |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### SPECIAL_TERMS - Enumeration
 

@@ -1,6 +1,6 @@
 # Bursa Malaysia - Equities Market Holidays
 
-Bursa Malaysia offers trading in equities, bonds, ETFs, and other securities issued by Malaysian companies.
+Trades, quotes and bars from Bursa Malaysia’s securities market, with history from November 2008, covering the Main and ACE markets, including many Sharia-compliant securities. Covered stocks include constituents of the FTSE Bursa Malaysia KLCI.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone         | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|-------------------|--------------|------------|--------------|------------|
+| Full Holiday    | Asia/Kuala_Lumpur | 2026-11-09   | 2026-11-09 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-09-16   | 2026-09-16 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-08-31   | 2026-08-31 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-08-25   | 2026-08-25 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-05-27   | 2026-05-27 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-05-01   | 2026-05-01 | 00:00        | 24:00      |
 | Full Holiday    | Asia/Kuala_Lumpur | 2026-03-23   | 2026-03-23 | 00:00        | 24:00      |
-| Full Holiday    | Asia/Kuala_Lumpur | 2026-03-20   | 2026-03-20 | 00:00        | 24:00      |
 

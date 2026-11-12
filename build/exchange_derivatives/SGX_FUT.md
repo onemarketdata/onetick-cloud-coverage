@@ -1,6 +1,6 @@
 # Singapore Exchange - Equity + Fixed Income Derivatives
 
-The Singapore Exchange ( SGX ) offers trading in equity and fixed income derivatives.
+Futures and spreads with Trades, Quotes and bars from SGX’s equity and fixed income derivatives, with history from May 2011. SGX is a major hub for offshore Asian index futures, including FTSE China A50, Nikkei 225, MSCI Singapore and FTSE Taiwan index futures.
 
 * Country: Singapore [SG]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Singapore Exchange ( SGX ) offers trading in equity and fixed income derivat
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

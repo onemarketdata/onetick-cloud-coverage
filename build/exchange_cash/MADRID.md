@@ -1,6 +1,6 @@
 # Madrid Stock Exchange (SIBE)
 
-The Madrid Stock Exchange is one of four regional stock exchanges in Spain that make up the overall Spanish stock market.
+Trades, quotes, bars and book depth from the Madrid Stock Exchange’s SIBE electronic platform, operated by BME (Bolsas y Mercados Espa?oles), with history from January 2012. Coverage includes the main Spanish market, BME Growth (formerly MAB) for smaller companies, and Latibex, the euro-denominated market for Latin American stocks. Covered stocks include IBEX 35 constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Spain [ES]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Madrid Stock Exchange is one of four regional stock exchanges in Spain that 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: IBEX 35 Index [TDI_IDX::IB], Madrid Stock Exchange General Index [TDI_IDX::MA]
 
 
 

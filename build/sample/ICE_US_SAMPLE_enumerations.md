@@ -1,6 +1,6 @@
 # ICE US Sample Enumerations
 
-A subset of symbols from ICE US covering Futures for products CC (Cocoa), CT (Cotton #2), DX (US Dollar Index), KC (Coffee).  Between January 2,2024 and March 31, 2024
+A sample of the ICE Futures U.S. database covering a subset of symbols between January 2, 2024 and March 31, 2024. ICE Futures U.S. is the main US venue for soft commodities and the U.S. Dollar Index. The sample includes trades, quotes, book depth and bars for futures, options and spreads on CC (Cocoa), CT (Cotton No. 2), KC (Coffee C) and DX (U.S. Dollar Index).
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * TRADE_TYPE - Type of trade
 
@@ -42,6 +43,32 @@ The following fields have Enumerations:
 | C                | Closed                    |
 | E                | Expired                   |
 | O                | Open                      |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

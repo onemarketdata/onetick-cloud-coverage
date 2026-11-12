@@ -1,9 +1,10 @@
 # Nasdaq Nordic - Derivatives Enumerations
 
-In addition to equities, Nasdaq Nordic also offers trading in Nordic derivatives like stock options and futures.
+Futures, options and spreads with Trades, Quotes, bars and book depth from Nasdaq’s Nordic derivatives markets, with history from January 2017. Key contracts include OMX Stockholm 30 index futures and options, single-stock options and futures on Nordic companies, and Nordic interest rate derivatives.
 
 The following fields have Enumerations:
 
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * MKT_PHASE (before 20220912) -
 * MKT_PHASE (from 20220912) -
@@ -12,9 +13,26 @@ The following fields have Enumerations:
 * MMT_NEGOTIATED_IND - Indicates privately negotiated trades, or Systematic Internaliser trades exempt from pre-trade transparency.
 * MMT_PRICE_FORMING_IND - Identifies whether a trade is price-forming, or contributes to the price discovery process.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * TRADE_TYPE - Type of trade
 * UPDATE_TYPE - Type of update
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### CALL_PUT_IND - Enumeration
 
@@ -106,6 +124,32 @@ The following fields have Enumerations:
 | K                | Closing auction                           |
 | O                | Opening auction                           |
 | U                | Unscheduled auction                       |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

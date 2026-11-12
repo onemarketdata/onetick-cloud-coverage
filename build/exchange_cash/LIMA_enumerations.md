@@ -1,11 +1,38 @@
 # Lima Stock Exchange Enumerations
 
-The Lima Stock Exchange is the official stock exchange of Peru where securities like stocks, bonds and derivatives are traded.
+Trades, quotes and bars from the Lima Stock Exchange (Bolsa de Valores de Lima, BVL), Peru’s stock exchange, with history from June 2016. BVL lists many mining companies, and covered stocks include constituents of the S&P/BVL Peru General and S&P/BVL Lima 25 indices. BVL is now part of the nuam regional exchange group with the Santiago and Colombia exchanges.
 
 The following fields have Enumerations:
 
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

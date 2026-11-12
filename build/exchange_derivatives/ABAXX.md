@@ -1,6 +1,6 @@
 # Abaxx Exchange
 
-Abaxx Exchange introduces centrally cleared, physically delivered futures contracts and derivatives to provide better price signals, improved risk management capabilities and an enhanced network for energy, metals and environmental markets.
+Futures and spreads from Abaxx Exchange, a Singapore-based commodity exchange, with history from August 2025. Abaxx lists centrally cleared, physically delivered contracts for energy-transition markets, including LNG, carbon, battery metals and gold, aiming to give better price signals and risk management for these markets.
 
 * Country: Singapore [SG]
 * Mkt Hours: 10:00-24:00
@@ -9,6 +9,8 @@ Abaxx Exchange introduces centrally cleared, physically delivered futures contra
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Exchange (Publication)
+* Key Indices:
 
 
 

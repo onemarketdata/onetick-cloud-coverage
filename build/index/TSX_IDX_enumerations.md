@@ -1,6 +1,6 @@
 # Toronto Stock Exchange - Indices Enumerations
 
-The Toronto Stock Exchange ( TSX ) provides various indices tracking the performance of Canadian equities, including the S&P/TSX Composite Index and sector-specific indices.
+Index values for Toronto Stock Exchange indices, with history from February 2017. Key indices include the S&P/TSX Composite, S&P/TSX 60 and S&P/TSX Venture Composite, plus S&P/TSX sector indices.
 
 The following fields have Enumerations:
 

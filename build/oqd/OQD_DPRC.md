@@ -1,6 +1,6 @@
 # Daily Price History for Global Equities
 
-Daily Price History for Global Equities
+Daily price history for global equities, with history from January 1968, including daily open, high, low, close and volume. Combined with OQD_CACT you can build split- and dividend-adjusted price histories, and it can be joined with the OQD security master and symbology databases.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Daily Price History for Global Equities
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # US ETF Constituents Schemas
 
-US ETF Values, Constituents and Constituent Weightings
+Daily data for US-listed ETFs, with history from January 2019, including each ETF’s values, constituents and constituent weightings. Use it to look through an ETF to its underlying securities, measure index exposure or reconstruct ETF baskets over time.
 
 
 

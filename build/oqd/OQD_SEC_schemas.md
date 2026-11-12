@@ -1,6 +1,6 @@
 # Instrument Security Master Schemas
 
-Instrument Description Reference and Shares Outstanding
+Global instrument security master, with history from 1960, providing reference data that describes each instrument along with its shares outstanding over time. It is the reference database for OQD, used to look up instrument attributes and calculate market capitalisation.
 
 
 

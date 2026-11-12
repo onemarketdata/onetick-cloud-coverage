@@ -1,6 +1,6 @@
 # Toronto Stock Exchange - Indices
 
-The Toronto Stock Exchange ( TSX ) provides various indices tracking the performance of Canadian equities, including the S&P/TSX Composite Index and sector-specific indices.
+Index values for Toronto Stock Exchange indices, with history from February 2017. Key indices include the S&P/TSX Composite, S&P/TSX 60 and S&P/TSX Venture Composite, plus S&P/TSX sector indices.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ The Toronto Stock Exchange ( TSX ) provides various indices tracking the perform
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

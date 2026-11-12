@@ -1,6 +1,6 @@
 # Taiwan Stock Exchange - Indices Trading Hours
 
-The TWSE operates major Taiwanese equity indices like the TAIEX, Taiwan 50 Index and sector indices.
+Index values from the Taiwan Stock Exchange, with history from June 2017. Key indices include the TAIEX (TWSE Capitalization Weighted Stock Index), the FTSE TWSE Taiwan 50 and TWSE sector indices.
 
 Trading Hours are divided into multiple sessions
 

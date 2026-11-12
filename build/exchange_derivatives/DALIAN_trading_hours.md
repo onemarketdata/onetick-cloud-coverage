@@ -1,6 +1,6 @@
 # Dalian Commodity Exchange Trading Hours
 
-The Dalian Commodity Exchange is a futures exchange in China that trades futures contracts across sectors like agriculture, chemicals, energy, metals and more.
+Futures and spreads with Trades, Quotes and bars from the Dalian Commodity Exchange (DCE), with history from November 2009. DCE is the world’s largest market for iron ore futures and lists key Chinese agricultural and chemical contracts such as soybeans, soybean meal, palm oil, corn, polyethylene and coking coal.
 
 Trading Hours are divided into multiple sessions
 

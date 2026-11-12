@@ -1,6 +1,6 @@
 # US Consolidated Options (OPRA) Sample
 
-A subset of symbols from all US options exchanges disseminated through the Options Price Reporting Authority (OPRA).  Options on AAPL, NVDA, QQQ, SPY and TSLA are included in the sample covering January 2025.
+A sample of the US_OPTIONS database covering a subset of symbols from all US options exchanges, as disseminated through the Options Price Reporting Authority (OPRA), the consolidated feed for US listed options. It includes trades, NBBO and quotes for options on AAPL, NVDA, QQQ, SPY and TSLA, covering January 2025.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ A subset of symbols from all US options exchanges disseminated through the Optio
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: SIP Consolidation Time
+* Key Indices:
 
 
 

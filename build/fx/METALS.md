@@ -1,6 +1,6 @@
 # Precious Metals
 
-Spot Gold and Silver
+Spot prices for precious metals, specifically gold (XAU) and silver (XAG), with history from February 2014. It complements the futures data in COMEX and TDI_FUT and the currency data in GLOBAL_FX, for example to compare spot and futures prices.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Spot Gold and Silver
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

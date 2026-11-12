@@ -1,6 +1,6 @@
 # Equiduct Exchange
 
-Equiduct is a pan-European regulated market and MTF owned by Boerse Berlin, providing trading in over 6,000 equities and ETFs across 12 European markets.
+Trades, Quotes and Book depth from Equiduct, a pan-European trading venue operated as a market segment of B?rse Berlin, with history from October 2015. Equiduct focuses on retail order flow: market makers execute retail brokers’ orders at or better than a European best bid and offer built from the main European venues, covering Europe’s most liquid equities and ETFs. This makes it useful for studying retail execution quality in stocks such as EURO STOXX 50 and FTSE 100 constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Equiduct is a pan-European regulated market and MTF owned by Boerse Berlin, prov
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

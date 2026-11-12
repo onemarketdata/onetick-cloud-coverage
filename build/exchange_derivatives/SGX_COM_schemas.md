@@ -1,6 +1,6 @@
 # Singapore Exchange - Commodity Derivatives Schemas
 
-The Singapore Exchange ( SGX ) offers trading in commodity derivatives, including futures and options on iron ore, rubber, and other commodities.
+Futures and spreads with Trades, Quotes and bars from SGX’s commodity derivatives market, with history from August 2019. SGX is the world’s leading market for iron ore derivatives, and also lists rubber, freight, coal and other Asian commodity contracts.
 
 
 

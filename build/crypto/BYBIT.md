@@ -1,6 +1,6 @@
 # Bybit
 
-Bybit is the second-largest cryptocurrency exchange in the world by volume, offering spot trading, derivatives, staking, and P2P options
+Trades, Quotes and Book depth from Bybit, the second-largest cryptocurrency exchange by volume, with spot and futures from August 2024 and options from September 2026. Bybit is especially active in USDT perpetual contracts and also offers staking and P2P trading.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Bybit is the second-largest cryptocurrency exchange in the world by volume, offe
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

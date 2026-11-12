@@ -1,6 +1,6 @@
 # Instrument Symbology Cross Reference from OID Schemas
 
-Instrument Symbology Cross Reference from OID to Available Symbologies
+Symbology cross-reference that maps OneTick’s OID instrument identifier to all available symbologies, such as exchange tickers and ISINs, with history from 1960. Use it to find every identifier an instrument has had over time.
 
 
 

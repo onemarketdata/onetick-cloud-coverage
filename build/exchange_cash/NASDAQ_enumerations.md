@@ -1,13 +1,13 @@
 # The Nasdaq Enumerations
 
-The Nasdaq is an American multinational financial services corporation that operates the world’s second-largest stock exchange by market capitalization.  Full L1 history for NASDAQ from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes, Auction Imbalances and Book depth from the Nasdaq Stock Market, the largest of the three U.S. equities exchanges operated by Nasdaq, Inc., with history from May 2025. Nasdaq is the world’s second-largest stock exchange by market capitalization and the listing venue for many of the largest technology companies. Full L1 history for NASDAQ from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
-* TRADE_TYPE - Type of trade
-* TRADE_TYPE_EXT - Extended trade type code
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * RPI - Indicates the presence of Retail Price Improvement interest on bid and/or ask side
@@ -16,6 +16,8 @@ The following fields have Enumerations:
 * SHORT_SALE_RESTRICTION - Indicates whether short selling is permitted
 * PART_TYPE - Indicates the type of market participant identified by PART_ID
 * FINANCIAL_STATUS - Indicates the regulatory status of a security or its issuer
+* TRADE_TYPE - Type of trade
+* TRADE_TYPE_EXT - Extended trade type code
 * UPDATE_TYPE - Type of update
 * ORDER_TYPE - Type of order.
 
@@ -27,19 +29,21 @@ The following fields have Enumerations:
 | B                | Buy                                                              |
 | S                | Sell                                                             |
 
-#### TRADE_TYPE - Enumeration
+#### AUCTION_TYPE - Enumeration
 
-| Enumeration ID   | Enumeration Description                |
-|------------------|----------------------------------------|
-| ‘””’             | Regular trade                          |
-| A                | Auction trade                          |
-| H                | Regular trade against hidden liquidity |
-
-#### TRADE_TYPE_EXT - Enumeration
-
-| Enumeration ID   | Enumeration Description      |
-|------------------|------------------------------|
-| ‘””’             | Unspecified [for future use] |
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### ODD_LOT - Enumeration
 
@@ -47,6 +51,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | Y                | Odd lot                   |
 | ‘””’             | Round lot                 |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 
@@ -159,6 +189,20 @@ The following fields have Enumerations:
 | N                | Normal                                 |
 | Q                | Bankrupt                               |
 | S                | Suspended                              |
+
+#### TRADE_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                |
+|------------------|----------------------------------------|
+| ‘””’             | Regular trade                          |
+| A                | Auction trade                          |
+| H                | Regular trade against hidden liquidity |
+
+#### TRADE_TYPE_EXT - Enumeration
+
+| Enumeration ID   | Enumeration Description      |
+|------------------|------------------------------|
+| ‘””’             | Unspecified [for future use] |
 
 #### UPDATE_TYPE - Enumeration
 

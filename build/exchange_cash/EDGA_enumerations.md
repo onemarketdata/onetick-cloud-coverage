@@ -1,6 +1,6 @@
 # Cboe EDGA Enumerations
 
-Cboe EDGA Exchange (EDGA) is a U.S. equities market that transitioned from an inverted to a tier-free, maker-taker pricing structure. It offers unique features like hidden price improvement, retail priority, and periodic auctions to optimize order execution.  Full L1 history for Cboe EDGA from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from Cboe EDGA, a U.S. equities exchange operated by Cboe Global Markets, with history from May 2025. In November 2024 EDGA switched from an inverted venue to a maker-taker venue with a high-rebate, tier-free pricing model, and Cboe positions it as a thinner book offering faster fills and shorter queues. Full L1 history for Cboe EDGA from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -12,6 +12,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * RPI - Indicates the presence of Retail Price Improvement interest on bid and/or ask side
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * UPDATE_TYPE - Type of update
 * ORDER_TYPE - Type of order.
 
@@ -73,6 +74,32 @@ The following fields have Enumerations:
 | Q                | Quote only                  |
 | S                | Closed                      |
 | T                | Trading                     |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### UPDATE_TYPE - Enumeration
 

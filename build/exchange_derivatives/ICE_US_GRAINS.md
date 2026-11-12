@@ -1,6 +1,6 @@
 # ICE US Canadian Grains
 
-The Intercontinental Exchange (ICE) US Grains exchange is a futures contract market that offers trading and risk management solutions for globally traded soft commodities
+Futures, options and spreads with Trades, Quotes, bars and book depth for ICE Futures US Canadian grain contracts, with history from May 2019. The main contract is canola futures, the global benchmark for canola (rapeseed) prices.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ The Intercontinental Exchange (ICE) US Grains exchange is a futures contract mar
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

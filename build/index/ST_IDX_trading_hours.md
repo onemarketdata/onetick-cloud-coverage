@@ -1,6 +1,6 @@
 # Straits Times Indices Trading Hours
 
-The Straits Times Indices are a series of stock market indices for the Singapore Exchange, including the Straits Times Index (STI).
+Index values for the FTSE Straits Times Index family, with history from February 2017. The Straits Times Index (STI) is Singapore’s main benchmark, tracking the 30 largest and most liquid companies listed on SGX, and is jointly calculated by SGX, SPH Media and FTSE Russell using FTSE’s index methodology.
 
 Trading Hours are divided into multiple sessions
 

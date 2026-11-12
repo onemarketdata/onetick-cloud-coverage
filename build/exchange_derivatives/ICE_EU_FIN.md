@@ -1,6 +1,6 @@
 # ICE Europe Financials
 
-ICE Europe Financials facilitates trading in interest rate, equity index, and FX futures and options contracts across European financial markets.
+Futures, options and spreads with Trades, Quotes, bars, book depth and real-time data from ICE Futures Europe’s financial markets, with history from September 2014. Key contracts are short-term interest rate (STIR) futures and options such as SONIA and Euribor, long gilt futures, and FTSE 100 and MSCI index futures.
 
 * Country: UK United Kindom [GB]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ ICE Europe Financials facilitates trading in interest rate, equity index, and FX
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Turquoise Europe
 
-Turquoise Europe is a pan-European MTF operated by the London Stock Exchange Group, offering trading in equities, ETFs, and other securities across multiple European markets.
+Trades, quotes and bars from Turquoise Europe, the Amsterdam-based EU MTF that LSEG set up after Brexit, with history from November 2020. It operates lit, dark (Turquoise Plato) and auction books for EU equities and ETFs. Covered stocks include constituents of the EURO STOXX 50, DAX and CAC 40.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Turquoise Europe is a pan-European MTF operated by the London Stock Exchange Gro
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

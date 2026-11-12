@@ -1,6 +1,6 @@
 # NYMEX Futures
 
-NYMEX is a division of the CME Group, offering trading in energy futures and options.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from NYMEX, CME Group’s energy exchange, with history from November 2009. NYMEX lists the global benchmark WTI crude oil futures, Henry Hub natural gas, RBOB gasoline and NY Harbor ULSD (heating oil), plus platinum and palladium futures.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ NYMEX is a division of the CME Group, offering trading in energy futures and opt
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival (from 20091109), Exchange (Matching Engine) from 20190331
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Tokyo Financial Exchange Trading Hours
 
-The Tokyo Financial Exchange offers futures contracts on short-term yen interest rates, yen forex cross rates, and equity index futures.
+Futures and spreads with Trades, Quotes and bars from the Tokyo Financial Exchange (TFX), with history from August 2019. TFX lists yen short-term interest rate futures such as three-month Euroyen futures, plus exchange-traded FX margin (Click 365) and equity index (Click Kabu 365) contracts popular with Japanese retail traders.
 
 Trading Hours are divided into multiple sessions
 

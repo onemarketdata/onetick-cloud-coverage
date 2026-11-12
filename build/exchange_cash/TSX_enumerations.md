@@ -1,14 +1,16 @@
 # Toronto Stock Exchange Enumerations
 
-The Toronto Stock Exchange is the largest equity market in Canada trading senior equities.
+Trades, quotes, bars and book depth from the Toronto Stock Exchange (TSX), Canada’s main exchange for senior issuers, with history from November 2017. TSX is a major global listing venue for mining and energy companies. Covered stocks include constituents of the S&P/TSX Composite and S&P/TSX 60; index values are in TSX_IDX.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -22,6 +24,22 @@ The following fields have Enumerations:
 | ‘””’             | Undefined (e.g. off-book trades, auction trades) |
 | B                | Buy                                              |
 | S                | Sell                                             |
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### BOOK_TYPE - Enumeration
 
@@ -76,6 +94,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | ‘””’             | Board lot                 |
 | Y                | Odd lot                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

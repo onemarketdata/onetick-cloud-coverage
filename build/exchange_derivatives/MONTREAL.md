@@ -1,14 +1,16 @@
 # Montreal Exchange
 
-The Montreal Exchange (MX) offers trading in futures and options on equities, indices, interest rates, and currencies.
+Futures, options and spreads with Trades, Quotes, bars and book depth from the Montr?al Exchange (MX), Canada’s derivatives exchange owned by TMX Group, with futures from December 2009 and options from May 2025. Key contracts include S&P/TSX 60 index futures (SXF), three-month CORRA futures, ten-year Government of Canada bond futures (CGB) and Canadian equity options.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
 * Time Zone: America/Toronto
 * Start Date: 20091211 - Futures, 20250526 - Options
-* Real Time Available: No
+* Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

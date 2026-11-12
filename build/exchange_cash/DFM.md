@@ -1,6 +1,6 @@
 # Dubai Financial Market
 
-The Dubai Financial Market (DFM) offers trading in equities, bonds, ETFs, and derivatives of UAE and international companies.
+Trades, quotes and bars from the Dubai Financial Market (DFM), with history from November 2015, covering UAE equities, bonds, ETFs and Sharia-compliant products. Index data includes the DFM General Index (DFMGI), the main benchmark for Dubai-listed stocks.
 
 * Country: UAE [AE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Dubai Financial Market (DFM) offers trading in equities, bonds, ETFs, and de
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: DFM General Index (DFMGI) [DFM::DFMGI]
 
 
 

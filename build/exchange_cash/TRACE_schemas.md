@@ -1,6 +1,6 @@
 # FINRA TRACE - Corporates, Treasuries, Agencies, MBS, ABS, CMO Schemas
 
-The Trade Reporting and Compliance Engine (TRACE) is the FINRA-developed vehicle that facilitates the mandatory reporting of over-the-counter transactions in eligible fixed income securities. All broker-dealers who are FINRA member firms have an obligation to report transactions in TRACE-eligible securities under an SEC-approved set of rules.
+Over-the-counter bond trade reports from FINRA’s Trade Reporting and Compliance Engine (TRACE), with history from March 2026, covering corporate bonds, US Treasuries, agency debt and securitized products such as MBS, ABS and CMOs. FINRA member broker-dealers must report transactions in TRACE-eligible fixed income securities under SEC-approved rules, with corporate and agency bond trades reported within 15 minutes. Large trades are disseminated with capped sizes, such as 5MM+ for investment-grade corporate and agency bonds.
 
 
 

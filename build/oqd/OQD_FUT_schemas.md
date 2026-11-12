@@ -1,6 +1,6 @@
 # Daily Price History for Global Futures Schemas
 
-Daily Price History for Global Futures
+Daily price history for global futures, with history from January 2016. It provides a compact end-of-day view of futures contracts across exchanges, useful for building continuous contracts and term structures without processing tick data.
 
 
 

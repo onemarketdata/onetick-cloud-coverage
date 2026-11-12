@@ -1,6 +1,6 @@
 # Taiwan Consolidated Equities Schemas
 
-Consolidated data from all Taiwan equities exchanges.
+Consolidated trades, NBBO, and exchange quotes and bars for Taiwanese equities from the Taiwan Stock Exchange (TWSE) and the Taipei Exchange (TPEx), with history from September 2014. It covers both main-board listings and TPEx over-the-counter stocks in one database. Covered stocks include constituents of the TAIEX and FTSE TWSE Taiwan 50.
 
 
 

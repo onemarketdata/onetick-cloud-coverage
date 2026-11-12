@@ -1,6 +1,6 @@
 # Stuttgart Stock Exchange Enumerations
 
-Börse Stuttgart is the leading stock exchange for structured securities and corporate bond trading in Germany
+Trades, quotes and bars from Boerse Stuttgart, Germany’s second-largest stock exchange, with history from January 2015. Boerse Stuttgart focuses on retail investors and is best known for structured products, with its Euwax segment one of Europe’s largest exchange segments for securitized derivatives. It also trades corporate bonds and uses market makers to quote a wide range of German and international shares, ETFs and funds.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -21,6 +21,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_DEFERRAL_TYPE - Type of publication deferral or subsequent enrichment applied to a trade report.
 * MMT_DUP_IND - Identifies trades reported to more than one Approved Publication Arrangement.
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -160,6 +161,32 @@ The following fields have Enumerations:
 | Enumeration ID   | Enumeration Description   |
 |------------------|---------------------------|
 | -                | Unique trade report       |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

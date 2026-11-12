@@ -1,6 +1,6 @@
 # Toronto Stock Exchange - Indices Trading Hours
 
-The Toronto Stock Exchange ( TSX ) provides various indices tracking the performance of Canadian equities, including the S&P/TSX Composite Index and sector-specific indices.
+Index values for Toronto Stock Exchange indices, with history from February 2017. Key indices include the S&P/TSX Composite, S&P/TSX 60 and S&P/TSX Venture Composite, plus S&P/TSX sector indices.
 
 Trading Hours are divided into multiple sessions
 

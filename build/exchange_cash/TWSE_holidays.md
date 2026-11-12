@@ -1,6 +1,6 @@
 # Taiwan Stock Exchange Market Holidays
 
-The Taiwan Stock Exchange is the main stock exchange in Taiwan where public Taiwanese companies are listed.
+Trades, quotes, bars and book depth from the Taiwan Stock Exchange (TWSE), Taiwan’s main board, with history from September 2014. It is home to major semiconductor companies such as TSMC. Covered stocks include constituents of the TAIEX and FTSE TWSE Taiwan 50; index values are in TWSE_IDX.  A consolidated tape for both Taiwanese equity markets is provided in the TW_COMP dataset.
 
 The last 10 Market Holidays are listed
 

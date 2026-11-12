@@ -1,6 +1,6 @@
 # Korea Exchange - Kosdaq
 
-The Kosdaq market is the Korean stock market for small and medium companies, operated by Korea Exchange.
+Trades, quotes and bars from the KOSDAQ market of the Korea Exchange, Korea’s market for growth, technology and small- and mid-cap companies, with history from May 2008. Index data includes the KOSDAQ Composite and KOSDAQ 150.  A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 * Country: Korea [KR]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Kosdaq market is the Korean stock market for small and medium companies, ope
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: KOSPI 200 [TDI_IDX::KM]
 
 
 

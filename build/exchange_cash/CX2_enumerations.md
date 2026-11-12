@@ -1,6 +1,6 @@
 # Nasdaq CX2 Enumerations
 
-Nasdaq CX2 is Nasdaq’s alternative trading system (ATS) for trading NMS stocks using a price-time priority order book model.
+Trades, Quotes and Book depth from Nasdaq CX2, one of Nasdaq Canada’s marketplaces, with history from May 2017. CX2 is a lit order book for Canadian-listed securities that runs separately from Nasdaq CXC with its own fee schedule and order-type rules, so comparing the two shows how Canadian liquidity is split between Nasdaq’s books.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ODD_LOT - Indicates whether a trade was an odd lot
 * ORDER_TYPE - Type of order.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
@@ -53,6 +54,32 @@ The following fields have Enumerations:
 | S                | Start of system hours                    |
 | T                | Trading                                  |
 | W                | Market-wide circuit breaker              |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ODD_LOT - Enumeration
 

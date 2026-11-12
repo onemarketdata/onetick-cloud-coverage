@@ -1,6 +1,6 @@
 # Borsa Istanbul - Indices Enumerations
 
-Borsa Istanbul provides various indices tracking the performance of Turkish equities, including the BIST 100, BIST 30, and sector-specific indices.
+Index values from Borsa Istanbul, Turkey’s sole exchange, with history from February 2017. Key indices include the BIST 100, the main Turkish benchmark of the 100 largest stocks by market capitalisation, the BIST 50 and the BIST 30, plus sector indices and the Sharia-compliant BIST Participation indices. The BIST 30 is the underlying for index futures and options on Borsa Istanbul’s derivatives market (VIOP).
 
 The following fields have Enumerations:
 

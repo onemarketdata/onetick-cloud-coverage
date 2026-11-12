@@ -1,6 +1,6 @@
 # Cboe Japan
 
-Cboe Japan is an alternative trading system offering trading in Japanese equities, ETFs, and other listed securities.
+Trades, quotes and bars from Cboe Japan (formerly Chi-X Japan), a proprietary trading system (PTS) that offered an alternative to the Tokyo Stock Exchange for Japanese equities and ETFs, with history from April 2014. Cboe ceased its Japanese equities operations in August 2025. It is useful for studying PTS market share and execution quality in Japanese stocks such as Nikkei 225 and TOPIX constituents.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Cboe Japan is an alternative trading system offering trading in Japanese equitie
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices: Nikkei 225 Index [TDI_IDX::NE], TOPIX Index [TDI_IDX::TP]
 
 
 

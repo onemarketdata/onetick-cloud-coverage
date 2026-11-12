@@ -1,6 +1,6 @@
 # Xetra Exchange
 
-Xetra is an electronic trading system operated by Deutsche Boerse for trading equities and other securities.
+Trades, quotes, bars and book depth, with real-time data, from Xetra, Deutsche B?rse’s electronic trading platform and Germany’s main venue for equities and ETFs, with history from January 2012. Xetra’s closing auction sets the reference prices for German stocks. Covered stocks include constituents of the DAX, MDAX, SDAX and TecDAX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Germany [DE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Xetra is an electronic trading system operated by Deutsche Boerse for trading eq
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: DAX Index [TDI_IDX::DA]
 
 
 

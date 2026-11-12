@@ -1,6 +1,6 @@
 # Global Daily Interest Rates
 
-Global Daily Interest Rates from Key Countries including BGCR, EFFR, EURIBOR, SOFR, SONIA and TONA
+Daily fixings of key global interest rate benchmarks, with history from January 2008, including US SOFR, EFFR and BGCR, euro EURIBOR, UK SONIA and Japan TONA. Use it to build discount curves, compare funding rates across currencies, or study the transition from LIBOR to risk-free rates.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Global Daily Interest Rates from Key Countries including BGCR, EFFR, EURIBOR, SO
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

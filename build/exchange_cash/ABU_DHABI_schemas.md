@@ -1,6 +1,6 @@
 # Abu Dhabi Securities Exchange Schemas
 
-The Abu Dhabi Securities Exchange (ADX) facilitates trading in equities, bonds, ETFs, and other securities issued by UAE companies.
+Trades, quotes and bars from the Abu Dhabi Securities Exchange (ADX), with history from June 2016, covering equities, bonds, ETFs and futures of UAE companies. Index data is included, such as the FTSE ADX General Index (FADGI), the main benchmark for Abu Dhabi-listed stocks.
 
 
 

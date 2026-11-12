@@ -1,6 +1,6 @@
 # Osaka Exchange - JGB Futures
 
-Osaka Exchange, Inc., renamed from Osaka Securities Exchange Co., Ltd., is the largest derivatives exchange in Japan, in terms of amount of business handled
+Futures and spreads with Trades, Quotes and bars for Japanese Government Bond (JGB) futures on Osaka Exchange, Japan’s largest derivatives exchange, with history from March 2014. The 10-year JGB future is the benchmark for hedging Japanese interest rate risk.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:45-15:02
@@ -9,6 +9,8 @@ Osaka Exchange, Inc., renamed from Osaka Securities Exchange Co., Ltd., is the l
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Indonesia Stock Exchange
 
-The Indonesia Stock Exchange (IDX) offers trading in equities, bonds, ETFs, and derivatives issued by Indonesian companies.
+Trades, quotes and bars from the Indonesia Stock Exchange (IDX), with history from May 2016, covering Indonesian equities, bonds and ETFs. Index data includes the IDX Composite (Jakarta Composite Index) and LQ45.
 
 * Country: Indonesia [ID]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Indonesia Stock Exchange (IDX) offers trading in equities, bonds, ETFs, and 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Jakarta Composite Index [TDI_IDX::JC]
 
 
 

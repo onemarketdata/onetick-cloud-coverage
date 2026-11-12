@@ -1,6 +1,6 @@
 # A3 Markets - Matba Rofex Schemas
 
-A3 Mercados is Argentina’s largest financial exchange platform, created from the merger of Matba Rofex and Mercado Abierto Electrónico (MAE).
+Futures, options, spreads and indices from A3 Mercados, Argentina’s main derivatives exchange, formed in 2024 by the merger of Matba Rofex and MAE, with history from July 2026. A3 lists contracts on the US dollar/Argentine peso exchange rate, agricultural products such as soybeans, corn and wheat, and the Merval equity index.
 
 
 

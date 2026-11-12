@@ -1,6 +1,6 @@
 # TSX Venture Exchange
 
-The TSX Venture Exchange is a Canadian stock exchange for emerging companies operated by the TMX Group.
+Trades, quotes, bars and book depth from the TSX Venture Exchange, Canada’s market for early-stage and small-cap companies, with history from November 2017. It lists many junior mining and exploration companies and also covers the NEX board for companies that no longer meet TSXV listing requirements. Covered stocks include constituents of the S&P/TSX Venture Composite.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ The TSX Venture Exchange is a Canadian stock exchange for emerging companies ope
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

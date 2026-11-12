@@ -1,14 +1,16 @@
 # Cboe Canada (formerly Neo Exchange) Enumerations
 
-Cboe Canada, formerly Neo Exchange, is an equities exchange in Canada operated by Cboe Global Markets.
+Trades, Quotes and Book depth from Cboe Canada (formerly Neo Exchange), with history from October 2017, covering its lit book, its dark book and its speed-bumped book for natural investors, plus Cboe Canada-listed securities. NEO was acquired by Cboe Global Markets in 2022 and renamed Cboe Canada. Cboe Canada is also a listing venue, especially for ETFs and Canadian Depositary Receipts (CDRs) of large US companies.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
@@ -23,6 +25,22 @@ The following fields have Enumerations:
 | ‘””’             | Undefined (e.g. off-book trades, auction trades) |
 | B                | Buy                                              |
 | S                | Sell                                             |
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### BOOK_TYPE - Enumeration
 
@@ -75,6 +93,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | ‘””’             | Board lot                 |
 | Y                | Odd lot                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

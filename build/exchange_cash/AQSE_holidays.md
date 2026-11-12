@@ -1,6 +1,6 @@
 # Aquis Stock Exchange Market Holidays
 
-Aquis Exchange PLC is a creator and facilitator of next-generation financial markets, through the provision of accessible, simple and efficient stock exchanges, trading venues and technology
+Trades, quotes, bars and book depth from the Aquis Stock Exchange (AQSE, formerly NEX Exchange), with history from November 2020. AQSE is a UK listing venue for growth companies, with its AQSE Growth Market split into the Access and Apex segments, and its trading platform also trades other UK securities.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

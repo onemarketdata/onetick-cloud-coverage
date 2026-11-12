@@ -1,6 +1,6 @@
 # Aquis Europe Market Holidays
 
-Aquis Europe is the European segment of the Aquis pan-European cash equities trading books, covering securities across 13 European markets outside the UK.
+Trades, quotes, bars and book depth from Aquis Exchange Europe, the Paris-based EU MTF that Aquis set up after Brexit, with history from September 2019. It trades equities from European markets outside the UK and uses the same subscription pricing model as Aquis UK. Aquis has been owned by SIX Group since July 2025. Covered stocks include constituents of the EURO STOXX 50, DAX and CAC 40.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

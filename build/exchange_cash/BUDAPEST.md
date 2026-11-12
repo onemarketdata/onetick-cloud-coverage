@@ -1,6 +1,6 @@
 # Budapest Stock Exchange
 
-The Budapest Stock Exchange (BSE) facilitates trading in shares, bonds, investment funds, derivatives, and other securities issued by Hungarian and foreign companies.
+Trades, quotes and bars from the Budapest Stock Exchange (B?T), Hungary’s stock exchange, with history from January 2014. It includes the regulated market, the BETa market (where foreign stocks already listed elsewhere in the EU trade in forints) and the Xtend market for smaller companies. Covered stocks include constituents of the BUX index.
 
 * Country: Hungary [HU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Budapest Stock Exchange (BSE) facilitates trading in shares, bonds, investme
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Budapest Index [TDI_IDX::UO]
 
 
 

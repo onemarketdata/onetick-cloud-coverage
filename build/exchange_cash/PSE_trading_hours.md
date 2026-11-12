@@ -1,6 +1,6 @@
 # Philippine Stock Exchange Trading Hours
 
-The Philippine Stock Exchange (PSE) offers trading in equities, bonds, ETFs, and other securities issued by Philippine companies.
+Trades, quotes and bars from the Philippine Stock Exchange (PSE), with history from December 2009, covering Philippine stocks, ETFs and REITs. Covered stocks include constituents of the PSE Composite Index (PSEi).
 
 Trading Hours are divided into multiple sessions
 

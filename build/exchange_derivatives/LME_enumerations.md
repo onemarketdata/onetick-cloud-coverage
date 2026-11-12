@@ -1,6 +1,6 @@
 # London Metal Exchange Enumerations
 
-The London Metal Exchange (LME) is the world’s largest market for trading base metals futures and options.
+Futures, options, spreads and indices with Trades, Quotes and bars from the London Metal Exchange (LME), with history from August 2013. LME prices are the global reference for industrial metals such as copper, aluminium, zinc, nickel, lead and tin, and its prompt-date structure lets contracts settle on daily, weekly or monthly dates up to several years out.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * MMT_MOD_IND - Identifies trade cancellations, or amendments of a previous trade.
 * MMT_PRICE_FORMING_IND - Identifies whether a trade is price-forming, or contributes to the price discovery process.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_TYPE - Type of trade
 
 #### MMT_MKT_MECH - Enumeration
@@ -36,6 +37,32 @@ The following fields have Enumerations:
 |------------------|-------------------------------|
 |                2 | Continuous trading            |
 |                5 | Trade reporting (on-exchange) |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_TYPE - Enumeration
 

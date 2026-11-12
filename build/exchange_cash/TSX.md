@@ -1,6 +1,6 @@
 # Toronto Stock Exchange
 
-The Toronto Stock Exchange is the largest equity market in Canada trading senior equities.
+Trades, quotes, bars and book depth from the Toronto Stock Exchange (TSX), Canada’s main exchange for senior issuers, with history from November 2017. TSX is a major global listing venue for mining and energy companies. Covered stocks include constituents of the S&P/TSX Composite and S&P/TSX 60; index values are in TSX_IDX.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ The Toronto Stock Exchange is the largest equity market in Canada trading senior
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

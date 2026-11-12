@@ -1,6 +1,6 @@
 # MIAX Futures Exchange Trading Hours
 
-MIAX Futures provides the Minneapolis Grain Exchange, offering trading in Hard Red Spring Wheat Futures & Options.
+Futures, options and spreads with Trades, Quotes and bars from MIAX Futures (formerly the Minneapolis Grain Exchange, MGEX), with history from June 2025. Its main contract is Hard Red Spring Wheat futures and options, the benchmark for the high-protein wheat grown in the northern US and Canada.
 
 Trading Hours are divided into multiple sessions
 

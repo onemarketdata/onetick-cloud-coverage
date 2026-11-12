@@ -1,6 +1,6 @@
 # Euronext Dublin (Irish Stock Exchange)
 
-Euronext Dublin, formerly the Irish Stock Exchange, is part of the Euronext group, offering trading in equities, bonds, funds, and derivatives of Irish and international companies.
+Trades, quotes, bars and book depth from Euronext Dublin (formerly the Irish Stock Exchange), with real-time data and history from June 2012. It covers the main market and Euronext Growth Dublin, and Dublin is also one of the world’s largest venues for listing debt securities and investment funds. Covered stocks include constituents of the ISEQ 20 and ISEQ All-Share.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Ireland [IE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Euronext Dublin, formerly the Irish Stock Exchange, is part of the Euronext grou
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: ISEQ 20 Price Index [EURONEXT_IDX::ISE20], ISEQ All-Share [EURONEXT_IDX::ISEQ]
 
 
 

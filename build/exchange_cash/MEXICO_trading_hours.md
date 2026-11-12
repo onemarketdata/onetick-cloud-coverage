@@ -1,6 +1,6 @@
 # Mexico Stock Exchange (BMV) Trading Hours
 
-The Mexican Stock Exchange, commonly known as Mexican Bolsa, Mexbol, or BMV, is one of two stock exchanges in Mexico, the other being BIVA - Bolsa Institucional de Valores.
+Trades, quotes and bars from the Bolsa Mexicana de Valores (BMV), Mexico’s largest stock exchange, with history from January 2014. It covers Mexican stocks, FIBRAs and the SIC (Sistema Internacional de Cotizaciones), where foreign securities trade in Mexico. Covered stocks include constituents of the S&P/BMV IPC; for trading on both BMV and BIVA, use MX_COMP.
 
 Trading Hours are divided into multiple sessions
 

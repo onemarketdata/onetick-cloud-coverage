@@ -26,7 +26,7 @@ It covers:
 * `BYX` - Cboe BYX
 * `BZX` - Cboe BZX Equities
 * `CBOE_APA` - Cboe Europe Trade Reporting
-* `CBOE_AU` - Cboe Australia (CXA)
+* `CBOE_AU` - TMX Australia (CXA)
 * `CBOE_JP` - Cboe Japan
 * `COLOMBIA` - Colombia Stock Exchange
 * `CSE` - Canadian Securities Exchange

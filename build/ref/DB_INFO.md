@@ -1,6 +1,6 @@
 # Database Daily Archive Loading Statistics
 
-Database Daily Archive Loading Statististics. Keyed on Database
+Daily archive loading statistics for OneTick cloud databases, keyed on database name, with history from January 2024. Use it to check which dates have been loaded for each database.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Database Daily Archive Loading Statististics. Keyed on Database
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

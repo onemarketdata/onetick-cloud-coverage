@@ -1,6 +1,6 @@
 # Bursa Malaysia - Equities
 
-Bursa Malaysia offers trading in equities, bonds, ETFs, and other securities issued by Malaysian companies.
+Trades, quotes and bars from Bursa Malaysia’s securities market, with history from November 2008, covering the Main and ACE markets, including many Sharia-compliant securities. Covered stocks include constituents of the FTSE Bursa Malaysia KLCI.
 
 * Country: Malaysia [MY]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Bursa Malaysia offers trading in equities, bonds, ETFs, and other securities iss
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Kuala Lumpur Composite Index
 
 
 

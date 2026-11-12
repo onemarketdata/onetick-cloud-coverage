@@ -1,6 +1,6 @@
 # Korea Exchange - Indices
 
-Korea Exchange offers trading in major Korean equity indices like the KOSPI, KOSDAQ and sector/strategy indices.
+Index values from the Korea Exchange, with history from February 2017, covering KOSPI, KOSDAQ, KONEX and derivatives market indices. Key indices include the KOSPI, KOSPI 200, KOSDAQ Composite and KOSDAQ 150, plus the VKOSPI volatility index.
 
 * Country: Korea [KR]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Korea Exchange offers trading in major Korean equity indices like the KOSPI, KOS
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

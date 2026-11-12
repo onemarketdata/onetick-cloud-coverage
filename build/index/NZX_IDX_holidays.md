@@ -1,6 +1,6 @@
 # NZX Indices Market Holidays
 
-The NZX operates major New Zealand indices like the NZX 50 Index and others.
+Index values from NZX, with history from December 2014. Key indices include the S&P/NZX 50, New Zealand’s main equity benchmark, and other S&P/NZX equity and sector indices.
 
 The last 10 Market Holidays are listed
 

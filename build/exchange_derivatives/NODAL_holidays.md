@@ -1,6 +1,6 @@
 # Nodal Exchange Market Holidays
 
-Nodal Exchange is a leading commodities derivatives exchange providing price, credit, and liquidity risk management to participants in the North American energy markets. It operates as the #1 power futures exchange in the United States, capturing roughly 55% market share of the U.S. power futures open interest.
+Futures, options and spreads with Trades, Quotes and book depth from Nodal Exchange, with history from August 2026. Nodal, part of EEX Group, is the leading North American power futures exchange, holding more than half of US power futures open interest. It also lists natural gas futures and one of the largest suites of environmental futures and options, including carbon contracts, all cleared through its subsidiary Nodal Clear.
 
 The last 10 Market Holidays are listed
 

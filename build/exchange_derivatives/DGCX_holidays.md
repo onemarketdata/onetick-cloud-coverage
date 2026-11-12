@@ -1,6 +1,6 @@
 # Dubai Gold & Commodities Exchange (DGCX) Market Holidays
 
-The Dubai Gold & Commodities Exchange (DGCX) offers trading in gold, silver, currencies, and other commodity futures and options.
+Futures, options and spreads with Trades, Quotes and bars from the Dubai Gold & Commodities Exchange (DGCX), with history from July 2019. DGCX lists gold, silver and other precious metals contracts, currency futures (especially the Indian rupee), and single stock futures on Indian and international companies.
 
 The last 10 Market Holidays are listed
 

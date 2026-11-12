@@ -9,26 +9,26 @@
 7	A3	Full Holiday	America/Buenos_Aires	00:00	24:00	2026-08-17	2026-08-17
 8	A3	Full Holiday	America/Buenos_Aires	00:00	24:00	2026-07-10	2026-07-10
 9	A3	Full Holiday	America/Buenos_Aires	00:00	24:00	2026-07-09	2026-07-09
-10	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
-11	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
-12	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
-13	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
-14	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
-15	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
-16	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
-17	ABAXX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
-18	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
-19	ABAXX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2025-12-31	2025-12-31
-20	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
-21	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
-22	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
-23	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
-24	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
-25	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
-26	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
-27	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
-28	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
-29	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-02	2025-12-02
+10	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-11-09	2026-11-09
+11	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
+12	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
+13	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
+14	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
+15	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
+16	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
+17	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
+18	ABAXX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
+19	ABAXX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
+20	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-12-02	2026-12-02
+21	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
+22	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
+23	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
+24	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
+25	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
+26	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
+27	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
+28	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
+29	ABU_DHABI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
 30	ALPHA	Full Holiday	America/Toronto	00:00	24:00	2026-10-12	2026-10-12
 31	ALPHA	Full Holiday	America/Toronto	00:00	24:00	2026-09-30	2026-09-30
 32	ALPHA	Full Holiday	America/Toronto	00:00	24:00	2026-09-07	2026-09-07
@@ -49,36 +49,36 @@
 47	ALPHA_X	Full Holiday	America/Toronto	00:00	24:00	2026-02-16	2026-02-16
 48	ALPHA_X	Full Holiday	America/Toronto	00:00	24:00	2026-01-01	2026-01-01
 49	ALPHA_X	Full Holiday	America/Toronto	00:00	24:00	2025-12-26	2025-12-26
-50	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-51	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-52	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-53	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-54	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-55	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-56	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-57	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-58	AMEX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-59	AMEX	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-60	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-61	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-62	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-63	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-64	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-65	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-66	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-67	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-68	AMOU	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-69	AMOU	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-70	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-71	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-72	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-73	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-74	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-75	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-76	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-77	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-78	AMXI	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-79	AMXI	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+50	AMEX	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+51	AMEX	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+52	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+53	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+54	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+55	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+56	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+57	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+58	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+59	AMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+60	AMOU	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+61	AMOU	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+62	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+63	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+64	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+65	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+66	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+67	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+68	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+69	AMOU	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+70	AMXI	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+71	AMXI	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+72	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+73	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+74	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+75	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+76	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+77	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+78	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+79	AMXI	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 80	AQSE	Full Holiday	Europe/London	00:00	24:00	2026-05-26	2026-05-26
 81	AQSE	Full Holiday	Europe/London	00:00	24:00	2026-05-04	2026-05-04
 82	AQSE	Full Holiday	Europe/London	00:00	24:00	2026-04-06	2026-04-06
@@ -109,16 +109,16 @@
 107	AQUIS_EU	Full Holiday	Europe/London	00:00	24:00	2025-12-26	2025-12-26
 108	AQUIS_EU	Full Holiday	Europe/London	00:00	24:00	2025-12-25	2025-12-25
 109	AQUIS_EU	Limited Trading Hours	Europe/London	08:00	12:30	2025-12-24	2025-12-24
-110	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-111	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-112	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-113	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-114	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-115	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-116	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-117	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-118	ARCA	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-119	ARCA	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+110	ARCA	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+111	ARCA	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+112	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+113	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+114	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+115	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+116	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+117	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+118	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+119	ARCA	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 120	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
 121	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
 122	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
@@ -129,16 +129,16 @@
 127	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 128	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 129	ARCA_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-130	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-131	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-132	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-133	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-134	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-135	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-136	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-137	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-138	ARCT	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-139	ARCT	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+130	ARCT	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+131	ARCT	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+132	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+133	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+134	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+135	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+136	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+137	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+138	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+139	ARCT	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 140	ASX	Full Holiday	Australia/Sydney	00:00	24:00	2026-06-08	2026-06-08
 141	ASX	Full Holiday	Australia/Sydney	00:00	24:00	2026-04-06	2026-04-06
 142	ASX	Full Holiday	Australia/Sydney	00:00	24:00	2026-04-03	2026-04-03
@@ -179,26 +179,26 @@
 177	AU_COMP	Full Holiday	Australia/Sydney	00:00	24:00	2025-12-25	2025-12-25
 178	AU_COMP	Limited Trading Hours	Australia/Sydney	10:00	14:30	2025-12-24	2025-12-24
 179	AU_COMP	Full Holiday	Australia/Sydney	00:00	24:00	2025-06-09	2025-06-09
-180	BATS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-181	BATS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-182	BATS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-183	BATS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-184	BATS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-185	BATS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-186	BATS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-187	BATS	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-188	BATS	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-189	BATS	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-190	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
-191	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
-192	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
-193	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
-194	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
-195	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
-196	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
-197	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
-198	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
-199	BIVA	Limited Trading Hours	America/Mexico_City	08:30	12:05	2025-12-24	2025-12-24
+180	BATS	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+181	BATS	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+182	BATS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+183	BATS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+184	BATS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+185	BATS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+186	BATS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+187	BATS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+188	BATS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+189	BATS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+190	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-16	2026-11-16
+191	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
+192	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
+193	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
+194	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
+195	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
+196	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
+197	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
+198	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
+199	BIVA	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
 200	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
 201	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
 202	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
@@ -209,16 +209,16 @@
 207	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 208	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 209	BLUE_OCEAN	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-210	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-02	2026-11-02
-211	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-10-12	2026-10-12
-212	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-09-07	2026-09-07
-213	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-06-04	2026-06-04
-214	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-05-01	2026-05-01
-215	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-21	2026-04-21
-216	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-03	2026-04-03
-217	BRAZIL_EQ	Limited Trading Hours	Etc/GMT+3	13:00	18:15	2026-02-18	2026-02-18
-218	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-17	2026-02-17
-219	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-16	2026-02-16
+210	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-20	2026-11-20
+211	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-02	2026-11-02
+212	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-10-12	2026-10-12
+213	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-09-07	2026-09-07
+214	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-06-04	2026-06-04
+215	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-05-01	2026-05-01
+216	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-21	2026-04-21
+217	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-03	2026-04-03
+218	BRAZIL_EQ	Limited Trading Hours	Etc/GMT+3	13:00	18:15	2026-02-18	2026-02-18
+219	BRAZIL_EQ	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-17	2026-02-17
 220	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-12-31	2026-12-31
 221	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-12-26	2026-12-26
 222	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-12-25	2026-12-25
@@ -229,16 +229,16 @@
 227	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-11-02	2026-11-02
 228	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-10-13	2026-10-13
 229	BRAZIL_FUT	Full Holiday	GMT	00:00	24:00	2026-10-12	2026-10-12
-230	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-02	2026-11-02
-231	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-10-12	2026-10-12
-232	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-09-07	2026-09-07
-233	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-06-04	2026-06-04
-234	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-05-01	2026-05-01
-235	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-21	2026-04-21
-236	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-03	2026-04-03
-237	BRAZIL_OTC	Limited Trading Hours	Etc/GMT+3	13:00	18:15	2026-02-18	2026-02-18
-238	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-17	2026-02-17
-239	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-16	2026-02-16
+230	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-20	2026-11-20
+231	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-11-02	2026-11-02
+232	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-10-12	2026-10-12
+233	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-09-07	2026-09-07
+234	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-06-04	2026-06-04
+235	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-05-01	2026-05-01
+236	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-21	2026-04-21
+237	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-04-03	2026-04-03
+238	BRAZIL_OTC	Limited Trading Hours	Etc/GMT+3	13:00	18:15	2026-02-18	2026-02-18
+239	BRAZIL_OTC	Full Holiday	Etc/GMT+3	00:00	24:00	2026-02-17	2026-02-17
 240	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-12-25	2026-12-25
 241	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-24	2026-11-24
 242	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-10	2026-11-10
@@ -249,16 +249,16 @@
 247	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
 248	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
 249	BSE	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
-250	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-06-01	2026-06-01
-251	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-05-01	2026-05-01
-252	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-04-13	2026-04-13
-253	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-04-10	2026-04-10
-254	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-07	2026-01-07
-255	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-06	2026-01-06
-256	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-02	2026-01-02
-257	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-01	2026-01-01
-258	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2025-12-26	2025-12-26
-259	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2025-12-25	2025-12-25
+250	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-12-01	2026-12-01
+251	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-11-30	2026-11-30
+252	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-06-01	2026-06-01
+253	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-05-01	2026-05-01
+254	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-04-13	2026-04-13
+255	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-04-10	2026-04-10
+256	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-07	2026-01-07
+257	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-06	2026-01-06
+258	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-02	2026-01-02
+259	BUCHAREST	Full Holiday	Europe/Bucharest	00:00	24:00	2026-01-01	2026-01-01
 260	BUDAPEST	Full Holiday	Europe/Budapest	00:00	24:00	2026-12-31	2026-12-31
 261	BUDAPEST	Full Holiday	Europe/Budapest	00:00	24:00	2026-12-25	2026-12-25
 262	BUDAPEST	Full Holiday	Europe/Budapest	00:00	24:00	2026-12-24	2026-12-24
@@ -289,26 +289,26 @@
 287	BXE	Full Holiday	Europe/London	00:00	24:00	2025-12-25	2025-12-25
 288	BXE	Full Holiday	Europe/London	00:00	24:00	2025-12-24	2025-12-24
 289	BXE	Full Holiday	Europe/London	00:00	24:00	2025-05-26	2025-05-26
-290	BYX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-291	BYX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-292	BYX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-293	BYX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-294	BYX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-295	BYX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-296	BYX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-297	BYX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-298	BYX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-299	BYX	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-300	BZX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-301	BZX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-302	BZX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-303	BZX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-304	BZX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-305	BZX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-306	BZX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-307	BZX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-308	BZX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-309	BZX	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+290	BYX	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+291	BYX	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+292	BYX	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+293	BYX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+294	BYX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+295	BYX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+296	BYX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+297	BYX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+298	BYX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+299	BYX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+300	BZX	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+301	BZX	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+302	BZX	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+303	BZX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+304	BZX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+305	BZX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+306	BZX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+307	BZX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+308	BZX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+309	BZX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 310	BZX_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
 311	BZX_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
 312	BZX_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
@@ -389,86 +389,86 @@
 387	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 388	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 389	CBOE_C2	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-390	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
-391	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
-392	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
-393	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-394	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
-395	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-396	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
-397	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-398	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-399	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-400	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-401	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-402	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-403	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-404	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-405	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-406	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-407	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-408	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-409	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-410	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-09-07	2026-09-07
-411	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
-412	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
-413	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-414	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
-415	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-416	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-05-25	2026-05-25
-417	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-418	CBOT	Limited Trading Hours	America/Chicago	07:20	10:15	2026-04-03	2026-04-03
-419	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-420	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
-421	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
-422	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
-423	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-424	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
-425	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-426	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-05-25	2026-05-25
-427	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-428	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-429	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-430	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-09-07	2026-09-07
-431	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
-432	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-07-03	2026-07-03
-433	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-434	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-06-19	2026-06-19
-435	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-436	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-05-25	2026-05-25
-437	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-05-25	2026-05-25
-438	CME	Limited Trading Hours	America/Chicago	17:00	08:15	2026-04-03	2026-04-03
-439	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-440	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
-441	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
-442	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
-443	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
-444	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	10:15	2026-04-03	2026-04-03
-445	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
-446	CME_GLOBEX	Full Holiday	America/Chicago	00:00	24:00	2026-01-01	2026-01-01
-447	CME_GLOBEX	Full Holiday	America/Chicago	00:00	24:00	2025-12-25	2025-12-25
-448	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:45	2025-12-24	2025-12-24
-449	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2025-12-24	2025-12-24
-450	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-11-02	2026-11-02
-451	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-10-12	2026-10-12
-452	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-08-17	2026-08-17
-453	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-08-07	2026-08-07
-454	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-07-20	2026-07-20
-455	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-07-13	2026-07-13
-456	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-29	2026-06-29
-457	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-15	2026-06-15
-458	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-08	2026-06-08
-459	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-05-18	2026-05-18
-460	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-09-07	2026-09-07
-461	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-07-03	2026-07-03
-462	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-463	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-06-19	2026-06-19
-464	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-465	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-05-25	2026-05-25
-466	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-467	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-02-16	2026-02-16
-468	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-01-19	2026-01-19
-469	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
+390	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	12:15	2026-11-27	2026-11-27
+391	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-27	2026-11-27
+392	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-11-26	2026-11-26
+393	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-26	2026-11-26
+394	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
+395	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+396	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
+397	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+398	CBOE_CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
+399	CBOE_CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+400	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+401	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+402	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+403	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+404	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+405	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+406	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+407	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+408	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+409	CBOE_JP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+410	CBOT	Limited Trading Hours	America/Chicago	07:20	12:15	2026-11-27	2026-11-27
+411	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-27	2026-11-27
+412	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-11-26	2026-11-26
+413	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-26	2026-11-26
+414	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-09-07	2026-09-07
+415	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+416	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
+417	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+418	CBOT	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
+419	CBOT	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+420	CFE	Limited Trading Hours	America/Chicago	08:30	12:15	2026-11-27	2026-11-27
+421	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-27	2026-11-27
+422	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-11-26	2026-11-26
+423	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-26	2026-11-26
+424	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-09-07	2026-09-07
+425	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+426	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-07-03	2026-07-03
+427	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+428	CFE	Limited Trading Hours	America/Chicago	08:30	10:30	2026-06-19	2026-06-19
+429	CFE	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+430	CME	Limited Trading Hours	America/Chicago	08:30	12:15	2026-11-27	2026-11-27
+431	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-27	2026-11-27
+432	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-11-26	2026-11-26
+433	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-26	2026-11-26
+434	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-09-07	2026-09-07
+435	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-09-07	2026-09-07
+436	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-07-03	2026-07-03
+437	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+438	CME	Limited Trading Hours	America/Chicago	08:30	12:00	2026-06-19	2026-06-19
+439	CME	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+440	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	13:45	2026-11-27	2026-11-27
+441	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-11-27	2026-11-27
+442	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-07-03	2026-07-03
+443	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-07-03	2026-07-03
+444	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	12:00	2026-06-19	2026-06-19
+445	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-06-19	2026-06-19
+446	CME_GLOBEX	Limited Trading Hours	America/Chicago	07:20	10:15	2026-04-03	2026-04-03
+447	CME_GLOBEX	Limited Trading Hours	America/Chicago	00:00	24:00	2026-04-03	2026-04-03
+448	CME_GLOBEX	Full Holiday	America/Chicago	00:00	24:00	2026-01-01	2026-01-01
+449	CME_GLOBEX	Full Holiday	America/Chicago	00:00	24:00	2025-12-25	2025-12-25
+450	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-11-16	2026-11-16
+451	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-11-02	2026-11-02
+452	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-10-12	2026-10-12
+453	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-08-17	2026-08-17
+454	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-08-07	2026-08-07
+455	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-07-20	2026-07-20
+456	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-07-13	2026-07-13
+457	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-29	2026-06-29
+458	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-15	2026-06-15
+459	COLOMBIA	Full Holiday	America/Bogota	00:00	24:00	2026-06-08	2026-06-08
+460	COMEX	Limited Trading Hours	America/New_York	13:30	14:45	2026-11-27	2026-11-27
+461	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-11-26	2026-11-26
+462	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-09-07	2026-09-07
+463	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-07-03	2026-07-03
+464	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+465	COMEX	Limited Trading Hours	America/New_York	08:20	13:00	2026-06-19	2026-06-19
+466	COMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+467	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-05-25	2026-05-25
+468	COMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+469	COMEX	Limited Trading Hours	America/New_York	13:30	14:30	2026-02-16	2026-02-16
 470	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-10-12	2026-10-12
 471	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-09-30	2026-09-30
 472	CSE	Full Holiday	America/Toronto	00:00	24:00	2026-09-07	2026-09-07
@@ -549,16 +549,16 @@
 547	DE_REGIONAL	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-25	2025-12-25
 548	DE_REGIONAL	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-24	2025-12-24
 549	DE_REGIONAL	Full Holiday	Europe/Berlin	00:00	24:00	2025-05-01	2025-05-01
-550	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
-551	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
-552	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
-553	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
-554	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
-555	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
-556	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
-557	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
-558	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
-559	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-02	2025-12-02
+550	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-12-02	2026-12-02
+551	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
+552	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
+553	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
+554	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
+555	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
+556	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
+557	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
+558	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
+559	DFM	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
 560	DGCX	Full Holiday	Asia/Dubai	00:00	24:00	2026-12-25	2026-12-25
 561	DGCX	Full Holiday	Asia/Dubai	00:00	24:00	2026-04-03	2026-04-03
 562	DGCX	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
@@ -589,26 +589,26 @@
 587	DXE	Full Holiday	Europe/London	00:00	24:00	2025-12-25	2025-12-25
 588	DXE	Full Holiday	Europe/London	00:00	24:00	2025-12-24	2025-12-24
 589	DXE	Full Holiday	Europe/London	00:00	24:00	2025-05-26	2025-05-26
-590	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-591	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-592	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-593	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-594	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-595	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-596	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-597	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-598	EDGA	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-599	EDGA	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-600	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-601	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-602	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-603	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-604	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-605	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-606	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-607	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-608	EDGX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-609	EDGX	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+590	EDGA	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+591	EDGA	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+592	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+593	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+594	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+595	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+596	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+597	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+598	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+599	EDGA	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+600	EDGX	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+601	EDGX	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+602	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+603	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+604	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+605	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+606	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+607	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+608	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+609	EDGX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 610	EEX	Full Holiday	CET	00:00	24:00	2026-12-25	2026-12-25
 611	EEX	Full Holiday	CET	00:00	24:00	2026-05-01	2026-05-01
 612	EEX	Full Holiday	CET	00:00	24:00	2026-04-06	2026-04-06
@@ -709,16 +709,16 @@
 707	FRANKFURT	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-25	2025-12-25
 708	FRANKFURT	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-24	2025-12-24
 709	FRANKFURT	Full Holiday	Europe/Berlin	00:00	24:00	2025-05-01	2025-05-01
-710	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-711	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-712	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-713	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-714	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-715	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-716	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-717	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-718	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-719	GLOBAL_OTC	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+710	GLOBAL_OTC	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+711	GLOBAL_OTC	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+712	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+713	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+714	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+715	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+716	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+717	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+718	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+719	GLOBAL_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 720	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-10-19	2026-10-19
 721	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-10-01	2026-10-01
 722	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-07-01	2026-07-01
@@ -729,16 +729,16 @@
 727	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-04-06	2026-04-06
 728	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-04-03	2026-04-03
 729	HANG_SENG_IDX	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-02-19	2026-02-19
-730	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-02	2026-09-02
-731	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-01	2026-09-01
-732	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-08-31	2026-08-31
-733	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-05-01	2026-05-01
-734	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-30	2026-04-30
-735	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-27	2026-04-27
-736	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-20	2026-02-20
-737	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-19	2026-02-19
-738	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-18	2026-02-18
-739	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-17	2026-02-17
+730	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-11-24	2026-11-24
+731	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-02	2026-09-02
+732	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-01	2026-09-01
+733	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-08-31	2026-08-31
+734	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-05-01	2026-05-01
+735	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-30	2026-04-30
+736	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-27	2026-04-27
+737	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-20	2026-02-20
+738	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-19	2026-02-19
+739	HANOI	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-18	2026-02-18
 740	HKFE	Limited Trading Hours	Asia/Hong_Kong	00:00	24:00	2026-10-20	2026-10-20
 741	HKFE	Limited Trading Hours	Asia/Hong_Kong	00:00	24:00	2026-10-19	2026-10-19
 742	HKFE	Limited Trading Hours	Asia/Hong_Kong	00:00	24:00	2026-10-02	2026-10-02
@@ -759,16 +759,16 @@
 757	HKSE	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-04-06	2026-04-06
 758	HKSE	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-04-03	2026-04-03
 759	HKSE	Full Holiday	Asia/Hong_Kong	00:00	24:00	2026-02-19	2026-02-19
-760	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-02	2026-09-02
-761	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-01	2026-09-01
-762	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-08-31	2026-08-31
-763	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-05-01	2026-05-01
-764	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-30	2026-04-30
-765	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-27	2026-04-27
-766	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-20	2026-02-20
-767	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-19	2026-02-19
-768	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-18	2026-02-18
-769	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-17	2026-02-17
+760	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-11-24	2026-11-24
+761	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-02	2026-09-02
+762	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-09-01	2026-09-01
+763	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-08-31	2026-08-31
+764	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-05-01	2026-05-01
+765	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-30	2026-04-30
+766	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-04-27	2026-04-27
+767	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-20	2026-02-20
+768	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-19	2026-02-19
+769	HO_CHI_MINH	Full Holiday	Asia/Ho_Chi_Minh	00:00	24:00	2026-02-18	2026-02-18
 770	IBEX_IDX	Full Holiday	Europe/Madrid	00:00	24:00	2026-05-01	2026-05-01
 771	IBEX_IDX	Full Holiday	Europe/Madrid	00:00	24:00	2026-04-06	2026-04-06
 772	IBEX_IDX	Full Holiday	Europe/Madrid	00:00	24:00	2026-04-03	2026-04-03
@@ -819,16 +819,16 @@
 817	ICE_EU_FIN	Full Holiday	Europe/London	00:00	24:00	2025-12-25	2025-12-25
 818	ICE_EU_FIN	Limited Trading Hours	Europe/London	09:30	12:30	2025-12-24	2025-12-24
 819	ICE_EU_FIN	Full Holiday	Europe/London	00:00	24:00	2025-08-25	2025-08-25
-820	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-07-03	2026-07-03
-821	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-06-19	2026-06-19
-822	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-05-25	2026-05-25
-823	ICE_US	Limited Trading Hours	America/New_York	08:05	11:15	2026-04-03	2026-04-03
-824	ICE_US	Limited Trading Hours	America/New_York	05:00	08:05	2026-04-03	2026-04-03
-825	ICE_US	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-826	ICE_US	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-827	ICE_US	Limited Trading Hours	America/New_York	08:05	13:45	2025-12-24	2025-12-24
-828	ICE_US	Limited Trading Hours	America/New_York	08:05	13:15	2025-11-28	2025-11-28
-829	ICE_US	Limited Trading Hours	America/New_York	08:05	13:00	2025-07-04	2025-07-04
+820	ICE_US	Limited Trading Hours	America/New_York	08:05	13:15	2026-11-27	2026-11-27
+821	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-07-03	2026-07-03
+822	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-06-19	2026-06-19
+823	ICE_US	Limited Trading Hours	America/New_York	08:05	14:30	2026-05-25	2026-05-25
+824	ICE_US	Limited Trading Hours	America/New_York	08:05	11:15	2026-04-03	2026-04-03
+825	ICE_US	Limited Trading Hours	America/New_York	05:00	08:05	2026-04-03	2026-04-03
+826	ICE_US	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
+827	ICE_US	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
+828	ICE_US	Limited Trading Hours	America/New_York	08:05	13:45	2025-12-24	2025-12-24
+829	ICE_US	Limited Trading Hours	America/New_York	08:05	13:15	2025-11-28	2025-11-28
 830	ICE_US_GRAINS	Full Holiday	America/Toronto	00:00	24:00	2026-12-28	2026-12-28
 831	ICE_US_GRAINS	Full Holiday	America/Toronto	00:00	24:00	2026-12-25	2026-12-25
 832	ICE_US_GRAINS	Full Holiday	America/Toronto	00:00	24:00	2026-10-12	2026-10-12
@@ -859,26 +859,26 @@
 857	INDONESIA	Full Holiday	Asia/Jakarta	00:00	24:00	2026-05-14	2026-05-14
 858	INDONESIA	Full Holiday	Asia/Jakarta	00:00	24:00	2026-04-03	2026-04-03
 859	INDONESIA	Full Holiday	Asia/Jakarta	00:00	24:00	2026-03-24	2026-03-24
-860	INET	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-861	INET	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-862	INET	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-863	INET	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-864	INET	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-865	INET	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-866	INET	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-867	INET	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-868	INET	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-869	INET	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-870	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
-871	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
-872	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
-873	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
-874	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
-875	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
-876	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
-877	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
-878	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-31	2026-03-31
-879	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-26	2026-03-26
+860	INET	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+861	INET	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+862	INET	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+863	INET	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+864	INET	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+865	INET	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+866	INET	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+867	INET	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+868	INET	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+869	INET	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+870	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-24	2026-11-24
+871	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-10	2026-11-10
+872	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
+873	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
+874	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
+875	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
+876	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
+877	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
+878	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
+879	IN_COMP	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
 880	ISTANBUL	Full Holiday	Europe/Istanbul	00:00	24:00	2026-10-29	2026-10-29
 881	ISTANBUL	Limited Trading Hours	Europe/Istanbul	10:00	13:00	2026-10-28	2026-10-28
 882	ISTANBUL	Full Holiday	Europe/Istanbul	00:00	24:00	2026-07-15	2026-07-15
@@ -899,36 +899,36 @@
 897	ISTANBUL_IDX	Full Holiday	Europe/Istanbul	00:00	24:00	2026-05-19	2026-05-19
 898	ISTANBUL_IDX	Full Holiday	Europe/Istanbul	00:00	24:00	2026-05-01	2026-05-01
 899	ISTANBUL_IDX	Full Holiday	Europe/Istanbul	00:00	24:00	2026-04-23	2026-04-23
-900	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-901	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-902	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-903	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-904	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-905	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-906	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-907	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-908	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-909	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-910	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-09-24	2026-09-24
-911	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-08-10	2026-08-10
-912	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-06-16	2026-06-16
-913	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-05-01	2026-05-01
-914	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-27	2026-04-27
-915	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-06	2026-04-06
-916	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-03	2026-04-03
-917	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-01-01	2026-01-01
-918	JSE	Limited Trading Hours	Africa/Johannesburg	09:00	11:50	2025-12-31	2025-12-31
+900	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+901	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+902	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+903	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+904	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+905	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+906	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+907	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+908	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+909	JP_COMP	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+910	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-11-04	2026-11-04
+911	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-09-24	2026-09-24
+912	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-08-10	2026-08-10
+913	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-06-16	2026-06-16
+914	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-05-01	2026-05-01
+915	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-27	2026-04-27
+916	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-06	2026-04-06
+917	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-03	2026-04-03
+918	JSE	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-01-01	2026-01-01
 919	JSE	Non Trading Hours	Africa/Johannesburg	11:50	13:00	2025-12-31	2025-12-31
-920	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-09-24	2026-09-24
-921	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-08-10	2026-08-10
-922	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-06-16	2026-06-16
-923	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-05-01	2026-05-01
-924	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-27	2026-04-27
-925	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-06	2026-04-06
-926	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-03	2026-04-03
-927	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-01-01	2026-01-01
-928	JSE_FUT	Limited Trading Hours	Africa/Johannesburg	08:30	12:20	2025-12-31	2025-12-31
-929	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2025-12-26	2025-12-26
+920	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-11-04	2026-11-04
+921	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-09-24	2026-09-24
+922	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-08-10	2026-08-10
+923	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-06-16	2026-06-16
+924	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-05-01	2026-05-01
+925	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-27	2026-04-27
+926	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-06	2026-04-06
+927	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-04-03	2026-04-03
+928	JSE_FUT	Full Holiday	Africa/Johannesburg	00:00	24:00	2026-01-01	2026-01-01
+929	JSE_FUT	Limited Trading Hours	Africa/Johannesburg	08:30	12:20	2025-12-31	2025-12-31
 930	KOREA_EQ	Full Holiday	Asia/Seoul	00:00	24:00	2026-10-09	2026-10-09
 931	KOREA_EQ	Full Holiday	Asia/Seoul	00:00	24:00	2026-10-05	2026-10-05
 932	KOREA_EQ	Full Holiday	Asia/Seoul	00:00	24:00	2026-09-25	2026-09-25
@@ -1069,36 +1069,36 @@
 1067	MADRID	Limited Trading Hours	Europe/Madrid	09:00	14:00	2025-12-24	2025-12-24
 1068	MADRID	Full Holiday	Europe/Madrid	00:00	24:00	2025-05-01	2025-05-01
 1069	MADRID	Full Holiday	Europe/Madrid	00:00	24:00	2025-04-21	2025-04-21
-1070	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-09-16	2026-09-16
-1071	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-31	2026-08-31
-1072	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-25	2026-08-25
-1073	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-17	2026-06-17
-1074	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-02	2026-06-02
-1075	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-01	2026-06-01
-1076	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-27	2026-05-27
-1077	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-01	2026-05-01
-1078	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-23	2026-03-23
-1079	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-20	2026-03-20
-1080	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-09-16	2026-09-16
-1081	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-31	2026-08-31
-1082	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-25	2026-08-25
-1083	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-17	2026-06-17
-1084	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-02	2026-06-02
-1085	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-01	2026-06-01
-1086	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-27	2026-05-27
-1087	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-01	2026-05-01
-1088	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-23	2026-03-23
-1089	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-20	2026-03-20
-1090	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-10-20	2026-10-20
-1091	MCX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
-1092	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-09-14	2026-09-14
-1093	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-06-26	2026-06-26
-1094	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-05-28	2026-05-28
-1095	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-05-01	2026-05-01
-1096	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-04-14	2026-04-14
-1097	MCX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
-1098	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-03-31	2026-03-31
-1099	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-03-26	2026-03-26
+1070	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-11-09	2026-11-09
+1071	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-09-16	2026-09-16
+1072	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-31	2026-08-31
+1073	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-25	2026-08-25
+1074	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-17	2026-06-17
+1075	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-02	2026-06-02
+1076	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-01	2026-06-01
+1077	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-27	2026-05-27
+1078	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-01	2026-05-01
+1079	MALAYSIA	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-23	2026-03-23
+1080	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-11-09	2026-11-09
+1081	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-09-16	2026-09-16
+1082	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-31	2026-08-31
+1083	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-08-25	2026-08-25
+1084	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-17	2026-06-17
+1085	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-02	2026-06-02
+1086	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-06-01	2026-06-01
+1087	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-27	2026-05-27
+1088	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-05-01	2026-05-01
+1089	MALAYSIA_FUT	Full Holiday	Asia/Kuala_Lumpur	00:00	24:00	2026-03-23	2026-03-23
+1090	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:55	2026-11-24	2026-11-24
+1091	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:55	2026-11-10	2026-11-10
+1092	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-10-20	2026-10-20
+1093	MCX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
+1094	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-09-14	2026-09-14
+1095	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-06-26	2026-06-26
+1096	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-05-28	2026-05-28
+1097	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-05-01	2026-05-01
+1098	MCX	Limited Trading Hours	Asia/Calcutta	17:00	23:30	2026-04-14	2026-04-14
+1099	MCX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
 1100	MEFF	Full Holiday	Europe/Madrid	00:00	24:00	2026-05-01	2026-05-01
 1101	MEFF	Full Holiday	Europe/Madrid	00:00	24:00	2026-04-06	2026-04-06
 1102	MEFF	Full Holiday	Europe/Madrid	00:00	24:00	2026-04-03	2026-04-03
@@ -1109,16 +1109,16 @@
 1107	MEFF	Limited Trading Hours	Europe/Madrid	07:55	14:00	2025-12-24	2025-12-24
 1108	MEFF	Full Holiday	Europe/Madrid	00:00	24:00	2025-05-01	2025-05-01
 1109	MEFF	Full Holiday	Europe/Madrid	00:00	24:00	2025-04-21	2025-04-21
-1110	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
-1111	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
-1112	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
-1113	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
-1114	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
-1115	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
-1116	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
-1117	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
-1118	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
-1119	MEXICO	Limited Trading Hours	America/Mexico_City	08:30	12:05	2025-12-24	2025-12-24
+1110	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-16	2026-11-16
+1111	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
+1112	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
+1113	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
+1114	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
+1115	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
+1116	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
+1117	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
+1118	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
+1119	MEXICO	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
 1120	MIAX_FUT	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
 1121	MIAX_FUT	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
 1122	MIAX_FUT	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
@@ -1149,76 +1149,76 @@
 1147	MILAN_IDX	Full Holiday	Europe/Rome	00:00	24:00	2025-12-24	2025-12-24
 1148	MILAN_IDX	Full Holiday	Europe/Rome	00:00	24:00	2025-08-15	2025-08-15
 1149	MILAN_IDX	Full Holiday	Europe/Rome	00:00	24:00	2025-05-01	2025-05-01
-1150	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-10-12	2026-10-12
-1151	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-10-09	2026-10-09
-1152	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-09-30	2026-09-30
-1153	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-09-29	2026-09-29
-1154	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-09-07	2026-09-07
-1155	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-09-04	2026-09-04
-1156	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-08-03	2026-08-03
-1157	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-07-31	2026-07-31
-1158	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-07-01	2026-07-01
-1159	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-06-30	2026-06-30
-1160	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
-1161	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
-1162	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
-1163	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
-1164	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
-1165	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
-1166	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
-1167	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
-1168	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
-1169	MX_COMP	Limited Trading Hours	America/Mexico_City	08:30	12:05	2025-12-24	2025-12-24
-1170	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1171	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1172	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1173	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1174	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1175	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1176	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1177	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1178	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1179	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-1180	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1181	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1182	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1183	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1184	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1185	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1186	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1187	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1188	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1189	NASDAQ	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1190	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
-1191	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
-1192	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
-1193	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
-1194	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
-1195	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
-1196	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
-1197	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
-1198	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
-1199	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-02	2025-12-02
-1200	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1201	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1202	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1203	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1204	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1205	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1206	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1207	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1208	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1209	NASDAQ_PSX	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1210	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1211	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1212	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1213	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1214	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1215	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1216	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1217	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1218	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1219	NASDAQ_TEXAS	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1150	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-11-11	2026-11-11
+1151	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-11-10	2026-11-10
+1152	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-10-12	2026-10-12
+1153	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-10-09	2026-10-09
+1154	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-09-30	2026-09-30
+1155	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-09-29	2026-09-29
+1156	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-09-07	2026-09-07
+1157	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-09-04	2026-09-04
+1158	MONTREAL	Full Holiday	America/Montreal	00:00	24:00	2026-08-03	2026-08-03
+1159	MONTREAL	Limited Trading Hours	America/Montreal	06:00	13:30	2026-07-31	2026-07-31
+1160	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-16	2026-11-16
+1161	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-11-02	2026-11-02
+1162	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-09-16	2026-09-16
+1163	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-05-01	2026-05-01
+1164	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-03	2026-04-03
+1165	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-04-02	2026-04-02
+1166	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-03-16	2026-03-16
+1167	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-02-02	2026-02-02
+1168	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2026-01-01	2026-01-01
+1169	MX_COMP	Full Holiday	America/Mexico_City	00:00	24:00	2025-12-25	2025-12-25
+1170	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1171	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1172	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1173	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1174	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1175	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1176	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1177	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1178	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1179	NAGOYA	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+1180	NASDAQ	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1181	NASDAQ	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1182	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1183	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1184	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1185	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1186	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1187	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1188	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1189	NASDAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1190	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-12-02	2026-12-02
+1191	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-08-25	2026-08-25
+1192	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-06-16	2026-06-16
+1193	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-28	2026-05-28
+1194	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-27	2026-05-27
+1195	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-05-26	2026-05-26
+1196	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-20	2026-03-20
+1197	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-03-19	2026-03-19
+1198	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2026-01-01	2026-01-01
+1199	NASDAQ_DUBAI	Full Holiday	Asia/Dubai	00:00	24:00	2025-12-03	2025-12-03
+1200	NASDAQ_PSX	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1201	NASDAQ_PSX	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1202	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1203	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1204	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1205	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1206	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1207	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1208	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1209	NASDAQ_PSX	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1210	NASDAQ_TEXAS	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1211	NASDAQ_TEXAS	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1212	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1213	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1214	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1215	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1216	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1217	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1218	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1219	NASDAQ_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1220	NEO	Full Holiday	America/Toronto	00:00	24:00	2026-10-12	2026-10-12
 1221	NEO	Full Holiday	America/Toronto	00:00	24:00	2026-09-30	2026-09-30
 1222	NEO	Full Holiday	America/Toronto	00:00	24:00	2026-09-07	2026-09-07
@@ -1239,16 +1239,16 @@
 1237	NEXTRADE	Full Holiday	Asia/Seoul	00:00	24:00	2026-05-25	2026-05-25
 1238	NEXTRADE	Full Holiday	Asia/Seoul	00:00	24:00	2026-05-05	2026-05-05
 1239	NEXTRADE	Full Holiday	Asia/Seoul	00:00	24:00	2026-05-01	2026-05-01
-1240	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1241	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1242	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1243	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1244	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1245	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1246	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1247	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1248	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1249	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
+1240	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1241	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1242	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1243	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1244	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1245	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1246	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1247	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1248	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1249	NIKKEI_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
 1250	NORDIC_EQ	Full Holiday	Europe/Stockholm	00:00	24:00	2026-05-14	2026-05-14
 1251	NORDIC_EQ	Full Holiday	Europe/Stockholm	00:00	24:00	2026-04-06	2026-04-06
 1252	NORDIC_EQ	Full Holiday	Europe/Stockholm	00:00	24:00	2026-04-03	2026-04-03
@@ -1279,96 +1279,96 @@
 1277	NSE_CASH	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
 1278	NSE_CASH	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
 1279	NSE_CASH	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
-1280	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
-1281	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
-1282	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
-1283	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
-1284	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
-1285	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
-1286	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
-1287	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
-1288	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-31	2026-03-31
-1289	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-26	2026-03-26
-1290	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
-1291	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
-1292	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
-1293	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
-1294	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
-1295	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
-1296	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
-1297	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
-1298	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-31	2026-03-31
-1299	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-03-26	2026-03-26
-1300	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1301	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-07-03	2026-07-03
-1302	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1303	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-06-19	2026-06-19
-1304	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1305	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1306	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1307	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1308	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1309	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1310	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1311	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1312	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1313	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1314	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1315	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1316	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1317	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1318	NYOU	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1319	NYOU	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1320	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1321	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1322	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1323	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1324	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1325	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1326	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1327	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1328	NYSE	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1329	NYSE	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1330	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1331	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1332	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1333	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1334	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1335	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1336	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1337	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1338	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1339	NYSE_IMB	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1280	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-24	2026-11-24
+1281	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-10	2026-11-10
+1282	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
+1283	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
+1284	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
+1285	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
+1286	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
+1287	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
+1288	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
+1289	NSE_FUT	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
+1290	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-24	2026-11-24
+1291	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-11-10	2026-11-10
+1292	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-20	2026-10-20
+1293	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-10-02	2026-10-02
+1294	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-09-14	2026-09-14
+1295	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-06-26	2026-06-26
+1296	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-28	2026-05-28
+1297	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-05-01	2026-05-01
+1298	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-14	2026-04-14
+1299	NSE_IX	Full Holiday	Asia/Calcutta	00:00	24:00	2026-04-03	2026-04-03
+1300	NYMEX	Limited Trading Hours	America/New_York	14:30	14:45	2026-11-27	2026-11-27
+1301	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1302	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1303	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-07-03	2026-07-03
+1304	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1305	NYMEX	Limited Trading Hours	America/New_York	09:00	13:00	2026-06-19	2026-06-19
+1306	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1307	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1308	NYMEX	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1309	NYMEX	Limited Trading Hours	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1310	NYOU	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1311	NYOU	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1312	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1313	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1314	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1315	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1316	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1317	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1318	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1319	NYOU	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1320	NYSE	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1321	NYSE	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1322	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1323	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1324	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1325	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1326	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1327	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1328	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1329	NYSE	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1330	NYSE_IMB	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1331	NYSE_IMB	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1332	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1333	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1334	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1335	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1336	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1337	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1338	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1339	NYSE_IMB	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1340	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
-1341	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
-1342	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1343	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1344	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1345	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1346	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1347	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1348	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1349	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1350	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1351	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1352	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1353	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1354	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1355	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1356	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1357	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1358	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1359	NYSE_TEXAS	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1360	NYST	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1361	NYST	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1362	NYST	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1363	NYST	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1364	NYST	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1365	NYST	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1366	NYST	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1367	NYST	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1368	NYST	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1369	NYST	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1341	NYSE_TAQ	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1342	NYSE_TAQ	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1343	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1344	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1345	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1346	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1347	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1348	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1349	NYSE_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1350	NYSE_TEXAS	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1351	NYSE_TEXAS	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1352	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1353	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1354	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1355	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1356	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1357	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1358	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1359	NYSE_TEXAS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1360	NYST	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1361	NYST	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1362	NYST	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1363	NYST	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1364	NYST	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1365	NYST	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1366	NYST	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1367	NYST	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1368	NYST	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1369	NYST	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1370	NZX	Full Holiday	Pacific/Auckland	00:00	24:00	2026-10-26	2026-10-26
 1371	NZX	Full Holiday	Pacific/Auckland	00:00	24:00	2026-07-10	2026-07-10
 1372	NZX	Full Holiday	Pacific/Auckland	00:00	24:00	2026-06-01	2026-06-01
@@ -1439,16 +1439,16 @@
 1437	OSAKA_FUT	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2025-01-13	2025-01-13
 1438	OSAKA_FUT	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2025-01-03	2025-01-03
 1439	OSAKA_FUT	Full Holiday	Asia/Tokyo	00:00	24:00	2025-01-02	2025-01-02
-1440	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-10-13	2026-10-13
-1441	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1442	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-09-24	2026-09-24
-1443	OSAKA_JGB	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1444	OSAKA_JGB	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1445	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1446	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-08-12	2026-08-12
-1447	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1448	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-07-21	2026-07-21
-1449	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1440	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-11-24	2026-11-24
+1441	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1442	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-11-04	2026-11-04
+1443	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1444	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-10-13	2026-10-13
+1445	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1446	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-09-24	2026-09-24
+1447	OSAKA_JGB	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1448	OSAKA_JGB	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1449	OSAKA_JGB	Limited Trading Hours	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
 1450	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2026-05-25	2026-05-25
 1451	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2026-05-14	2026-05-14
 1452	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2026-05-01	2026-05-01
@@ -1459,46 +1459,46 @@
 1457	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2026-01-01	2026-01-01
 1458	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2025-12-31	2025-12-31
 1459	OSLO	Full Holiday	Europe/Oslo	00:00	24:00	2025-12-26	2025-12-26
-1460	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1461	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1462	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1463	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1464	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1465	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1466	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1467	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1468	OTCM	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1469	OTCM	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1470	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-10-28	2026-10-28
-1471	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-09-28	2026-09-28
-1472	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-07-06	2026-07-06
-1473	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-05-08	2026-05-08
-1474	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-05-01	2026-05-01
-1475	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-04-06	2026-04-06
-1476	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-04-03	2026-04-03
-1477	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-01-01	2026-01-01
-1478	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2025-12-31	2025-12-31
-1479	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2025-12-26	2025-12-26
-1480	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-10-28	2026-10-28
-1481	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-09-28	2026-09-28
-1482	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-07-06	2026-07-06
-1483	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-05-08	2026-05-08
-1484	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-05-01	2026-05-01
-1485	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-04-06	2026-04-06
-1486	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-04-03	2026-04-03
-1487	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-01-01	2026-01-01
-1488	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2025-12-31	2025-12-31
-1489	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2025-12-26	2025-12-26
-1490	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-11-02	2026-11-02
-1491	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-08-31	2026-08-31
-1492	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-08-21	2026-08-21
-1493	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-06-12	2026-06-12
-1494	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-05-01	2026-05-01
-1495	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-09	2026-04-09
-1496	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-03	2026-04-03
-1497	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-02	2026-04-02
-1498	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-03-20	2026-03-20
-1499	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-02-17	2026-02-17
+1460	OTCM	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1461	OTCM	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1462	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1463	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1464	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1465	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1466	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1467	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1468	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1469	OTCM	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1470	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-11-17	2026-11-17
+1471	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-10-28	2026-10-28
+1472	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-09-28	2026-09-28
+1473	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-07-06	2026-07-06
+1474	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-05-08	2026-05-08
+1475	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-05-01	2026-05-01
+1476	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-04-06	2026-04-06
+1477	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-04-03	2026-04-03
+1478	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2026-01-01	2026-01-01
+1479	PRAGUE	Full Holiday	Europe/Prague	00:00	24:00	2025-12-31	2025-12-31
+1480	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-11-17	2026-11-17
+1481	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-10-28	2026-10-28
+1482	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-09-28	2026-09-28
+1483	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-07-06	2026-07-06
+1484	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-05-08	2026-05-08
+1485	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-05-01	2026-05-01
+1486	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-04-06	2026-04-06
+1487	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-04-03	2026-04-03
+1488	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2026-01-01	2026-01-01
+1489	PRAGUE_IDX	Full Holiday	Europe/Prague	00:00	24:00	2025-12-31	2025-12-31
+1490	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-11-30	2026-11-30
+1491	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-11-02	2026-11-02
+1492	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-08-31	2026-08-31
+1493	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-08-21	2026-08-21
+1494	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-06-12	2026-06-12
+1495	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-05-01	2026-05-01
+1496	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-09	2026-04-09
+1497	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-03	2026-04-03
+1498	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-04-02	2026-04-02
+1499	PSE	Full Holiday	Asia/Manila	00:00	24:00	2026-03-20	2026-03-20
 1500	PURE	Full Holiday	America/Toronto	00:00	24:00	2026-10-12	2026-10-12
 1501	PURE	Full Holiday	America/Toronto	00:00	24:00	2026-09-30	2026-09-30
 1502	PURE	Full Holiday	America/Toronto	00:00	24:00	2026-09-07	2026-09-07
@@ -1549,16 +1549,16 @@
 1547	SBI_JAPANNEXT	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
 1548	SBI_JAPANNEXT	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
 1549	SBI_JAPANNEXT	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1550	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
-1551	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
-1552	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
-1553	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
-1554	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
-1555	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
-1556	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
-1557	SGX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
-1558	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
-1559	SGX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2025-12-31	2025-12-31
+1550	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-11-09	2026-11-09
+1551	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
+1552	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
+1553	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
+1554	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
+1555	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
+1556	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
+1557	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
+1558	SGX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
+1559	SGX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
 1560	SGX_COM	Limited Trading Hours	Asia/Singapore	00:00	24:00	2026-01-02	2026-01-02
 1561	SGX_COM	Limited Trading Hours	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
 1562	SGX_COM	Limited Trading Hours	Asia/Singapore	00:00	24:00	2025-12-26	2025-12-26
@@ -1569,16 +1569,16 @@
 1567	SGX_COM	Full Holiday	Asia/Singapore	00:00	24:00	2024-12-25	2024-12-25
 1568	SGX_COM	Limited Trading Hours	Asia/Singapore	00:00	24:00	2024-04-01	2024-04-01
 1569	SGX_COM	Full Holiday	Asia/Singapore	00:00	24:00	2024-03-29	2024-03-29
-1570	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
-1571	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
-1572	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
-1573	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
-1574	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
-1575	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
-1576	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
-1577	SGX_FX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
-1578	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
-1579	SGX_FX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2025-12-31	2025-12-31
+1570	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-11-09	2026-11-09
+1571	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
+1572	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
+1573	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
+1574	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
+1575	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
+1576	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
+1577	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
+1578	SGX_FX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
+1579	SGX_FX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
 1580	SHANGHAI	Full Holiday	Asia/Shanghai	00:00	24:00	2026-10-07	2026-10-07
 1581	SHANGHAI	Full Holiday	Asia/Shanghai	00:00	24:00	2026-10-06	2026-10-06
 1582	SHANGHAI	Full Holiday	Asia/Shanghai	00:00	24:00	2026-10-05	2026-10-05
@@ -1629,16 +1629,16 @@
 1627	SHFE	Full Holiday	Asia/Shanghai	00:00	24:00	2026-09-25	2026-09-25
 1628	SHFE	Limited Trading Hours	Asia/Shanghai	00:00	24:00	2026-06-22	2026-06-22
 1629	SHFE	Full Holiday	Asia/Shanghai	00:00	24:00	2026-06-19	2026-06-19
-1630	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1631	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1632	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1633	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1634	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1635	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1636	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1637	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1638	SIAC	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1639	SIAC	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1630	SIAC	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1631	SIAC	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1632	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1633	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1634	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1635	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1636	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1637	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1638	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1639	SIAC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1640	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2026-05-01	2026-05-01
 1641	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2026-04-06	2026-04-06
 1642	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2026-04-03	2026-04-03
@@ -1649,16 +1649,16 @@
 1647	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-25	2025-12-25
 1648	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2025-12-24	2025-12-24
 1649	STUTTGART	Full Holiday	Europe/Berlin	00:00	24:00	2025-05-01	2025-05-01
-1650	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
-1651	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
-1652	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
-1653	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
-1654	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
-1655	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
-1656	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
-1657	ST_IDX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
-1658	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
-1659	ST_IDX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2025-12-31	2025-12-31
+1650	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-11-09	2026-11-09
+1651	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-08-10	2026-08-10
+1652	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-06-01	2026-06-01
+1653	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-27	2026-05-27
+1654	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-05-01	2026-05-01
+1655	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-04-03	2026-04-03
+1656	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-18	2026-02-18
+1657	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-02-17	2026-02-17
+1658	ST_IDX	Limited Trading Hours	Asia/Singapore	09:00	12:16	2026-02-16	2026-02-16
+1659	ST_IDX	Full Holiday	Asia/Singapore	00:00	24:00	2026-01-01	2026-01-01
 1660	SWISS	Full Holiday	Europe/Zurich	00:00	24:00	2026-05-25	2026-05-25
 1661	SWISS	Full Holiday	Europe/Zurich	00:00	24:00	2026-05-14	2026-05-14
 1662	SWISS	Full Holiday	Europe/Zurich	00:00	24:00	2026-05-01	2026-05-01
@@ -1700,35 +1700,35 @@
 1698	TAIPEI	Full Holiday	Asia/Taipei	00:00	24:00	2026-04-03	2026-04-03
 1699	TAIPEI	Full Holiday	Asia/Taipei	00:00	24:00	2026-02-27	2026-02-27
 1700	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
-1701	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
-1702	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1703	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1704	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1705	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1706	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1707	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1708	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1709	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
+1701	TAQ_ADMIN	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1702	TAQ_ADMIN	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1703	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1704	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1705	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1706	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1707	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1708	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1709	TAQ_ADMIN	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 1710	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
-1711	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
-1712	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1713	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1714	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1715	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1716	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1717	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1718	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1719	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
+1711	TAQ_MASTER	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1712	TAQ_MASTER	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1713	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1714	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1715	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1716	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1717	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1718	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1719	TAQ_MASTER	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 1720	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
-1721	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
-1722	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1723	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1724	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1725	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1726	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1727	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1728	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1729	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
+1721	TAQ_NBBO	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1722	TAQ_NBBO	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1723	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1724	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1725	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1726	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1727	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1728	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1729	TAQ_NBBO	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
 1730	TEL_AVIV	Full Holiday	Asia/Tel_Aviv	00:00	24:00	2026-10-27	2026-10-27
 1731	TEL_AVIV	Full Holiday	Asia/Tel_Aviv	00:00	24:00	2026-10-02	2026-10-02
 1732	TEL_AVIV	Limited Trading Hours	Asia/Tel_Aviv	09:45	14:25	2026-10-01	2026-10-01
@@ -1739,16 +1739,16 @@
 1737	TEL_AVIV	Full Holiday	Asia/Tel_Aviv	00:00	24:00	2026-09-21	2026-09-21
 1738	TEL_AVIV	Full Holiday	Asia/Tel_Aviv	00:00	24:00	2026-09-18	2026-09-18
 1739	TEL_AVIV	Full Holiday	Asia/Tel_Aviv	00:00	24:00	2026-09-11	2026-09-11
-1740	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1741	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1742	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1743	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1744	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1745	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1746	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1747	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1748	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1749	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
+1740	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1741	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1742	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1743	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1744	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1745	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1746	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1747	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1748	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1749	TFX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
 1750	THAILAND	Full Holiday	Asia/Bangkok	00:00	24:00	2026-10-23	2026-10-23
 1751	THAILAND	Full Holiday	Asia/Bangkok	00:00	24:00	2026-10-16	2026-10-16
 1752	THAILAND	Full Holiday	Asia/Bangkok	00:00	24:00	2026-10-13	2026-10-13
@@ -1769,46 +1769,46 @@
 1767	THAILAND_FUT	Full Holiday	Asia/Bangkok	00:00	24:00	2026-06-01	2026-06-01
 1768	THAILAND_FUT	Full Holiday	Asia/Bangkok	00:00	24:00	2026-05-04	2026-05-04
 1769	THAILAND_FUT	Full Holiday	Asia/Bangkok	00:00	24:00	2026-05-01	2026-05-01
-1770	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1771	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1772	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1773	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1774	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1775	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1776	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1777	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1778	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1779	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-1780	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1781	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1782	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1783	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1784	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1785	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1786	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1787	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1788	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1789	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-1790	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
-1791	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
-1792	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
-1793	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
-1794	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
-1795	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
-1796	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
-1797	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
-1798	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-04	2026-05-04
-1799	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-04-29	2026-04-29
-1800	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1801	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1802	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1803	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1804	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1805	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1806	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1807	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1808	TRACE	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1809	TRACE	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1770	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1771	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1772	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1773	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1774	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1775	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1776	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1777	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1778	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1779	TOKYO	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+1780	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1781	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1782	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1783	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1784	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1785	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1786	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1787	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1788	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1789	TOKYO_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+1790	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-23	2026-11-23
+1791	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-11-03	2026-11-03
+1792	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-10-12	2026-10-12
+1793	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-23	2026-09-23
+1794	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-22	2026-09-22
+1795	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-09-21	2026-09-21
+1796	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-08-11	2026-08-11
+1797	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-07-20	2026-07-20
+1798	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-06	2026-05-06
+1799	TOPIX_IDX	Full Holiday	Asia/Tokyo	00:00	24:00	2026-05-05	2026-05-05
+1800	TRACE	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1801	TRACE	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1802	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1803	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1804	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1805	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1806	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1807	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1808	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1809	TRACE	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1810	TRADEGATE	Full Holiday	CET	00:00	24:00	2026-12-31	2026-12-31
 1811	TRADEGATE	Limited Trading Hours	CET	07:30	14:00	2026-12-30	2026-12-30
 1812	TRADEGATE	Full Holiday	CET	00:00	24:00	2026-12-25	2026-12-25
@@ -1899,36 +1899,36 @@
 1897	TW_COMP	Full Holiday	Asia/Taipei	00:00	24:00	2026-04-06	2026-04-06
 1898	TW_COMP	Full Holiday	Asia/Taipei	00:00	24:00	2026-04-03	2026-04-03
 1899	TW_COMP	Full Holiday	Asia/Taipei	00:00	24:00	2026-02-27	2026-02-27
-1900	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1901	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1902	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1903	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1904	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1905	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1906	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1907	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1908	UQDF	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1909	UQDF	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1900	UQDF	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1901	UQDF	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1902	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1903	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1904	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1905	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1906	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1907	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1908	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1909	UQDF	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1910	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-12-25	2026-12-25
-1911	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
-1912	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1913	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1914	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1915	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1916	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1917	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1918	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1919	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1920	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1921	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1922	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1923	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1924	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1925	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1926	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1927	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1928	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1929	US_OPTIONS	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1911	US_COMP	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1912	US_COMP	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1913	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1914	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1915	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1916	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1917	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1918	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1919	US_COMP	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1920	US_OPTIONS	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1921	US_OPTIONS	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1922	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1923	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1924	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1925	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1926	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1927	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1928	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1929	US_OPTIONS	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1930	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-12-25	2026-12-25
 1931	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-11-26	2026-11-26
 1932	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-09-07	2026-09-07
@@ -1939,46 +1939,46 @@
 1937	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-02-16	2026-02-16
 1938	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-01-19	2026-01-19
 1939	US_OPTIONS_EOD	Full Holiday	GMT	00:00	24:00	2026-01-01	2026-01-01
-1940	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1941	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1942	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1943	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1944	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1945	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1946	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1947	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1948	US_OTC	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1949	US_OTC	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1950	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1951	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1952	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1953	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1954	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1955	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1956	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1957	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1958	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1959	US_SHORT_INT	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1960	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1961	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1962	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1963	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1964	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1965	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1966	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1967	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1968	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1969	US_TAQ	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
-1970	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
-1971	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
-1972	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
-1973	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
-1974	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
-1975	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
-1976	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
-1977	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-01-01	2026-01-01
-1978	UTDF	Full Holiday	America/New_York	00:00	24:00	2025-12-25	2025-12-25
-1979	UTDF	Non Trading Hours	America/New_York	13:00	17:00	2025-12-24	2025-12-24
+1940	US_OTC	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1941	US_OTC	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1942	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1943	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1944	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1945	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1946	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1947	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1948	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1949	US_OTC	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1950	US_SHORT_INT	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1951	US_SHORT_INT	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1952	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1953	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1954	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1955	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1956	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1957	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1958	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1959	US_SHORT_INT	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1960	US_TAQ	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1961	US_TAQ	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1962	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1963	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1964	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1965	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1966	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1967	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1968	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1969	US_TAQ	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
+1970	UTDF	Limited Trading Hours	America/New_York	09:30	13:00	2026-11-27	2026-11-27
+1971	UTDF	Non Trading Hours	America/New_York	13:00	17:00	2026-11-27	2026-11-27
+1972	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-11-26	2026-11-26
+1973	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-09-07	2026-09-07
+1974	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-07-03	2026-07-03
+1975	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-06-19	2026-06-19
+1976	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-05-25	2026-05-25
+1977	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-04-03	2026-04-03
+1978	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-02-16	2026-02-16
+1979	UTDF	Full Holiday	America/New_York	00:00	24:00	2026-01-19	2026-01-19
 1980	VIENNA	Full Holiday	Europe/Vienna	00:00	24:00	2026-12-31	2026-12-31
 1981	VIENNA	Limited Trading Hours	Europe/Vienna	09:00	14:35	2026-12-30	2026-12-30
 1982	VIENNA	Full Holiday	Europe/Vienna	00:00	24:00	2026-12-25	2026-12-25
@@ -2009,16 +2009,16 @@
 2007	WARSAW	Full Holiday	Europe/Warsaw	00:00	24:00	2026-04-03	2026-04-03
 2008	WARSAW	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-06	2026-01-06
 2009	WARSAW	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-01	2026-01-01
-2010	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-06-04	2026-06-04
-2011	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-05-01	2026-05-01
-2012	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-04-06	2026-04-06
-2013	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-04-03	2026-04-03
-2014	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-06	2026-01-06
-2015	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-01	2026-01-01
-2016	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-31	2025-12-31
-2017	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-26	2025-12-26
-2018	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-25	2025-12-25
-2019	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-24	2025-12-24
+2010	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-11-11	2026-11-11
+2011	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-06-04	2026-06-04
+2012	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-05-01	2026-05-01
+2013	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-04-06	2026-04-06
+2014	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-04-03	2026-04-03
+2015	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-06	2026-01-06
+2016	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2026-01-01	2026-01-01
+2017	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-31	2025-12-31
+2018	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-26	2025-12-26
+2019	WARSAW_FUT	Full Holiday	Europe/Warsaw	00:00	24:00	2025-12-25	2025-12-25
 2020	XETRA	Full Holiday	Europe/Berlin	00:00	24:00	2026-05-01	2026-05-01
 2021	XETRA	Full Holiday	Europe/Berlin	00:00	24:00	2026-04-06	2026-04-06
 2022	XETRA	Full Holiday	Europe/Berlin	00:00	24:00	2026-04-03	2026-04-03

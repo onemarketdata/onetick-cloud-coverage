@@ -1,6 +1,6 @@
 # MEFF Exchange
 
-MEFF is the Spanish derivatives exchange, offering trading in futures and options on Spanish equities, indices, and interest rates.
+Futures, options and spreads with Trades, Quotes, bars and book depth from MEFF, BME’s Spanish derivatives exchange, with futures from December 2009 and options from January 2025. Key contracts include IBEX 35 and Mini IBEX 35 futures and options, Spanish single-stock futures and options, and Spanish power futures.
 
 * Country: Spain [ES]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ MEFF is the Spanish derivatives exchange, offering trading in futures and option
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

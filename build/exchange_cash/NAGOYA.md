@@ -1,6 +1,6 @@
 # Nagoya Stock Exchange
 
-The Nagoya Stock Exchange (NSE) offers trading in equities, bonds, and other securities issued by Japanese companies.
+Trades, quotes and bars from the Nagoya Stock Exchange, with history from November 2009, covering its Premier, Main and Next markets. Many companies from the Chubu industrial region are listed there, often alongside a Tokyo listing. For consolidated Japanese data, use JP_COMP.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Nagoya Stock Exchange (NSE) offers trading in equities, bonds, and other sec
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Nikkei 225 Index [TDI_IDX::NE], TOPIX Index [TDI_IDX::TP]
 
 
 

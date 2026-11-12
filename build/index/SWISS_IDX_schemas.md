@@ -1,6 +1,6 @@
 # SIX Swiss Exchange - Indices Schemas
 
-The SIX Swiss Exchange is Switzerland’s principal stock exchange. It offers trading in major Swiss blue-chip indices like the SMI, SPI, SLI and more.
+Index values from SIX Swiss Exchange, Switzerland’s principal stock exchange, with history from February 2017. SIX calculates the Swiss equity index family, led by the SMI (Swiss Market Index) of the largest Swiss blue chips, the broad SPI (Swiss Performance Index) covering the investable Swiss equity market, the SMI Mid (SMIM) of the next 30 largest companies, and the capped SLI Swiss Leader Index.
 
 
 

@@ -1,6 +1,6 @@
 # Osaka Exchange - Index + Equity Futures
 
-The Osaka Exchange offers trading in index and equity futures, including the Nikkei 225 futures and options.
+Futures and spreads with Trades, Quotes and bars from Osaka Exchange (OSE), part of Japan Exchange Group, with history from November 2009. OSE is Japan’s main index derivatives market, with Nikkei 225 futures (including mini and micro contracts), TOPIX futures and JPX-Nikkei 400 futures.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Osaka Exchange offers trading in index and equity futures, including the Nik
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

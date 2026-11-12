@@ -1,6 +1,6 @@
 # Euronext (Paris / Amsterdam / Brussels / Lisbon / ETFs + Funds / Best of Book)
 
-Euronext operates regulated exchanges in Paris, Amsterdam, Brussels, and Lisbon, facilitating trading in equities, ETFs, warrants, certificates, bonds, derivatives, commodities, and indices.
+Trades, quotes, bars and book depth, with real-time data, from Euronext’s cash markets in Paris, Amsterdam, Brussels, Lisbon, Oslo and Dublin, with history from January 2012, including Euronext Growth and Access segments, ETFs, funds and best-of-book data. Euronext runs a single order book platform across its markets, so all of these venues can be analysed together. Covered stocks include constituents of the CAC 40, AEX, BEL 20, PSI, OBX and ISEQ 20.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: France Netherlands Belgium Portugal [FR NL BE PT IT NO IE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Euronext operates regulated exchanges in Paris, Amsterdam, Brussels, and Lisbon,
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: CAC 40 Index [TDI_IDX::CF], Amsterdam AEX Index [TDI_IDX::AE], BEL 20 Index [TDI_IDX::BE], PSI 20 Index [TDI_IDX::PP]
 
 
 

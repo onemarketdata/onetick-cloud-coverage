@@ -1,11 +1,12 @@
 # Hong Kong Futures Exchange Enumerations
 
-The Hong Kong Futures Exchange (HKFE) offers trading in futures and options on equities, indices, interest rates, and commodities.
+Futures and spreads with Trades, Quotes and bars from the Hong Kong Futures Exchange (HKFE), part of HKEX, with history from November 2009. Key contracts include Hang Seng Index, Mini-Hang Seng Index, Hang Seng China Enterprises Index and Hang Seng TECH Index futures, and USD/CNH futures.
 
 The following fields have Enumerations:
 
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -48,6 +49,32 @@ The following fields have Enumerations:
 |               70 | Start of clearing session                                                |
 |               71 | End of clearing session                                                  |
 |                9 | End of day                                                               |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

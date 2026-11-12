@@ -1,6 +1,6 @@
 # Philippine Stock Exchange
 
-The Philippine Stock Exchange (PSE) offers trading in equities, bonds, ETFs, and other securities issued by Philippine companies.
+Trades, quotes and bars from the Philippine Stock Exchange (PSE), with history from December 2009, covering Philippine stocks, ETFs and REITs. Covered stocks include constituents of the PSE Composite Index (PSEi).
 
 * Country: Philippines [PH]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Philippine Stock Exchange (PSE) offers trading in equities, bonds, ETFs, and
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: PSE All Shares Index
 
 
 

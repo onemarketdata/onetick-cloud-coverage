@@ -1,6 +1,6 @@
 # Nasdaq Auction Imbalance Data
 
-Opening and Closing Auction Imbalance data for the Nasdaq Exchange
+Opening and closing cross imbalance data (Net Order Imbalance Indicator, NOII) for the Nasdaq Stock Market, with history from January 2020 and real-time data available. Messages report paired shares, imbalance quantity and side, and near and far indicative clearing prices ahead of the Nasdaq Opening and Closing Crosses, which set official opening and closing prices for Nasdaq-listed stocks.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ Opening and Closing Auction Imbalance data for the Nasdaq Exchange
 * Real Time Available: Yes
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

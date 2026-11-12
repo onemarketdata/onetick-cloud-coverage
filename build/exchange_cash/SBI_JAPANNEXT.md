@@ -1,6 +1,6 @@
 # Japannext J-Market
 
-Japannext operates the J-Market, an alternative trading system for Japanese equities.
+Trades, quotes, bars and book depth from Japannext’s J-Market, a proprietary trading system (PTS) for Japanese equities, with history from March 2014. Japannext is one of Japan’s main alternatives to the Tokyo Stock Exchange, often offering finer price increments for TSE-listed stocks. Covered stocks include Nikkei 225 and TOPIX constituents.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Japannext operates the J-Market, an alternative trading system for Japanese equi
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: Nikkei 225 Index [TDI_IDX::NE], TOPIX Index [TDI_IDX::TP]
 
 
 

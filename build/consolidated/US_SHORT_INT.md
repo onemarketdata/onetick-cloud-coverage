@@ -9,6 +9,8 @@ FINRA US Equity short interest summary every two weeks, plus trade reports, and 
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Static - 00:00 UTC
+* Key Indices: S&P 500 Index [TDI_IDX::SP], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

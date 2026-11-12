@@ -1,9 +1,10 @@
 # Borsa Italiana Derivatives (IDEM) Enumerations
 
-IDEM is the derivatives market operated by Borsa Italiana (Italian Stock Exchange), trading equity, energy and fixed income derivatives
+Futures and spreads with Trades, Quotes and bars from Euronext Derivatives Milan (formerly IDEM), Borsa Italiana’s derivatives market, now part of Euronext, with history from April 2011. Key contracts include FTSE MIB index futures and mini futures, single-stock futures on Italian companies, and Italian power futures.
 
 The following fields have Enumerations:
 
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * MMT_BENCHMARK_IND - Identifies whether a trade was priced according to a defined benchmark (e.g. VWAP) or reference price (e.g. midpoint of the primary market BBO), or whether it was part of a trade in multiple instruments (contingent trade or portfolio trade).
 * MMT_CROSS_IND - Identifies agency cross trades, where a broker crossed two client orders outside the order book.
 * MMT_DIVIDEND_IND - Identifies whether a trade includes special dividend arrangements, e.g. a trade sold cum-dividend during an ex-dividend period.
@@ -13,7 +14,24 @@ The following fields have Enumerations:
 * MMT_PRICE_FORMING_IND - Identifies whether a trade is price-forming, or contributes to the price discovery process.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_TYPE - Type of trade
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### MMT_BENCHMARK_IND - Enumeration
 
@@ -82,6 +100,32 @@ The following fields have Enumerations:
 | K                | Closing auction               |
 | O                | Opening auction               |
 | U                | Unscheduled auction           |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_TYPE - Enumeration
 

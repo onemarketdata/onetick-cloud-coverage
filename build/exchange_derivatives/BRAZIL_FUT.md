@@ -1,6 +1,6 @@
 # B3 - Derivatives (BM&F)
 
-B3’s Bovespa equities segment is Brazil’s main Derivatives exchange for trading futures and equity options.
+Futures, options and spreads with bars from B3’s listed derivatives segment (formerly BM&F), with futures from December 2009 and options from January 2024. Key contracts include Ibovespa and mini-Ibovespa index futures, US dollar and mini-dollar futures, DI1 interbank rate futures and agricultural futures such as live cattle and coffee.
 
 * Country: Brazil [BR]
 * Mkt Hours: 10:00-18:15
@@ -9,6 +9,8 @@ B3’s Bovespa equities segment is Brazil’s main Derivatives exchange for trad
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

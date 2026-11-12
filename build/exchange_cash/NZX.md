@@ -1,6 +1,6 @@
 # New Zealand Exchange (NZX)
 
-The NZX is New Zealand’s main securities exchange trading equities, bonds and other products.
+Trades, quotes and bars from NZX, New Zealand’s stock exchange, with history from December 2014, covering the NZX Main Board, debt market and funds. Covered stocks include constituents of the S&P/NZX 50; index values are in NZX_IDX.
 
 * Country: New Zealand [NZ]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The NZX is New Zealand’s main securities exchange trading equities, bonds and 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P/NZX 50 [NZX_IDX::NZ50]
 
 
 

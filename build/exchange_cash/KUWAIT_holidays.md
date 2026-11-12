@@ -1,6 +1,6 @@
 # Kuwait Stock Exchange (Boursa Kuwait) Market Holidays
 
-Boursa Kuwait is the official stock exchange of Kuwait where Kuwaiti companies’ shares, bonds, investment funds and Islamic financial instruments are traded.
+Trades, quotes and bars from Boursa Kuwait, with history from November 2020, covering Kuwaiti equities, bonds, funds and Islamic instruments on its Premier, Main and Auction markets. Index data includes the Premier Market, Main Market and All-Share Market indices.
 
 The last 10 Market Holidays are listed
 

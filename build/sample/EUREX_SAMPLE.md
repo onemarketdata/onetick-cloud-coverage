@@ -1,6 +1,6 @@
 # Eurex Sample
 
-A subset of symbols from Eurex covering Futures for products FDAX (DAX), FESX (Euro Stoxx 50 Index), FTUK (FTSE 100 Index).   Between January 2,2024 and March 31, 2024
+A sample of the Eurex database covering a subset of symbols between January 2, 2024 and March 31, 2024. Eurex is the derivatives exchange of Deutsche Boerse Group and Europe’s largest futures and options market. The sample includes trades, quotes and bars for futures, options and spreads on FDAX (DAX), FESX (EURO STOXX 50) and FTUK (FTSE 100), Eurex’s benchmark equity index contracts.
 
 * Country: Germany [DE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ A subset of symbols from Eurex covering Futures for products FDAX (DAX), FESX (E
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

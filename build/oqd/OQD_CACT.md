@@ -1,6 +1,6 @@
 # Global Corporate Actions History
 
-Global Corporate Actions History
+Global corporate actions history, with history from January 1968, including cash and stock dividends, splits, rights issues, mergers, spin-offs, and name and symbol changes. Use it to adjust prices and volumes for corporate events and to follow companies through identifier changes, together with OQD_DPRC and OQD_SEC.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Global Corporate Actions History
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

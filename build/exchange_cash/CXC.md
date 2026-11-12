@@ -1,6 +1,6 @@
 # Nasdaq CXC
 
-Nasdaq CXC is Nasdaq’s dark pool ATS that allows participants to execute orders anonymously at or better than the NBBO without displaying quotes.
+Trades, Quotes and Book depth from Nasdaq CXC (formerly Chi-X Canada), Nasdaq Canada’s main lit order book, with history from May 2017. It trades TSX- and TSX Venture-listed securities and is one of the largest alternative venues in Canada. Covered stocks include constituents of the S&P/TSX 60.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ Nasdaq CXC is Nasdaq’s dark pool ATS that allows participants to execute order
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

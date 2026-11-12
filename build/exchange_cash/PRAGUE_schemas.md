@@ -1,6 +1,6 @@
 # Prague Stock Exchange Schemas
 
-The Prague Stock Exchange is the principal stock exchange in the Czech Republic.
+Trades, quotes, bars and book depth from the Prague Stock Exchange, the Czech Republic’s main stock exchange, with history from January 2014, covering Czech blue chips and international shares traded in Prague. Covered stocks include constituents of the PX index.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 
 

@@ -1,6 +1,6 @@
 # Hong Kong Stock Exchange
 
-The Hong Kong Stock Exchange (HKEX) offers trading in equities, bonds, ETFs, and derivatives issued by Hong Kong and international companies.
+Trades, quotes and bars from the Hong Kong Stock Exchange (HKEX), with history from May 2008, covering the Main Board and GEM as well as trading in mainland China A-shares through Shanghai and Shenzhen Stock Connect. Covered stocks include constituents of the Hang Seng Index, Hang Seng China Enterprises Index and Hang Seng TECH Index.
 
 * Country: Hong Kong SAR China [HK]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Hong Kong Stock Exchange (HKEX) offers trading in equities, bonds, ETFs, and
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Hang Seng Index [TDI_IDX::HI]
 
 
 

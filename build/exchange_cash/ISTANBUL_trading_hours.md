@@ -1,6 +1,6 @@
 # Borsa Istanbul - Equities Trading Hours
 
-Borsa Istanbul is Turkey’s sole stock exchange offering trading in Turkish equities, debt securities and derivatives.
+Trades, quotes and bars from Borsa Istanbul’s equity market, with history from November 2009. Borsa Istanbul is Turkey’s sole exchange, and its equity market covers Turkish stocks, ETFs and warrants. Covered stocks include constituents of the BIST 100 and BIST 30; index values are in ISTANBUL_IDX.
 
 Trading Hours are divided into multiple sessions
 

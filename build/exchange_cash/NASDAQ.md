@@ -1,6 +1,6 @@
 # The Nasdaq
 
-The Nasdaq is an American multinational financial services corporation that operates the world’s second-largest stock exchange by market capitalization.  Full L1 history for NASDAQ from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes, Auction Imbalances and Book depth from the Nasdaq Stock Market, the largest of the three U.S. equities exchanges operated by Nasdaq, Inc., with history from May 2025. Nasdaq is the world’s second-largest stock exchange by market capitalization and the listing venue for many of the largest technology companies. Full L1 history for NASDAQ from the Consolidated Tape is available in the US_COMP dataset.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ The Nasdaq is an American multinational financial services corporation that oper
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

@@ -1,6 +1,6 @@
 # Cboe CXE (Chi-X Europe)
 
-Cboe CXE, formerly Chi-X Europe, is a pan-European equities exchange and multilateral trading facility operated by Cboe Global Markets.
+Trades, quotes and bars from Cboe CXE (formerly Chi-X Europe), with history from January 2009. It is one of Cboe’s two pan-European order books, with lit, dark and off-book segments plus Cboe Large in Scale (LIS) block trading, and trades equities and ETFs across many European markets. Covered stocks include constituents of the FTSE 100, DAX, CAC 40 and EURO STOXX 50.
 
 * Country: Austria Belgium Switzerland Czechia Germany Denmark Spain Finland France UK United Kindom Greece Hungary Ireland Iceland Italy Luxembourg Netherlands Norway Poland Portugal Sweden [AT BE CH CY CZ DE DK ES FI FR GB GR HU IE IS IT NL NO PL PT SE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Cboe CXE, formerly Chi-X Europe, is a pan-European equities exchange and multila
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: STOXX 50 Index [TDI_IDX::VH], Euro STOXX 50 Index [TDI_IDX::XX]
 
 
 

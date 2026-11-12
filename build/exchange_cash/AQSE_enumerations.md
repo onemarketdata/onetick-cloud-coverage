@@ -1,6 +1,6 @@
 # Aquis Stock Exchange Enumerations
 
-Aquis Exchange PLC is a creator and facilitator of next-generation financial markets, through the provision of accessible, simple and efficient stock exchanges, trading venues and technology
+Trades, quotes, bars and book depth from the Aquis Stock Exchange (AQSE, formerly NEX Exchange), with history from November 2020. AQSE is a UK listing venue for growth companies, with its AQSE Growth Market split into the Access and Apex segments, and its trading platform also trades other UK securities.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -19,6 +19,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_TYPE - Type of trade
 * TRADING_STATUS - Indicates whether the instrument is subject to a halt or suspension
 
@@ -156,6 +157,32 @@ The following fields have Enumerations:
 |   Enumeration ID | Enumeration Description       |
 |------------------|-------------------------------|
 |                5 | Trade reporting (on-exchange) |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_TYPE - Enumeration
 

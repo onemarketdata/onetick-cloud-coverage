@@ -1,6 +1,6 @@
 # OTC Markets (US OTC Quotes) Market Holidays
 
-OTC Markets operates trading platforms for over 10,000 OTC securities in the US public and private markets.
+Quotes, trades, bars and book depth from OTC Markets Group’s OTC Link ATS, an SEC-registered alternative trading system, with history from July 2018, covering about 12,000 US and international securities on the OTCQX, OTCQB, OTCID and Pink markets. It is the main source for US OTC quotes, including many ADRs and foreign ordinary shares of large non-US companies.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,8 @@ The last 10 Market Holidays are listed
 
 | Activity Name     | Time Zone        | Start Date   | End Date   | Start Time   | End Time   |
 |-------------------|------------------|--------------|------------|--------------|------------|
+| Non Trading Hours | America/New_York | 2026-11-27   | 2026-11-27 | 13:00        | 17:00      |
+| Full Holiday      | America/New_York | 2026-11-26   | 2026-11-26 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-07-03   | 2026-07-03 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-06-19   | 2026-06-19 | 00:00        | 24:00      |
@@ -15,7 +17,4 @@ The last 10 Market Holidays are listed
 | Full Holiday      | America/New_York | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-02-16   | 2026-02-16 | 00:00        | 24:00      |
 | Full Holiday      | America/New_York | 2026-01-19   | 2026-01-19 | 00:00        | 24:00      |
-| Full Holiday      | America/New_York | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Full Holiday      | America/New_York | 2025-12-25   | 2025-12-25 | 00:00        | 24:00      |
-| Non Trading Hours | America/New_York | 2025-12-24   | 2025-12-24 | 13:00        | 17:00      |
 

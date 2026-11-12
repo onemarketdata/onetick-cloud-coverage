@@ -48,9 +48,9 @@ AUCTION_STATUS	IND	Describes the state of the orderbook during an auction phase
 AUCTION_TYPE	IND	Type of auction from which an indicative auction price / auction imbalance originates.
 AVG_DAILY_VOLUME	SHORT_INT	Average daily traded volume
 AVG_LATENCY_COLLECTION	LAT_1M	Average Latency of Real Time Collection.  Difference between Exchange timestamp and collection timestamp.
-AVG_LATENCY_LOAD	LAT_1M	Average Latency of Real Time Loading.  Difference between the collection timestamp and availability within the Memory Database.	
+AVG_LATENCY_LOAD	LAT_1M	Average Latency of Real Time Loading.  Difference between the collection timestamp and availability within the Memory Database.
 MAX_LATENCY_COLLECTION	LAT_1M	Maximum Latency of Real Time Collection.  Difference between Exchange timestamp and collection timestamp.
-MAX_LATENCY_LOAD	LAT_1M	Maximum Latency of Real Time Loading.  Difference between the collection timestamp and availability within the Memory Database.	
+MAX_LATENCY_LOAD	LAT_1M	Maximum Latency of Real Time Loading.  Difference between the collection timestamp and availability within the Memory Database.
 BARGAIN_COND	TRD	Identifies trades that were determined by factors other than the market price
 BBG_TICKER	STAT	Bloomberg ticker symbol
 BBG_UNIQUE_ID	STAT	Bloomberg Unique ID
@@ -565,7 +565,7 @@ SYM_FRONT_MONTH	CONT	Symbol used for building continuous futures contracts, roll
 SYM_HIGHEST_OI	CONT	Symbol used for building continuous futures contracts, rolling based on the highest open interest
 SYM_HIGHEST_VOLUME	CONT	Symbol used for building continuous futures contracts, rolling based on the highest total volume
 SYMBOLOGY	COMPLETENESS	Symbology assigned to the Database
-SYMBOL	SNAP, SNAP_TRD, SNAP_QTE, SNAP_NBBO	Symbol associated with the latest trade or quote.	
+SYMBOL	SNAP, SNAP_TRD, SNAP_QTE, SNAP_NBBO	Symbol associated with the latest trade or quote.
 SYMBOL_COUNT	COMPLETENESS	Count of Symbols loaded into the Database Table for the specified day.
 SYMBOL_NAME	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, NAV, INAV, STAT, DAY, QTE, QTE_ODD_LOT, NBBO, RFQ, QTE_COMP, NBBO_COMP, SNAP, SNAP_TRD, SNAP_NBBO, SNAP_QTE, LULD, MKT, TRD_1M, QTE_1M, TRD_1D, VWAP_1H, QTE_NBBO_DAY, TRD_NBBO_DAY, PROC_EVENTS, COMPLETENESS, CACT, DPRC, DFUT, DES, MKTCAL, SHO, CASH, CONSTITUENTS, FX_RATE, PCF, PCF_LONG	Symbol Name (Exchange Symbol for Equities & ETFs, and Starting with Exchange Product Code for Derivative Markets followed by expiry and strike as appropriate)
 TIMESTAMP	TRD, TRD_TCA, IDX, IND, PRL, PRL_FULL, FIXING, RFC, NAV, INAV, STAT, DAY, QTE, QTE_ODD_LOT, NBBO, RFQ, QTE_COMP, NBBO_COMP, SNAP, SNAP_TRD, SNAP_NBBO, SNAP_QTE, LULD, MKT, TRD_1M, QTE_1M, TRD_1D, VWAP_1H, QTE_NBBO_DAY, TRD_NBBO_DAY, PROC_EVENTS, COMPLETENESS, CACT, DPRC, DFUT, DES, MKTCAL, SHO, CASH, CONSTITUENTS, FX_RATE, PCF, PCF_LONG	Event Timestamp (typically at a nano-second resolution)

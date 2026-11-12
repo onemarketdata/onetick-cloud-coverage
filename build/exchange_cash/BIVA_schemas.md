@@ -1,6 +1,6 @@
 # BIVA (Bolsa Institucional de Valores) Schemas
 
-The Institutional Stock Exchange, commonly known as BIVA, is Mexico’s second stock exchange, based in Mexico City. BIVA began operations on 25 July 2018 and trades the same instruments as the other exchange in Mexico, the Bolsa Mexicana de Valores: equities, debts, warrants and some Mexican-specific instruments such as CKDs and FIBRAs.
+Trades and quotes from BIVA (Bolsa Institucional de Valores), Mexico’s second stock exchange, based in Mexico City, with history from June 2024. BIVA began operations in July 2018 as an alternative to the Bolsa Mexicana de Valores and trades the same Mexican-listed equities, as well as other instruments such as CKDs and FIBRAs. Its flagship benchmark is the FTSE BIVA index, calculated by FTSE Russell from the most liquid Mexican stocks.    A consolidated tape for both Mexican equity markets is provided in the MX_COMP dataset.
 
 
 

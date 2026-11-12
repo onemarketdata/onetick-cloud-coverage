@@ -1,6 +1,6 @@
 # Historic Market Holiday Calendar and Trading Hours Schemas
 
-Historic Market Holiday Calendar and Trading Hours
+Historical market holiday calendars and trading hours for exchanges around the world, with history from 1960. Use it to find trading days, holidays, early closes and session times for a venue, for example to build trading calendars or align data across markets.
 
 
 

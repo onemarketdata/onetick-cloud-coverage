@@ -1,6 +1,6 @@
 # Nasdaq Texas Enumerations
 
-Nasdaq Texas is a U.S. national securities exchange and dual-listing venue headquartered in Dallas. Operated by Nasdaq, Inc., it allows publicly traded companies to maintain a concurrent listing on a Texas-domiciled exchange while trading under their existing ticker symbol, with no new compliance burdens.  Full L1 history for Nasdaq Texas from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from Nasdaq Texas, the U.S. equities exchange formerly known as Nasdaq BX, with history from May 2025. Nasdaq reincorporated BX in Texas and launched it as Nasdaq Texas in March 2026, a dual-listing venue where companies can keep their primary listing and also list on a Texas-domiciled exchange; data before the rename reflects trading on Nasdaq BX. Full L1 history for Nasdaq Texas from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -12,6 +12,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * RPI - Indicates the presence of Retail Price Improvement interest on bid and/or ask side
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * REASON_CODE - Reason for an instrument status update
 * SHORT_SALE_RESTRICTION - Indicates whether short selling is permitted
 * PART_TYPE - Indicates the type of market participant identified by PART_ID
@@ -79,6 +80,32 @@ The following fields have Enumerations:
 | H                | Halted                    |
 | O                | Start of day              |
 | T                | Trading                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### REASON_CODE - Enumeration
 

@@ -1,6 +1,6 @@
 # Euronext Equity + Index Derivatives
 
-Euronext Equity + Index Derivatives offers trading in futures and options on European equities and indices.
+Futures, options and spreads with Trades, Quotes and bars from Euronext’s equity and index derivatives markets in Paris, Amsterdam, Brussels, Lisbon and Oslo, with futures from January 2011 and options from March 2023. Key contracts include CAC 40, AEX and OBX index futures and options, and single-stock options on large European companies.
 
 * Country: France Netherlands Belgium Portugal Norway [FR NL BE PT NO]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Euronext Equity + Index Derivatives offers trading in futures and options on Eur
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

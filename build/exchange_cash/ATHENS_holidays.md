@@ -1,6 +1,6 @@
 # Athens Stock Exchange Market Holidays
 
-The Athens Stock Exchange is the stock exchange of Greece, based in the capital city of Athens.[4] It was founded in 1876. There are currently five markets operating in ATHEX: regulated securities market, regulated derivatives market, Alternative market, carbon market (for EUAs) and OTC market.[4] In the regulated securities market investors can trade in stocks, bonds, ETFs and other related securities. On the stock exchange 172 stocks are currently traded representing 166 companies.
+Trades, quotes, bars and book depth from the Athens Stock Exchange (ATHEX), Greece’s stock exchange, with history from August 2013. Founded in 1876, ATHEX came under the control of Euronext in November 2025 and was rebranded Euronext Athens in 2026. Its regulated securities market trades Greek stocks, bonds and ETFs. Covered stocks include constituents of the ATHEX Composite Share Price Index and the FTSE/ATHEX Large Cap index.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

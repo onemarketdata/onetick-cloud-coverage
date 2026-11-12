@@ -1,6 +1,6 @@
 # ICE Endex
 
-As the leading energy exchange in continental Europe, ICE Endex provides liquid European gas, emissions and power markets
+Futures, options and spreads with Trades, Quotes, bars and book depth from ICE Endex, with history from June 2021. ICE Endex is continental Europe’s leading energy exchange and hosts Dutch TTF natural gas futures, the benchmark for European gas prices, along with other European gas hubs, power and emissions contracts.
 
 * Country: Netherlands [NL]
 * Mkt Hours: 06:00-16:00
@@ -9,6 +9,8 @@ As the leading energy exchange in continental Europe, ICE Endex provides liquid 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

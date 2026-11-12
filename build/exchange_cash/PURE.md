@@ -1,6 +1,6 @@
 # CSE - TSX/Venture Listed (formerly Pure Trading)
 
-The Canadian Securities Exchange (CSE) offers trading in securities listed on the TSX and TSX Venture exchanges.
+Trades, Quotes and Book depth from the Canadian Securities Exchange’s PURE order book (formerly Pure Trading), with history from May 2017. Unlike the CSE database, PURE covers trading in securities listed on the TSX and TSX Venture rather than CSE listings. Use it with CSE and CSE2 to cover all of the Canadian Securities Exchange’s books.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ The Canadian Securities Exchange (CSE) offers trading in securities listed on th
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

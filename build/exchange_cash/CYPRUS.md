@@ -1,6 +1,6 @@
 # Cyprus Stock Exchange
 
-The Cyprus Stock Exchange (CSE) facilitates trading in equities, bonds, funds, and derivatives issued by Cypriot and international companies and governments.
+Trades, Quotes and Book depth from the Cyprus Stock Exchange (CSE), with history from January 2017, covering its main and alternative markets and the Emerging Companies Market (ECM). Covered stocks include constituents of the CSE General Index and FTSE/CySE 20.
 
 * Country: Cyprus [CY]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Cyprus Stock Exchange (CSE) facilitates trading in equities, bonds, funds, a
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: CSE General Index
 
 
 

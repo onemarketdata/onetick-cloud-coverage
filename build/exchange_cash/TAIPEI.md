@@ -1,6 +1,6 @@
 # Taipei Exchange
 
-The Taipei Exchange is a stock exchange in Taiwan that trades Taiwanese equities and bonds.
+Trades, quotes and bars from the Taipei Exchange (TPEx), Taiwan’s over-the-counter market, with history from June 2016. TPEx lists many small- and mid-cap technology companies as well as bonds and ETFs. Index data includes the TPEx Index.   A consolidated tape for both Taiwanese equity markets is provided in the TW_COMP dataset.
 
 * Country: Taiwan [TW]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Taipei Exchange is a stock exchange in Taiwan that trades Taiwanese equities
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: TAIEX [TWSE_IDX::IX0001], FTSE TWSE Taiwan 50 [TWSE_IDX::TW50]
 
 
 

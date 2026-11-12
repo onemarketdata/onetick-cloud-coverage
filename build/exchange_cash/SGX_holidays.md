@@ -1,6 +1,6 @@
 # Singapore Exchange (SGX) Market Holidays
 
-The Singapore Exchange is one of the leading securities and derivatives exchanges in Asia-Pacific.
+Trades, quotes and bars from the Singapore Exchange (SGX) securities market, with history from July 2014, covering the Mainboard and Catalist as well as ETFs, REITs and bonds. Covered stocks include constituents of the Straits Times Index (STI); index values are in ST_IDX.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone      | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|----------------|--------------|------------|--------------|------------|
+| Full Holiday          | Asia/Singapore | 2026-11-09   | 2026-11-09 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-08-10   | 2026-08-10 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-05-27   | 2026-05-27 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Asia/Singapore | 2026-02-17   | 2026-02-17 | 00:00        | 24:00      |
 | Limited Trading Hours | Asia/Singapore | 2026-02-16   | 2026-02-16 | 09:00        | 12:16      |
 | Full Holiday          | Asia/Singapore | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Limited Trading Hours | Asia/Singapore | 2025-12-31   | 2025-12-31 | 09:00        | 12:16      |
 

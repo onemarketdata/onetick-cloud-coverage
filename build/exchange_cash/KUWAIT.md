@@ -1,6 +1,6 @@
 # Kuwait Stock Exchange (Boursa Kuwait)
 
-Boursa Kuwait is the official stock exchange of Kuwait where Kuwaiti companiesâ€™ shares, bonds, investment funds and Islamic financial instruments are traded.
+Trades, quotes and bars from Boursa Kuwait, with history from November 2020, covering Kuwaiti equities, bonds, funds and Islamic instruments on its Premier, Main and Auction markets. Index data includes the Premier Market, Main Market and All-Share Market indices.
 
 * Country: Kuwait [KW]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Boursa Kuwait is the official stock exchange of Kuwait where Kuwaiti companiesâ€
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Premier Market Index (RR) [KUWAIT::01], Main Market Index (PR) [KUWAIT::02], All-Share Index (PR) [KUWAIT::03]
 
 
 

@@ -1,6 +1,6 @@
 # Colombia Stock Exchange Market Holidays
 
-The Colombia Stock Exchange (BVC) offers trading in equities, bonds, derivatives, and other financial instruments issued by Colombian companies.
+Trades, quotes and bars from the Colombia Stock Exchange (Bolsa de Valores de Colombia, BVC), with history from June 2016, covering Colombian equities and related products. Index data includes the MSCI COLCAP, Colombia’s main equity benchmark. BVC is now part of the nuam regional exchange group with the Santiago and Lima exchanges.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name   | Time Zone      | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------|----------------|--------------|------------|--------------|------------|
+| Full Holiday    | America/Bogota | 2026-11-16   | 2026-11-16 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-11-02   | 2026-11-02 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-10-12   | 2026-10-12 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-08-17   | 2026-08-17 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday    | America/Bogota | 2026-06-29   | 2026-06-29 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-06-15   | 2026-06-15 | 00:00        | 24:00      |
 | Full Holiday    | America/Bogota | 2026-06-08   | 2026-06-08 | 00:00        | 24:00      |
-| Full Holiday    | America/Bogota | 2026-05-18   | 2026-05-18 | 00:00        | 24:00      |
 

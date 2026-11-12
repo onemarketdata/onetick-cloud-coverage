@@ -1,6 +1,6 @@
 # Equiduct Exchange Enumerations
 
-Equiduct is a pan-European regulated market and MTF owned by Boerse Berlin, providing trading in over 6,000 equities and ETFs across 12 European markets.
+Trades, Quotes and Book depth from Equiduct, a pan-European trading venue operated as a market segment of B?rse Berlin, with history from October 2015. Equiduct focuses on retail order flow: market makers execute retail brokers’ orders at or better than a European best bid and offer built from the main European venues, covering Europe’s most liquid equities and ETFs. This makes it useful for studying retail execution quality in stocks such as EURO STOXX 50 and FTSE 100 constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -21,6 +21,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -167,6 +168,32 @@ The following fields have Enumerations:
 | K                | Closing auction               |
 | O                | Opening auction               |
 | U                | Unscheduled auction           |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

@@ -1,6 +1,6 @@
 # Instrument Symbology Cross Reference to OID
 
-Instrument Symbology Cross Reference from symbology to OID
+Symbology cross-reference that maps symbols in other symbologies, such as a ticker or ISIN, to OneTick’s OID instrument identifier, with history from 1960. Because mappings are dated, you can resolve a symbol as of a given date, which matters when tickers are reused or companies change symbols.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Instrument Symbology Cross Reference from symbology to OID
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Tokyo Stock Exchange (+ Fukuoka / Sapporo)
 
-The Tokyo Stock Exchange (TSE) offers trading in equities, bonds, ETFs, and derivatives. It also includes regional exchanges in Fukuoka and Sapporo.
+Trades, quotes and bars from the Tokyo Stock Exchange (TSE), Japan’s main stock exchange and part of Japan Exchange Group, with history from October 2008, plus the separate regional Fukuoka and Sapporo exchanges. Since April 2022 TSE equities have been listed on the Prime, Standard and Growth markets, alongside the TOKYO PRO Market for professional investors. Main benchmarks are TOPIX, calculated by TSE, and the Nikkei 225.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Tokyo Stock Exchange (TSE) offers trading in equities, bonds, ETFs, and deri
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: Nikkei 225 Index [TDI_IDX::NE], TOPIX Index [TDI_IDX::TP]
 
 
 

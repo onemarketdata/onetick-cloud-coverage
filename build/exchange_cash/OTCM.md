@@ -1,6 +1,6 @@
 # OTC Markets (US OTC Quotes)
 
-OTC Markets operates trading platforms for over 10,000 OTC securities in the US public and private markets.
+Quotes, trades, bars and book depth from OTC Markets Group’s OTC Link ATS, an SEC-registered alternative trading system, with history from July 2018, covering about 12,000 US and international securities on the OTCQX, OTCQB, OTCID and Pink markets. It is the main source for US OTC quotes, including many ADRs and foreign ordinary shares of large non-US companies.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ OTC Markets operates trading platforms for over 10,000 OTC securities in the US 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Publication)
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

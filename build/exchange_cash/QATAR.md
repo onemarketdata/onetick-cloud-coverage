@@ -1,6 +1,6 @@
 # Qatar Stock Exchange
 
-The Qatar Stock Exchange (QSE) provides a trading platform for Qatari public shareholding companies’ equities, bonds, and other securities.
+Trades, quotes and bars from the Qatar Stock Exchange (QSE), with history from June 2016, covering Qatari equities, ETFs and bonds. Index data includes the QE Index of 20 leading Qatari companies.
 
 * Country: Qatar [QA]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Qatar Stock Exchange (QSE) provides a trading platform for Qatari public sha
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: QE Index [QATAR::GNRI]
 
 
 

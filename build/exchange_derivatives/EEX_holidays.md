@@ -1,6 +1,6 @@
 # European Energy Exchange (EEX) Market Holidays
 
-The European Energy Exchange is a leading energy exchange offering trading in power, natural gas, environmental products and more.
+Futures with Trades, Quotes and bars from the European Energy Exchange (EEX), the Leipzig-based exchange in Deutsche B?rse Group, with history from August 2019. EEX is the main European venue for power futures, such as German, French and Italian baseload and peakload contracts, and also lists natural gas, EU emissions allowances and freight contracts.
 
 The last 10 Market Holidays are listed
 

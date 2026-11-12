@@ -1,6 +1,6 @@
 # Korea Exchange - ETFs and ETNs Enumerations
 
-The Korea Exchange (KRX) offers trading in exchange-traded funds (ETFs) and exchange-traded notes (ETNs).
+Trades, quotes and bars for exchange-traded funds (ETFs) and exchange-traded notes (ETNs) listed on the Korea Exchange, with history from October 2016. Korea has one of Asia’s most active ETF markets, including leveraged and inverse ETFs on the KOSPI 200 and KOSDAQ 150.  A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 The following fields have Enumerations:
 

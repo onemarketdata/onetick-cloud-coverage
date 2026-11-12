@@ -1,6 +1,6 @@
 # CSE - TSX/Venture Listed (formerly Pure Trading) Market Holidays
 
-The Canadian Securities Exchange (CSE) offers trading in securities listed on the TSX and TSX Venture exchanges.
+Trades, Quotes and Book depth from the Canadian Securities Exchange’s PURE order book (formerly Pure Trading), with history from May 2017. Unlike the CSE database, PURE covers trading in securities listed on the TSX and TSX Venture rather than CSE listings. Use it with CSE and CSE2 to cover all of the Canadian Securities Exchange’s books.
 
 The last 10 Market Holidays are listed
 

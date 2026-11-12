@@ -1,6 +1,6 @@
 # SGX-NZX Dairy Derivatives Enumerations
 
-SGX-NZX’s Dairy Derivatives Market provides the dairy industry with a forward view of dairy prices and a cash settled instrument for managing price risk simply and efficiently.
+Futures, options and spreads from the SGX-NZX dairy derivatives market, with history from March 2026. Contracts are cash-settled against Global Dairy Trade (GDT) auction prices for products such as whole milk powder, skim milk powder, butter and anhydrous milk fat, plus NZ milk price futures, and are used to hedge global dairy prices.
 
 The following fields have Enumerations:
 
@@ -12,6 +12,7 @@ The following fields have Enumerations:
 * TRADE_SESSION - Trading session from which a trade originates, e.g. “Day”, “Night”
 * QUOTE_SESSION - Trading session from which the quote originates, e.g. “Day”, “Night”
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 
 #### AGGRESSOR_SIDE - Enumeration
 
@@ -83,4 +84,30 @@ The following fields have Enumerations:
 |               14 | Day order expiry                  |
 |               15 | Close signal                      |
 |               78 | Start of day                      |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 

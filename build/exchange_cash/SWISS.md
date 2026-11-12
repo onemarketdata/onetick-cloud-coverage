@@ -1,6 +1,6 @@
 # SIX Swiss Exchange
 
-The SIX Swiss Exchange is Switzerland’s principal stock exchange located in Zurich.
+Trades, quotes, bars and book depth, with real-time data, from SIX Swiss Exchange, Switzerland’s principal stock exchange in Zurich, with history from January 2012. It covers Swiss blue chips and mid caps, ETFs, structured products and bonds. Covered stocks include constituents of the SMI, SMIM and SPI; index values are in SWISS_IDX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Switzerland [CH]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The SIX Swiss Exchange is Switzerland’s principal stock exchange located in Zu
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: Swiss Market Index [TDI_IDX::SW]
 
 
 

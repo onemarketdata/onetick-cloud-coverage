@@ -1,6 +1,6 @@
 # Japannext J-Market Schemas
 
-Japannext operates the J-Market, an alternative trading system for Japanese equities.
+Trades, quotes, bars and book depth from Japannext’s J-Market, a proprietary trading system (PTS) for Japanese equities, with history from March 2014. Japannext is one of Japan’s main alternatives to the Tokyo Stock Exchange, often offering finer price increments for TSE-listed stocks. Covered stocks include Nikkei 225 and TOPIX constituents.
 
 
 

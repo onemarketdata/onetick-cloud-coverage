@@ -1,6 +1,6 @@
 # Omega ATS Schemas
 
-Omega is an alternative trading system (ATS) or dark pool in Canada.
+Trades, Quotes and Book depth from Omega ATS, a Canadian alternative trading system that trades TSX- and TSX Venture-listed securities, with history from October 2017. Omega ATS is operated by Tradelogiq Markets (formerly Omega Securities), which also runs Lynx ATS, and is known for its inverted taker-maker pricing. Combined with the other Canadian venue databases, or CA_COMP for consolidated data, it shows how liquidity in Canadian stocks such as S&P/TSX 60 constituents is split across marketplaces.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 
 

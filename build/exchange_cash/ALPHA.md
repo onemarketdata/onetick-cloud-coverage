@@ -1,6 +1,6 @@
 # TSX Alpha
 
-TSX Alpha Exchange (Alpha) is a trading venue owned and operated by TMX Group (TMX) trading Toronto Stock Exchange (TSX) and TSX Venture Exchange (TSXV) listed securities.
+Trades, Quotes and Book depth from TSX Alpha Exchange, a Canadian marketplace operated by TMX Group that trades TSX- and TSX Venture-listed securities, with history from May 2017. Alpha launched in 2015 with a randomised order-processing delay (speed bump), later replaced by a static delay, which makes its order book behave differently from other Canadian venues. For TMX’s newer Alpha-X and Alpha DRK books see ALPHA_X. Covered stocks include constituents of the S&P/TSX 60.  A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ TSX Alpha Exchange (Alpha) is a trading venue owned and operated by TMX Group (T
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

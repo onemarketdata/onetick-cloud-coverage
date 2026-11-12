@@ -1,6 +1,6 @@
 # New York Stock Exchange NYSE Schemas
 
-NYSE stands for the New York Stock Exchange. Located on Wall Street in New York City, it is the world’s largest equities-based exchange by market capitalization. It functions as a centralized marketplace where shares in major public companies are bought and sold.  Full L1 history for NYSE from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes, Auction Imbalances and Book depth from the New York Stock Exchange (NYSE), with history from May 2025. Owned by Intercontinental Exchange (ICE) and located on Wall Street in New York City, the NYSE is the world’s largest stock exchange by market capitalization of its listed companies and the primary listing venue for many of the largest US and global companies. Full L1 history for NYSE from the Consolidated Tape is available in the US_COMP dataset.
 
 
 

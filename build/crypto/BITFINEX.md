@@ -1,6 +1,6 @@
 # Bitfinex
 
-Bitfinex is a cryptocurrency exchange owned and operated by iFinex Inc, and is registered in the British Virgin Islands
+Trades, Quotes and Book depth for spot and futures (perpetual swaps) on Bitfinex, with history from September 2024. Bitfinex is operated by iFinex, registered in the British Virgin Islands, and is known for deep spot order books, margin trading and its links to Tether (USDT).
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Bitfinex is a cryptocurrency exchange owned and operated by iFinex Inc, and is r
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

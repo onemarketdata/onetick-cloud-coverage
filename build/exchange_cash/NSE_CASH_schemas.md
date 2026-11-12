@@ -1,6 +1,6 @@
 # National Stock Exchange of India - Equities Schemas
 
-The NSE is India’s largest stock exchange offering trading in Indian company stocks and equity products.
+Trades, quotes, bars and book depth from the National Stock Exchange of India (NSE) equity market, India’s largest stock exchange by turnover, with history from January 2012. Index data includes the NIFTY 50 and other NIFTY indices.
 
 
 

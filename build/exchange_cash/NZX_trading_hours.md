@@ -1,6 +1,6 @@
 # New Zealand Exchange (NZX) Trading Hours
 
-The NZX is New Zealand’s main securities exchange trading equities, bonds and other products.
+Trades, quotes and bars from NZX, New Zealand’s stock exchange, with history from December 2014, covering the NZX Main Board, debt market and funds. Covered stocks include constituents of the S&P/NZX 50; index values are in NZX_IDX.
 
 Trading Hours are divided into multiple sessions
 

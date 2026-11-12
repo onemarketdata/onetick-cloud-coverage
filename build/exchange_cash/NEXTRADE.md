@@ -1,6 +1,6 @@
 # Nextrade ATS
 
-Nextrade (NXT) is South Korea’s first licensed Alternative Trading System (ATS), operating alongside the traditional Korea Exchange.
+Trades, Quotes and Book depth from Nextrade (NXT), South Korea’s first licensed alternative trading system, which launched in March 2025 to compete with the Korea Exchange, with history from September 2026. NXT offers pre-market and after-market sessions outside regular Korea Exchange hours and trades KOSPI- and KOSDAQ-listed stocks.  A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 * Country: Korea [KR]
 * Mkt Hours: 09:00-15:20
@@ -9,6 +9,8 @@ Nextrade (NXT) is South Korea’s first licensed Alternative Trading System (ATS
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices: KOSPI 200 [TDI_IDX::KM]
 
 
 

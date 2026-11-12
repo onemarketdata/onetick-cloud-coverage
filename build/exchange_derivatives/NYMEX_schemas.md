@@ -1,6 +1,6 @@
 # NYMEX Futures Schemas
 
-NYMEX is a division of the CME Group, offering trading in energy futures and options.
+Futures and spreads with Trades, Quotes, bars, book depth and real-time data from NYMEX, CME Group’s energy exchange, with history from November 2009. NYMEX lists the global benchmark WTI crude oil futures, Henry Hub natural gas, RBOB gasoline and NY Harbor ULSD (heating oil), plus platinum and palladium futures.
 
 
 

@@ -1,6 +1,6 @@
 # Nasdaq CXC Enumerations
 
-Nasdaq CXC is Nasdaq’s dark pool ATS that allows participants to execute orders anonymously at or better than the NBBO without displaying quotes.
+Trades, Quotes and Book depth from Nasdaq CXC (formerly Chi-X Canada), Nasdaq Canada’s main lit order book, with history from May 2017. It trades TSX- and TSX Venture-listed securities and is one of the largest alternative venues in Canada. Covered stocks include constituents of the S&P/TSX 60.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ODD_LOT - Indicates whether a trade was an odd lot
 * ORDER_TYPE - Type of order.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
@@ -53,6 +54,32 @@ The following fields have Enumerations:
 | S                | Start of system hours                    |
 | T                | Trading                                  |
 | W                | Market-wide circuit breaker              |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ODD_LOT - Enumeration
 

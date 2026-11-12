@@ -1,6 +1,6 @@
 # Singapore Exchange - FX Derivatives Schemas
 
-The Singapore Exchange ( SGX ) offers trading in foreign exchange derivatives
+Futures and spreads with Trades, Quotes and bars for SGX FX futures, with history from September 2014. SGX is one of Asia’s largest FX futures exchanges, with key contracts in USD/CNH, INR/USD and other Asian currency pairs.
 
 
 

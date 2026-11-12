@@ -1,6 +1,6 @@
 # Cboe Indices
 
-Cboe Indices are a series of market indices provided by Cboe Global Markets, including the Cboe Volatility Index (VIX).
+Index values calculated and disseminated by Cboe, with history from February 2017. Cboe is best known for the Cboe Volatility Index (VIX), the market’s measure of expected 30-day S&P 500 volatility, plus related volatility indices and strategy benchmarks such as the S&P 500 BuyWrite (BXM) and PutWrite (PUT) indices.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ Cboe Indices are a series of market indices provided by Cboe Global Markets, inc
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

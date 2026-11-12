@@ -1,6 +1,6 @@
 # Australian Consolidated Equities
 
-Consolidated data from all Australian equities exchanges.
+Consolidated trades, NBBO, exchange quotes and bars for Australian equities from the ASX and TMX Australia Exchange (formerly Cboe Australia and Chi-X Australia), with history from May 2008. Combining both venues gives the complete picture of trading in ASX-listed stocks, ETFs and warrants. Covered stocks include constituents of the S&P/ASX 200 and All Ordinaries.
 
 * Country: Australia [AU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Consolidated data from all Australian equities exchanges.
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P ASX 200
 
 
 

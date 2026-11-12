@@ -1,6 +1,6 @@
 # Japan Consolidated Equities Enumerations
 
-Consolidated data from all Japanese equities exchanges.
+Consolidated trades, NBBO, exchange quotes and bars for Japanese equities from the Tokyo Stock Exchange, the regional Nagoya, Fukuoka and Sapporo exchanges, and proprietary trading systems (PTS) including Japannext and, until its closure in August 2025, Cboe Japan, with history from October 2008. Including PTS volume gives a fuller picture of liquidity in Japanese stocks than exchange data alone. Covered stocks include constituents of the Nikkei 225 and TOPIX.
 
 The following fields have Enumerations:
 

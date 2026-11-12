@@ -1,13 +1,31 @@
 # Santiago Stock Exchange Enumerations
 
-The Santiago Stock Exchange (BCS) offers trading in equities, bonds, derivatives, and other financial instruments issued by Chilean companies.
+Trades, quotes and bars from the Santiago Stock Exchange (Bolsa de Comercio de Santiago), Chile’s main exchange, with equities from November 2008 and indices from August 2021. Index data includes the IPSA, Chile’s main equity benchmark, which has been calculated by MSCI as the MSCI IPSA since September 2026 after being run by S&P Dow Jones Indices. The exchange is now part of the nuam regional exchange group with the Lima and Colombia exchanges.
 
 The following fields have Enumerations:
 
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * STAT_INCLUSION_FLAG - “Y” - Trade counts towards price stats, “N” - Trade should be excluded from price stats
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### BOOK_TYPE - Enumeration
 
@@ -16,6 +34,32 @@ The following fields have Enumerations:
 |                0 | Lit order book                |
 |                1 | Off-book [until 20210615]     |
 |                6 | Auction book [until 20210615] |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### STAT_INCLUSION_FLAG - Enumeration
 

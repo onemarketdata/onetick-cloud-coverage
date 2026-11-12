@@ -1,6 +1,6 @@
 # ARCA Auction Imbalance Data
 
-Opening and Closing Auction Imbalance data for the ARCA Exchange
+Opening and closing auction imbalance messages for NYSE Arca, with history from August 2025 and real-time data available. Each message reports paired shares, imbalance size and side and indicative match prices ahead of the auction, which matters most for ETFs because NYSE Arca is the main listing venue for US exchange-traded products.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ Opening and Closing Auction Imbalance data for the ARCA Exchange
 * Real Time Available: Yes
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P 500 Index [TDI_IDX::SP], Dow Jones Industrial Average Index [TDI_IDX::DJ], NASDAQ 100 Index [TDI_IDX::ND], NASDAQ Composite Index [TDI_IDX::NC]
 
 
 

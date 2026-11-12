@@ -1,6 +1,6 @@
 # Toronto Stock Exchange Market Holidays
 
-The Toronto Stock Exchange is the largest equity market in Canada trading senior equities.
+Trades, quotes, bars and book depth from the Toronto Stock Exchange (TSX), Canada’s main exchange for senior issuers, with history from November 2017. TSX is a major global listing venue for mining and energy companies. Covered stocks include constituents of the S&P/TSX Composite and S&P/TSX 60; index values are in TSX_IDX.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The last 10 Market Holidays are listed
 

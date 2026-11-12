@@ -1,6 +1,6 @@
 # Historic Market Holiday Calendar and Trading Hours
 
-Historic Market Holiday Calendar and Trading Hours
+Historical market holiday calendars and trading hours for exchanges around the world, with history from 1960. Use it to find trading days, holidays, early closes and session times for a venue, for example to build trading calendars or align data across markets.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Historic Market Holiday Calendar and Trading Hours
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type:
+* Key Indices:
 
 
 

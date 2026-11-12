@@ -1,6 +1,6 @@
 # Multi Commodity Exchange of India (MCX)
 
-The Multi Commodity Exchange of India (MCX) offers trading in futures and options on metals, energy, and agricultural commodities.
+Futures, spreads and indices with Trades, Quote and bars from the Multi Commodity Exchange of India (MCX), India’s largest commodity derivatives exchange, with history from November 2009. Key contracts include rupee-denominated gold, silver, crude oil, natural gas, copper and other base metals, plus MCX’s iCOMDEX commodity indices.
 
 * Country: India [IN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Multi Commodity Exchange of India (MCX) offers trading in futures and option
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,10 +1,11 @@
 # Euronext (Paris / Amsterdam / Brussels / Lisbon / ETFs + Funds / Best of Book) Enumerations
 
-Euronext operates regulated exchanges in Paris, Amsterdam, Brussels, and Lisbon, facilitating trading in equities, ETFs, warrants, certificates, bonds, derivatives, commodities, and indices.
+Trades, quotes, bars and book depth, with real-time data, from Euronext’s cash markets in Paris, Amsterdam, Brussels, Lisbon, Oslo and Dublin, with history from January 2012, including Euronext Growth and Access segments, ETFs, funds and best-of-book data. Euronext runs a single order book platform across its markets, so all of these venues can be analysed together. Covered stocks include constituents of the CAC 40, AEX, BEL 20, PSI, OBX and ISEQ 20.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE (before 20170717) -
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
@@ -22,6 +23,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_ENTRY_STATUS - Indicates the availability of order entry / modification / cancellation
 * ORDER_TYPE - Type of order.
 * REASON_CODE - Reason for an instrument status update
@@ -36,6 +38,22 @@ The following fields have Enumerations:
 | ‘””’             | Undefined (e.g. auction trades, off-book trades) |
 | B                | Buy                                              |
 | S                | Sell                                             |
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### BOOK_TYPE - Enumeration
 
@@ -242,6 +260,32 @@ The following fields have Enumerations:
 | K                | Closing auction                           |
 | O                | Opening auction                           |
 | U                | Unscheduled auction                       |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_ENTRY_STATUS - Enumeration
 

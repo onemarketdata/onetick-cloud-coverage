@@ -1,6 +1,6 @@
 # Deribit Enumerations
 
-Deribit is the world’s leading institutional-grade cryptocurrency derivatives exchange, specializing in Bitcoin and Ethereum options and futures. Founded in 2016 and now part of Coinbase, it commands over 85% of the crypto options market share and is renowned for its high-performance matching engine, deep liquidity, and advanced risk management.
+Trades, Quotes and Book depth from Deribit, with history from July 2026, covering futures, perpetuals and options. Founded in 2016, Deribit is the leading crypto options exchange, holding the large majority of bitcoin and ether options open interest, and has been part of Coinbase since Coinbase completed its 2.9 billion USD acquisition in August 2025. It is known for deep options liquidity and its institutional-grade matching engine and risk management.
 
 The following fields have Enumerations:
 

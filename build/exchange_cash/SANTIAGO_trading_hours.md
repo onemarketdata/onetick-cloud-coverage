@@ -1,6 +1,6 @@
 # Santiago Stock Exchange Trading Hours
 
-The Santiago Stock Exchange (BCS) offers trading in equities, bonds, derivatives, and other financial instruments issued by Chilean companies.
+Trades, quotes and bars from the Santiago Stock Exchange (Bolsa de Comercio de Santiago), Chile’s main exchange, with equities from November 2008 and indices from August 2021. Index data includes the IPSA, Chile’s main equity benchmark, which has been calculated by MSCI as the MSCI IPSA since September 2026 after being run by S&P Dow Jones Indices. The exchange is now part of the nuam regional exchange group with the Lima and Colombia exchanges.
 
 Trading Hours are divided into multiple sessions
 

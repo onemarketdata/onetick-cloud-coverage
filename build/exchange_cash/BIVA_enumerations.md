@@ -1,12 +1,13 @@
 # BIVA (Bolsa Institucional de Valores) Enumerations
 
-The Institutional Stock Exchange, commonly known as BIVA, is Mexico’s second stock exchange, based in Mexico City. BIVA began operations on 25 July 2018 and trades the same instruments as the other exchange in Mexico, the Bolsa Mexicana de Valores: equities, debts, warrants and some Mexican-specific instruments such as CKDs and FIBRAs.
+Trades and quotes from BIVA (Bolsa Institucional de Valores), Mexico’s second stock exchange, based in Mexico City, with history from June 2024. BIVA began operations in July 2018 as an alternative to the Bolsa Mexicana de Valores and trades the same Mexican-listed equities, as well as other instruments such as CKDs and FIBRAs. Its flagship benchmark is the FTSE BIVA index, calculated by FTSE Russell from the most liquid Mexican stocks.    A consolidated tape for both Mexican equity markets is provided in the MX_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * REASON_CODE - Reason for an instrument status update
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
@@ -42,6 +43,32 @@ The following fields have Enumerations:
 | T                | End of post-close         |
 | U                | Scheduled auction end     |
 | V                | Scheduled auction start   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### REASON_CODE - Enumeration
 

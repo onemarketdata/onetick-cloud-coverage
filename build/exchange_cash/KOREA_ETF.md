@@ -1,6 +1,6 @@
 # Korea Exchange - ETFs and ETNs
 
-The Korea Exchange (KRX) offers trading in exchange-traded funds (ETFs) and exchange-traded notes (ETNs).
+Trades, quotes and bars for exchange-traded funds (ETFs) and exchange-traded notes (ETNs) listed on the Korea Exchange, with history from October 2016. Korea has one of Asia’s most active ETF markets, including leveraged and inverse ETFs on the KOSPI 200 and KOSDAQ 150.  A consolidated tape for both Korean equity markets is provided in the KR_COMP dataset.
 
 * Country: Korea [KR]
 * Mkt Hours: 09:00-15:30
@@ -9,6 +9,8 @@ The Korea Exchange (KRX) offers trading in exchange-traded funds (ETFs) and exch
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: KOSPI 200 [TDI_IDX::KM]
 
 
 

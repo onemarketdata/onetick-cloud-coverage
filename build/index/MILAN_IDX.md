@@ -1,6 +1,6 @@
 # Borsa Italiana Indices
 
-Borsa Italiana offers trading in major Italian indices like the FTSE MIB, FTSE Italia All-Share and sectoral indices.
+Index values from Borsa Italiana (Euronext Milan), with history from April 2023. Key indices include the FTSE MIB, Italy’s main benchmark of 40 large caps, the FTSE Italia All-Share, FTSE Italia Mid Cap and FTSE Italia Star.
 
 * Country: Italy [IT]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Borsa Italiana offers trading in major Italian indices like the FTSE MIB, FTSE I
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

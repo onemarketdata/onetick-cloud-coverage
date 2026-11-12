@@ -1,6 +1,6 @@
 # Tradegate Exchange
 
-Tradegate is a German securities trading platform and regulated market operated by the Berlin and Frankfurt stock exchanges.
+Trades, quotes and bars from Tradegate Exchange, a Berlin-based exchange, with history from December 2014. Tradegate is popular with retail brokers because of its long trading hours (7:30-22:00 CET) and market maker pricing, and it covers thousands of German and international shares, ETFs and bonds.
 
 * Country: Germany [DE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Tradegate is a German securities trading platform and regulated market operated 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: DAX Index [TDI_IDX::DA]
 
 
 

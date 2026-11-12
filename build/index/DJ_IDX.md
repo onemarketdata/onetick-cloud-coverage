@@ -1,6 +1,6 @@
 # Dow Jones Indices
 
-Dow Jones Indices is a provider of global equity indices like the Dow Jones Industrial Average, tracking various markets and sectors across different asset classes and geographies.
+Index values for Dow Jones indices published by S&P Dow Jones Indices, with history from January 2020. Key indices include the Dow Jones Industrial Average, the Dow Jones Transportation and Utility Averages, and the Dow Jones U.S. Total Stock Market and sector indices.
 
 * Country: USA United States [US]
 * Mkt Hours: 09:30-16:00
@@ -9,6 +9,8 @@ Dow Jones Indices is a provider of global equity indices like the Dow Jones Indu
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Exchange (Calculation Time)
+* Key Indices:
 
 
 

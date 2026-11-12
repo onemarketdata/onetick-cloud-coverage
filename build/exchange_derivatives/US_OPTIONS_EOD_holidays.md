@@ -1,6 +1,6 @@
 # US Consolidated Options - Volume, OI, Greeks Market Holidays
 
-Daily data providing Option Greek calculations and Open Interest and Closing Trade
+Daily end-of-day statistics for every US-listed option, with history from August 2016, including volume, open interest, implied volatility, closing quote and calculated Greeks. Use it to screen option chains, track open interest and build volatility surfaces without processing the full OPRA tick feed in US_OPTIONS.
 
 The last 10 Market Holidays are listed
 

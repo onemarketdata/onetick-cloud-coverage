@@ -1,6 +1,6 @@
 # Stock Exchange of Thailand
 
-The Stock Exchange of Thailand facilitates trading in Thai company stocks, bonds, derivatives and other products.
+Trades, quotes, bars and book depth from the Stock Exchange of Thailand (SET), with history from September 2014, covering the SET main board and the Market for Alternative Investment (mai). Index data includes the SET Index, SET50 and SET100.
 
 * Country: Thailand [TH]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Stock Exchange of Thailand facilitates trading in Thai company stocks, bonds
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: SET Index [THAILAND::SET], SET50 [THAILAND::SET50], SET100 [THAILAND::SET100]
 
 
 

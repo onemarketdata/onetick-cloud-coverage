@@ -1,6 +1,6 @@
 # Prague Stock Exchange - Indices
 
-The Prague Stock Exchange provides indices tracking the performance of Czech equities, including the PX Index.
+Index values from the Prague Stock Exchange, with history from February 2018. The main index is the PX, the benchmark of the most liquid Czech blue chips, together with its total return version (PX-TR).
 
 * Country: Czechia Czech Republic [CZ]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Prague Stock Exchange provides indices tracking the performance of Czech equ
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

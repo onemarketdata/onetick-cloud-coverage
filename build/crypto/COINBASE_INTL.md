@@ -1,6 +1,6 @@
 # Coinbase - International Exchange
 
-Coinbase International Exchange is a platform launched in May 2023 for non-US institutional users to trade perpetual futures. It offers regulated, high-volume trading of crypto derivatives to eligible international users, supporting bitcoin and ether perpetuals. It was established to expand crypto derivatives globally outside the U.S.
+Trades, Quotes and Book depth from Coinbase International Exchange, with history from September 2024. Launched by Coinbase in May 2023 and licensed by the Bermuda Monetary Authority, it offers USDC-settled perpetual futures, starting with bitcoin and ether, to non-US institutional clients and, since late 2023, eligible non-US retail users. Since October 2026 liquidity has been moved for COINBASE_US for spot, and DERIBIT for Derivatives.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Coinbase International Exchange is a platform launched in May 2023 for non-US in
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

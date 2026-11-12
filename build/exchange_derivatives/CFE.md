@@ -1,6 +1,6 @@
 # Cboe Futures Exchange (CFE)
 
-The Cboe Futures Exchange (CFE) offers trading in volatility futures, including the Cboe Volatility Index (VIX) futures.
+Futures, options and spreads with Trades, Quotes, bars and real-time data from Cboe Futures Exchange (CFE), with history from June 2012. CFE is best known for VIX and Mini VIX futures, which trade the market’s expectation of 30-day S&P 500 volatility, and also lists other volatility and index products.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ The Cboe Futures Exchange (CFE) offers trading in volatility futures, including 
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # JSE Derivatives (SAFEX)
 
-The Johannesburg Stock Exchange (JSE) Derivatives Market, SAFEX, offers trading in futures and options on equities, indices, interest rates, and commodities.
+Futures and spreads with Trades, Quotes and bars from the JSE’s derivatives markets, with history from March 2016, including SAFEX equity and index derivatives, commodity derivatives such as white and yellow maize and wheat, and currency derivatives such as USD/ZAR futures. Key index futures are on the FTSE/JSE Top 40.
 
 * Country: South Africa [ZA]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Johannesburg Stock Exchange (JSE) Derivatives Market, SAFEX, offers trading 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

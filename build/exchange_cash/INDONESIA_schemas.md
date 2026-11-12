@@ -1,6 +1,6 @@
 # Indonesia Stock Exchange Schemas
 
-The Indonesia Stock Exchange (IDX) offers trading in equities, bonds, ETFs, and derivatives issued by Indonesian companies.
+Trades, quotes and bars from the Indonesia Stock Exchange (IDX), with history from May 2016, covering Indonesian equities, bonds and ETFs. Index data includes the IDX Composite (Jakarta Composite Index) and LQ45.
 
 
 

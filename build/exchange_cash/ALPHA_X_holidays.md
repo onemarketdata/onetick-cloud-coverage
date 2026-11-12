@@ -1,6 +1,6 @@
 # TSX Alpha-X / Alpha DRK Market Holidays
 
-Alpha-X is a visible order book that has all of the same order types and trading functionalities currently available on TSX Alpha Exchange, and features the new Smart Limit™ order type, Alpha DRK is a fully dark order book with a comprehensive suite of pegged (Primary, Market, Minimum Price Improvement, Midpoint) market and limit order types, and has the new Smart Peg™ order type.
+Trades, Quotes and Book depth from two TMX order books launched in November 2023: Alpha-X, a lit book with the same order types as TSX Alpha plus the Smart Limit order type, and Alpha DRK, a fully dark book with pegged (primary, market, minimum price improvement and midpoint) orders and the Smart Peg order type. Use it to compare lit and dark liquidity in TSX- and TSX Venture-listed securities.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The last 10 Market Holidays are listed
 

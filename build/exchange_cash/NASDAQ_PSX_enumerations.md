@@ -1,6 +1,6 @@
 # Nasdaq PSX Enumerations
 
-Nasdaq PSX (Philadelphia Stock Exchange) is one of Nasdaq’s three U.S. equities exchanges. It utilizes a price/time priority model and features a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO).  Full L1 history for Nasdaq PSX from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes and Book depth from Nasdaq PSX, one of Nasdaq’s three U.S. equities exchanges and originally launched as a facility of the Philadelphia-based Nasdaq PHLX, with history from May 2025. PSX uses a price/time priority model and has a Qualified Market Maker (QMM) Program that rewards market makers who actively quote at the National Best Bid or Offer (NBBO). Full L1 history for Nasdaq PSX from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * TRADE_TYPE - Type of trade
 * TRADE_TYPE_EXT - Extended trade type code
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * RPI - Indicates the presence of Retail Price Improvement interest on bid and/or ask side
@@ -46,6 +47,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | Y                | Odd lot                   |
 | ‘””’             | Round lot                 |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

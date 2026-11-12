@@ -1,6 +1,6 @@
 # Shanghai Stock Exchange - Indices Schemas
 
-The Shanghai Stock Exchange provides indices tracking the performance of Chinese equities, including the SSE Composite Index and sector-specific indices.
+Index values from the Shanghai Stock Exchange, with history from February 2017. Key indices include the SSE Composite, SSE 50, SSE 180 and STAR 50, which track Shanghai-listed mainland China stocks.
 
 
 

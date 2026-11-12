@@ -1,6 +1,6 @@
 # CME Event Contracts / Prediction Markets
 
-ME Group offers federally regulated prediction markets via event contracts priced from $0.01 to $0.99, paying out $1 if correct.
+Event contracts (prediction markets) from CME Group, with Trades, Quotes book depth and history from May 2026. Each contract asks a yes/no question about an economic or market outcome, such as where an equity index, interest rate or commodity price will settle, and is priced between $0.01 and $0.99, paying $1 if correct. Prices can be read as the market’s implied probability of each outcome.
 
 * Country: USA United States [US]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ ME Group offers federally regulated prediction markets via event contracts price
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Exchange (Matching Engine)
+* Key Indices:
 
 
 

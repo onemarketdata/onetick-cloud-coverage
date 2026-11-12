@@ -1,6 +1,6 @@
 # Frankfurt Stock Exchange
 
-The Frankfurt Stock Exchange (FWB) offers trading across equities, bonds, funds, derivatives and other products.
+Trades, quotes and bars from B?rse Frankfurt, the Frankfurt Stock Exchange’s specialist-based market operated by Deutsche B?rse, with history from December 2018. It is aimed at retail investors and offers a very large range of international shares, bonds, ETFs and funds with specialist quotes; for Germany’s main electronic market use XETRA. Covered stocks include DAX constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Germany [DE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Frankfurt Stock Exchange (FWB) offers trading across equities, bonds, funds,
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: DAX Index [TDI_IDX::DA]
 
 
 

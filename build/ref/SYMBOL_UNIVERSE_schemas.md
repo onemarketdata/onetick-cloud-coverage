@@ -1,6 +1,6 @@
 # Symbol Universe for all databases Schemas
 
-Symbol Universe for all databases. Keyed on Database and Security Type.
+Symbol universe for all OneTick cloud databases, keyed on database and security type, with history from January 2024. It covers equities, futures, options, spreads, indices and FX, and can be used to list the symbols available in a database for a given security type.
 
 
 

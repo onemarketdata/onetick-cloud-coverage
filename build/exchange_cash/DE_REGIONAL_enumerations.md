@@ -1,6 +1,6 @@
 # German Regional Exchanges (Berlin, Munich, Dusseldorf, Hamburg, Hannover) Enumerations
 
-These are the regional stock exchanges in major German cities like Berlin, Munich, Dusseldorf, Hamburg, and Hannover, providing trading venues for local companies and securities.
+Trades, quotes and bars from Germany’s regional exchanges in Berlin, Munich, D?sseldorf, Hamburg and Hanover, with history from January 2017. These venues are popular with retail investors and use market makers to quote a very wide range of German and international shares, bonds and funds, often outside Xetra hours. Use them with XETRA and FRANKFURT for a full view of German trading in stocks such as DAX constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -20,6 +20,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_PERIOD - Market period during which a trade was executed.
 * TRADE_TYPE - Type of trade
 
@@ -157,6 +158,32 @@ The following fields have Enumerations:
 | K                | Closing auction                |
 | O                | Opening auction                |
 | U                | Unscheduled auction            |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_PERIOD - Enumeration
 

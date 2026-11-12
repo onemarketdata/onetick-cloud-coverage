@@ -1,6 +1,6 @@
 # National Stock Exchange of India - Derivatives Enumerations
 
-National Stock Exchange of India Limited (NSE) is one of the leading stock exchanges in India, based in Mumbai. It is the world’s largest derivatives exchange by number of contracts traded
+Futures, options and spreads with Trades, Quotes, bars and book depth from the derivatives segment of the National Stock Exchange of India (NSE), with futures from December 2009 and options from January 2026. Based in Mumbai, NSE has been ranked the world’s largest derivatives exchange by number of contracts traded for several consecutive years, driven by options on the Nifty 50 and Nifty Bank indices. It also lists single-stock futures and options and currency derivatives.
 
 The following fields have Enumerations:
 

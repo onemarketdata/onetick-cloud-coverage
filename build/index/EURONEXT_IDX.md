@@ -1,6 +1,6 @@
 # Euronext Indices
 
-Euronext is a leading provider of indices like the AEX , BEL20 , CAC40 , PSI20 , covering various European markets across different asset classes.
+Index values from Euronext, with history from January 2017. Key indices include the CAC 40 and SBF 120 (Paris), AEX and AMX (Amsterdam), BEL 20 (Brussels), PSI (Lisbon), OBX (Oslo) and ISEQ 20 (Dublin), plus Euronext’s sector and ESG indices.
 
 * Country: France Netherlands Belgium Portugal Norway Ireland [FR NL BE PT NO IE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Euronext is a leading provider of indices like the AEX , BEL20 , CAC40 , PSI20 ,
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

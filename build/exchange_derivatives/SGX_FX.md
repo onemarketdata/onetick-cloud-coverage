@@ -1,6 +1,6 @@
 # Singapore Exchange - FX Derivatives
 
-The Singapore Exchange ( SGX ) offers trading in foreign exchange derivatives
+Futures and spreads with Trades, Quotes and bars for SGX FX futures, with history from September 2014. SGX is one of Asia’s largest FX futures exchanges, with key contracts in USD/CNH, INR/USD and other Asian currency pairs.
 
 * Country: Singapore [SG]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Singapore Exchange ( SGX ) offers trading in foreign exchange derivatives
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

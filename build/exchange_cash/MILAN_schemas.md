@@ -1,6 +1,6 @@
 # Euronext Milan (Borsa Italiana) - Equities Schemas
 
-Borsa Italiana is Italy’s main stock exchange located in Milan, facilitating trading in Italian equities.
+Trades, quotes, bars and book depth, with real-time data, from Euronext Milan (Borsa Italiana), with history from January 2012. It covers Euronext Milan, Euronext Growth Milan, the ETFplus market for ETFs and ETCs, and Borsa Italiana’s Global Equity Market for international shares. Covered stocks include FTSE MIB constituents; index values are in MILAN_IDX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 
 

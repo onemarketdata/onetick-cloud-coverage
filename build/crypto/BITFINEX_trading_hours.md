@@ -1,6 +1,6 @@
 # Bitfinex Trading Hours
 
-Bitfinex is a cryptocurrency exchange owned and operated by iFinex Inc, and is registered in the British Virgin Islands
+Trades, Quotes and Book depth for spot and futures (perpetual swaps) on Bitfinex, with history from September 2024. Bitfinex is operated by iFinex, registered in the British Virgin Islands, and is known for deep spot order books, margin trading and its links to Tether (USDT).
 
 Trading Hours are divided into multiple sessions
 

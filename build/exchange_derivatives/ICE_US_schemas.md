@@ -1,6 +1,6 @@
 # ICE US Schemas
 
-ICE US offers trading in futures and options across asset classes like agriculture, energy, equity indices, interest rates and more.
+Futures, options and spreads with Trades, Quotes, bars and book depth from ICE Futures US, with history from November 2009. It lists the benchmark contracts for soft commodities (cocoa, Coffee C, cotton No. 2, sugar No. 11 and orange juice), the US Dollar Index (DXY) and MSCI index futures.
 
 
 

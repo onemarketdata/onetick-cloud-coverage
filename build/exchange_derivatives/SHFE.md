@@ -1,6 +1,6 @@
 # Shanghai Futures Exchange
 
-The Shanghai Futures Exchange is one of China’s four futures exchanges, trading futures contracts across asset classes like metals, energy, chemicals and more.
+Futures and options with Trades, Quotes and bars from the Shanghai Futures Exchange (SHFE), one of China’s main futures exchanges, with history from October 2015. SHFE lists China’s benchmark contracts for copper, aluminium, zinc, nickel, gold, silver, steel rebar, natural rubber and fuel oil.
 
 * Country: China [CN]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Shanghai Futures Exchange is one of China’s four futures exchanges, tradin
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

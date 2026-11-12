@@ -1,6 +1,6 @@
 # MEFF Exchange Enumerations
 
-MEFF is the Spanish derivatives exchange, offering trading in futures and options on Spanish equities, indices, and interest rates.
+Futures, options and spreads with Trades, Quotes, bars and book depth from MEFF, BME’s Spanish derivatives exchange, with futures from December 2009 and options from January 2025. Key contracts include IBEX 35 and Mini IBEX 35 futures and options, Spanish single-stock futures and options, and Spanish power futures.
 
 The following fields have Enumerations:
 
@@ -18,6 +18,7 @@ The following fields have Enumerations:
 * MMT_PUB_MODE - Identifies whether a trade was subject to delayed publication, and the reason for the deferral.
 * MMT_TRANS_CAT - Identifies various special categories of trade.
 * MMT_TRD_MODE - Trading period during which an on-book trade was executed, or origin of an off-book trade report (on-exchange / off-exchange / SI).
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * TRADE_TYPE - Type of trade
 
 #### CALL_PUT_IND - Enumeration
@@ -175,6 +176,32 @@ The following fields have Enumerations:
 | K                | Closing auction               |
 | O                | Opening auction               |
 | U                | Unscheduled auction           |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### TRADE_TYPE - Enumeration
 

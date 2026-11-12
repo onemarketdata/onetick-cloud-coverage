@@ -1,6 +1,6 @@
 # Bursa Malaysia - Derivatives Trading Hours
 
-Bursa Malaysia Derivatives offers trading in futures and options on commodities, financial instruments, and indices.
+Futures and spreads with Trades, Quotes and bars from Bursa Malaysia Derivatives, with history from December 2009. Its crude palm oil futures (FCPO) are the global price benchmark for palm oil, and it also lists FTSE Bursa Malaysia KLCI index futures (FKLI) and interest rate futures.
 
 Trading Hours are divided into multiple sessions
 

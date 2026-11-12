@@ -1,6 +1,6 @@
 # Taiwan Futures Exchange (TAIFEX) Trading Hours
 
-The Taiwan Futures Exchange was established in 1998. It offers futures and options on major Taiwan stock indices, government bond futures, equity options and 30-day CP interest rate futures.
+Futures, options and spreads from the Taiwan Futures Exchange (TAIFEX), with history from March 2026. Established in 1998, TAIFEX is Taiwan’s derivatives exchange; its flagship TAIEX options (TXO) are among the world’s most heavily traded equity index options, alongside TAIEX futures (TX) and mini and micro TAIEX futures (MTX, TMF). It also lists equity options and futures and government bond futures.
 
 Trading Hours are divided into multiple sessions
 

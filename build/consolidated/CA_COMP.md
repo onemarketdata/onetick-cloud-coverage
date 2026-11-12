@@ -1,6 +1,6 @@
 # Canadian Consolidated Equities (all Trades, Quotes, NBBO)
 
-Consolidated data from all Canadian equities exchanges, covering Trades, Quotes and NBBO.
+Consolidated trades, quotes, NBBO and bars for Canadian equities across all Canadian marketplaces, including TSX, TSX Venture, Cboe Canada, CSE, TSX Alpha, Nasdaq CXC/CX2 and Canadian ATSs, with history from November 2017. It is the single source for analysing how order flow in Canadian stocks is fragmented across venues. Covered stocks include constituents of the S&P/TSX Composite and S&P/TSX 60.
 
 * Country: Canada [CA]
 * Mkt Hours: 09:00-16:00
@@ -9,6 +9,8 @@ Consolidated data from all Canadian equities exchanges, covering Trades, Quotes 
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P/TSX Composite Index [TDI_IDX::TS], S&P/TSX 60 [TSX_IDX::TX60]
 
 
 

@@ -1,6 +1,6 @@
 # CSE2 Exchange Enumerations
 
-CSE2 is the Canadian Securities Exchange’s alternative trading system, offering an unprotected market for trading securities listed on the CSE and other Canadian marketplaces.
+Trades, Quotes and Book depth from CSE2, a second order book operated by the Canadian Securities Exchange, with history from November 2022. CSE2 is an unprotected market, meaning its quotes are not protected under Canada’s order protection rule, and it trades securities listed on the CSE and other Canadian marketplaces.   A consolidated tape for all Canadian equity markets is provided in the CA_COMP dataset.
 
 The following fields have Enumerations:
 
@@ -9,6 +9,7 @@ The following fields have Enumerations:
 * BYPASS - Identifies whether the trade resulted from a Bypass order
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
 * ODD_LOT - Indicates whether a trade was an odd lot
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * SPECIAL_TERMS - Indicates any non-standard settlement / execution terms associated with a trade
 * TRADE_PERIOD - Market period during which a trade was executed.
@@ -60,6 +61,32 @@ The following fields have Enumerations:
 |------------------|---------------------------|
 | ‘””’             | Board lot                 |
 | Y                | Odd lot                   |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

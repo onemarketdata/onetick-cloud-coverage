@@ -1,6 +1,6 @@
 # Abaxx Exchange Market Holidays
 
-Abaxx Exchange introduces centrally cleared, physically delivered futures contracts and derivatives to provide better price signals, improved risk management capabilities and an enhanced network for energy, metals and environmental markets.
+Futures and spreads from Abaxx Exchange, a Singapore-based commodity exchange, with history from August 2025. Abaxx lists centrally cleared, physically delivered contracts for energy-transition markets, including LNG, carbon, battery metals and gold, aiming to give better price signals and risk management for these markets.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone      | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|----------------|--------------|------------|--------------|------------|
+| Full Holiday          | Asia/Singapore | 2026-11-09   | 2026-11-09 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-08-10   | 2026-08-10 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-06-01   | 2026-06-01 | 00:00        | 24:00      |
 | Full Holiday          | Asia/Singapore | 2026-05-27   | 2026-05-27 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Asia/Singapore | 2026-02-17   | 2026-02-17 | 00:00        | 24:00      |
 | Limited Trading Hours | Asia/Singapore | 2026-02-16   | 2026-02-16 | 09:00        | 12:16      |
 | Full Holiday          | Asia/Singapore | 2026-01-01   | 2026-01-01 | 00:00        | 24:00      |
-| Limited Trading Hours | Asia/Singapore | 2025-12-31   | 2025-12-31 | 09:00        | 12:16      |
 

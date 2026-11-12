@@ -1,6 +1,6 @@
 # Osaka Exchange - Commodity Derivatives (formerly TOCOM)
 
-The Osaka Exchange, formerly the Tokyo Commodity Exchange (TOCOM), offers trading in commodity futures and options, including metals, energy, and agricultural products.
+Futures, options and spreads with Trades, Quotes and bars from Osaka Exchange’s commodity derivatives market (formerly the Tokyo Commodity Exchange, TOCOM), with history from November 2009. Key contracts include gold, platinum and silver futures, rubber and other commodity contracts that moved from TOCOM to Osaka Exchange in 2020.
 
 * Country: Japan [JP]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Osaka Exchange, formerly the Tokyo Commodity Exchange (TOCOM), offers tradin
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

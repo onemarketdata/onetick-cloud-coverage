@@ -1,6 +1,6 @@
 # Hong Kong Stock Exchange Schemas
 
-The Hong Kong Stock Exchange (HKEX) offers trading in equities, bonds, ETFs, and derivatives issued by Hong Kong and international companies.
+Trades, quotes and bars from the Hong Kong Stock Exchange (HKEX), with history from May 2008, covering the Main Board and GEM as well as trading in mainland China A-shares through Shanghai and Shenzhen Stock Connect. Covered stocks include constituents of the Hang Seng Index, Hang Seng China Enterprises Index and Hang Seng TECH Index.
 
 
 

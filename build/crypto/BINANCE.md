@@ -1,6 +1,6 @@
 # Binance
 
-Binance Holdings Ltd., branded Binance, is the largest cryptocurrency exchange in terms of daily trading volume of cryptocurrencies.
+Trades, Quotes and Book depth from Binance, the world’s largest cryptocurrency exchange by trading volume, with spot and futures from July 2024 and options from August 2026. Coverage includes major pairs such as BTC/USDT and ETH/USDT and perpetual and dated futures.
 
 * Country: Global [Global]
 * Mkt Hours: 00:00-24:00
@@ -9,6 +9,8 @@ Binance Holdings Ltd., branded Binance, is the largest cryptocurrency exchange i
 * Real Time Available: No
 * Bars Available: No
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

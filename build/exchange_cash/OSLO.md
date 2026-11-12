@@ -1,6 +1,6 @@
 # Euronext Oslo - Equities
 
-The Oslo Stock Exchange (Oslo Bors) is the only regulated market for trading equities, equity certificates and bonds in Norway.
+Trades, quotes, bars and book depth, with real-time data, from Euronext Oslo B?rs, Norway’s stock exchange, with history from January 2012, covering Euronext Oslo B?rs, Euronext Expand and Euronext Growth Oslo. Oslo is a major venue for energy, shipping and seafood companies. Covered stocks include constituents of the OBX and OSEBX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Norway [NO]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The Oslo Stock Exchange (Oslo Bors) is the only regulated market for trading equ
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: OBX Total Return Index [EURONEXT_IDX::OBX], Oslo Bors Benchmark Index [EURONEXT_IDX::OSEBX], Oslo Bors All Share Index [EURONEXT_IDX::OSEAX]
 
 
 

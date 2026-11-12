@@ -1,6 +1,6 @@
 # Korea Exchange - Derivatives Enumerations
 
-The Korea Exchange (KRX) Derivatives Market offers trading in futures and options on equities, indices, interest rates, commodities, and currencies.
+Futures and spreads with Trades, Quotes and bars from the Korea Exchange derivatives market, with KOSPI derivatives from October 2013 and other contracts from April 2017. KOSPI 200 futures are among Asia’s most actively traded index futures, and the market also lists KOSDAQ 150 futures, Korean Treasury bond futures and USD/KRW futures.
 
 The following fields have Enumerations:
 

@@ -1,6 +1,6 @@
 # B3 (Bovespa) - OTC Market Market Holidays
 
-The São Paulo Stock, Commodities and Futures Exchange (known as B3 S.A. - Brasil, Bolsa,balcão) currently has several different trading market segments: the traditional stock exchange and over-the-counter markets, and the special trading segments Level 1, Level 2 and New Market (Novo Mercado), Bovespa Mais and Bovespa Mais Level 2, which allow the trading of securities of listed companies adopting a special level of corporate governance.
+Trades and quotes from B3’s organized over-the-counter (balc?o organizado) equities market, with history from May 2008. B3 S.A. - Brasil, Bolsa, Balc?o, formerly BM&FBOVESPA, is Brazil’s exchange group and operates both listed and OTC markets. For exchange trading in Brazilian stocks, including Ibovespa constituents, see BRAZIL_EQ.
 
 The last 10 Market Holidays are listed
 
@@ -8,6 +8,7 @@ The last 10 Market Holidays are listed
 
 | Activity Name         | Time Zone   | Start Date   | End Date   | Start Time   | End Time   |
 |-----------------------|-------------|--------------|------------|--------------|------------|
+| Full Holiday          | Etc/GMT+3   | 2026-11-20   | 2026-11-20 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-11-02   | 2026-11-02 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-10-12   | 2026-10-12 | 00:00        | 24:00      |
 | Full Holiday          | Etc/GMT+3   | 2026-09-07   | 2026-09-07 | 00:00        | 24:00      |
@@ -17,5 +18,4 @@ The last 10 Market Holidays are listed
 | Full Holiday          | Etc/GMT+3   | 2026-04-03   | 2026-04-03 | 00:00        | 24:00      |
 | Limited Trading Hours | Etc/GMT+3   | 2026-02-18   | 2026-02-18 | 13:00        | 18:15      |
 | Full Holiday          | Etc/GMT+3   | 2026-02-17   | 2026-02-17 | 00:00        | 24:00      |
-| Full Holiday          | Etc/GMT+3   | 2026-02-16   | 2026-02-16 | 00:00        | 24:00      |
 

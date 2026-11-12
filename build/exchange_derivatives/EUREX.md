@@ -1,6 +1,6 @@
 # Eurex Exchange
 
-Eurex Exchange is a German derivatives exchange which primarily offers trading in European based derivatives. The products traded on this exchange vary from German and Swiss debt instruments to European stocks and various stock indexes
+Futures, options and spreads with Trades, Quotes, bars, book depth and real-time data from Eurex, Deutsche Borse Group’s Frankfurt-based derivatives exchange and Europe’s largest, with futures from November 2009 and options from August 2019. Key contracts include Euro-Bund, Euro-Bobl, Euro-Schatz and Euro-Buxl futures on German government bonds and EURO STOXX 50 and DAX index futures and options. Eurex also lists derivatives on French, Italian, Spanish and Swiss government bonds and on other European indices and single stocks.
 
 * Country: Germany [DE]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Eurex Exchange is a German derivatives exchange which primarily offers trading i
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

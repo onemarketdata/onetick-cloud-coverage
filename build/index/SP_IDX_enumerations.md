@@ -1,6 +1,6 @@
 # S&P Indices Enumerations
 
-S&P Dow Jones Indices is a leading provider of indices like the S&P 500, Dow Jones Industrial Average and more.
+Index values for S&P indices from S&P Dow Jones Indices, with history from January 2020. Key indices include the S&P 500, S&P MidCap 400, S&P SmallCap 600 and S&P Composite 1500, plus the S&P 500 sector indices.
 
 The following fields have Enumerations:
 

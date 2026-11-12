@@ -1,6 +1,6 @@
 # Bucharest Stock Exchange Trading Hours
 
-The Bucharest Stock Exchange is the stock exchange of Romania located in Bucharest
+Trades and quotes from the Bucharest Stock Exchange (BVB), Romania’s stock exchange, with history from December 2014, covering its regulated market and alternative trading system. Index data is included, such as the BET index of the most traded Romanian companies.
 
 Trading Hours are divided into multiple sessions
 

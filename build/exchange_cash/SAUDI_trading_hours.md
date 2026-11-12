@@ -1,6 +1,6 @@
 # Saudi Stock Exchange Trading Hours
 
-The Saudi Stock Exchange, Tadawul, is the sole entity authorized to act as the securities exchange in Saudi Arabia, offering trading in equities, bonds, ETFs, and derivatives.
+Trades, quotes and bars from the Saudi Exchange (Tadawul), the largest stock exchange in the Middle East, with history from June 2014. It covers the Main Market and the Nomu parallel market, ETFs, REITs and sukuk. Covered stocks include constituents of the Tadawul All Share Index (TASI), such as Saudi Aramco.
 
 Trading Hours are divided into multiple sessions
 

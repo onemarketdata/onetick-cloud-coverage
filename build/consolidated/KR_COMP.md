@@ -1,6 +1,6 @@
 # Korea Consolidated Equities
 
-Consolidated data from all Korean equities exchanges.
+Consolidated trades, NBBO, exchange quotes and bars for Korean equities from the Korea Exchange (KRX), covering both its KOSPI main board and KOSDAQ growth market, and NextTrade, with history from May 2008. Index data is also included, covering benchmarks such as the KOSPI, KOSPI 200 and KOSDAQ Composite, so stocks and their benchmarks can be analysed in one database.
 
 * Country: Korea [KR]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Consolidated data from all Korean equities exchanges.
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: KOSPI 200 [TDI_IDX], KM
 
 
 

@@ -1,6 +1,6 @@
 # ICE Europe Commodities Enumerations
 
-ICE Europe Commodities provides trading in commodity futures and options like crude oil, natural gas, power, emissions, and more.
+Futures, options and spreads with Trades, Quotes, bars and book depth from ICE Futures Europe’s commodity markets, with history from November 2009. It is home to Brent crude futures, the global oil benchmark, plus gasoil, UK natural gas (NBP), London cocoa, robusta coffee, white sugar and EU emissions futures.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * CALL_PUT_IND - “C” - Call option, “P” - Put option
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * ORDER_TYPE - Type of order.
 * TRADE_TYPE - Type of trade
 
@@ -42,6 +43,32 @@ The following fields have Enumerations:
 | C                | Closed                    |
 | E                | Expired                   |
 | O                | Open                      |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### ORDER_TYPE - Enumeration
 

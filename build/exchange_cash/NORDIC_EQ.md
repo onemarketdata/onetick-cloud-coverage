@@ -1,6 +1,6 @@
 # Nasdaq Nordic (Stockholm, Copenhagen, Helsinki, Iceland) - Equities
 
-Nasdaq Nordic operates the stock exchanges in Stockholm, Copenhagen, Helsinki and Iceland facilitating trading in Nordic equities.
+Trades, quotes, bars and book depth, with real-time data, from Nasdaq’s Nordic exchanges in Stockholm, Copenhagen, Helsinki and Iceland, with history from October 2008, including First North Growth Market for smaller companies. Covered stocks include constituents of the OMX Stockholm 30, OMX Copenhagen 25 and OMX Helsinki 25; index values are in NORDIC_IDX. A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 * Country: Sweden Denmark Finland Iceland [SE DK FI IS]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ Nasdaq Nordic operates the stock exchanges in Stockholm, Copenhagen, Helsinki an
 * Real Time Available: Yes
 * Bars Available: Yes
 * Book Depth Available: Yes
+* Timestamp Type: Arrival
+* Key Indices: OMX All-Share Stockholm Index [TDI_IDX::SM], OMX Copenhagen Index [TDI_IDX::KA], OMX Helsinki 25 Index [TDI_IDX::HE]
 
 
 

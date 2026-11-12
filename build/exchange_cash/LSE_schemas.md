@@ -1,6 +1,6 @@
 # London Stock Exchange - UK Market Schemas
 
-The London Stock Exchange’s UK market facilitates trading in UK-based companies listed on its Main Market and AIM.
+Trades, quotes, bars and book depth, with real-time data, for the London Stock Exchange’s UK market, with history from January 2012, covering the Main Market and AIM and related LSEG trade reporting. Covered stocks include constituents of the FTSE 100, FTSE 250 and FTSE AIM All-Share. For depositary receipts on the International Order Book, use LSE_INT.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 
 

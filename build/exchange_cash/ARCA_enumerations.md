@@ -1,10 +1,11 @@
 # NYSE Arca Equities Enumerations
 
-NYSE Arca is a fully electronic U.S. securities exchange and a subsidiary of the New York Stock Exchange (NYSE) Group. Originally founded as the Archipelago Exchange (ArcaEx), it merged with the NYSE in 2006. Today, it is the global market leader in trading Exchange-Traded Products (ETPs) like ETFs and ETNs.  Full L1 history for ARCA from the Consolidated Tape is available in the US_COMP dataset.
+Trades, Quotes, Auction Imbalances and Book depth from NYSE Arca, a fully electronic US equities exchange owned by NYSE’s parent company, Intercontinental Exchange, with history from May 2025. Originally the Archipelago Exchange (ArcaEx), it merged with the NYSE in 2006, and it is now the leading listing and trading venue for exchange-traded products such as ETFs and ETNs. Full L1 history for NYSE Arca from the Consolidated Tape is available in the US_COMP dataset.
 
 The following fields have Enumerations:
 
 * AGGRESSOR_SIDE - Indicates whether a trade resulted from an incoming buy or sell order.
+* AUCTION_TYPE - Type of auction from which an indicative auction price / auction imbalance originates.
 * TRADE_TYPE - Type of trade
 * TRADE_TYPE_EXT - Extended trade type code
 * ODD_LOT - Indicates whether a trade was an odd lot
@@ -15,6 +16,7 @@ The following fields have Enumerations:
 * COND2 - Second condition code
 * COND3 - Third condition code
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 * REASON_CODE - Reason for an instrument status update
 * SHORT_SALE_RESTRICTION - Indicates whether short selling is permitted
 * SESSION - Trading session to which the update relates, e.g. “Day”, “Night”, “T”, “T+1”
@@ -28,6 +30,22 @@ The following fields have Enumerations:
 | ‘””’             | Undefined (e.g. auction trades, trades against hidden liquidity) |
 | B                | Buy                                                              |
 | S                | Sell                                                             |
+
+#### AUCTION_TYPE - Enumeration
+
+| Enumeration ID   | Enumeration Description                 |
+|------------------|-----------------------------------------|
+| A                | Unspecified auction                     |
+| C                | Closing auction                         |
+| I                | Intraday auction                        |
+| O                | Opening auction                         |
+| P                | IPO / Public offering auction           |
+| S                | Settlement (EDSP) auction               |
+| U                | Unscheduled auction                     |
+| c                | Post-close auction                      |
+| o                | Opening auction (extended hours)        |
+| p                | Auction initiated by market participant |
+| u                | Unscheduled auction (extended hours)    |
 
 #### TRADE_TYPE - Enumeration
 
@@ -124,6 +142,32 @@ The following fields have Enumerations:
 | O                | Core session              |
 | P                | Pre-open                  |
 | X                | Closed                    |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
 #### REASON_CODE - Enumeration
 

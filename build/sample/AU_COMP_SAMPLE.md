@@ -1,6 +1,6 @@
 # Australian Consolidated Equities Sample
 
-A subset of symbols from all Australian venues, between January 2,2024 and March 31, 2024.
+A sample of the AU_COMP consolidated tape database covering a subset of symbols across all Australian equity venues (ASX and Cboe Australia), between January 2, 2024 and March 31, 2024. It includes consolidated trades, NBBO, quotes and bars, so you can test cross-venue analysis of ASX-listed stocks before subscribing to the full history from 2008. The full database covers constituents of the S&P/ASX 200 and All Ordinaries.
 
 * Country: Australia [AU]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ A subset of symbols from all Australian venues, between January 2,2024 and March
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices: S&P ASX 200
 
 
 

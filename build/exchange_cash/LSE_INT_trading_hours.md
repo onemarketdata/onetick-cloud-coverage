@@ -1,6 +1,6 @@
 # London Stock Exchange - International Market Trading Hours
 
-The LSE’s International Market offers trading in global companies from over 60 countries that have listed securities in London.
+Trades, quotes, bars and book depth from the London Stock Exchange’s International Order Book (IOB), with history from May 2012. The IOB trades depositary receipts of companies from more than 60 countries, many of them in emerging markets, giving international investors access to these companies in London during UK trading hours.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 Trading Hours are divided into multiple sessions
 

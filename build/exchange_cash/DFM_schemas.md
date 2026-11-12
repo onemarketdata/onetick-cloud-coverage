@@ -1,6 +1,6 @@
 # Dubai Financial Market Schemas
 
-The Dubai Financial Market (DFM) offers trading in equities, bonds, ETFs, and derivatives of UAE and international companies.
+Trades, quotes and bars from the Dubai Financial Market (DFM), with history from November 2015, covering UAE equities, bonds, ETFs and Sharia-compliant products. Index data includes the DFM General Index (DFMGI), the main benchmark for Dubai-listed stocks.
 
 
 

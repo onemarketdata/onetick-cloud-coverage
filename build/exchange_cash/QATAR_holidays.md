@@ -1,6 +1,6 @@
 # Qatar Stock Exchange Market Holidays
 
-The Qatar Stock Exchange (QSE) provides a trading platform for Qatari public shareholding companies’ equities, bonds, and other securities.
+Trades, quotes and bars from the Qatar Stock Exchange (QSE), with history from June 2016, covering Qatari equities, ETFs and bonds. Index data includes the QE Index of 20 leading Qatari companies.
 
 The last 10 Market Holidays are listed
 

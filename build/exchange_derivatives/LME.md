@@ -1,6 +1,6 @@
 # London Metal Exchange
 
-The London Metal Exchange (LME) is the world’s largest market for trading base metals futures and options.
+Futures, options, spreads and indices with Trades, Quotes and bars from the London Metal Exchange (LME), with history from August 2013. LME prices are the global reference for industrial metals such as copper, aluminium, zinc, nickel, lead and tin, and its prompt-date structure lets contracts settle on daily, weekly or monthly dates up to several years out.
 
 * Country: UK United Kindom [GB]
 * Mkt Hours: 08:00-17:00
@@ -9,6 +9,8 @@ The London Metal Exchange (LME) is the world’s largest market for trading base
 * Real Time Available: No
 * Bars Available: Yes
 * Book Depth Available: No
+* Timestamp Type: Arrival
+* Key Indices:
 
 
 

@@ -1,6 +1,6 @@
 # Egyptian Exchange Enumerations
 
-The Egyptian Exchange facilitates trading in equities, bonds, securitized mortgage and asset-backed securities of Egyptian companies.
+Trades, quotes and bars from the Egyptian Exchange (EGX), with history from June 2016, covering Egyptian equities and bonds on the main market and Nilex, its market for small and medium enterprises. Covered stocks include constituents of the EGX30, Egypt’s main equity benchmark.
 
 The following fields have Enumerations:
 
@@ -8,6 +8,7 @@ The following fields have Enumerations:
 * TRADE_PERIOD - Market period during which a trade was executed.
 * BOOK_TYPE - Type of order book or trading mechanism through which a trade was executed.
 * MKT_PHASE - Indicates the instrument’s current market phase, as specified by the trading venue
+* OMD_STATUS - Indicates an instrument’s current trading status. Values are normalized across all DBs.
 
 #### TRADE_TYPE - Enumeration
 
@@ -43,4 +44,30 @@ The following fields have Enumerations:
 |                8 | Pre-close                 |
 |                9 | Pre-closing adjustment    |
 |               10 | Trading at closing price  |
+
+#### OMD_STATUS - Enumeration
+
+| Enumeration ID   | Enumeration Description       |
+|------------------|-------------------------------|
+| A                | Auction                       |
+| B                | Break / Pause                 |
+| C                | Closing auction               |
+| D                | Delisted / Pending deletion   |
+| H                | Halted                        |
+| I                | Scheduled intraday auction    |
+| M                | Mandatory quoting period      |
+| N                | New instrument / Pre-listing  |
+| O                | Opening auction               |
+| P                | Pre-market                    |
+| Q                | Indicative quoting period     |
+| R                | Off-book trade reporting      |
+| S                | Suspended                     |
+| T                | Continuous trading            |
+| U                | Unscheduled auction           |
+| c                | Closed                        |
+| i                | IPO / Public offering auction |
+| n                | No market phase / Unspecified |
+| o                | Order management              |
+| p                | Post-market                   |
+| t                | Trading at last price         |
 
