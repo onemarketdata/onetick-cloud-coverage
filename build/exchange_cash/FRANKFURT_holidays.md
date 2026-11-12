@@ -1,6 +1,6 @@
 # Frankfurt Stock Exchange Market Holidays
 
-Trades, quotes and bars from B?rse Frankfurt, the Frankfurt Stock Exchange’s specialist-based market operated by Deutsche B?rse, with history from December 2018. It is aimed at retail investors and offers a very large range of international shares, bonds, ETFs and funds with specialist quotes; for Germany’s main electronic market use XETRA. Covered stocks include DAX constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
+Trades, quotes and bars from Börse Frankfurt, the Frankfurt Stock Exchange’s specialist-based market operated by Deutsche Börse, with history from December 2018. It is aimed at retail investors and offers a very large range of international shares, bonds, ETFs and funds with specialist quotes; for Germany’s main electronic market use XETRA. Covered stocks include DAX constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

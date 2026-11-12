@@ -1,6 +1,6 @@
 # Budapest Stock Exchange Market Holidays
 
-Trades, quotes and bars from the Budapest Stock Exchange (B?T), Hungary’s stock exchange, with history from January 2014. It includes the regulated market, the BETa market (where foreign stocks already listed elsewhere in the EU trade in forints) and the Xtend market for smaller companies. Covered stocks include constituents of the BUX index.
+Trades, quotes and bars from the Budapest Stock Exchange (BÉT), Hungary’s stock exchange, with history from January 2014. It includes the regulated market, the BETa market (where foreign stocks already listed elsewhere in the EU trade in forints) and the Xtend market for smaller companies. Covered stocks include constituents of the BUX index.
 
 The last 10 Market Holidays are listed
 

@@ -1,6 +1,6 @@
 # IBEX Indices Trading Hours
 
-Index values from BME (Bolsas y Mercados Espa?oles), with history from February 2017. Key indices include the IBEX 35, Spain’s main benchmark, the IBEX Medium Cap and IBEX Small Cap, and the FTSE Latibex indices of Latin American stocks traded in Madrid.
+Index values from BME (Bolsas y Mercados Españoles), with history from February 2017. Key indices include the IBEX 35, Spain’s main benchmark, the IBEX Medium Cap and IBEX Small Cap, and the FTSE Latibex indices of Latin American stocks traded in Madrid.
 
 Trading Hours are divided into multiple sessions
 

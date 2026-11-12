@@ -1,6 +1,6 @@
 # Xetra Exchange Schemas
 
-Trades, quotes, bars and book depth, with real-time data, from Xetra, Deutsche B?rse’s electronic trading platform and Germany’s main venue for equities and ETFs, with history from January 2012. Xetra’s closing auction sets the reference prices for German stocks. Covered stocks include constituents of the DAX, MDAX, SDAX and TecDAX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
+Trades, quotes, bars and book depth, with real-time data, from Xetra, Deutsche Börse’s electronic trading platform and Germany’s main venue for equities and ETFs, with history from January 2012. Xetra’s closing auction sets the reference prices for German stocks. Covered stocks include constituents of the DAX, MDAX, SDAX and TecDAX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 
 

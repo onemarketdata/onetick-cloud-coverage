@@ -1,6 +1,6 @@
 # Madrid Stock Exchange (SIBE) Trading Hours
 
-Trades, quotes, bars and book depth from the Madrid Stock Exchange’s SIBE electronic platform, operated by BME (Bolsas y Mercados Espa?oles), with history from January 2012. Coverage includes the main Spanish market, BME Growth (formerly MAB) for smaller companies, and Latibex, the euro-denominated market for Latin American stocks. Covered stocks include IBEX 35 constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
+Trades, quotes, bars and book depth from the Madrid Stock Exchange’s SIBE electronic platform, operated by BME (Bolsas y Mercados Españoles), with history from January 2012. Coverage includes the main Spanish market, BME Growth (formerly MAB) for smaller companies, and Latibex, the euro-denominated market for Latin American stocks. Covered stocks include IBEX 35 constituents.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 Trading Hours are divided into multiple sessions
 

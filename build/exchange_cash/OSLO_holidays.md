@@ -1,6 +1,6 @@
 # Euronext Oslo - Equities Market Holidays
 
-Trades, quotes, bars and book depth, with real-time data, from Euronext Oslo B?rs, Norway’s stock exchange, with history from January 2012, covering Euronext Oslo B?rs, Euronext Expand and Euronext Growth Oslo. Oslo is a major venue for energy, shipping and seafood companies. Covered stocks include constituents of the OBX and OSEBX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
+Trades, quotes, bars and book depth, with real-time data, from Euronext Oslo Børs, Norway’s stock exchange, with history from January 2012, covering Euronext Oslo Børs, Euronext Expand and Euronext Growth Oslo. Oslo is a major venue for energy, shipping and seafood companies. Covered stocks include constituents of the OBX and OSEBX.  A consolidated tape for all European equity markets is provided in the EU_COMP dataset.
 
 The last 10 Market Holidays are listed
 

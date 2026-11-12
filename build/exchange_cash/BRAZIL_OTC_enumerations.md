@@ -1,6 +1,6 @@
 # B3 (Bovespa) - OTC Market Enumerations
 
-Trades and quotes from B3’s organized over-the-counter (balc?o organizado) equities market, with history from May 2008. B3 S.A. - Brasil, Bolsa, Balc?o, formerly BM&FBOVESPA, is Brazil’s exchange group and operates both listed and OTC markets. For exchange trading in Brazilian stocks, including Ibovespa constituents, see BRAZIL_EQ.
+Trades and quotes from B3’s organized over-the-counter (balcão organizado) equities market, with history from May 2008. B3 S.A. - Brasil, Bolsa, Balcão, formerly BM&FBOVESPA, is Brazil’s exchange group and operates both listed and OTC markets. For exchange trading in Brazilian stocks, including Ibovespa constituents, see BRAZIL_EQ.
 
 The following fields have Enumerations:
 
